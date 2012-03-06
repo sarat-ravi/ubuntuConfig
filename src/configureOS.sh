@@ -223,5 +223,4 @@ cd ~/
 gconftool -s --type bool /apps/update-notifier/auto_launch false
 gconftool -s --type bool /apps/update-notifier/no_show_notifications true
 
-bash vim.sh
 

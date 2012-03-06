@@ -6,4 +6,3 @@ git clone git@github.com:sarattall/dotvim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/gvimrc ~/.gvimrc
 
-bash pkgs.sh

@@ -8,4 +8,23 @@ Installation:
   Type the following into terminal: 
 
     git clone git@github.com:sarattall/ubuntuConfig.git ~/.ubuntuConfig
-    bash ~/.ubuntuConfig/.configureOS.sh
+    bash ~/.ubuntuConfig/config.sh
+
+Documentation:
+
+  config.sh
+    runs the shell scripts below
+  
+  configureOS.sh
+    installs basic packages such as emacs, git, rails, etc.
+    based on SaasBook vm specs
+
+  vim.sh
+    installs vim and other vim config files.
+    See git@github.com:sarattall/dotvim.git
+
+  pkgs.sh
+    installs a LOT of packages you would normally install
+    running this is a really bad idea, so it's commented out
+
+
