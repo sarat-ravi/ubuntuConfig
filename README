@@ -1,6 +1,9 @@
 Author: Sarat Tallamraju, Licenced under the GNU Public License
 
 Installation:
+  
+  NOTE: This is a destructive script, and may severely damage existing configurations
+        Intended only for brand new Linux installs
 
   Type the following into terminal: 
 
