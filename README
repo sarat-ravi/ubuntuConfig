@@ -1,0 +1,8 @@
+Author: Sarat Tallamraju, Licenced under the GNU Public License
+
+Installation:
+
+  Type the following into terminal: 
+
+    git clone git@github.com:sarattall/ubuntuConfig.git ~/.ubuntuConfig
+    bash ~/.ubuntuConfig/.configureOS.sh
