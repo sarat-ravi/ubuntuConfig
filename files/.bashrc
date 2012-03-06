@@ -102,10 +102,19 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+#default x11 forwarding
 alias ssh="ssh -X"
 alias sync="bash .sync.sh"
 
+#list all directory contents
+alias lsa="ls -a"
+
 function cd()
 {
-  builtin cd "$*" && ls
+  param=$* 2> /dev/null
+  if [$param -eq "" 2> ~/.error_log]; then
+    builtin cd ~/ 2> ~/.error_log && ls
+  else
+    builtin cd $param 2> ~/.error_log && ls
+  fi
 }
