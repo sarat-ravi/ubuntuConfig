@@ -115,6 +115,6 @@ function cd()
   if [$param -eq "" 2> ~/.error_log]; then
     builtin cd ~/ 2> ~/.error_log && ls
   else
-    builtin cd $param 2> ~/.error_log && ls
+    builtin cd $param && ls
   fi
 }

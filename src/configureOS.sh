@@ -10,6 +10,7 @@ sudo apt-get update
 # sudo apt-get upgrade -y
 
 # install some basic programs
+sudo apt-get install wmctrl
 sudo apt-get install -y sqlite3 libsqlite3-dev libssl-dev openssl zlib1g zlib1g-dev zlibc
 sudo apt-get install -y libxslt-dev libxml2-dev
 sudo apt-get install -y git
