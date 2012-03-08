@@ -104,7 +104,7 @@ fi
 
 #default x11 forwarding
 alias ssh="ssh -X"
-alias sync="bash .sync.sh"
+alias push="bash .push.sh"
 
 #list all directory contents
 alias lsa="ls -a"
