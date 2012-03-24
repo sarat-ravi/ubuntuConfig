@@ -109,6 +109,14 @@ alias push="bash .push.sh"
 #list all directory contents
 alias lsa="ls -a"
 
+#common ssh
+alias livemagic.tv="ssh saratt@clips.livemagic.tv"
+alias saratxps="ssh -X saratt@saratxps.myftp.org"
+
+alias ndk-build="/opt/android-ndk-r7b/ndk-build"
+
+alias ..="cd .."
+
 function cd()
 {
   param=$* 2> /dev/null
