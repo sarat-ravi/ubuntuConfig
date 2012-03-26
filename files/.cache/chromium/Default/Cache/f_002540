@@ -1,569 +1,0 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-
-<head>
-  <link rel="Stylesheet" type="text/css" href="/css/style.css" >
-  <title>rails.vim - Ruby on Rails: easy file navigation, enhanced syntax highlighting, and more : vim online</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-  <meta name="KEYWORDS" content="Vim, Vi IMproved, text editor, home, documentation, tips, scripts, news">
-  <link rel="shortcut icon" type="image/x-icon" href="/images/vim_shortcut.ico">
-</head>
-
-<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" bgcolor="#ffffff"> 
-
-<!-- HEADER, SPONSOR IMAGE, VIM IMAGE AND BOOK AD -->
-<table width="100%" cellpadding="0" cellspacing="0" border="0" bordercolor="red">
-  <tr>
-    <td colspan="4" class="lightbg"><img src="/images/spacer.gif" width="1" height="5" alt=""></td>
-  </tr>
-  <tr>
-  <td class="lightbg">&nbsp;&nbsp;&nbsp;</td>
-  <td class="lightbg" align="left"><a href="/sponsor/index.php"><img src="/images/sponsorvim.gif" alt="sponsor Vim development" border="0"></a></td>
-    <td class="lightbg" align="center"><a href="/index.php"><img src="/images/vim_header.gif" border="0" alt="Vim logo"></a></td>
-    <td class="lightbg" align="right"><a href="http://iccf-holland.org/click5.html"><img src="/images/buyhelplearn.gif" alt="Vim Book Ad" border="0"></a></td>
-  </tr>
-  <tr>
-    <td colspan="4" class="lightbg"><img src="/images/spacer.gif" width="1" height="5" alt=""></td>
-  </tr>
-  <tr>
-    <td colspan="4" class="darkbg"><img src="/images/spacer.gif" width="1" height="10" alt=""></td>
-  </tr>
-</table>
-<!-- THE PAGE BODY: BETWEEN HEADER AND FOOTER -->
-
-<table cellpadding="0" cellspacing="0" border="0" width="100%">
-  <col width="180">
-  <col width="1">
-
-  <tr valign="top">
-    <td class="sidebar">
-      <table width="180" cellpadding="4" cellspacing="0" border="0">
-        <tr valign="top">
-          <td class="sidebar">
-
-<!-- INCLUDE THE PAGE NAVIGATION -->
-<table width="100%" cellpadding="0" cellspacing="0" border="0" bordercolor="red">
-    <tr>
-        <td><small>not logged in (<a href="/login.php">login</a>)</small></td>
-    </tr>
-    <tr><td>
-<small>&nbsp;</small>
-<form action="http://www.google.com/cse" id="cse-search-box">
-  <div>
-    <input type="hidden" name="cx" value="partner-pub-3005259998294962:bvyni59kjr1" />
-    <input type="hidden" name="ie" value="ISO-8859-1" />
-    <input type="text" name="q" size="20" />
-    <br>
-    <input type="submit" name="sa" value="Search" />
-  </div>
-</form>
-<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
-    </td></tr>
-    <tr>
-        <td><img src="/images/spacer.gif" alt="" border="0" width="1" height="1"></td>
-    </tr>
-    <tr>
-        <td class="darkbg"><img src="/images/spacer.gif" alt='' border="0" height="3"></td>
-    </tr>
-    <tr>
-        <td><img src="/images/spacer.gif" alt="" border="0" width="1" height="2"></td>
-    </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/index.php">Home</a></td>
-        </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/search.php">Advanced search</a></td>
-        </tr>
-    <tr>
-        <td><img src="/images/spacer.gif" alt="" border="0" width="1" height="7"></td>
-    </tr>
-    <tr>
-        <td class="checker"><img src="/images/spacer.gif" alt='' border="0" height="1"></td>
-    </tr>
-    <tr>
-        <td><img src="/images/spacer.gif" alt="" border="0" width="1" height="7"></td>
-    </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/about.php">About Vim</a></td>
-        </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/community.php">Community</a></td>
-        </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/news/news.php">News</a></td>
-        </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/sponsor/index.php">Sponsoring</a></td>
-        </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/trivia.php">Trivia</a></td>
-        </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/docs.php">Documentation</a></td>
-        </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/download.php">Download</a></td>
-        </tr>
-    <tr>
-        <td><img src="/images/spacer.gif" alt="" border="0" width="1" height="7"></td>
-    </tr>
-    <tr>
-        <td class="checker"><img src="/images/spacer.gif" alt='' border="0" height="1"></td>
-    </tr>
-    <tr>
-        <td><img src="/images/spacer.gif" alt="" border="0" width="1" height="7"></td>
-    </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/scripts/index.php">Scripts</a></td>
-        </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/tips/index.php">Tips</a></td>
-        </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/account/index.php">My Account</a></td>
-        </tr>
-    <tr>
-        <td><img src="/images/spacer.gif" alt="" border="0" width="1" height="7"></td>
-    </tr>
-    <tr>
-        <td class="checker"><img src="/images/spacer.gif" alt='' border="0" height="1"></td>
-    </tr>
-    <tr>
-        <td><img src="/images/spacer.gif" alt="" border="0" width="1" height="7"></td>
-    </tr>
-        <tr>
-            <td class="sidebarheader"><a href="/huh.php">Site Help</a></td>
-        </tr>
-</table>
-<br>
-<g:plusone></g:plusone>
-
-            <table width="172" cellpadding="0" cellspacing="0" border="0">
-              <tr><td><img src="/images/spacer.gif" alt="" border="0" width="1" height="8"></td></tr>
-              <tr><td class="darkbg"><img src="/images/spacer.gif" width="1" height="3" alt=""></td></tr>
-            </table>
-            <br>
-
-<!-- INCLUDE THE PAGE SIDEBAR TEXT -->
-&nbsp;
-
-          </td>
-        </tr>
-      </table>
-    </td>
-
-    <td class="darkbg"><img src="/images/spacer.gif" width="1" height="1" border="0" alt=""><br></td>
-    <td>
-      <table width="100%" cellpadding="10" cellspacing="0" border="0" bordercolor="red">
-        <tr>
-          <td valign="top">
-
-<span class="txth1">rails.vim : Ruby on Rails: easy file navigation, enhanced syntax highlighting, and more</span> 
-
-<br>
-<br>
-
-<!-- karma table -->
-<table cellpadding="4" cellspacing="0" border="1" bordercolor="#000066">
-<tr>
-  <td class="lightbg"><b>&nbsp;script karma&nbsp;</b></td>
-  <td>
-    Rating <b>5252/1866</b>,
-    Downloaded by 66715    &nbsp;
-    <g:plusone></g:plusone>
-  </td>
-  <td class="lightbg">
-  <b>&nbsp;Comments, bugs, improvements&nbsp;</b>
-  </td>
-  <td>
-    <a href="http://vim.wikia.com/wiki/Script:1567">Vim wiki</a>
-  </td>  
-</tr>
-</table>
-<p>
-
-<table cellspacing="0" cellpadding="0" border="0">
-<tr><td class="prompt">created by</td></tr>
-<tr><td><a href="/account/profile.php?user_id=9012">Tim Pope</a></td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class="prompt">script type</td></tr>
-<tr><td>utility</td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class="prompt">description</td></tr>
-<tr><td>TextMate may be the latest craze for developing Ruby on Rails applications, but Vim is forever.&nbsp;&nbsp;This plugin offers the following features for Ruby on Rails application development.<br><br>1. Automatically detects buffers containing files from Rails applications, and applies settings to those buffers (and only those buffers).&nbsp;&nbsp;You can use an autocommand to apply your own custom settings as well.<br><br>2. Unintrusive.&nbsp;&nbsp;Only files in a Rails application should be affected; regular Ruby scripts are left untouched.&nbsp;&nbsp;Even when enabled, the plugin should keep out of your way if you're not using its features.<br><br>3. Easy navigation of the Rails directory structure.&nbsp;&nbsp;gf considers context and knows about partials, fixtures, and much more.&nbsp;&nbsp;There are two commands, :A (alternate) and :R (related) for easy jumping between files, including favorites like model to migration, template to helper, and controller to functional test.&nbsp;&nbsp;For more advanced usage, :Rmodel, :Rview, :Rcontroller, and several other commands are provided.<br><br>4. Enhanced syntax highlighting.&nbsp;&nbsp;From has_and_belongs_to_many to distance_of_time_in_words, it's here.&nbsp;&nbsp;For easy completion of these long method names, 'completefunc' is set to enable syntax based completion on CTRL-X CTRL-U.<br><br>5. Interface to rake.&nbsp;&nbsp;Use :Rake to run the current test, spec, or feature.&nbsp;&nbsp;Use :.Rake to do a focused run of just the method, example, or scenario on the current line.&nbsp;&nbsp;:Rake can also run arbitrary migrations, load individual fixtures, and more.<br><br>6. Interface to script/*.&nbsp;&nbsp;Generally, use &quot;:Rscript about&quot; to call &quot;script/about&quot; or &quot;script/rails about&quot;.&nbsp;&nbsp;Many commands have wrappers with additional features: &quot;:Rgenerate controller Blog&quot; generates a blog controller and edits app/controllers/blog_controller.rb.<br><br>7. Partial extraction and migration inversion.&nbsp;&nbsp;:Rextract {file} replaces the desired range (ideally selected in visual line mode) with &quot;render :partial =&gt; '{file}'&quot;, which is automatically created with your content.&nbsp;&nbsp;The @{file} instance variable is replaced with the {file} local variable.&nbsp;&nbsp;:Rinvert takes a self.up migration and writes a self.down.<br><br>8. Integration with other plugins.&nbsp;&nbsp;:Rtree spawns NERDTree.vim.&nbsp;&nbsp;If dbext.vim is installed, it will be transparently configured to reflect database.yml.&nbsp;&nbsp;Cream users get some additional mappings, and all GUI users get a menu.<br><br>If you like rails.vim and use Git, please Watch the repository on Github at <a target="_blank" href="http://github.com/tpope/vim-rails">http://github.com/tpope/vim-rails</A>, and try my Git wrapper fugitive.vim: <a href="/scripts/script.php?script_id=2975">vimscript #2975</a> <a target="_blank" href="http://github.com/tpope/vim-fugitive">http://github.com/tpope/vim-fugitive</A></td></tr>
-<tr><td>&nbsp;</td></tr>
-<tr><td class="prompt">install details</td></tr>
-<tr><td>Extract the zip file to ~/.vim (or vimfiles on Windows).&nbsp;&nbsp;To use the help, see :help add-local-help.&nbsp;&nbsp;In a nutshell, :helptags ~/.vim/doc.<br><br>For details, see :help rails<br><br>If you have issues with crashing on tab complete, upgrade Vim to 7.1.147 or newer.&nbsp;&nbsp;Ubuntu had a release that included a Vim version with this bug.</td></tr>
-<tr><td>&nbsp;</td></tr>
-</table>
-
-<!-- rating table -->
-<form name="rating" method="post">
-<input type="hidden" name="script_id" value="1567">
-<table cellpadding="4" cellspacing="0" border="1" bordercolor="#000066">
-<tr>
-  <td class="lightbg"><b>rate this script</b></td>
-  <td valign="middle">
-    <input type="radio" name="rating" value="life_changing">Life Changing
-    <input type="radio" name="rating" value="helpful">Helpful
-    <input type="radio" name="rating" value="unfulfilling">Unfulfilling&nbsp;
-    <input type="submit" value="rate">
-  </td>
-</tr>
-</table>
-</form>
-<span class="txth2">script versions</span> (<a href="add_script_version.php?script_id=1567">upload new version</a>)
-<p>
-Click on the package to download.
-<p>
-
-<table cellspacing="2" cellpadding="4" border="0" width="100%">
-<tr class='tableheader'>
-        <th valign="top">package</th>
-    <th valign="top">script version</th>
-    <th valign="top">date</th>
-    <th valign="top">Vim version</th>
-    <th valign="top">user</th>
-    <th valign="top">release notes</th>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=16429">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>4.4</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2011-09-01</i></td>
-    <td class="rowodd" valign="top" nowrap>7.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Support Rails 3.1 assets (smarter :Rjavascript and :Rstylesheet).<br>Support RSpec 2 backtrace format in :Rake.<br>Support rename_index in :Rinvert.<br>Support slim template type.<br>Better support for Rails 3 style `:Rails new foo`.<br>Link Gemfile and Gemfile.lock with :A.<br>Add bundler.vim support.<br>Syntax highlight `execute` in migrations.<br>Syntax highlight `attr_readonly` [Adam Vaughan].<br>Syntax highlight `around` in specs [Cássio Marques].<br>Fix Oracle dbext support [Mark Roghelia].<br>Fix singularization of &quot;movies&quot;.<br>Fix gf on render :partial =&gt; 'foo/bar.html'.<br>Fix gf with Ruby 1.9 hashes.<br>Remove AWS abbreviation.<br>Remove statusline indicator.<br>Remove project.vim support.</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=13800">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>4.3</b></td>
-    <td class="roweven" valign="top" nowrap><i>2010-09-10</i></td>
-    <td class="roweven" valign="top" nowrap>7.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Support :Rails new app for Rails 3.<br>Add support for CoffeeScript, LESS CSS, and SCSS.<br>Syntax highlighting updates for Rails 3 and RSpec 2.<br>Support for RSpec 2's spec/requests.<br>Support :.Rake in test 'foo' do ... end.<br>:Rake in quickfix window reruns last rake task.<br>:Rake - reruns last rake task.<br>:Rake in views runs view specs.<br>Support test/unit/helpers.<br>:A from app/weird/foo.rb to spec/weird/foo_spec.rb.<br>Enable omnicomplete in Haml views.<br>Also create :RD commands with :Rnavcommand.<br>Fix gf on &quot;include Namespaced::Module&quot;.<br>Fix Windows &quot;C:&quot; versus &quot;c:&quot; issue.<br>Change cookies abbreviation from co to coo (so one can type co.uk).</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=12622">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>4.2</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2010-03-13</i></td>
-    <td class="rowodd" valign="top" nowrap>7.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Default :Rlib to db/seeds.rb.<br>Default :Rplugin to Gemfile.<br>:Renvironment prefers Rails 3's config/application.rb.<br>Support script/rails from Rails 3.<br>Update generator completion for Rails 3.<br>Syntax highlighting and gf support in Rails 3 routes.<br>Update syntax highlighting for assorted Rails 3 changes.<br>Add support for Rails 3 mailers.<br>Add :Rmailer navigation command.<br>Add abbreviations for ActiveModel/ActionDispatch.<br>Expose pluralization as abolish.vim (<a href="/scripts/script.php?script_id=1545">vimscript #1545</a>) coercions t and l.<br>Add support for allml.vim replacement ragtag.vim (<a href="/scripts/script.php?script_id=1896">vimscript #1896</a>).<br>Highlight its, expect, and double from RSpec.<br>Fix parsing of Test::Unit failures.<br>Add support for tmux (like GNU screen) [Will Gray].<br>Disable menu in MacVim by default to eliminate weird terminal output.<br>Eliminate g:rails_expensive, g:rails_dbext, and g:rails_default_database.<br></td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=11920">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>4.1</b></td>
-    <td class="roweven" valign="top" nowrap><i>2009-12-18</i></td>
-    <td class="roweven" valign="top" nowrap>7.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Completely eliminate usage of if_ruby.<br>Highlight *_via_redirect in tests and raw in views.<br>Support gf on stylesheets/javascripts when extension is given.<br>License clarification to enable distribution in Debian.<br>Explain that donations on Github through Pledgie are matched and given to ICCF.</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=11481">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>4.0</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2009-10-04</i></td>
-    <td class="rowodd" valign="top" nowrap>7.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Remove all deprecated commands.<br>Update syntax highlighting for Rails 2.3.4.<br>Fix bug when path to application contains whitespace.<br>:Rtree spawns NERDTree. :Rproject is deprecated.<br>Ignore all Javascript with :Rtags.<br>Assorted changes to dbext support.<br>Clean up verbosity in statusline.<br>Fix bugs in :Rfixtures.<br>:Rlocale navigation command.<br>:Rintegrationtest knows about integration specs.<br>:RD family of commands for reading in a file.<br>:R in model is now schema definition (die, annotated_models).<br>:A in view now always tries for a spec or test, not a helper.<br>:R/:A jump to next/previous timestamped migration.<br>:1R filename calls :Rfind filename.<br>:0R is the same as :A and :.A is the same as :R.<br>Cease setting makeprg.<br>:Rake opens error window (:cwindow).<br>:Rake in db/seeds.rb runs rake db:seed.<br>:.Rake in controller runs rake routes CONTROLLER=.<br>Document :Rake default tasks.</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=10297">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>3.4</b></td>
-    <td class="roweven" valign="top" nowrap><i>2009-03-27</i></td>
-    <td class="roweven" valign="top" nowrap>7.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Load rake stats, routes, notes, etc into quickfix window.<br>:Rake! doesn't jump to first error.<br>:Rmetal navigation command.<br>:Rintegrationtest edits cucumber features.<br>:Rstylesheet edits sass if present.<br>Preserve case with :Rjavascript and :Rstylesheet.<br>Option for :Rtags to override ctags arguments.<br>Rails 2.3 gf support: render 'foo', ApplicationController.<br>Rails 2.3 and additional rspec syntax highlighting.</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=9854">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>3.3</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2009-01-23</i></td>
-    <td class="rowodd" valign="top" nowrap>7.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">:Rtags ignores jquery plugins (can trip up ctags).<br>:Rtags indexes .rake, .rjs, and .builder files [Mark Wilden].<br>:Rproject is more robust against missing directories [Mark Wilden].<br>:Rproject uses NERDTree if project.vim not present.<br>Highlight #default_scope in models; setup/teardown/test in tests [Daniel Schierbeck].<br>:.Rake in a migration method runs db:migrate:up or db:migrate:down.<br>Gracefully ignore leading underscore in :Rextract _foo.<br>Navigation commands accept a line number (:Redit Rakefile:5).<br>:Rmigration with no argument always jumps to latest migration.<br>:Renvironment and :Rinitializer navigation commands.</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=9499">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>3.2</b></td>
-    <td class="roweven" valign="top" nowrap><i>2008-11-13</i></td>
-    <td class="roweven" valign="top" nowrap>7.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Fix :Rview when the cwd isn't the rails root.<br>Fix edge case with :Rscript family on Windows.<br>Use new autocmd interface of dbext 8.00.<br>Fix :Rp, :Rpp, :Ry.<br>Miscellaneous tab complete fiddling.<br>:Rake in a cucumber feature runs that feature.<br>Pluralization for alias, status, index, and vertex.</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=9397">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>3.1</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2008-10-24</i></td>
-    <td class="rowodd" valign="top" nowrap>7.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Update helpers to Edge Rails.<br>:Rmigration 0 edits db/schema.rb.<br>:Rake now defaults to full test/spec (:.Rake for a focused run).<br>Remove Vim 7 clauses from documentation.<br>:Redit . edits Rails root.<br>Fix tab completion bugs.<br>Fix :Rails command.<br></td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=9367">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>3.0</b></td>
-    <td class="roweven" valign="top" nowrap><i>2008-10-17</i></td>
-    <td class="roweven" valign="top" nowrap>7.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Major refactoring to take advantage of Vim 7 features (please report any regressions).<br>Smart, app dependent menus for generators and rake tasks.<br>Smart, app dependent tab completion for generators, rake tasks, and environments.<br>Crude fuzzy tab complete: :Rmodel um&lt;Tab&gt; could expand to user_mailer.<br>:Rlib with no argument is now a shortcut to config/routes.rb.<br>:Rintegrationtest with no argument now a shortcut to test/test_helper.rb.<br>:Rspec navigation command.<br>:Runittest also navigates to model specs.<br>:Rfunctionaltest also navigates to controller specs.<br>:Rfixtures finds extensionless rspec fixtures.<br>:Rake line number argument. :8Rake to run the test on line 8.<br>:0Rake forces all tests to run.<br>:Rake in a spec scopes by line number.<br>:Rake in an app/ file runs the corresponding spec (if no test exists).<br>:Rake in config/routes.rb runs rake routes.<br>:Rake in a fixtures file runs db:fixtures:identify LABEL=identifier.<br>:0Rake in a fixtures file runs db:fixtures:load FIXTURES=name.<br>:Rtags now creates tags file in tmp (for easier SCM ignoring).<br>Fix :Rgenerate migration to properly jump to timestamped migrations.</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=9321">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>2.1</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2008-10-09</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Syntax highlighting updates.<br>Tweaks to gf algorithm to find views and add include/extend support.<br>:Rcd and :Rlcd tab completion.<br>:Rake in a spec scopes by line number.<br>Fix :A for lib/view/nested-controller specs.<br>Detect model name in object daddy exemplars (for use with :Rmodel, etc)<br>Point docs at github repository.</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=8735">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>2.0</b></td>
-    <td class="roweven" valign="top" nowrap><i>2008-05-26</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">New git friendly versioning scheme.<br>Extract rails_tabstop feature to <a href="/scripts/script.php?script_id=2253">vimscript #2253</a>.<br>Tab completion of timestamped migrations.<br>Work around nonzero exit status on Leopard.<br>Minor bug fixes.</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=8293">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>256</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2008-02-17</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Added an autoload file, greatly reducing the code loaded at startup.<br>Highlight omitted assert_tag and assert_no_tag methods in tests.<br>OS X now more liberally detected when choosing a browser.<br>Handle plain files with gf.</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=8117">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>239</b></td>
-    <td class="roweven" valign="top" nowrap><i>2008-01-03</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Miscellaneous Rails 2.0 related tweaks.<br>Commands like :Rconsole now work with Cygwin Ruby.<br>Rudimentary HAML support.</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=7862">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>222</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2007-11-02</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">:Rake runs rake spec inside a spec.<br>Rails 2.0 cleanups and tweaks</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=7622">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>216</b></td>
-    <td class="roweven" valign="top" nowrap><i>2007-09-06</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Refactoring.&nbsp;&nbsp;Please report any regressions.<br>:Rpreview utilizes &quot;# GET /foos/1&quot; style comments.<br>:Rake in a migration defaults to migrating to the currently edited version.</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=7183">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>200</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2007-05-31</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Anniversary edition:<br>Greatly enhanced documentation.<br>Proper gf support for named route helpers (edit_post_url).<br>Syntax highlighting for custom assertions from test_helper.rb.</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=7134">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>192</b></td>
-    <td class="roweven" valign="top" nowrap><i>2007-05-17</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">:Rails works again.<br>:R jumps between config/database.yml and config/environments/*.rb</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=7117">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>190</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2007-05-15</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Partial support for nested extensions from edge (index.html.erb)<br>:Rpp and Ry evaluate ruby and pretty print/YAML dump the result.<br>:Rplugin navigation command.<br>Fixed multiple bugs peculiar to Vim 6.2.<br>Other small bug fixes and enhancements.</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=6991">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>180</b></td>
-    <td class="roweven" valign="top" nowrap><i>2007-04-17</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">:Rtask now additionally looks in the currently edited plugin's task directory.<br>:Rlib navigation command looks for files in the lib directory and the current plugin's lib directory.<br>:Rcommand creates custom navigation commands.<br>:Rrefresh clears certain cached data. :Rrefresh! reloads rails.vim.<br>Added a browsefilter (for win32 file dialogs).</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=6923">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>175</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2007-03-30</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Highlight user classes (models, etc.) with the railsUserClass group.<br>Static list of highlighted helper methods (speeds up initialization).<br>HTML highlighting occurs inside string literals like %Q&lt;Hello &lt;b&gt;world&lt;/b&gt;&gt;.<br>Recognize .erb and .builder extensions from edge Rails.<br>:Rtask navigation command.</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=6813">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>166</b></td>
-    <td class="roweven" valign="top" nowrap><i>2007-02-27</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Prototype syntax highlighting.<br>Improved errorformat, and an alternate format on :Rake! for backtraces.<br>More robust database.yml loading for dbext.</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=6683">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>150</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2007-01-28</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Fixed stack overflow when used in conjunction with rubycomplete.vim.<br>Improved speed in certain setups on network file systems.<br>More Rails 1.2 goodies, including limited gf on url helpers.</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=6620">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>144</b></td>
-    <td class="roweven" valign="top" nowrap><i>2007-01-17</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Syntax highlighting for routes.<br>Updates for Ruby on Rails 1.2 (primarily syntax highlighting, and a few abbreviations).<br>Tiny little bug fixes.</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=6582">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>140</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2007-01-05</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">:Rstylesheet and :Rjavascript commands.<br>Better tab completion for some file editing commands.<br>GUI menu for recently edited projects.<br>Certain expensive operations now enabled by default.&nbsp;&nbsp;See :help rails-slow if you have any noticable delays.</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=6365">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>132</b></td>
-    <td class="roweven" valign="top" nowrap><i>2006-11-01</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">&quot;:Rmodel .&quot; will open app/models.&nbsp;&nbsp;Other commands follow suit.<br>Support for surround.vim, <a href="/scripts/script.php?script_id=1697">vimscript#1697</a>.<br>Miscellaneous bug fixes and cleanups.</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=6076">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>128</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2006-08-16</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Improved documentation.<br>Minor bug fixes.<br>Deprecated :Rpartial in favor of :Rextract.</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=6041">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>123</b></td>
-    <td class="roweven" valign="top" nowrap><i>2006-08-04</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Quieter error messages (less &quot;Press ENTER&quot;).<br>Fully functional modelines, including method local modelines.<br>:Rmodel, :Rview, :Rcontroller, plus 9 other similar commands.</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=5972">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>113</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2006-07-19</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Bugfix for error messages in 6.x (apparently string() was added in 7.0)</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=5963">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>111</b></td>
-    <td class="roweven" valign="top" nowrap><i>2006-07-17</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Abbreviations.<br>:Rinvert to write a self.down migration.<br>:Rset for per-app/buffer/method configuration.<br>Preliminary modelines (disabled by default).</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=5911">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>100</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2006-07-02</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">:Rserver to start a new server, :Rserver! to kill old server first.<br>Other new commands.<br>Improved 'errorformat'.<br>Integration with dbext.vim.<br>GUI menu.<br>Robustness, robustness, robustness.<br>Miscellaneous bug fixes and tweaks.<br>And as always, more...</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=5840">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>69</b></td>
-    <td class="roweven" valign="top" nowrap><i>2006-06-16</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">rails_level now defaults to 3.<br>a.vim compatible commands (:A et al).<br>autocmds for specific file types (e.g. models)<br>minimal syntax based user completion function (^X^U).<br>:Rlog and log syntax highlighting.<br>:Rproject - create/find a project.vim project.<br>and more...</td>
-</tr>
-<tr>
-        <td class="rowodd" valign="top" nowrap><a href="download_script.php?src_id=5808">rails.zip</a></td>
-    <td class="rowodd" valign="top" nowrap><b>37</b></td>
-    <td class="rowodd" valign="top" nowrap><i>2006-06-06</i></td>
-    <td class="rowodd" valign="top" nowrap>6.0</td>
-    <td class="rowodd" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="rowodd" valign="top" width="2000">Lots of new features:<br>Easy configuration with g:rails_level.<br>:Rgenerate controller Foo generates and edits foo_controller.rb.<br>&lt;LocalLeader&gt;rm and &lt;LocalLeader&gt;ra for good clean fun.<br>Smarter partial extraction with :Rpartial.<br>And more...</td>
-</tr>
-<tr>
-        <td class="roweven" valign="top" nowrap><a href="download_script.php?src_id=5789">rails.zip</a></td>
-    <td class="roweven" valign="top" nowrap><b>18</b></td>
-    <td class="roweven" valign="top" nowrap><i>2006-05-31</i></td>
-    <td class="roweven" valign="top" nowrap>6.0</td>
-    <td class="roweven" valign="top"><i><a href="/account/profile.php?user_id=9012">Tim Pope</a></i></td>
-    <td class="roweven" valign="top" width="2000">Initial upload</td>
-</tr>
-</table>
-<!-- finish off the framework -->
-          </td>
-        </tr>
-      </table>
-    </td>
-
-  </tr>
-</table>
-
-<!-- END OF THE PAGE BODY: BETWEEN HEADER AND FOOTER -->
-
-<table width="100%" cellpadding="0" cellspacing="0" border="0" bordercolor="red">
-  <tr><td colspan="4"><img src="/images/spacer.gif" width="1" height="5" alt=""></td></tr>
-  <tr><td colspan="4" bgcolor="#000000"><img src="/images/spacer.gif" height="2" width="1" alt=""></td></tr>
-  <tr><td colspan="4"><img src="/images/spacer.gif" width="1" height="5" alt=""></td></tr>
-  <tr>
-    <td><img src="/images/spacer.gif" width="5" height="1" alt=""></td>
-
-    <td align="left" valign="top"><small>
-      If you have questions or remarks about this site, visit the
-      <a href="http://vimonline.sf.net">vimonline development</a> pages.
-      Please use this site responsibly.
-      <br> 
-      
-      Questions about <a href="http://www.vim.org/about.php">Vim</a> should go
-      to the <a href="http://www.vim.org/maillist.php">maillist</a>.
-      Help Bram <a href="http://iccf-holland.org/">help Uganda</a>.
-      </small>
-	&nbsp;
-	&nbsp;
-
-	<!-- Start of StatCounter Code -->
-	<script type="text/javascript" language="javascript">
-	var sc_project=1417324; 
-	var sc_invisible=1; 
-	var sc_partition=11; 
-	var sc_security="d41633bc"; 
-	</script>
-
-	<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c12.statcounter.com/counter.php?sc_project=1417324&java=0&security=d41633bc&invisible=0" alt="free tracking" border="0"></a> </noscript>
-	<!-- End of StatCounter Code -->
-          </td>
-
-    <td align="right" valign="top">
-      		<a href="http://sourceforge.net/projects/vim" rel="nofollow"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=8&type=1" width="88" height="31" border="0" alt="SourceForge.net Logo" /></a>
-    </td>
-
-    <td><img src="/images/spacer.gif" width="5" height="1" alt=""></td>
-  </tr>
-
-    
-  <tr><td colspan="4"><img src="/images/spacer.gif" width="1" height="5" alt=""></td>
-  
-  </tr>
-</table>
-
-<!-- for Google +1 button -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-
-</body>
-</html>
-
