@@ -114,3 +114,6 @@ Failure: ubuntuone.platform.linux.dbus_interface.NoAccessToken: CredentialsNotFo
 2012-03-25 17:27:50,851 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
 2012-03-25 17:29:50,850 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
 2012-03-25 17:31:50,850 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-03-25 17:33:50,850 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-03-25 17:35:50,850 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-03-25 17:37:50,850 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----

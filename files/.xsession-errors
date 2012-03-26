@@ -842,3 +842,8 @@ WARN  2012-03-25 17:28:22 glib <unknown>:0 Unable to fetch children: Method "Chi
 WARN  2012-03-25 17:31:46 glib <unknown>:0 Unable to fetch children: Method "Children" with signature "" on interface "org.ayatana.bamf.view" doesn't exist
 
 
+
+** (update-notifier:2543): WARNING **: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dfile_2derror_2dquark.Code4: Failed to create file '/home/saratt/.config/dconf/user.FF8GBW': No such file or directory
+
+(check-new-release-gtk:8218): Gtk-WARNING **: Unknown property: GtkMessageDialog.has-separator
+WARNING:root:timeout reached, exiting

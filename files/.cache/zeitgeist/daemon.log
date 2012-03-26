@@ -713,3 +713,16 @@
 2053 [2012-03-25 17:31:46,409] - DEBUG - zeitgeist.engine -     Where time spent in _get_event_from_row in 0.000000s
 2053 [2012-03-25 17:31:46,409] - DEBUG - zeitgeist.engine -     Where time spent in _get_subject_from_row in 0.000000s
 2053 [2012-03-25 17:31:46,410] - DEBUG - zeitgeist.engine -     Where time spent in apply_get_hooks in 0.000000s
+2053 [2012-03-25 17:35:59,449] - DEBUG - zeitgeist.engine - Found 33 events in 0.007150s
+2053 [2012-03-25 17:35:59,450] - DEBUG - zeitgeist.engine - Got 0 raw events in 0.001318s
+2053 [2012-03-25 17:35:59,451] - DEBUG - zeitgeist.engine - Got 33 events in 0.000237s
+2053 [2012-03-25 17:35:59,451] - DEBUG - zeitgeist.engine -     Where time spent in _get_event_from_row in 0.000000s
+2053 [2012-03-25 17:35:59,451] - DEBUG - zeitgeist.engine -     Where time spent in _get_subject_from_row in 0.000000s
+2053 [2012-03-25 17:35:59,451] - DEBUG - zeitgeist.engine -     Where time spent in apply_get_hooks in 0.000000s
+2053 [2012-03-25 17:35:59,460] - DEBUG - zeitgeist.engine - Found 70 events in 0.006036s
+2053 [2012-03-25 17:35:59,463] - DEBUG - zeitgeist.engine - Got 0 raw events in 0.002633s
+2053 [2012-03-25 17:35:59,463] - DEBUG - zeitgeist.engine - Got 70 events in 0.000236s
+2053 [2012-03-25 17:35:59,463] - DEBUG - zeitgeist.engine -     Where time spent in _get_event_from_row in 0.000000s
+2053 [2012-03-25 17:35:59,463] - DEBUG - zeitgeist.engine -     Where time spent in _get_subject_from_row in 0.000000s
+2053 [2012-03-25 17:35:59,464] - DEBUG - zeitgeist.engine -     Where time spent in apply_get_hooks in 0.000000s
+2053 [2012-03-25 17:35:59,484] - DEBUG - zeitgeist.engine - Found 0 events in 0.000526s
