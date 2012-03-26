@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.xtext.sdk.source"
+      label="%featureName"
+      version="1.0.2.v201102150722"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2009 itemis AG (http://www.itemis.eu) and others.
+
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0 which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html Description here.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/modeling/tmf/updates/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.xtext.runtime.source"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.xbase.source"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.docs.source"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.ui.source"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.examples.source"
+         version="1.0.2.v201102150722"/>
+
+   <plugin
+         id="org.eclipse.xtext.ecore.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.collect.source"
+         download-size="0"
+         install-size="0"
+         version="0.8.0.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.junit.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.ecore.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.builder.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.generator.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.shared.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.common.types.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.doc.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.common.types.ui.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xbase.ui.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.activities.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.logging.source"
+         download-size="0"
+         install-size="0"
+         version="1.2.15"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xtext.ui.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.xtend.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.junit.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xtext.util.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201102150722"
+         unpack="false"/>
+
+</feature>

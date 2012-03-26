@@ -1,0 +1,74 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: SKiLRnT5Kg0TcA+QkD57GHg0/bs=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: MWUoXh6oFNrwl9vsYTLIO9+anis=
+
+Name: src/job_opt.h
+SHA1-Digest: s8CeNkGX7YvjtletUA8faMSHxdQ=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: missing
+SHA1-Digest: uh9Je+ciikTIRRNbQTzVZAkjK20=
+
+Name: configure
+SHA1-Digest: ivvSXAIa0gHDPXDSU9/q3BNXNrY=
+
+Name: install-sh
+SHA1-Digest: sfPGkMUdzxKfEtgMR7jXHEmErx0=
+
+Name: AUTHORS
+SHA1-Digest: 5PllJ89W+u5b9J9V5N26G+Via1Y=
+
+Name: Makefile.in
+SHA1-Digest: aSxB+HTGZ4eTzTYkJkFgo4tYE/c=
+
+Name: config.guess
+SHA1-Digest: YBPPBBLcNkVD6x9vSdaNasRErqE=
+
+Name: about.html
+SHA1-Digest: p0ZoXj4UARV1NmAKuIc3VZcM6Xo=
+
+Name: aclocal.m4
+SHA1-Digest: mG+lC804cQovvfe6/LqQ/UNYg2s=
+
+Name: configure.in
+SHA1-Digest: fObxlbauHJ9rmZjQ6JOhFakf+/8=
+
+Name: COPYING
+SHA1-Digest: II1Oja4PScnmgqIjoi9u6E8EJIQ=
+
+Name: README
+SHA1-Digest: 4e/VnsHQAIuOcrjSij6Pizsa6Lw=
+
+Name: plugin.properties
+SHA1-Digest: zoZAAxO4N2QdYVsy/HswJw8/lpQ=
+
+Name: Makefile.am
+SHA1-Digest: QRnlwukK4UDwK2RuzGplDHglpWE=
+
+Name: compile
+SHA1-Digest: Vx01HJOB5zkQLuG3KTmXuv9LzQc=
+
+Name: NEWS
+SHA1-Digest: GM4TIfSzPEogmtOlio0NSo6yl6s=
+
+Name: ChangeLog
+SHA1-Digest: 1/1zAUSgbxLo+EErV6s2+i6PXAI=
+
+Name: config.sub
+SHA1-Digest: 6omFz15jYVg/elCL69u5u981MiI=
+
+Name: config.h.in
+SHA1-Digest: Wi+WPUWpO9NtCTfH9/CvhNU8iiw=
+
+Name: INSTALL
+SHA1-Digest: KrUoz7t/y1JhpCpDyni49ncbjx0=
+
+Name: src/ptp_slurm_proxy.c
+SHA1-Digest: fH/lTL0isbAOGjf/XYOURPjU6Gg=
+
+Name: depcomp
+SHA1-Digest: O+3zzwyENIlEJgPWUKT5+g9KRn4=
+

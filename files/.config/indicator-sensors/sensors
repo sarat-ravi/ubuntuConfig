@@ -1,0 +1,15 @@
+
+[libsensors/acpitz-virtual-0/0]
+high-value=100
+low-value=0
+alarm-value=0
+
+[libsensors/nouveau-pci-0100/0]
+high-value=100
+low-value=0
+alarm-value=100
+
+[udisks/sda]
+high-value=100
+low-value=0
+alarm-value=0

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.server_userdoc.feature"
+      label="%featureName"
+      version="3.1.10.v201005241510-20Bg7w3121162A3236"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+
+   <plugin
+         id="org.eclipse.wst.server.ui.doc.user"
+         download-size="0"
+         install-size="0"
+         version="1.1.300.v201005192125"
+         unpack="false"/>
+
+</feature>

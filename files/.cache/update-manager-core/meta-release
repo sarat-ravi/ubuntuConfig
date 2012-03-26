@@ -1,0 +1,115 @@
+<!-- DEL # WARNING! This file is under confman revision control. DO NOT MODIFY DIRECTLY! -->
+<!-- DEL # Managed under captiveportal module. -->
+<!-- DEL # $Id: index.html 736 2011-02-14 00:06:41Z erik $ -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+<title>
+AirBears
+</title>
+    <link type="text/css" rel="stylesheet" media="screen" href="/css/style.css">
+    <link type="text/css" rel="stylesheet" media="screen" href="/css/ist-main.css">
+    <link type="text/css" rel="stylesheet" media="screen" href="/css/ist-blue.css">
+    <link type="text/css" rel="stylesheet" media="only screen and (max-device-width: 480px)" href="/css/mobile.css">
+    <link type="text/css" rel="stylesheet" media="handheld" href="/css/mobile.css">
+</head>
+<body>
+
+<div id="ucbito_top_container">
+<!-- begin /ssi_top_banner.htmlf -->
+	<img src="/img/IST.jpg" width="250" alt="UC Berkeley Information Services and Technology" border="0" id="ucbito_top_logo" height="70">
+<!-- end /ssi_top_banner.htmlf -->
+
+<!-- begin /ssi_primary_menu_home.htmlf -->
+<!-- end /ssi_primary_menu_home.htmlf -->
+</div>
+
+<div id="ucbito_left_container">
+
+<div class="content"><div class="ucbito_left_photo">
+<img src="/img/airbears_graphic.png" hspace=20 alt="AirBears Logo">
+</div></div>
+
+</div>
+
+<div id="ucbito_main_container">
+
+<div id="ucbito_main_right_container">
+
+  <div class="ucbito_right_box">
+   <p>AirBears now remembers when you last authenticated using Calnet. If you use the same web browser to log in, you'll be prompted to enter your credentials as few as every seven days. Log out if you want AirBears to forget who you are. 
+ </div>
+</div>
+
+
+ <a name="maincontent"></a>
+ <div id="ucbito_main_mid_container">
+  <div>
+   <h1> AirBears </h1>
+   <div>
+    <p>Welcome to AirBears, the
+    wireless network at UC Berkeley. AirBears
+    is operated by Information Services and Technology
+    (IST).</p>
+
+    <p>To use AirBears, you must have a current <b>CalNet</b> ID
+    (student, staff, faculty, or affiliate), or a valid <b>Guest Account</b>
+    obtained from a sponsor. In order to access the network, you must
+    authenticate using one of the methods below.</p>
+    
+    <table>
+      <tr>
+	<td>
+          
+	  <form method=GET action="https://wlan.berkeley.edu/cgi-bin/login/calnet.cgi">
+	  
+	    <input type="submit" name="submit" value="CalNet">
+	    <input type="hidden" name="url" value="http://changelogs.ubuntu.com/meta-release">
+          </form>
+        </td>
+	<td>
+	  <form method=GET action="https://wlan.berkeley.edu/cgi-bin/login/guest.cgi">
+	    <input type="submit" name="submit" value="Guest Account">
+            <input type="hidden" name="url" value="http://changelogs.ubuntu.com/meta-release">
+          </form>
+        </td>
+      </tr>
+    </table> 
+    
+    <p>Usage of this wireless network denotes acceptance of the terms
+    set forth in the <a href="notice.html">AirBears notice</a>. To report a problem with
+    AirBears please contact the IST service desk at 510-642-8500 or servicedesk@berkeley.edu.
+    </p>
+
+    
+    <p>
+    The original URL you tried to access is <a href="http://changelogs.ubuntu.com/meta-release">http://changelogs.ubuntu.com/meta-release</a>
+    </p>
+    
+
+   </div>
+  </div>
+ </div>
+</div>
+
+	<!-- End of main_content -->
+<!-- DEL	</div>  -->
+<div id="ucbito_bottom_container">
+<!-- begin /ssi_context_menu.htmlf -->
+	</div>
+<!-- end /ssi_context_menu.htmlf -->
+<!-- begin /ssi_bottom_menu.htmlf -->
+	<div class="ucbito_bottom_nav">
+<!-- <span><a href="http://ist.berkeley.edu/accessibility.html">Accessibility</a></span> -->
+	</div>
+<!-- end /ssi_bottom_menu.htmlf -->
+</div>
+<div id="ucbito_bottom_bar"></div>
+</body>
+</html>
+

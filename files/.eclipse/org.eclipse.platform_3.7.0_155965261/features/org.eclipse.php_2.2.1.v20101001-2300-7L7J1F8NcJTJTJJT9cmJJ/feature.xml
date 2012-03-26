@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2009 IBM Corporation and others.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+    
+    Contributors:
+        IBM Corporation - initial API and implementation
+        Zend Technologies
+ -->
+<feature
+      id="org.eclipse.php"
+      label="%featureName"
+      version="2.2.1.v20101001-2300-7L7J1F8NcJTJTJJT9cmJJ"
+      provider-name="%providerName"
+      plugin="org.eclipse.php">
+
+   <description>
+      %description
+   </description>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.dltk.core" version="2.0.0" match="compatible"/>
+      <import feature="org.eclipse.wst.common.fproj" version="3.1.0" match="compatible"/>
+      <import feature="org.eclipse.wst.jsdt.feature" version="1.1.0" match="compatible"/>
+      <import feature="org.eclipse.wst.xml_ui.feature" version="3.1.0" match="compatible"/>
+      <import feature="org.eclipse.wst.web_ui.feature" version="3.1.0" match="compatible"/>
+      <import feature="org.eclipse.wst.xsl.feature" version="1.0.0" match="compatible"/>
+      <import feature="org.eclipse.dltk.core.index" version="2.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.php.core"
+         download-size="0"
+         install-size="0"
+         version="2.2.1.v20101001-2300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.debug.core"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20101001-2300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.debug.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20101001-2300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.server.core"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20101001-2300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.server.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20101001-2300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.1.v20101001-2300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20101001-2300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.debug.daemon"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20101001-2300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.help"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20101001-2300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.php.core.parser"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.v20101001-2300"
+         unpack="false"/>
+
+</feature>

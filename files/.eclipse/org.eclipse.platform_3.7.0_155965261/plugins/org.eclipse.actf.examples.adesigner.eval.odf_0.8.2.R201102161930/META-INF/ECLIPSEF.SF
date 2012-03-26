@@ -1,0 +1,84 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: ZLWcnCO2cgpNlnDnPUrSe0Mo0NI=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: 8TTPPbfLHJRYKj6MKLWXCeoGZyI=
+
+Name: org/eclipse/actf/examples/adesigner/eval/odf/OdfCheckerEngine.cl
+ ass
+SHA1-Digest: Mx86RbPbPFV4qIbEfdMsmuE4eig=
+
+Name: org/eclipse/actf/examples/adesigner/eval/odf/OdfCheckerEngineImp
+ l.class
+SHA1-Digest: EIYPmSFHeI5FRBDTzlcSihURaHo=
+
+Name: org/eclipse/actf/examples/adesigner/eval/odf/OdfCheckerUtil.clas
+ s
+SHA1-Digest: wvCrVJtoJ6QEMU0NORVkavQEjlI=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: org/eclipse/actf/examples/adesigner/eval/odf/preferences/OdfChec
+ kerPreferenceInitializer.class
+SHA1-Digest: ndMXqPZI0Gc7NIqBLIUySvDQB8M=
+
+Name: checkerodf.jar
+SHA1-Digest: 4K9AZ/6BIBOlghMddxy35g1Bwjs=
+
+Name: about.html
+SHA1-Digest: 2tQZmbga2hGq26apXUi4yPsnRsk=
+
+Name: plugin.properties
+SHA1-Digest: UAwkLPQqeZ3DwFdRl8KlBR2IVjk=
+
+Name: resources/description.properties
+SHA1-Digest: JsMdwdl5VyCB+Q/CsOk514se5gs=
+
+Name: org/eclipse/actf/examples/adesigner/eval/odf/OdfCheckerEngineBas
+ e.class
+SHA1-Digest: XzCbC4imrvc3ZXh1Nil7A2boutI=
+
+Name: org/eclipse/actf/examples/adesigner/eval/odf/OdfCheckerPlugin.cl
+ ass
+SHA1-Digest: /FPP6RbfMb/Dc3dzB+RexBNCGww=
+
+Name: org/eclipse/actf/examples/adesigner/eval/odf/preferences/OdfChec
+ kerPreferenceConstants.class
+SHA1-Digest: jNH+MXYad87/vTr26JRUd/ORPzw=
+
+Name: messages.properties
+SHA1-Digest: 4tLcZQfW2tXQd8Mf9nc8PA3PVnw=
+
+Name: messages_ja.properties
+SHA1-Digest: W0IRooRi+ETJ/kaHp1LquOFYuak=
+
+Name: org/eclipse/actf/examples/adesigner/eval/odf/internal/Messages.c
+ lass
+SHA1-Digest: +3so+Rdd3ptEYAQXzhCynbw7+Qc=
+
+Name: plugin.xml
+SHA1-Digest: db+Wj80kJeXVRQS+TlKFXoBkWbc=
+
+Name: org/eclipse/actf/examples/adesigner/eval/odf/OdfCheckerInfoProvi
+ der.class
+SHA1-Digest: ebmf2iXj96JqxNogb4i76qah8HQ=
+
+Name: resources/ODFcheckitem.xml
+SHA1-Digest: R7G0i02FCsI6v1FiwLR04aIM5Jc=
+
+Name: resources/description_ja.properties
+SHA1-Digest: Bbl80BuY2mhYRasFB+1bazl54gI=
+
+Name: org/eclipse/actf/examples/adesigner/eval/odf/OdfChecker.class
+SHA1-Digest: I8DbMsM4S/zuNBT/sHVXzM0AaHE=
+
+Name: plugin_ja.properties
+SHA1-Digest: TntZ0rM9HmPl1RFc/aapzbATdlI=
+
+Name: resources/ODFGuide.xml
+SHA1-Digest: HbK+Ts2qmXnY1kFEHqNYRlHT/+Q=
+
+Name: org/eclipse/actf/examples/adesigner/eval/odf/preferences/OdfChec
+ kerPreferencePage.class
+SHA1-Digest: 36YMgmLMtOByqzttp+kC0pNEAlg=
+

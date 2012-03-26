@@ -1,0 +1,30 @@
+#Equinox secure storage version 1.0
+#Sat Mar 17 17:14:46 PDT 2012
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/ssl_enabled=\t,ZmFsc2U\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/username=\t,c2FyYXR0
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/ssl_certificate=\t,
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/ssl_certificate=\t,
+/org.eclipse.equinox.secure.storage/verification/org.eclipse.equinox.security.ui.defaultpasswordprovider=org.eclipse.equinox.security.ui.defaultpasswordprovider\tNOWzfs4qGIw\=,SYtp/EfhCdi8aRByo4ia7g\=\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/ssh_key=\t,
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/ssl_passphrase=org.eclipse.equinox.security.ui.defaultpasswordprovider\t7ynqUREyyhQ\=,Pq9x+Y95Ljs\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/ssl_enabled=\t,ZmFsc2U\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/ssl_passphrase=org.eclipse.equinox.security.ui.defaultpasswordprovider\tc4NIBgVJtOs\=,F8rZzPcXiF8\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/password=org.eclipse.equinox.security.ui.defaultpasswordprovider\tVwpRxhJ0cKc\=,tvXPBDYaWBoEoVn8fTuOyQ\=\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/ssh_passphrase_saved=\t,ZmFsc2U\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/password_saved=\t,dHJ1ZQ\=\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/password_saved=\t,dHJ1ZQ\=\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/ssl_passphrase_saved=\t,ZmFsc2U\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/ssh_passprase=org.eclipse.equinox.security.ui.defaultpasswordprovider\tl8pOE/OMbrQ\=,c/Ca/nT5FME\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/ssh_port=\t,MjI\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/ssh_key=\t,
+org.eclipse.equinox.security.preferences.keyFactory=PBEWithMD5AndDES
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/ssh_use_key=\t,ZmFsc2U\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/ssh_passphrase_saved=\t,ZmFsc2U\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/username=\t,c2FyYXR0
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/ssl_passphrase_saved=\t,ZmFsc2U\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/password=org.eclipse.equinox.security.ui.defaultpasswordprovider\tYccdTsxKFuY\=,Aj1XrcBWrYGh7oGdah6cJQ\=\=
+org.eclipse.equinox.security.preferences.cipher=PBEWithMD5AndDES
+org.eclipse.equinox.security.preferences.version=1
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\:3092c8a1707000111eab88d9f4ef7f83/ssh_use_key=\t,ZmFsc2U\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/ssh_port=\t,MjI\=
+/SVN/http\:\\2f\\2fsaratt@livemagic.tv\\2fcode\\2f\:d07930b2076b00111412acb5ced6d211/ssh_passprase=org.eclipse.equinox.security.ui.defaultpasswordprovider\tRtvXc9UF6Hs\=,BgPcBSKl6UY\=

@@ -1,0 +1,28 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 46dsA9tj1rsaoZ/Kin9Fz8LMy7I=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: YkG9hQW1LULCTy15IGTVo2xXCVo=
+
+Name: epl-v10.html
+SHA1-Digest: xipg4kdvniXTRoluum46PzkHsAQ=
+
+Name: META-INF/maven/org.eclipse.jetty.osgi/org.eclipse.jetty.tooling/
+ pom.xml
+SHA1-Digest: d+qZk4MoFojtYmCJ5BkqwWqyayA=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: META-INF/maven/org.eclipse.jetty.osgi/org.eclipse.jetty.tooling/
+ pom.properties
+SHA1-Digest: 4drZQHV3yGLF7DIzdCzYds8KEJQ=
+
+Name: license.html
+SHA1-Digest: PY3U3+XP045tRdSVFSlVOBQ12ac=
+
+Name: feature.properties
+SHA1-Digest: 1H+Thpp65j8U7huQPzYpuKSwlkc=
+
+Name: feature.xml
+SHA1-Digest: haZsBRbi+alR1G6vjYod4A4iJPM=
+

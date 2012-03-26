@@ -1,0 +1,21 @@
+[2012-03-25T13:31:16-00:00, Power ] Laptop battery low
+Approximately 13 minutes remaining (74%)
+
+[2012-03-25T14:13:21-00:00, notify-send ] Power Savings Mode
+
+
+[2012-03-25T15:20:51-00:00, notify-send ] Power Savings Mode
+
+
+[2012-03-25T15:20:52-00:00, NetworkManager ] helloWorld
+Disconnected - you are now offline
+
+[2012-03-25T16:33:50-00:00, notify-send ] Power Savings Mode
+
+
+[2012-03-25T16:33:52-00:00, NetworkManager ] Network
+Disconnected - you are now offline
+
+[2012-03-25T16:34:03-00:00, NetworkManager replaced] helloWorld
+Connection Established
+

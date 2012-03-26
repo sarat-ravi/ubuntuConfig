@@ -1,0 +1,468 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.actf.visualization.eval;singleton:=tr
+ ue
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ac
+ tf.visualization,org.eclipse.actf.ui,com.ibm.icu
+Bundle-Activator: org.eclipse.actf.visualization.internal.eval.Evaluat
+ ionPlugin
+Export-Package: org.eclipse.actf.visualization.eval,org.eclipse.actf.v
+ isualization.eval.guideline,org.eclipse.actf.visualization.eval.html,
+ org.eclipse.actf.visualization.eval.html.statistics,org.eclipse.actf.
+ visualization.eval.problem
+Bundle-Version: 0.8.2.R201102161930
+Bundle-ClassPath: runtimes/checker.jar,.
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Eclipse.org
+Bundle-Name: ACTF Usability Evaluator Plug-in (Incubation)
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/actf/visualization/eval/guideline/IGuidelineSlection
+ ChangedListener.class
+SHA1-Digest: OsaC3yxA9kUjOOJ6kcs2RTobT5Q=
+
+Name: icons/Err.png
+SHA1-Digest: mttvMUu7yrAAiW4bPA0DkFug9yM=
+
+Name: org/eclipse/actf/visualization/eval/problem/ProblemItemImpl.clas
+ s
+SHA1-Digest: As7gQfD1swlFIhPqMrd6qaQNlAg=
+
+Name: org/eclipse/actf/visualization/eval/html/statistics/StatisticsDa
+ taFormatException.class
+SHA1-Digest: cJpMhhCcThQDyKO8/P3JIYyQt6Q=
+
+Name: icons/ConfL.png
+SHA1-Digest: oh9lKKOcX/3eeljoBsfOxgLJQ8s=
+
+Name: org/eclipse/actf/visualization/eval/preferences/NavigabilityWarn
+ ingDialog.class
+SHA1-Digest: g6AbpxN6aMi/9F74QTnggX5TZ4s=
+
+Name: org/eclipse/actf/visualization/eval/problem/package-info.class
+SHA1-Digest: dW/WTywMebyJYxKV6YAXVIXtv7c=
+
+Name: icons/ConfN.png
+SHA1-Digest: 4rD/hf5sm4jeu/4Sxt4sUKORpSg=
+
+Name: icons/ConfP.png
+SHA1-Digest: PrccqpbNSOjKudbsmF1rHo1Gy98=
+
+Name: icons/media/jsa.png
+SHA1-Digest: c5KBhtrM3UbUnVudTU5/KIdTBUg=
+
+Name: icons/ConfR.png
+SHA1-Digest: g6vB3f1Q0OR8TqRqi+e8IVqLJ9k=
+
+Name: messages.properties
+SHA1-Digest: jrv/INgfqMOKLf3kJYk+VQ4CVw4=
+
+Name: org/eclipse/actf/visualization/eval/preferences/ICheckerPreferen
+ ceConstants.class
+SHA1-Digest: g8FTjSZZhUBEDl5geXERnl2QKW8=
+
+Name: org/eclipse/actf/visualization/eval/preferences/GuidelineTreeCon
+ tentProvider.class
+SHA1-Digest: u0yAi71pw4I2JjL9hhPMivb6N18=
+
+Name: org/eclipse/actf/visualization/eval/guideline/package-info.class
+SHA1-Digest: A4At6V4UBrWqasYEapD2Qf9SpIY=
+
+Name: org/eclipse/actf/visualization/eval/EvaluationResultImpl.class
+SHA1-Digest: atzH4oiwciN5r34p9506foTqIs0=
+
+Name: icons/media/oasis.png
+SHA1-Digest: 8Qyhy3cIYQ8EbSpeM2eMECLvIes=
+
+Name: org/eclipse/actf/visualization/internal/eval/CheckerExtension.cl
+ ass
+SHA1-Digest: HG4mo9xuhg716MxLBJ8vGTKgiP8=
+
+Name: org/eclipse/actf/visualization/eval/problem/ILowvisionProblemSub
+ type.class
+SHA1-Digest: XQoYUGZ3eiHA9G0lm1Bpt4RnORc=
+
+Name: org/eclipse/actf/visualization/eval/problem/HighlightTargetSourc
+ eInfo.class
+SHA1-Digest: 8qFYCUJwBZIEe5sTUM8pJYq+UMY=
+
+Name: org/eclipse/actf/visualization/eval/problem/IProblemItemImage.cl
+ ass
+SHA1-Digest: QTmIwakH0Cqg7kbbc+QtBmC8yB8=
+
+Name: org/eclipse/actf/visualization/eval/preferences/GuidelinePrefere
+ ncePage.class
+SHA1-Digest: UlflFYqSxTkStKdlVoXxwgZQX50=
+
+Name: icons/ErrC.png
+SHA1-Digest: JdmkoEyXQyRjPDf/ki3EOlpXgSk=
+
+Name: org/eclipse/actf/visualization/eval/html/statistics/IPageStatist
+ icsTag.class
+SHA1-Digest: I5Nf3e6hzJrXWS8tnhMjNoT5gpE=
+
+Name: org/eclipse/actf/visualization/internal/eval/TechniquesItemImpl.
+ class
+SHA1-Digest: e2Ior0MwPMMq9c6lkM+5M1H0idc=
+
+Name: icons/Warn.png
+SHA1-Digest: ZWmNJam0qzSpefLc3twgQRoH3V8=
+
+Name: icons/ErrO.png
+SHA1-Digest: e9uCemljLvO6Hb8N+VFI1AGirHw=
+
+Name: org/eclipse/actf/visualization/eval/ICheckTarget.class
+SHA1-Digest: /3wNZWimahnn2bAAUSc0lhPiHw0=
+
+Name: org/eclipse/actf/visualization/eval/preferences/GuidelinePrefere
+ ncePage$1.class
+SHA1-Digest: Z3/4L5HulU2iojD79gZoiFcUS0k=
+
+Name: icons/InfoC.png
+SHA1-Digest: 8CKxhGrIZn3Et+i024qD6e743nM=
+
+Name: org/eclipse/actf/visualization/eval/html/statistics/ImageStatDat
+ a.class
+SHA1-Digest: YphDzV1Dis2B+H0STvNAmglnsBY=
+
+Name: org/eclipse/actf/visualization/eval/problem/ReportUtil$1.class
+SHA1-Digest: n0wNhYp6RQ9Wnj04ZIqDSA3Wt1A=
+
+Name: plugin_ja.properties
+SHA1-Digest: oU4RROLYqA4/4FH4kB/Bk0BVE6Y=
+
+Name: icons/lowvision/ErrIro21.gif
+SHA1-Digest: WFYCXf0Pbzvd3yU46dQHobBHJSI=
+
+Name: org/eclipse/actf/visualization/eval/problem/IProblemItemVisitor.
+ class
+SHA1-Digest: 2XWaB1EJWrL1I5wyhwoedbtS4qA=
+
+Name: icons/ErrU.png
+SHA1-Digest: IoLdcHJtP2gFI2O6XVlfoPkc53U=
+
+Name: icons/lowvision/HiBoke21.gif
+SHA1-Digest: WoRMmTBTWAalXsbE0m0ZXe6Auwk=
+
+Name: org/eclipse/actf/visualization/internal/eval/guideline/Guideline
+ DataComparator.class
+SHA1-Digest: k6KuEByWBGy6aB4f6BmfSF+fTZE=
+
+Name: org/eclipse/actf/visualization/eval/problem/IProblemConst.class
+SHA1-Digest: /um7VQNSHg++68JZSKOppTd1u8E=
+
+Name: icons/InfoO.png
+SHA1-Digest: 6Hkk6QBX6MhzQJMTVapxLiIsOB4=
+
+Name: org/eclipse/actf/visualization/eval/guideline/GuidelineHolder.cl
+ ass
+SHA1-Digest: stYITNcMdJ1Yxqr7WHbtE1aTWnc=
+
+Name: icons/media/adobe.png
+SHA1-Digest: TZkXDeaBv6dgXK9qDyAuQ0YAaeY=
+
+Name: org/eclipse/actf/visualization/eval/IHtmlChecker.class
+SHA1-Digest: kPkVkr2gUj7Lgvw3MzGBKeOUyyY=
+
+Name: icons/InfoU.png
+SHA1-Digest: HaPhVIuLGONCqpi4tXWHDhZfmGo=
+
+Name: org/eclipse/actf/visualization/eval/preferences/GuidelineTreeIte
+ mType.class
+SHA1-Digest: 5oAyU+88XPbulbBHxclFbDHtNJ4=
+
+Name: icons/media/ibm.png
+SHA1-Digest: PjJlkRuuErKJpUVnSlwp1IePaME=
+
+Name: org/eclipse/actf/visualization/eval/IHtmlCheckTarget.class
+SHA1-Digest: Jq6lIBrf83YF0EV8yRwNHW1dp2A=
+
+Name: org/eclipse/actf/visualization/eval/ICheckerInfoProvider.class
+SHA1-Digest: YWE4huSJY56zydz2tjag291sQ5I=
+
+Name: org/eclipse/actf/visualization/eval/html/HtmlEvalUtil.class
+SHA1-Digest: wqkgJZeVTEXbJn+52JcAcIt0xNs=
+
+Name: icons/media/508.png
+SHA1-Digest: ASJoY8RYItsdA5hHitG0EI5b97g=
+
+Name: icons/lowvision/ErrBoke21.gif
+SHA1-Digest: l99n5S1OtbhyE3xzG7a8geQAiOM=
+
+Name: org/eclipse/actf/visualization/eval/preferences/IGuidelineTreeIt
+ em.class
+SHA1-Digest: YnCkTMrksFB9wPVGaFhStULgPFg=
+
+Name: resources/checkitem.xml
+SHA1-Digest: 0L3YDhZIJNktDtN3KTV3e6f9uAo=
+
+Name: org/eclipse/actf/visualization/eval/problem/HighlightTargetId.cl
+ ass
+SHA1-Digest: d+kn1xoHqSllJTCFR6LtNrbcqV8=
+
+Name: icons/Info.png
+SHA1-Digest: Rs9Xxoyn3w83PXoBG2i4+H+whMM=
+
+Name: org/eclipse/actf/visualization/eval/html/IHtmlEventHandlerAttrib
+ utes.class
+SHA1-Digest: KZ8WTRpXTbM7NaPxaBpVWlc5dV4=
+
+Name: icons/WarnC.png
+SHA1-Digest: h/XJmRwDH3aUk5Gvx0QXGLr8u5c=
+
+Name: org/eclipse/actf/visualization/eval/IGuidelineItem.class
+SHA1-Digest: 0DXdzRkcljCzu7v/1bxHX5y2uG8=
+
+Name: about.html
+SHA1-Digest: 6iWCOXZprfOub4LeuEsP3zx5AiY=
+
+Name: org/eclipse/actf/visualization/eval/preferences/IPreferenceConst
+ ants.class
+SHA1-Digest: h0solVZCuwOu56HUU5SpRwtI2Ik=
+
+Name: org/eclipse/actf/visualization/eval/html/statistics/HeadingsData
+ .class
+SHA1-Digest: 36UQTShG6sw9wJdPufnrTSJSc8k=
+
+Name: icons/WarnO.png
+SHA1-Digest: 22qX+6/TrgzOh022kEOJk3xRGIY=
+
+Name: org/eclipse/actf/visualization/internal/eval/guideline/CheckItem
+ Reader.class
+SHA1-Digest: VMDo617RS+9C/12T98ggwCksGec=
+
+Name: icons/WarnU.png
+SHA1-Digest: N+1TUfqMQat9iHPzikwB/5luG08=
+
+Name: org/eclipse/actf/visualization/eval/guideline/IGuidelineData.cla
+ ss
+SHA1-Digest: piU4Rkycs2eV7ED/CNovmJqP040=
+
+Name: resources/guidelines/wcag20.xml
+SHA1-Digest: kqdM86Trgl6bYkfAB6aIa5h03X0=
+
+Name: icons/star.gif
+SHA1-Digest: HivRQm7UeG8luSchU9c8r4/kJYE=
+
+Name: org/eclipse/actf/visualization/eval/problem/IProblemItem.class
+SHA1-Digest: Hy9eSmwI2u8pMm0oiegTrpmvb4s=
+
+Name: org/eclipse/actf/visualization/eval/html/package-info.class
+SHA1-Digest: eDjK3Ni0n/5DLpEk9Z+nBjuJ/ok=
+
+Name: icons/ConfC.png
+SHA1-Digest: ytnwt9bxQ3mw50ZspzOQZTCLC0A=
+
+Name: org/eclipse/actf/visualization/eval/EvaluationUtil.class
+SHA1-Digest: dWzUIJkpwbARdHKDars3ziOGook=
+
+Name: icons/media/odf.png
+SHA1-Digest: 4E9Y37tJroUvPRHbtK1aECqb1yA=
+
+Name: org/eclipse/actf/visualization/internal/eval/guideline/MetricsIt
+ em.class
+SHA1-Digest: RiVhm+KDGuVyQp5epwnKHqGMPA0=
+
+Name: org/eclipse/actf/visualization/internal/eval/EvaluationItemImpl.
+ class
+SHA1-Digest: +hE81AWkGgaOuwHOBtxyl6e/I/Q=
+
+Name: resources/description.properties
+SHA1-Digest: HBw0yCX9mf71rMx7K6EZ3IZR/xE=
+
+Name: org/eclipse/actf/visualization/eval/problem/HighlightTargetNodeI
+ nfo.class
+SHA1-Digest: c0FHNIxozgkl0wiK/UnSsYhPEPY=
+
+Name: org/eclipse/actf/visualization/internal/eval/guideline/Guideline
+ Data.class
+SHA1-Digest: 5pE1sAaiYCOLSN3pstyfVHFgyUo=
+
+Name: icons/ConfO.png
+SHA1-Digest: hdYzm4j7rH7T+pP11aaKgPbUl6w=
+
+Name: icons/ConfU.png
+SHA1-Digest: GZCUT/4XvQKqgbn+c+mdI4R4U/g=
+
+Name: messages_ja.properties
+SHA1-Digest: G6xtemq6kBeJodeUehcwk4SPoIk=
+
+Name: org/eclipse/actf/visualization/eval/preferences/GuidelineTreeLab
+ elProvider.class
+SHA1-Digest: DWnkQ7BuSWa7U54OOjKQTXg8tAE=
+
+Name: org/eclipse/actf/visualization/internal/eval/GuidelineItemImpl.c
+ lass
+SHA1-Digest: 1nSh+JshQ4s+Lw+iye3J/+KC6Mo=
+
+Name: org/eclipse/actf/visualization/eval/preferences/PreferenceInitia
+ lizer.class
+SHA1-Digest: BUPgdekdzPAUin06iW2z0qjbNbQ=
+
+Name: org/eclipse/actf/visualization/eval/html/statistics/FlashData.cl
+ ass
+SHA1-Digest: cro+CazXUoNWba1GLAkjxOfvU3I=
+
+Name: org/eclipse/actf/visualization/eval/package-info.class
+SHA1-Digest: 8DriO4lq9edjhzlBgRkmyVUr/A0=
+
+Name: org/eclipse/actf/visualization/internal/eval/XMLStringUtil.class
+SHA1-Digest: NuaFG96MHwIn6TYbDlmWh1NAegk=
+
+Name: icons/media/w3c.png
+SHA1-Digest: cK1+zc0OaVd04dgTZDF7mfWGUp0=
+
+Name: org/eclipse/actf/visualization/eval/IEvaluationItem.class
+SHA1-Digest: gmQUQmybQbt7zgyUGSvz1S9oqdc=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/actf/visualization/eval/html/statistics/package-info
+ .class
+SHA1-Digest: 88/wIlsuKLKOEhHr0namkMs8kXk=
+
+Name: icons/rating/VeryGood.png
+SHA1-Digest: SrznaThbwjlBiseJFvq+mIuYuVc=
+
+Name: org/eclipse/actf/visualization/internal/eval/CheckTargetImpl.cla
+ ss
+SHA1-Digest: 56CWtxs7JI+R4oK4+TpRPbF4CW0=
+
+Name: org/eclipse/actf/visualization/internal/eval/guideline/Guideline
+ ItemDescription.class
+SHA1-Digest: RCNrLE0ToLfBgl7m1bkOtDrXH+A=
+
+Name: org/eclipse/actf/visualization/eval/IChecker.class
+SHA1-Digest: FSU4kZa5M2yXNMzMT6VuhTQO4Ow=
+
+Name: icons/ErrL.png
+SHA1-Digest: RyvMbv1I5BGyayJIJnxfLTFXwxI=
+
+Name: icons/ErrN.png
+SHA1-Digest: 1suAbuqrajrMCLqgMGqFl8m65dQ=
+
+Name: icons/rating/Poor.png
+SHA1-Digest: 05rJWJlcP2opvpVOIah1W2e1zOA=
+
+Name: org/eclipse/actf/visualization/internal/eval/guideline/MetricsNa
+ meComparator.class
+SHA1-Digest: J21aJ1ygVDuSJd53YA+IGB6qfWE=
+
+Name: icons/ErrP.png
+SHA1-Digest: OmVX8a+1XqWmrwqqCoOzaS/YOuw=
+
+Name: icons/ErrR.png
+SHA1-Digest: xNZQCHDxijBRprqoECn+4/GrNTE=
+
+Name: org/eclipse/actf/visualization/eval/preferences/GuidelineTreeIte
+ mData.class
+SHA1-Digest: 67ppOBwqREdywSACiJo3MOiekSE=
+
+Name: resources/guidelines/section508.xml
+SHA1-Digest: 0YSngYlzhBG6cED4d8l3C5cO5V8=
+
+Name: icons/rating/Bad.png
+SHA1-Digest: BvEGoyeAuYylHiqY9ie3POsdCuM=
+
+Name: org/eclipse/actf/visualization/internal/eval/HtmlCheckTargetImpl
+ .class
+SHA1-Digest: 8fXSjlrEhfD+m+92Huz0R6vR/LY=
+
+Name: icons/InfoL.png
+SHA1-Digest: jUsWqG69IuDJUkOFK8df97LAmoo=
+
+Name: icons/InfoN.png
+SHA1-Digest: wp3ZUYljmuSlE2WgeNu+qh2lVuU=
+
+Name: icons/InfoP.png
+SHA1-Digest: GNIQgNPoTiZCllKkBlcGmiFeMtw=
+
+Name: org/eclipse/actf/visualization/eval/ITechniquesItem.class
+SHA1-Digest: PtWs53V18K6zI2ui6dOrZSdoTVo=
+
+Name: icons/InfoR.png
+SHA1-Digest: WBP6Jrsivl2sKeNAo4Qjq6eXw5Q=
+
+Name: icons/media/flash.png
+SHA1-Digest: xzSerh0cOWxG4DE0Re8Ggr6G8ao=
+
+Name: org/eclipse/actf/visualization/eval/guideline/GuidelineSelection
+ ChangedEvent.class
+SHA1-Digest: fBENk3yI7i67IWr19XsdZmugaxQ=
+
+Name: org/eclipse/actf/visualization/eval/html/statistics/PageData.cla
+ ss
+SHA1-Digest: UsT9ie9RQvFY+d8nxSDo6U5JaO8=
+
+Name: icons/media/pdf.png
+SHA1-Digest: 7G4pqkGHOIbDQZVbLYFdbks1R90=
+
+Name: plugin.properties
+SHA1-Digest: neQk6wywhXiHJ8Cp/jhm1Vrow6w=
+
+Name: icons/lowvision/HiIro21.gif
+SHA1-Digest: EASSRFfgcCPcoM8jQ7EVEn5kKKw=
+
+Name: icons/Conf.png
+SHA1-Digest: tXkx6lYhkWiQdNTLKESNVLSn0ds=
+
+Name: org/eclipse/actf/visualization/eval/guideline/GuidelineHolder$1.
+ class
+SHA1-Digest: P3Si2b9IEp+NZ0WaSOA73bJmzJU=
+
+Name: icons/rating/Good.png
+SHA1-Digest: uzegCUzllgJJrkNpOWDPQTYGs0U=
+
+Name: org/eclipse/actf/visualization/eval/html/HtmlTagUtil.class
+SHA1-Digest: YhJ+COo76T0TNqvFdkl/TWqnxEU=
+
+Name: resources/guidelines/jis.xml
+SHA1-Digest: yQqlALJvkHstB9etv+LEfd89BAc=
+
+Name: plugin.xml
+SHA1-Digest: Nm34HoA62wnuvebXTOsUmglxEBU=
+
+Name: resources/description_ja.properties
+SHA1-Digest: Ih4OYjzFNncyayGi1m+fk1xPhPU=
+
+Name: org/eclipse/actf/visualization/internal/eval/guideline/Guideline
+ ItemReader.class
+SHA1-Digest: VZWfz/ODHj/P6kDxZMiZz+/2VoI=
+
+Name: org/eclipse/actf/visualization/eval/guideline/GuidelineHolder$It
+ emType.class
+SHA1-Digest: Fxt6lH/v24hjH2+hCv1ocfqjAas=
+
+Name: org/eclipse/actf/visualization/internal/eval/Messages.class
+SHA1-Digest: zUJtf7+iRwb/PW/kdjzGshZaXpM=
+
+Name: icons/WarnL.png
+SHA1-Digest: jrKienbdLIgy9FLpECCtOOBdpSQ=
+
+Name: org/eclipse/actf/visualization/eval/IEvaluationResult.class
+SHA1-Digest: ldrkxzxWnBshsGn/i0v+uh3SCDA=
+
+Name: org/eclipse/actf/visualization/internal/eval/EvaluationPlugin.cl
+ ass
+SHA1-Digest: XoN8wAPcLcaCWx2khOKjZ+W5Txk=
+
+Name: runtimes/checker.jar
+SHA1-Digest: DDFFcLOEybBOE357yXcms18zI+w=
+
+Name: icons/WarnN.png
+SHA1-Digest: v8qMBRT8m96SKl96HxKklhUCm94=
+
+Name: org/eclipse/actf/visualization/eval/problem/ReportUtil.class
+SHA1-Digest: VU6eJtaN+2z5CBE3EPrn3oIpurw=
+
+Name: icons/WarnP.png
+SHA1-Digest: Hjgpup4j+UNTLsE6IEZm2Lgl1q8=
+
+Name: icons/WarnR.png
+SHA1-Digest: NdFlKgSUNwfDu6E0DGx1cfCZ0sA=
+
+Name: org/eclipse/actf/visualization/eval/CheckTargetFactory.class
+SHA1-Digest: LGhuC9FdMC/MOgadtwQUQuZmS28=
+

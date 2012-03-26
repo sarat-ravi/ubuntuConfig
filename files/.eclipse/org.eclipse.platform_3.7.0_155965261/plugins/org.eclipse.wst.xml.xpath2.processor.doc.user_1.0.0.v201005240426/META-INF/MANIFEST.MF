@@ -1,0 +1,152 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %vendorName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.wst.xml.xpath2.processor.doc.user;sin
+ gleton:=true
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/web
+ tools:sourceediting/docs/org.eclipse.wst.xml.xpath2.processor.doc.use
+ r;tag=v201005240426
+Require-Bundle: org.eclipse.core.runtime
+Bundle-Version: 1.0.0.v201005240426
+Bundle-ManifestVersion: 2
+
+Name: html/ch03s11s04.html
+SHA1-Digest: +qGwo2NU5oU5kG8Kx6d11n9FdSU=
+
+Name: html/ch02s03s08.html
+SHA1-Digest: v4gTn5RTUgogEb7QVPcTgtc+k4c=
+
+Name: html/ch03s08.html
+SHA1-Digest: AOs6WY/CjXqV7twGB4vzsUJk5gs=
+
+Name: html/ch04s08.html
+SHA1-Digest: Vi1jPfa1VZaNh9jK3PNqQ02Pye4=
+
+Name: html/ch03s11s02.html
+SHA1-Digest: v0T6My1ZbJEqm7WxeOm6BCAC+sc=
+
+Name: html/ch02s03s06.html
+SHA1-Digest: YA7hX78hpZK0gDAdFtDRf7nFdQ4=
+
+Name: html/ch03s06.html
+SHA1-Digest: nx52v9YCNWEI1eo3sV5rlRdqre4=
+
+Name: html/ch04s06.html
+SHA1-Digest: vrJRq5jpZ0eT5Wp8o5QzN/4eRqM=
+
+Name: html/ch02s03s04.html
+SHA1-Digest: w4OVlx6MH3pjgmZMVUVPN45C+gE=
+
+Name: html/ch03.html
+SHA1-Digest: GxwNEY5j9sCJPJBIphWuuv1Z3T8=
+
+Name: plugin.properties
+SHA1-Digest: dcQxR4M/RU6v7hWgZTg7GEFhKII=
+
+Name: html/ch03s04.html
+SHA1-Digest: upWlZh0GtIjOOdiw5WZ3Zd87gxs=
+
+Name: html/ch04s04.html
+SHA1-Digest: 4m6+ztW1kZPwWJTRUQ1vEDseLF0=
+
+Name: html/ch02s03s02.html
+SHA1-Digest: ivFihhFJOXua5IgdYj07JfWzN0I=
+
+Name: html/ch02s02.html
+SHA1-Digest: EY4tkV5P4pZWwmX0zbR5Fawe11s=
+
+Name: html/ch01.html
+SHA1-Digest: NIA+5YSywlyC/9MruOa9gv9Fhro=
+
+Name: html/ch03s02.html
+SHA1-Digest: sOVor56O+A2eCUeIqUbOJ8mSBp8=
+
+Name: html/ch04s02.html
+SHA1-Digest: 9r7tiQUjiT9nPJX/XIcLOP7/Il0=
+
+Name: html/ch02s03s05s02.html
+SHA1-Digest: BsB2YgP+Yr4HyxEhrdMG0tB5LI4=
+
+Name: html/ch02s03s10.html
+SHA1-Digest: 4Cd41ubWhLqsjr+rvol+CgnNAqE=
+
+Name: html/ch03s10.html
+SHA1-Digest: iA6X/xpgA+8Auy7LLnQaLuPyhe0=
+
+Name: plugin.xml
+SHA1-Digest: autY6lx2jeStrk3Dz43VIXZdCNE=
+
+Name: html/book.css
+SHA1-Digest: r14MlONd7ZMJ+0t1jmCqqBWF6r4=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: html/ch02s03s09.html
+SHA1-Digest: 5DFlIXLuF2hhSdtrkNFNr/6r8kU=
+
+Name: html/ch03s09.html
+SHA1-Digest: PFhtT1EVq+vqlDeyXkTG/o+aAKY=
+
+Name: html/ch04s09.html
+SHA1-Digest: uWNCtc7+9gxbfVSnwDh70WaIFAE=
+
+Name: html/ch03s11s03.html
+SHA1-Digest: UuJ2aYJyX9VsqLGmi7sJyuiPnIM=
+
+Name: html/ch02s03s07.html
+SHA1-Digest: fYUQjhqFr5dxkrft2CWZxcaTW1M=
+
+Name: html/index.html
+SHA1-Digest: pVwr3zWWWjBs+GmnySmgtUDVKjY=
+
+Name: html/ch03s07.html
+SHA1-Digest: 8Ru7VDVcwecm9drMSkRADE7IRV0=
+
+Name: html/ch04s07.html
+SHA1-Digest: ho5dRZNf4Ne+84uPwEkLUK164DU=
+
+Name: html/ch04.html
+SHA1-Digest: rx5M5OSA0QFXu1OLNJXeEGymojc=
+
+Name: html/ch02s03s05.html
+SHA1-Digest: jiJBE7ujbEuHVSqnfjvI5GvuVlk=
+
+Name: about.html
+SHA1-Digest: sgCJnk4QnR3NOCAPSHbXorGLiR8=
+
+Name: html/ch03s05.html
+SHA1-Digest: 5nvfCdhHqNl0UfUjYTY0KuZpUM4=
+
+Name: html/ch04s05.html
+SHA1-Digest: Nb9v8Mhygu5/Dp+DeNYDnTYZrRY=
+
+Name: html/ch02s03s03.html
+SHA1-Digest: FzFrENLW0W0vaHMswbbkuJxvSg0=
+
+Name: html/ch02s03.html
+SHA1-Digest: P5pvC5eoZuBLlvdXbgyZv43fcxg=
+
+Name: html/ch02.html
+SHA1-Digest: 9WHj7ckuohqBlKWA+3bvjxwPk+E=
+
+Name: html/ch03s03.html
+SHA1-Digest: lfWcLt27h5x+Mf9LJ1F0k6qsfKY=
+
+Name: html/ch04s03.html
+SHA1-Digest: gep5O86sGkwgN2ZgEClcwKvF6Cs=
+
+Name: html/ch02s03s05s03.html
+SHA1-Digest: bEk7H+iNhH3ACJCIvBRo6eZ4tX8=
+
+Name: toc.xml
+SHA1-Digest: pRyFD9dNSiu1yM0ynNaTgdO0Apw=
+
+Name: html/ch02s03s11.html
+SHA1-Digest: 3aq9IrY0gdFg6kihxr+Jlo1+1CE=
+
+Name: html/ch03s11.html
+SHA1-Digest: Y4aTnYs8prJrWx9x5tinYVg6d3M=
+

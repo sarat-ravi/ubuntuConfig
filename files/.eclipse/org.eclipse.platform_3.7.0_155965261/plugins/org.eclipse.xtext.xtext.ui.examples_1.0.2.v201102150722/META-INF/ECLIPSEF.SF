@@ -1,0 +1,95 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 4hiO/EqKL7LWbLV9pyeXTMATwVE=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: q5QCyQgB6+HyEk7dXFyd9KR4SPg=
+
+Name: contents/org.eclipse.xtext.example.gmf.zip
+SHA1-Digest: NOYCzsuefE5oJ7H7Hrn3JJuSVgo=
+
+Name: contents/org.eclipse.xtext.example.gmf.diagram.extensions.zip
+SHA1-Digest: 3tVIvT5QeP3nsDYIr3lbXhDDxn4=
+
+Name: contents/org.eclipse.xtext.example.domainmodel.ui.zip
+SHA1-Digest: fYV16CvHP3+tg1bJpB+B0S5d5wM=
+
+Name: .settings/org.eclipse.pde.prefs
+SHA1-Digest: ObbxYufpQ1u4wUKs64gKcdVjysw=
+
+Name: contents/org.eclipse.xtext.example.gmf.ui.zip
+SHA1-Digest: VFANSU2O0pLU87nZDPrM225t5RQ=
+
+Name: contents/org.eclipse.xtext.example.arithmetics.zip
+SHA1-Digest: mYJ5TytP6lBaa6Sx2jJnFWHuUBI=
+
+Name: plugin.properties
+SHA1-Digest: dCc2YjuB05VTCzJD9zU76xeBc78=
+
+Name: contents/org.eclipse.xtext.example.fowlerdsl.zip
+SHA1-Digest: LoKIbJccD185P+bu2g80WuMZ52w=
+
+Name: .settings/org.eclipse.jdt.ui.prefs
+SHA1-Digest: nRyBWEy0shN3B9WZMqj0cJbEadA=
+
+Name: plugin.xml
+SHA1-Digest: YGdv/naNVEleBZbvPjQmfp6p6ws=
+
+Name: contents/org.eclipse.xtext.example.gmf.models.zip
+SHA1-Digest: scxgXnYmtgJiMRZESW5eqHzg4hI=
+
+Name: contents/org.eclipse.xtext.example.arithmetics.ui.zip
+SHA1-Digest: 8byA1tSriEmzcAHhETGV2WzhRN4=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: .settings/org.eclipse.jdt.core.prefs
+SHA1-Digest: vOlD4s9W1fculvyfNoYk9UiqrB0=
+
+Name: contents/org.eclipse.xtext.gmf.glue.zip
+SHA1-Digest: iIbKWNqbo8ngn+uuuakXxRGhs7o=
+
+Name: contents/org.eclipse.xtext.example.domainmodel.zip
+SHA1-Digest: amJCJOPetOvTbQuuWPhZK7QzM1w=
+
+Name: contents/org.eclipse.xtext.example.gmf.diagram.zip
+SHA1-Digest: I5U8ZjINs+lGz0KxfpJZP36ZOt0=
+
+Name: .settings/org.eclipse.core.resources.prefs
+SHA1-Digest: GjQe3RxmIv+U1laWZOquLvBp9Fc=
+
+Name: contents/org.eclipse.xtext.example.ecoredsl.ui.zip
+SHA1-Digest: qL07kXs+Xhe4i8WW1neJDChAxVI=
+
+Name: .project
+SHA1-Digest: GAg3b7G58soLKv1zKvkzxfEtN64=
+
+Name: about.html
+SHA1-Digest: ndvVw5+urNOEMhFEsasUKrpQYII=
+
+Name: .settings/org.eclipse.jdt.launching.prefs
+SHA1-Digest: JpEbMgPonDRBH34Y27wvgQfU528=
+
+Name: .classpath
+SHA1-Digest: Mwulsl4ZpM8E5Z6Kbq3pLUgFbes=
+
+Name: build.properties
+SHA1-Digest: qxipazRP+tMDrhOUYiE/9WcUHn8=
+
+Name: icons/genproject.gif
+SHA1-Digest: SPEb+m5buGEc7dcLjOv5+BWOb9M=
+
+Name: contents/org.eclipse.xtext.example.fowlerdsl.ui.zip
+SHA1-Digest: oAotGuvk0HEBaZKW3lpS6y9usco=
+
+Name: contents/org.eclipse.xtext.example.domainmodel.ui.tests.zip
+SHA1-Digest: X0zMrOgMisortatGiR5m8RajvQs=
+
+Name: contents/org.eclipse.xtext.example.arithmetics.tests.zip
+SHA1-Digest: k9FBA3KKNHE1hI6tmRLkXse1mOc=
+
+Name: contents/org.eclipse.xtext.example.gmf.edit.zip
+SHA1-Digest: +HfG/gbsBrfj2PkcjOlf2Suxp+Y=
+
+Name: contents/org.eclipse.xtext.example.ecoredsl.zip
+SHA1-Digest: zV+it16Seg3YXHG+oyG1NrK69qE=
+

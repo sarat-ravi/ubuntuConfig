@@ -1,0 +1,1081 @@
+/*
+	version 1.1
+	stylesheet for IST main website
+	kalle nemvalts 2006-11-16
+	resizable, text-zoomable
+
+	ucbito_		prefix used for most styles to avoid CSS namespace collisions
+				(UC Berkeley Information Technology Organization)
+
+	color table:
+	#ffffff white, body background
+	#02305c dark blue, banner background, right box background
+	#f0c419 yellow, borders
+	#f54c00 red-orange, navigation highlights
+	#bdd1cc green patina, quick links box
+	#c5d2e3 light blue, left menu box
+
+	#022648 body text; slightly darker version of #02305c and #022b52 (previous value)
+	#004d99 link; brighter, 100% saturated version of #336699
+	#116673 vlink; lighter, bluer, more saturated version of #336666
+	#627d7c	active
+
+*/
+
+	body	{
+		min-width: 760px;
+		background-color: #ffffff;
+		color: #022648;
+		font-family: Verdana, sans-serif;
+		font-size: small;
+		line-height:	133%;
+		}
+
+	pre, tt	{
+		font-family:	"Courier New", Courier, monospaced;
+		}
+
+	a:link		{
+			text-decoration: none;	color: #005ab3;
+		}
+	a:visited	{
+			text-decoration: none;	color: #116673;
+		}
+	a:hover		{
+			text-decoration: underline;
+		}
+	a:active	{
+			text-decoration: none;	color: #627d7c;
+		}
+
+	a.offsite	{
+		padding-right: 15px;
+		background-image: url(/img/offsite.gif);
+		background-position: right center;
+		background-repeat: no-repeat;
+	}
+
+/*
+	name anchors do not activate
+*/
+
+	a[name]:hover	{
+			text-decoration: none;	color: #022648;
+		}
+
+/*
+	styles for other HTML elements
+*/
+
+	h1		{
+			font-size:		1.5em;
+			line-height:	120%;
+			font-family:	Arial, Verdana, sans-serif;
+		}
+
+	h2		{
+			font-size:		1.5em;
+			line-height:	120%;
+			font-family:	Arial, Verdana, sans-serif;
+			margin-top:		1.3em;
+			margin-bottom:	0.3em;
+		}
+
+	h3		{
+			font-size:		1.2em;
+			line-height:	120%;
+			font-family:	Arial, Verdana, sans-serif;
+			margin-top:		1.2em;
+			margin-bottom:	0.2em;
+		}
+
+
+	h4		{
+			font-size:		1em;
+			line-height:	120%;
+			font-family:	Verdana, sans-serif;
+			margin-top:		1.2em;
+			margin-bottom:	0.2em;
+		}
+
+
+	h5		{
+			font-size:		0.85em;
+			line-height:	133%;
+			font-family:	Verdana, sans-serif;
+			margin-top:		1.2em;
+			margin-bottom:	0.2em;
+		}
+
+	h6		{
+			font-size:		0.75em;
+			line-height:	133%;
+			font-family:	Verdana, sans-serif;
+			margin-top:		1.2em;
+			margin-bottom:	0.2em;
+		}
+
+/*	close up vertical space for paragraph after heading (but not h1) */
+
+	h2 + p, h3 + p, h4 + p, h5 + p, h6 + p	{
+			margin-top:		0.3em;
+		}
+
+/*	lists still need breathing space above */
+
+	h2 + ul, h3 + ul, h4 + ul, h5 + ul, h6 + ul	{
+			margin-top:		1em;
+		}
+
+	h2 + ol, h3 + ol, h4 + ol, h5 + ol, h6 + ol	{
+			margin-top:		1em;
+		}
+
+
+
+/*
+	some general-purpose classes
+*/
+
+	.ucbito_sm		{
+			font-size:	0.9em;
+			line-height:	133%;
+		}
+
+	.ucbito_upper	{
+			text-transform: uppercase;
+		}
+
+	.ucbito_hidden_label {
+		display: none;
+		}
+
+	.ucbito_no_display {
+		display: none;
+		}
+
+	.ucbito_handheld_no_display {
+		}
+
+	.ucbito_print_no_display {
+		}
+
+	.ucbito_invisible {
+		visibility: hidden;
+		}
+
+/*
+	for opening up spacing above list items
+*/
+
+	.ucbito_spaced	{
+			margin-top: 1em;
+		}
+
+	.ucbito_half_spaced	{
+			margin-top: 0.5em;
+		}
+
+
+/*
+	classes for laying out top banner
+	for now, fixed 70px height
+*/
+
+	#ucbito_top_container {
+		position: relative;		/* establish containing block for positioning */
+/*
+		the following works in all browsers except IE
+		so for now I'm setting a fixed height of 70 px;
+		setting a variable height would allow top_container
+		also to be variable height, to facilitate text zoom
+
+		height: 5.4em;
+		min-height: 70px;
+*/
+		height: 70px;
+		background-color: #02305c;
+		border-bottom: 3px solid #f0c419;
+	}
+
+	#ucbito_top_logo {
+		float: left;
+		position: absolute;
+		bottom: 0px; left: 0px;
+		margin-left: 0px;		/* hack for MacOSX IE 5 */
+	}
+
+	#ucbito_top_menu_container {
+		font-size:	0.9em;
+		white-space: nowrap;
+		background-color: transparent;		/* needed to override Jive KB stylesheet */
+		color: #ffffff;
+		z-index: 1;
+		position: absolute;
+		top: 0px; right: 0px;
+		margin-left: 250px;
+		width: auto;
+/*
+		the following would work if we could use the min-height setting in top_container
+
+		height: 3em;
+*/
+		height: 45px;
+		padding-top: 0.5em;
+		padding-right: 0.5em;
+		padding-bottom: 0.25em;
+		padding-left: 0.5em;
+	}
+
+	.ucbito_top_menu	{
+		display: inline;
+	}
+
+	.ucbito_top_menu a:link		{
+			text-decoration: none;	color: #ffffff;
+		}
+	.ucbito_top_menu a:visited	{
+			text-decoration: none;	color: #ffffff;
+		}
+	.ucbito_top_menu a:hover		{
+			text-decoration: underline;
+		}
+	.ucbito_top_menu a:active	{
+			text-decoration: none;
+		}
+
+	.ucbito_top_menu li {
+		display: inline;
+		white-space: nowrap;
+		margin-right: 0.5em;
+		margin-left: 0.5em;
+	}
+
+	#ucbito_top_search_form {
+		display: inline;
+		margin-right: 0.5em;
+		margin-left: 0.5em;
+	}
+
+	#ucbito_primary_menu_container {
+		background-color: #ffffff;
+		position: absolute;
+/*
+		it might seem better to pin everything to the lower left corner
+		but this doesn't work in Windows IE because Windows IE
+		doesn't preserve the height setting but allows it to expand
+
+		right: 0px; bottom: -3px;
+*/
+		right: 0px; top: 45px;
+		/*	increase margin from 250px for benefit of Mac OSX IE 5	*/
+		margin-left: 300px;
+		width: auto;
+		height: 28px;
+	}
+
+	#ucbito_primary_menu_curve {
+		/*	curve is background in a div rather than displayed as img element	*/
+		background-image: url(/img/smoothcurve.gif);
+		background-repeat: no-repeat;
+		float: left;
+		width: 53px;
+		height: 28px;
+	}
+
+	#ucbito_primary_menu_bar {
+		border-top: 3px solid #f0c419;
+		white-space: nowrap;
+		margin-left: 53px;
+		padding-top: 0.5em;
+		padding-right: 0.5em;
+		padding-bottom: 1.0em;
+		padding-left: 0.5em;
+	}
+
+	#ucbito_primary_menu {
+		display: inline;
+		padding-bottom: 0.75em;
+	}
+
+	#ucbito_primary_menu li {
+		display: inline;
+		list-style-type: none;
+		white-space: nowrap;
+		font-weight: bold;
+		margin-right: 0.5em;
+		margin-left: 0.5em;
+	}
+
+	#ucbito_primary_menu li a:hover		{
+			text-decoration: underline;
+		}
+	#ucbito_primary_menu li.ucbito_selected {
+			border-bottom: 4px solid #f54c00;
+		}
+	#ucbito_primary_menu li.ucbito_selected a:hover {
+			text-decoration: none;
+		}
+
+
+	#ucbito_breadcrumb_container {
+		font-size:	0.8em;
+		position: relative;		/* needed to bring it in front of top_container in Windows MSIE 6 */
+		padding-top: 0.125em;
+		padding-bottom: 0.125em;
+		padding-left: 0.75em;
+	}
+
+
+/*
+	containers for laying out the main body of the page:
+	left_container: left sidebar, to be used for navigation links, etc
+	main_container: main body of page, everything to right of sidebar
+		main_right_container: floating right-hand sidebar
+		main_mid_container: main content in middle of page
+
+	note: these have to appear in the order left_container, main_container,
+		main_right_container, main_mid_container; that is, the left and right
+		floats have to be placed before the main_mid_container can be filled;
+		to control this order, could use either a table or possibly tab order
+*/
+
+	#ucbito_left_container {
+		float: left;
+		clear: left;
+		width: 215px;
+		margin-top: 1em;		/* same as for main_container */
+		padding-top: 2em;		/* same as for main_right_container */
+	}
+
+	#ucbito_main_container {
+		margin-top: 1em;		/* same as for left_container */
+		margin-left: 215px;		/* same as width of left_container */
+		padding-left: 2.5em;
+	}
+
+	#ucbito_main_container h1 {
+		margin-top: 0em;		/* so h1 has no effect on margin-top of main_container */
+	}
+
+	#ucbito_main_mid_container {
+		margin-right: 15em;
+		padding-right: 2em;
+	}
+
+	#ucbito_main_right_container {
+		float: right;
+		width: 15em;
+		padding-top: 2em;		/* same as for left_container */
+	}
+
+
+/*
+	this box supplies padding around text where needed
+*/
+
+	.ucbito_clear_box {
+		padding-top: 0.25em;
+		padding-right: 0.75em;
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+	}
+
+
+/*
+	quick links clear box, transparent with border
+*/
+
+	.ucbito_ql_clrbox {
+		position: relative;		/* establish containing block for positioning	*/
+		margin-top: 1em;		/* same as left_menu_box, right_box				*/
+		border-top: 2px solid #02305c;
+		border-right: 2px solid #02305c;
+/*		need specific value for Windows IE 6; auto works everywhere else		*/
+/*		this is 2px less than width of left_container							*/
+		width: 213px;
+		font-size:	0.9em;
+	}
+
+	.ucbito_ql_clrbox_tr_corner {
+		position: absolute;
+		top: -2px;
+/*		for all browsers except Windows IE 6 could position from right:					*/
+/*		right: -2px;																	*/
+/*		but to make it work in Windows IE 6 we position from left						*/
+/*		this is width of left_container minus width of background image, 215-16 = 199	*/
+		left: 199px;
+		background-image: url(/img/ql-clrbox-tr.gif);
+		background-repeat: no-repeat;
+		background-position: top right;
+		width: 16px;
+		height: 11px;
+	}
+
+	.ucbito_ql_clrbox_bottom {
+/*		fix occasional spacing glitch in FF that leaves a 1px space above */
+		position: relative;
+		top: -1px;
+/*		end fix */
+		height: 12px;
+/*		need specific value for Windows IE 6; auto works everywhere else		*/
+/*		this is 2px less than width of left_container							*/
+		width: 213px;
+		border-right: 2px solid #02305c;
+		border-bottom: 2px solid #02305c;
+	}
+
+	.ucbito_ql_clrbox_br_corner {
+		position: absolute;
+/*		for all browsers except Windows IE 6 could position from right:					*/
+/*		right: -2px;																	*/
+/*		but to make it work in Windows IE 6 we position from left						*/
+/*		this is width of left_container minus width of background image, 215-16 = 199	*/
+		left: 199px;
+		bottom: -2px;
+		background-image: url(/img/ql-clrbox-br.gif);
+		background-repeat: no-repeat;
+		background-position: bottom right;
+		width: 16px;
+		height: 11px;
+	}
+
+	.ucbito_ql_clrbox ul {
+		margin-left: 0px;
+		padding-left: 1.25em;
+	}
+
+
+/*
+	quick links box, green
+*/
+
+	.ucbito_ql_box {
+		background-color: #bdd1cc;
+		background-image: url(/img/ql-box-tr.gif);
+		background-position: top right;
+		background-repeat: no-repeat;
+		font-size:	0.9em;
+		margin-top: 1em;		/* same as left_menu_box, right_box */
+		padding-top: 0.25em;
+		padding-right: 0.75em;
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+	}
+
+	.ucbito_ql_box_bottom {
+/*		fix occasional spacing glitch in FF that leaves a 1px space above */
+		position: relative;
+		top: -1px;
+/*		end fix */
+		background-color: #bdd1cc;
+		background-image: url(/img/ql-box-br.gif);
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		height: 12px;
+	}
+
+	.ucbito_ql_box ul {
+		margin-left: 0px;
+		padding-left: 1.25em;
+	}
+
+	.ucbito_green_bg {
+		background-color: #bdd1cc;
+	}
+
+
+/*
+	left navigation menu
+*/
+
+	#ucbito_left_menu_box {
+		background-color: #c5d2e3;
+		background-image: url(/img/lm-box-tr.gif);
+		background-position: top right;
+		background-repeat: no-repeat;
+		font-size:	0.9em;
+		line-height: 125%;
+		margin-top: 1em;		/* same as ql_box, right_box */
+		padding-top: 1.75em;
+		padding-right: 2px;
+		padding-bottom: 0.75em;
+		padding-left: 0px;
+	}
+
+	#ucbito_left_menu_box_bottom {
+/*		fix occasional spacing glitch in FF that leaves a 1px space above */
+		position: relative;
+		top: -1px;
+/*		end fix */
+		background-color: #c5d2e3;
+		background-image: url(/img/lm-box-br.gif);
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		height: 15px;
+	}
+
+/*
+	styles to implement left menu as nested ul's;
+	this has been tested to two levels of nesting
+*/
+
+	#ucbito_left_menu_box ul {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-left: 0px;
+		list-style-type: none;
+	}
+
+	#ucbito_left_menu_box li {
+		padding-top: 0.25em;
+		padding-bottom: 0.25em;
+		padding-left: 1.5em;
+		border-top: 1px solid #c5d2e3;
+		list-style-type: none;
+	}
+
+/*
+	styles to give extra indenting after the top item in the list;
+	windows IE 6 doesn't understand direct-descendant (>) or first-child syntax,
+	so the extra indenting doesn't work on windows IE 6,
+	but it "degrades gracefully" to match how it worked previously
+*/
+
+	#ucbito_left_menu_box > ul > li {
+		padding-left: 3.0em;
+	}
+
+	#ucbito_left_menu_box > ul > li:first-child {
+		font-weight: bold;
+		padding-left: 1.5em;
+	}
+
+/*
+		background-color: #ffffff;
+*/
+	#ucbito_left_menu_box li.ucbito_selected {
+		background-image: url(/img/selected.png);
+		background-position: 0px 0.375em;
+		background-repeat: no-repeat;
+	}
+
+	#ucbito_left_menu_box > ul > li.ucbito_selected {
+		background-position: 1.5em 0.375em;
+	}
+
+	#ucbito_left_menu_box > ul > li.ucbito_selected:first-child {
+		background-position: 0px 0.375em;
+	}
+
+	#ucbito_left_menu_box li.ucbito_home {
+/*	not needed but included for backward compatibility;
+	also used as a semi-compatibile workaround for Windows IE 6  */
+		font-weight: bold;
+	}
+
+	#ucbito_left_menu_box li.ucbito_selected_section {
+		background-color: #ffffff;
+	}
+
+	#ucbito_left_menu_box li.ucbito_selected a:hover		{
+			text-decoration: none;
+	}
+
+	#ucbito_left_menu_box li.ucbito_selected ul a:hover		{
+			text-decoration: underline;
+	}
+
+	#ucbito_left_menu_box li.ucbito_spaced {
+		margin-top: 1.5em;
+	}
+
+	.ucbito_light_blue_bg {
+		background-color: #c5d2e3;
+	}
+
+/*
+	the following styles are no longer used by the new templates
+	but are included here for backward compatibility
+*/
+
+	.ucbito_left_menu {
+		background-color: transparent;		/* needed to override Jive KB stylesheet */
+	}
+
+	.ucbito_left_menu div {
+		background-color: transparent;		/* needed to override Jive KB stylesheet */
+		padding-top: 0.25em;
+		padding-bottom: 0.25em;
+		padding-left: 12px;
+		margin-bottom: 2px;
+	}
+
+	.ucbito_left_menu div.ucbito_home {
+		font-weight: bold;
+	}
+
+	.ucbito_left_menu div.ucbito_selected {
+		background-color: #ffffff;
+		background-image: url(/img/selected.png);
+		background-position: center left;
+		background-repeat: no-repeat;
+	}
+
+	.ucbito_left_menu div.ucbito_selected a:hover		{
+			text-decoration: none;
+	}
+
+	.ucbito_left_menu div.ucbito_spaced {
+		margin-top: 1.5em;
+	}
+
+
+/*
+	inner navigation menu, horizontal, below page heading
+	now implemented as a ul
+*/
+
+	.ucbito_inner_menu_bar {
+		margin-bottom: 2em;
+	}
+
+	.ucbito_inner_menu_bar ul {
+		display: inline;
+		margin-left: 0px;
+		padding-left: 0px;
+		padding-bottom: 0.75em;
+	}
+
+	.ucbito_inner_menu_bar li {
+		display: inline;
+		white-space: nowrap;
+		font-size: 0.9em;
+		font-weight: bold;
+		margin-right: 1em;
+	}
+
+	.ucbito_inner_menu_bar li.ucbito_selected {
+		border-bottom: 3px solid #f54c00;
+	}
+
+	.ucbito_inner_menu_bar li.ucbito_selected a:hover		{
+			text-decoration: none;
+	}
+
+/*
+	the following styles are no longer used by the new templates
+	but are included here for backward compatibility
+*/
+
+	.ucbito_inner_menu {
+		display: inline;
+		padding-bottom: 0.75em;
+	}
+
+	.ucbito_inner_menu div {
+		display: inline;
+		font-size: 0.9em;
+		font-weight: bold;
+		margin-right: 1em;
+	}
+
+	.ucbito_inner_menu div.ucbito_selected {
+		border-bottom: 3px solid #f54c00;
+	}
+
+	.ucbito_inner_menu div.ucbito_selected a:hover		{
+			text-decoration: none;
+	}
+
+
+/*
+	right box, reversed out
+*/
+
+	.ucbito_right_box {
+		background-color: #02305c;
+		background-image: url(/img/right-box-tl.gif);
+		background-position: top left;
+		background-repeat: no-repeat;
+		color: #ffffff;
+		font-size:	0.9em;
+		margin-top: 1em;		/* same as ql_box, left_menu_box */
+		padding-top: 0.25em;
+		padding-right: 0.75em;
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+	}
+
+	.ucbito_right_box_bottom {
+/*		fix occasional spacing glitch in FF that leaves a 1px space above */
+		position: relative;
+		top: -1px;
+/*		end fix */
+		background-color: #02305c;
+		background-image: url(/img/right-box-bl.gif);
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		height: 12px;
+	}
+
+	.ucbito_right_box a:link		{
+			text-decoration: none;	color: #ffffff;
+		}
+	.ucbito_right_box a:visited	{
+			text-decoration: none;	color: #ffffff;
+		}
+	.ucbito_right_box a:hover		{
+			text-decoration: underline;
+		}
+	.ucbito_right_box a:active	{
+			text-decoration: none;
+		}
+
+	.ucbito_right_box ul {
+		margin-left: 0px;
+		padding-left: 1.25em;
+	}
+
+	.ucbito_dark_blue_bg {
+		background-color: #02305c;
+		color: #ffffff;
+	}
+
+	.ucbito_dark_blue_bg a:link		{
+			text-decoration: none;	color: #ffffff;
+		}
+	.ucbito_dark_blue_bg a:visited	{
+			text-decoration: none;	color: #ffffff;
+		}
+	.ucbito_dark_blue_bg a:hover		{
+			text-decoration: underline;
+		}
+	.ucbito_dark_blue_bg a:active	{
+			text-decoration: none;
+		}
+
+
+/*
+	right clear box, transparent with border
+*/
+
+	.ucbito_r_clrbox {
+		position: relative;		/* establish containing block for positioning	*/
+		margin-top: 1em;		/* same as left_menu_box, right_box				*/
+		border-top: 2px solid #02305c;
+		border-left: 2px solid #02305c;
+		font-size:	0.9em;
+		width: auto;
+	}
+
+	.ucbito_r_clrbox_tl_corner {
+/*		position: absolute; would give correct vertical spacing but doesn't work in Windows IE 6	*/
+/*		unfortunately this leaves extra vertical spacing at the top									*/
+		position: relative;
+		top: -2px;
+		left: -2px;
+		background-image: url(/img/r-clrbox-tl.gif);
+		background-repeat: no-repeat;
+		background-position: top left;
+		width: 16px;
+		height: 11px;
+	}
+
+	.ucbito_r_clrbox_bottom {
+/*		fix occasional spacing glitch in FF that leaves a 1px space above */
+		position: relative;
+		top: -1px;
+/*		end fix */
+		height: 12px;
+		border-bottom: 2px solid #02305c;
+		border-left: 2px solid #02305c;
+		width: auto;
+	}
+
+	.ucbito_r_clrbox_bl_corner {
+		position: absolute;
+		left: -2px;
+		bottom: -2px;
+		background-image: url(/img/r-clrbox-bl.gif);
+		background-repeat: no-repeat;
+		background-position: bottom left;
+		width: 16px;
+		height: 11px;
+	}
+
+	.ucbito_r_clrbox ul {
+		margin-left: 0px;
+		padding-left: 1.25em;
+	}
+
+
+/*
+	right green box
+*/
+
+	.ucbito_right_grnbox {
+		background-color: #bdd1cc;
+		background-image: url(/img/r-grnbox-tl.gif);
+		background-position: top left;
+		background-repeat: no-repeat;
+		font-size:	0.9em;
+		margin-top: 1em;		/* same as ql_box, left_menu_box */
+		padding-top: 0.25em;
+		padding-right: 0.75em;
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+	}
+
+	.ucbito_right_grnbox_bottom {
+/*		fix occasional spacing glitch in FF that leaves a 1px space above */
+		position: relative;
+		top: -1px;
+/*		end fix */
+		background-color: #bdd1cc;
+		background-image: url(/img/r-grnbox-bl.gif);
+		background-position: bottom left;
+		background-repeat: no-repeat;
+		height: 12px;
+	}
+
+	.ucbito_right_grnbox ul {
+		margin-left: 0px;
+		padding-left: 1.25em;
+	}
+
+
+/*
+	classes for laying out bottom of page
+*/
+
+	.ucbito_full_width_container {
+/*
+		uses full width of viewport;
+		like ucbito_bottom_container but can be reused
+*/
+		clear: both;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		padding-top: 0.25em;
+		padding-right: 0.75em;
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+	}
+
+	#ucbito_bottom_container {
+		clear: both;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		padding-top: 0.25em;
+		padding-right: 0.75em;
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+	}
+
+	.ucbito_bottom_nav {
+		line-height:	133%;
+		text-align: center;
+	}
+
+	.ucbito_bottom_nav span {
+		display: inline;
+		white-space: nowrap;
+		padding-right: 0.5em;
+		padding-left: 0.5em;
+	}
+
+	#ucbito_copyright_and_date {
+		line-height:	133%;
+		text-align: center;
+	}
+
+	#ucbito_bottom_bar {
+		border-top: 3px solid #f0c419;
+		height: 9px;
+		background-color: #02305c;
+	}
+
+/*
+	for producing a table separated only by horizontal rules;
+	a better way would be to set a border-top on tr elements,
+	but that's not understood by MSIE 6 for Windows
+*/
+
+	table.ucbito_horiz_rule {
+		border-collapse: collapse;
+		border-bottom: 2px solid #c5d2e3;
+		margin-right: 2em;
+		margin-bottom: 2em;
+		}
+
+	table.ucbito_horiz_rule h3 {
+		margin-top: 0.25em;
+		margin-bottom: 0.25em;
+		}
+
+	.ucbito_horiz_rule tr {
+		vertical-align: top;
+		}
+
+	.ucbito_horiz_rule th {
+		text-align: left;
+		padding-top: 2px;
+		padding-right: 6px;
+		padding-bottom: 2px;
+		padding-left: 6px;
+		border-top: 2px solid #c5d2e3;
+		}
+
+	.ucbito_horiz_rule td {
+		text-align: left;
+		padding-top: 2px;
+		padding-right: 6px;
+		padding-bottom: 2px;
+		padding-left: 6px;
+		border-top: 2px solid #c5d2e3;
+		}
+
+	tr.ucbito_light_blue_bg th {
+		border-top: none;		/* don't put border if parent tr has fill */
+		}
+
+	tr.ucbito_green_bg th {
+		border-top: none;		/* don't put border if parent tr has fill */
+		}
+
+	tr.ucbito_dark_blue_bg th {
+		border-top: none;		/* don't put border if parent tr has fill */
+		}
+
+	tr.ucbito_light_blue_bg td {
+		border-top: none;		/* don't put border if parent tr has fill */
+		}
+
+	tr.ucbito_green_bg td {
+		border-top: none;		/* don't put border if parent tr has fill */
+		}
+
+	tr.ucbito_dark_blue_bg td {
+		border-top: none;		/* don't put border if parent tr has fill */
+		}
+
+	th.ucbito_no_border_top {
+		border-top: none;		/* needed for cleanup in MSIE 5 for Mac OS X */
+	}
+
+	td.ucbito_no_border_top {
+		border-top: none;		/* needed for cleanup in MSIE 5 for Mac OS X */
+	}
+
+/*
+	for headings with colored backgrounds supply some padding
+*/
+
+	h2.ucbito_green_bg {
+		padding: 0.125em 0.25em 0.125em 0.25em;
+	}
+
+	h2.ucbito_light_blue_bg {
+		padding: 0.125em 0.25em 0.125em 0.25em;
+	}
+
+	h2.ucbito_dark_blue_bg {
+		padding: 0.125em 0.25em 0.125em 0.25em;
+	}
+
+	h3.ucbito_green_bg {
+		padding: 0.125em 0.25em 0.125em 0.25em;
+	}
+
+	h3.ucbito_light_blue_bg {
+		padding: 0.125em 0.25em 0.125em 0.25em;
+	}
+
+	h3.ucbito_dark_blue_bg {
+		padding: 0.125em 0.25em 0.125em 0.25em;
+	}
+
+	h4.ucbito_green_bg {
+		padding: 0.125em 0.25em 0.25em 0.25em;
+	}
+
+	h4.ucbito_light_blue_bg {
+		padding: 0.125em 0.25em 0.25em 0.25em;
+	}
+
+	h4.ucbito_dark_blue_bg {
+		padding: 0.125em 0.25em 0.25em 0.25em;
+	}
+
+
+/*
+	for floating RH photo with caption;
+	images to be 215 px wide with 12 px radius rounded corners
+*/
+
+	.ucbito_right_float {
+		text-align: right;
+		float: right;
+		margin-left: 2em;	/* same as ucbito_main_mid_container's padding-right */
+		padding-top: 2em;	/* same as for ucbito_main_right_container */
+		margin-bottom: 1em;
+		width: 215px;
+	}
+
+
+/*
+	for photos
+*/
+
+	.ucbito_right_photo {
+		font-size:	0.9em;	/* same as for ucbito_right_box */
+		margin-top: 1em;	/* same as for ucbito_right_box */
+		margin-bottom: 1em;
+	}
+
+	.ucbito_left_photo {
+		font-size:	0.9em;	/* same as for ucbito_right_box */
+		float: left;
+		margin-top: 1em;	/* same as for ucbito_ql_box */
+		margin-bottom: 1em;
+	}
+
+	.ucbito_1px_border {
+		border: 1px solid  #02305c;
+	}
+
+
+/*
+	page table of contents
+*/
+
+	ul.ucbito_page_contents {
+		margin-top: 1em;
+		margin-right: 9em;
+		margin-left: 3em;
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	ul.ucbito_page_contents li {
+		display: inline;
+		background-image: url(/img/bullet.gif);
+		background-position: 0.5em center;
+		background-repeat: no-repeat;
+		padding-left: 1.5em;
+		white-space: nowrap;
+	}
+
+/*
+	printer friendly link
+*/
+
+	#ucbito_print_friendly {
+		font-size: 0.9em;
+		background-image: url(/img/printer.gif);
+		background-position: 0.75em center;
+		background-repeat: no-repeat;
+		padding-left: 2em;
+	}

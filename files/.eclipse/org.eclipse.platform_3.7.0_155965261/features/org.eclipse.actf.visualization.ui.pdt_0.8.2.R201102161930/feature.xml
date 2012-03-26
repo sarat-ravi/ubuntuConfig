@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.actf.visualization.ui.pdt"
+      label="%featureName"
+      version="0.8.2.R201102161930"
+      provider-name="Eclipse.org">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <url>
+      <update label="Eclipse ACTF Update Site" url="http://download.eclipse.org/technology/actf/0.8/update-site/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+      <import feature="org.eclipse.actf.visualization" version="0.8.2"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.actf.visualization.ui.pdt"
+         download-size="0"
+         install-size="0"
+         version="0.8.2.R201102161930"
+         unpack="false"/>
+
+</feature>

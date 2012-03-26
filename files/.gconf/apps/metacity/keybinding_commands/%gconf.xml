@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="command_2" mtime="1331079118" type="string">
+		<stringvalue>wmctrl -c :ACTIVE:</stringvalue>
+	</entry>
+	<entry name="command_1" mtime="1331078647" type="string">
+		<stringvalue>wmctrl -r :ACTIVE: -b toggle,maximized_vert,maximized_horz</stringvalue>
+	</entry>
+</gconf>

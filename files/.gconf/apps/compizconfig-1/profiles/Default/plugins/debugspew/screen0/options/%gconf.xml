@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="spew_on_fatal" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/debugspew/screen0/options/spew_on_fatal"/>
+	<entry name="spew_key" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/debugspew/screen0/options/spew_key"/>
+</gconf>

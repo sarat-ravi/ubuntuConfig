@@ -1,0 +1,699 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;font-weight:normal;vertical-align:baseline;background:transparent;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';}:focus{outline:0;}ins{text-decoration:none;}del{text-decoration:line-through;}table{border-collapse:collapse;border-spacing:0;}input{margin:0;padding:0;}
+
+/* basic elements */
+body {font-family: arial, helvetica, sans-serif; font-size: 0.8em; line-height: 1.1; margin: 0 auto;}
+#main-body {width: 1000px; margin: 0 auto;}
+
+h1, h2, h3, h4, h5, h6 {cursor: default;}
+h1 {margin-top: 2px; height: 40px;}
+h2 {font-size: 2em; margin: 0 -0.3em 0.5em -0.3em; padding-bottom: 0.2em;}
+h3 {font-size: 1.7em; margin: 0.8em 0 0.3em 0;}
+h4 {font-size: 1.4em; margin: 0.8em 0 0.2em 0;}
+h5 {font-size: 1.1em; font-weight:bold;}
+h6 {font-size: 1em; font-weight:bold;}
+
+p {margin: 0.5em 0;}
+p.large-margin {margin: 1em 0;}
+
+optgroup {font-weight: bold;}
+optgroup > option {padding-left: 1em;}
+
+input[type="submit"], input[type="reset"], input[type="button"], button {border-radius: 0.2em; -webkit-border-radius: 0.2em; -moz-border-radius: 0.2em; padding: 0.2em 0.4em;}
+input[type="submit"], input[type="reset"], input[type="button"] {margin: 0.6em 0; font-size: 1em;}
+input[type="submit"].small-submit {padding: 0 0.2em; margin: 0.3em 0; font-size: 1em; line-height: 1.4em;}
+
+dt {margin-left: 0;}
+dt {font-weight: bold;}
+dd {margin-left: 1em;}
+
+strong {font-weight: bold;}
+
+th {font-weight: bold;}
+th label {font-weight: bold;}
+
+ol{list-style-type: decimal;}
+ol li{margin-left: 3em;}
+
+/* common classes */
+.indent li {margin-left: 2em;}
+.bullets li {list-style-type: square; margin-left: 2em;}
+.faded-text {font-size: 10px; color: #777;}
+.bold {font-weight: bold;}
+div.error {border: 1px solid #CC1100; background-color: #FFC1C1; color: #000000; padding: 1em; margin: 0.25em 0;}
+div.warning {border: 1px solid #FFC800; background-color: #FFE999; color: #000000; padding: 1em; margin: 0.25em 0;}
+div.success, li.success {border: 1px solid #2FA025; background-color: #D8FCCE; color: #000000; padding: 1em; margin: 0.25em 0;}
+.form-error, .inline-error, span.error, a.error, a.error:visited, a.error:hover {color: #FF0000;}
+.align-center {text-align: center;}
+.align-right {text-align: right;}
+.align-left {text-align: left;}
+.align-top {vertical-align: top;}
+.clear-left {clear: left;}
+.clear-right {clear: right;}
+.clear-both {clear: both; height: 0; width: 0;}
+.float-left {float: left;}
+.float-right {float: right;}
+
+h4 a.action, h5 a.action{font-size: 0.7em; text-transform: lowercase;}
+
+.data td, .data th {padding: 0.25em;}
+.data .table-header {background-color: #AAA;}
+.data .odd  {background-color: #EEE;}
+.data .even {background-color: #DDD;}
+
+.no-bottom-margin {margin-bottom: 0;}
+.no-top-margin {margin-top: 0;}
+.nowrap {white-space: nowrap;}
+.inline {display: inline;}
+.inline-block {display: inline-block;}
+.no-decoration {text-decoration: none;}
+.hidden {display: none; height: 0; width: 0; visibility: hidden;}
+
+/* forms */
+form table tbody tr th {text-align: right; vertical-align: top;}
+form table tbody td ul {margin:0.1em 0.5em;}
+fieldset {border: 1px solid #e7e7e7; line-height: 1.2em; border-radius: 0.75em; -webkit-border-radius: 0.75em; -moz-border-radius: 0.75em; padding: 0.7em 1em; margin: 0.5em 0;}
+legend {padding: 0 0.25em;}
+select {margin-top: 0.1em;}
+.errorlist {color: #ff0000;}
+.form_div {margin: 0.8em 0 0 0;}
+.form_div input[type="text"], .form_div select, .form_div textarea {margin-top: 0.1em; font-family: helvetica, arial, sans-serif; font-size: 1.2em;}
+.form_div textarea {width: 30em; height: 10em; padding: 0;}
+.form_div.short_textarea textarea {height: 4em;}
+.wide_textarea textarea {width: 100%;}
+.course-search {white-space: nowrap;}
+.course-search-right {position: absolute; right: 0; top: 0; height: 2em; margin-top: 0.3em;}
+.course-search input {width: 48%;}
+.schedule-course-search #search-dept {float: left;}
+.schedule-course-search #search-course {float: right;}
+#recaptcha_widget_div {margin-bottom: 1em; float: left;}
+.help-text {color: #777; font-size: 0.9em;}
+.help-text a, .help-text a:visited, .help-text a:hover, .help-text a:active {color: #91a1b7;}
+
+/* layout elements */
+#header, #nav {
+  border-radius: 0 0 1em 1em;
+  -webkit-border-radius: 0 0 1em 1em;
+  -moz-border-radius: 0 0 1em 1em;
+}
+
+#title {padding: 1em;}
+
+#statusbar {text-align: right; float: right; vertical-align: top; padding: 0.5em; margin: 0; font-family: "trebuchet ms", arial, verdana, sans-serif}
+#statusbar a {text-decoration:none;}
+#statusbar a:hover {text-decoration:underline;}
+#statusbar .menu-trigger {position: relative; display: inline-block;}
+#statusbar .menu-trigger img {margin-bottom: 0.15em;}
+#statusbar .dropdown {
+  position: absolute;
+  text-align: left;
+  display: none;
+  padding-top: 0.3em;
+  line-height: 1.3em;
+  left: -0.3em;
+}
+#statusbar .dropdown-content {padding: 0.3em;}
+#statusbar .dropdown a {white-space: nowrap;}
+#statusbar .menu-trigger:hover .dropdown {display: inline-block;}
+
+#nav {list-style-type: none; clear:left; float:left; width: 100%; padding: 0.5em 0;}
+#nav li {float:left; font-family: "Arial"; font-size: 14px; position: relative;}
+#nav li a {font-weight: bold; text-decoration: none; padding: 0.5em; margin: 0 0.5em; display: block;}
+#nav li a:hover {border-radius: 0.5em; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em;}
+.nav-badge {
+  position: absolute; 
+  top: -4px;
+  right: -6px;
+  padding: 2px 4px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#content {
+  margin-top: 1.5em;
+  clear:both;
+  min-height: 20em;
+  padding: 1em 1.6em;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+}
+
+#footer {margin: 0.4em 0 1em 0;}
+#footer-left {text-align: left; float: left; padding-left: 1em;}
+#footer-right {text-align: right; float: right; padding-right: 1em;}
+
+/* Pick School */
+.schoollist {width: 50%;}
+.schoollist-left {float: left;}
+.schoollist-right {float: right;}
+.schoollist li {margin: 1em;}
+.schoollist li input {
+	display: block;
+	padding: 1em;
+	text-align: center;
+	border: 1px solid #ddd;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+	background-color: #fafafa;
+	width: 100%;
+}
+.schoollist li input:hover {background-color: #ffe463; border-color: #fbd000; cursor: pointer;}
+
+/* Explore */
+#deptlist-left {float: left; width: 50%;}
+#deptlist-right {float: right; width: 50%;}
+#deptlist-left li, #deptlist-right li, #dept-course-list li {margin: 0.25em 0;}
+
+.left-pane {float: left; width: 50%;}
+.right-pane {float: right; width: 50%;}
+
+#course-detail-left-pane {float: left; width: 60%;}
+#course-detail-right-pane {float: right; width: 40%;}
+
+.section {margin-bottom: 0.5em;}
+.section.tabbed {margin-left: 2em;}
+#course-data {margin-top: 0.4em;}
+.course-aspect {margin: 1em; padding: 1em; border: 1px solid #ddd;}
+.section .add {float: right;}
+.note .context {display: none;}
+#exams {max-height: 400px; overflow-y: scroll;}
+
+.overview-box {padding: 0.8em; margin: 0 0 0.8em 1em; width: 240px;}
+.overview-box-inner {width: 180px; float: right;}
+.overview-footer {font-size: 0.8em;}
+#tab-overview dd {margin-bottom: 0.6em;}
+
+.req-header {font-size: 1.2em; font-weight: bold;}
+table.textbook {margin: 0; border: 0px; width: 100%;}
+.textbook td {vertical-align: top; padding-top: 1em;}
+.textbook-image-td {text-align: center; vertical-align: middle !important;}
+.textbook-description-td {padding-left: 1em;}
+.textbook-description-td li {margin: 0.1em 0;}
+#books td.nodata {padding-top: 0.4em;}
+.textbook-prices {margin-top: 0.2em;}
+.textbook-price-box {float: left; margin: 0.4em 0.5em 0 0; padding: 0.4em;}
+.textbook-price-box-title {text-align: center; font-style: italic; margin-bottom: 0.4em;}
+.textbook-price-table {width: 100%; border: 0;}
+.textbook-price-table td {padding-top: 0;}
+.textbook-price-td {padding-left: 0.4em; line-height: 1.2em;}
+/* end Explore */
+
+/* index page */
+.home-left-pane {width: 460px; float: left;}
+.home-right-pane {width: 460px; float: right;}
+.description {font-size: 1.2em; font-family: 'Lucida Sans Unicode',Helvetica,Arial,sans-serif; margin-top: 1.6em;}
+.no-margin {margin: 0;}
+.rounded-bordered-box {
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+}
+.homepage-box {padding: 0 1em; margin-bottom: 1em;}
+span.homepage-school {color: #444; font-weight: bold;}
+.small-login-box li {margin: 0.6em 0;}
+.small-login-box li a {font-size: 1.2em;}
+
+table.features {margin-top: 1em;}
+table.features img {margin-right: 1em;}
+table.features ul li {margin: 0 5em 0.5em 0; color: #555;}
+table.features ul li a {color: #444;}
+table.features td {padding-bottom: 1em; vertical-align: default;}
+table.features h4 {margin: 0 0 0.6em 0;}
+td.features-img {vertical-align: middle; text-align: center; width: 70px;}
+/* end index page */
+
+#top-karma {
+  float: right;
+  min-width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  margin-left: 1em;
+}
+#karma-leaderboard {
+  padding: 1em;
+}
+#top-karma h3 {text-align: center; margin-top: 0.3em;}
+#top-karma table {margin: 0 auto;}
+#top-karma th, #top-karma td {padding: 0.25em;}
+#next-rank {
+  border-top: 1px solid #ddd;
+  padding: 0.5em;
+  border-radius: 0 0 1em 1em;
+  -webkit-border-radius: 0 0 1em 1em;
+  -moz-border-radius: 0 0 1em 1em;
+}
+#karma th,#karma td {padding: 0.25em; border: 1px solid #000; text-align: left;}
+
+#user-classes th, #user-classes td {padding: 0.25em 0.75em; text-align: center;}
+#karma td, #karma th {padding: 0.25em 0.75em;}
+
+#invites td, #invites th {padding: 0.25em 0.75em; text-align: left;}
+
+.schedule-half-hour { border-bottom: 1px solid #ddd; }
+.schedule-hour { border-bottom: 1px dotted #ddd; }
+.schedule-hour-text {
+  background-color: #fafafa;
+  border-right: 1px solid #ddd;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 2px;
+}
+.schedule-section-content {
+  font-size: 10px;
+  text-align: center;
+  padding: 2px;
+}
+.schedule-section-content a, .schedule-section-content a:visited {color: #232323;}
+.schedule-day-vertical { border-right: 1px dotted #ddd; }
+.schedule-day-header {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 2px;
+}
+
+div#sections {padding: 0 1em;}
+table.sections {width: 100%;}
+table.sections td, table.sections th {
+  border: 1px solid #ddd;
+  padding: 0.25em;
+}
+
+.location {margin-top: 0.3em;}
+
+.finals {font-size: 0.8em;}
+.finals td, .finals th {border: 1px solid #000; padding: 0.25em;}
+.final-date-cell {text-align: center;}
+.final-time-cell {text-align: right;}
+.final-cell, .final-date-cell {width: 6em; text-align: center; white-space: nowrap;}
+
+div.button {display: inline-block; border: 1px solid #aaa; background: #eee; padding: 0.25em;}
+div.button:hover {cursor: pointer;}
+div.button-margin {margin: 0.5em 0;}
+div.button-left-margin {margin-left: 0.5em;}
+div.button-right-margin {margin-right: 0.5em;}
+
+div.button-wrapper {display: inline-block; padding: 0.25em;}
+
+.generate-courses-course {
+  margin: 0.5em 0;
+  padding: 0.4em;
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+}
+
+.generate-courses-course-inner {
+  height: 16px;
+  line-height: 16px;
+}
+
+.generate-courses-course-inner .middle {vertical-align: middle;}
+
+.generate-courses-course-inner span {line-height: 16px;}
+
+#course-pane {width: 300px; float: left;}
+#generate-courses-table {border-spacing: 0.25em;}
+#generate-courses-table td, #generate-courses-table th{
+  background-color: #eee;
+  padding: 0.25em;
+}
+
+#generate-pane {
+  padding: 0.25em 1em;
+  border-radius: 0 0 1em 1em;
+  -webkit-border-radius: 0 0 1em 1em;
+  -moz-border-radius: 0 0 1em 1em;
+}
+#generate-pane-left {width: 50%; float:left;}
+#generate-pane-right {width: 50%; float:left;}
+
+#schedule-pane {width: 620px; float: left; padding-left: 36px;}
+
+#schedule-pane-bottom {clear: both;}
+
+.options-td {padding-left: 0.8em;}
+
+.group {display: inline-block; margin: 0.2em 1em 1em 0; vertical-align: top; position: relative;}
+.course-group {border: 1px solid #ddd; width: 120px; min-height: 2.3em;}
+.course-group li {background-color:#D1E6EC; border: 1px solid #7EA6B2; margin: 0.25em; padding: 0.25em 0.5em;}
+.course-group li:hover {cursor: move;}
+.group-select-num {line-height: 1.8em;}
+.delete-group {position: absolute; right: -8px; bottom: -8px;}
+
+.day-check {margin-right: 0.2em; margin-left: 0.4em;}
+.day-check-first {margin-left: 0;}
+.custom-div {margin-top: 0.8em;}
+
+#advanced-options-button {padding-left: 9px; background-repeat: no-repeat; background-position: left center;}
+
+/* View Schedule Page */
+.view-course {
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+
+.view-course-info {padding: 0.5em;}
+.view-course-info-text {margin: 0.5em 0; line-height: 1.2em;}
+.view-course-info-sections {margin: 0.4em 1em; display: none;}
+.view-course-info-footer {padding: 0.5em;}
+.view-course-share {width: 100%;}
+
+#view-schedule {
+  float: left;
+  width: 540px;
+}
+
+#view-courses {
+  float: right;
+  width: 400px;
+}
+
+.schedule-meta {
+  margin: 0.5em 0;
+}
+/* End View Schedule Page */
+
+#tooltip {
+  position: absolute;
+  z-index: 3000;
+  border: 1px solid #111;
+  background-color: #eee;
+  padding: 5px;
+}
+#tooltip h3, #tooltip div { margin: 0; font-weight: normal; font-size: 0.9em; }
+
+.announcement {margin-left: 1em;}
+.announcement ul li {list-style-type: disc; margin-left: 2em;}
+
+#candidate-schedule-area .meta, #schedule-pane .meta {padding: 0.5em 0.2em;}
+
+/* pagination */
+.pagination {
+  font-size: 80%;
+}
+
+.pagination li {
+  text-align: center;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.pagination li.page {
+  text-decoration: none;
+  border: solid 1px #AAE;
+  color: #15B;
+}
+
+.pagination li, .pagination span {
+  display: block;
+  float: left;
+  padding: 0.3em 0.5em;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.pagination li.ellipse {
+  padding: 0; margin: 0;
+}
+
+.pagination .current {
+  background: #26B;
+  color: #fff;
+  border: solid 1px #AAE;
+}
+
+.pagination li.page, .pagination li.current {
+  cursor: pointer;
+}
+
+.pagination li.pagebox {
+  width: 1em;
+}
+
+.pagination .current.prev, .pagination .current.next {
+  cursor: default;
+  color:#999;
+  border-color:#999;
+  background:#fff;
+}
+
+/* autocomplete */
+.ac_results {
+  padding: 0px;
+  border: 1px solid black;
+  background-color: white;
+  overflow: hidden;
+  z-index: 99999;
+}
+
+.ac_results ul {
+  width: 100%;
+  list-style-position: outside;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ac_results li {
+  margin: 0px;
+  padding: 2px 5px;
+  cursor: default;
+  display: block;
+  /* 
+  if width will be 100% horizontal scrollbar will apear 
+  when scroll mode will be used
+  */
+  /*width: 100%;*/
+  font: menu;
+  font-size: 12px;
+  /* 
+  it is very important, if line-height not setted or setted 
+  in relative units scroll will be broken in firefox
+  */
+  line-height: 16px;
+  overflow: hidden;
+}
+
+.ac_loading {
+  background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+  background-color: #eee;
+}
+
+.ac_over {
+  background-color: #0A246A;
+  color: white;
+}
+
+/* ratings */
+.flag img {vertical-align: middle;}
+.flag-textarea {width: 98%; height: 3em;}
+.recent-rating {margin:0.5em 0 0.5em 0.5em; background-color: #f4f4f4; padding: 0.5em; -webkit-border-radius: 0.6em; -moz-border-radius: 0.6em; border-radius: 0.6em;}
+.recent-rating .comment {overflow: hidden; padding: 0.25em 0;}
+.rating-number {
+  display: inline-block;
+  padding: 0.25em;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  font-weight: bold;
+  min-width: 1.2em;
+  text-align: center;
+  cursor: default;
+}
+a .rating-number {cursor: pointer;}
+.rating-small {font-size: 0.9em;}
+.rating-medium {
+  font-size: 1.3em;
+  border-radius: 0.4em;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+}
+.rating-big {font-size: 2em; margin-right: 0.25em;}
+#rate {width: 700px;}
+#rate .form_div {padding: 1em; margin: 0.5em 0.75em 0.5em 0; border: 1px solid #ddd; -webkit-border-radius: 0.5em; -moz-border-radius: 0.5em; border-radius: 0.5em;}
+.rate-smileys {margin-bottom: 0.3em; margin-top: 0.75em; height: 16px; position: relative;}
+.smiley {margin: 0 auto; position: absolute; width: 100%; top: 0; left: 0;}
+.other-ratings {position: relative; height: 0.75em;}
+.other-ratings li {display: inline; position: absolute; padding: 0.5em; margin-left:-0.75em; cursor: default; color: #555; font-size: 0.75em;}
+.other-ratings .context {display: none;}
+.main-rating {margin: 0.5em;}
+.ratings-instructor {margin: 0.4em 1em;}
+
+#schedule-help-icon, #course-help-icon {
+  cursor: help;
+}
+
+#section-selections {
+  margin-bottom: 1em;
+}
+
+.course-info {
+  padding: 1em;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  margin: 0.5em 0 0 0;
+  position: relative;
+}
+
+/* IE6 needs this */
+.course-info p {
+  margin: 0;
+  padding-top: 0.5em;
+}
+
+.primary-section .details {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.3em;
+  color: #666;
+  border-left: 1px solid #999;
+  border-bottom: 1px solid #999;
+  border-bottom-left-radius: 0.5em;
+  -webkit-border-bottom-left-radius: 0.5em;
+  -moz-border-radius-bottomleft: 0.5em;
+}
+
+.primary-section {
+  padding: 0.5em;
+}
+
+.secondary-sections-padding {
+  padding: 0 1em;
+}
+
+.secondary-sections {
+  -moz-border-radius: 0 0 0.5em 0.5em;
+  -webkit-border-radius:0 0 0.5em 0.5em;
+  border-radius: 0 0 0.5em 0.5em;
+}
+
+.secondary-sections.detached {
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  margin: 1.5em 0 0 0;
+}
+
+.secondary-sections-content {
+  display: none;
+  overflow: hidden;
+}
+
+.secondary-sections-content-inner {
+  padding: 0.5em;
+}
+
+.secondary-sections-tab {
+  font-size: 0.8em;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #eee;
+  padding: 0.2em 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.secondary-section {
+  position: relative;
+}
+
+.secondary-section .details {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.3em;
+  color: #666;
+  border-left: 1px solid #999;
+  border-bottom: 1px solid #999;
+  border-bottom-left-radius: 0.5em;
+  -webkit-border-bottom-left-radius: 0.5em;
+  -moz-border-radius-bottomleft: 0.5em;
+}
+
+.sections-tab-arrow {
+  width: 7px;
+  height: 5px;
+  line-height: 5px;
+  position: absolute;
+  top: 0.5em;
+}
+
+.sections-tab-arrow-img {
+  width: 7px;
+  height: 5px;
+}
+
+.sections-tab-arrow.left {
+  left: 2em;
+}
+
+.sections-tab-arrow.right {
+  right: 2em;
+}
+
+.secondary-sections.hidden .secondary-sections-tab {
+  -moz-border-radius: 0 0 0.5em 0.5em;
+  -webkit-border-radius:0 0 0.5em 0.5em;
+  border-radius: 0 0 0.5em 0.5em;
+}
+
+.secondary-sections.detached .secondary-sections-tab {
+  -moz-border-radius: 0.5em 0.5em 0 0;
+  -webkit-border-radius: 0.5em 0.5em 0 0;
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.secondary-sections.detached.hidden .secondary-sections-tab {
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+
+/* friends */
+.friends-list li {margin: 1em 0;}
+/* end friends */
+
+/* features */
+#features td {padding: 0.1em;}
+.feature {}
+.feature-vote-arrows {width: 1em; height: 2em;}
+.feature-vote-arrows img {float: left;}
+.feature-vote-arrows img:hover {cursor: pointer;}
+.feature-score {font-size: 1.5em; text-align: center; vertical-align: middle;}
+.feature-description {vertical-align: middle;}
+/* end features */
+
+/* ac listing page */
+#offerings-subset-list {
+  margin: 0.5em 0;
+}
+#offerings-subset-list td, #offerings-subset-list th {
+  padding: 0.25em;
+}
+/* end ac listing page */
+
+#edit-semester { float: right; }
+#edit-semester label { color: #888; }

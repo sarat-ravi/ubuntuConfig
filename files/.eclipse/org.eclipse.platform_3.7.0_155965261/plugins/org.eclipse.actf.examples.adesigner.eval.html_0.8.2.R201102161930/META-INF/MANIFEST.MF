@@ -1,0 +1,70 @@
+Manifest-Version: 1.0
+Bundle-ClassPath: evalhtml.jar,.
+Bundle-Vendor: Eclipse.org
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: ACTF HTML evaluation example Fragment (Incubation)
+Bundle-SymbolicName: org.eclipse.actf.examples.adesigner.eval.html;sin
+ gleton:=true
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.actf.core,org.ecl
+ ipse.actf.model.ui,org.eclipse.actf.visualization.eval,com.ibm.icu,or
+ g.eclipse.actf.model.dom.html,org.eclipse.actf.visualization.engines.
+ blind,org.eclipse.actf.model.dom.dombycom
+Bundle-Version: 0.8.2.R201102161930
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/HtmlCheckerInfoPro
+ vider.class
+SHA1-Digest: HESS4/uqJo83I6ZBStC0SMzYxK4=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: about.html
+SHA1-Digest: 6iWCOXZprfOub4LeuEsP3zx5AiY=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/LanguageT
+ ag.class
+SHA1-Digest: RMlkCv0kuw5Obzg2RJILhCpxFYE=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/Checker.class
+SHA1-Digest: d/Nl3jCBdcAzHtzQQU1F6xRUljk=
+
+Name: resources/description.properties
+SHA1-Digest: ov7ChXhWY2fsskskR2FxBUphaz0=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/FieldsetM
+ anager.class
+SHA1-Digest: KtAG899XLfjBWwNZurgD6MhnY3A=
+
+Name: evalhtml.jar
+SHA1-Digest: Gv6dO84E9WrI+RcnXGYc7bMxd3w=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/CheckEngi
+ ne.class
+SHA1-Digest: AGqaIruTQvht/xQT4sdngowEDRQ=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/messages.
+ properties
+SHA1-Digest: U8FiodhYOz/yrT37wXtvYsoXnyM=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/Messages.
+ class
+SHA1-Digest: js01a7RSnnSZWTTfr3hndcgKe74=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/TitleChec
+ kResult.class
+SHA1-Digest: YhxwRl+9zEXIYXI+4Tf45Ilc4Y4=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/messages_
+ ja.properties
+SHA1-Digest: 2XGKHWWfwV08DrVUgvilAivfw4M=
+
+Name: resources/checkitem.xml
+SHA1-Digest: O5043/mHyF8tVNRXOROrCu3z4pM=
+
+Name: plugin.xml
+SHA1-Digest: iEjvp6/QnWZ/KvZbiDPmwgj4KWc=
+
+Name: resources/description_ja.properties
+SHA1-Digest: cBSeSztVT4mtWKoP11vC0coruqA=
+

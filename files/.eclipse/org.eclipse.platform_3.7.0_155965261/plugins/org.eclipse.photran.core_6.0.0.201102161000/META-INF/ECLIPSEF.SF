@@ -1,0 +1,27 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: dZy798lNeYBPJA/bDVapIb/QJlc=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: UVB7ZIo+saTSlqCiOAaEQSDWDJQ=
+
+Name: src/org/eclipse/photran/internal/core/intrinsics/intrinsic-proce
+ dures.txt
+SHA1-Digest: 5XcXqSgk1XpDmgm4rPfyJyNdPTQ=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: about.html
+SHA1-Digest: zOmXKr5v8uh3Jqh7gGZOHMYrKUU=
+
+Name: plugin.xml
+SHA1-Digest: DWr98UO8UgEdJssMVYfydI737XA=
+
+Name: schema/sourceForms.exsd
+SHA1-Digest: hF+oDBf+SH6IfpO7Hg3urofnqOU=
+
+Name: photrancore.jar
+SHA1-Digest: K5XXlt1y99iymqLEOobB7O5G0JU=
+
+Name: plugin.properties
+SHA1-Digest: 8DzNYBbQD7337b/rDq5Y88JOHRY=
+

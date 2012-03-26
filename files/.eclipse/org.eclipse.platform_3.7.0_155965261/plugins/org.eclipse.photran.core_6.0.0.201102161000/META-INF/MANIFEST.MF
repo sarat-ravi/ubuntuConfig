@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.photran.core; singleton:=true
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.cdt.core,org.ecli
+ pse.core.resources,org.eclipse.jface,org.eclipse.ui.workbench
+Bundle-Activator: org.eclipse.photran.internal.core.FortranCorePlugin
+Export-Package: org.eclipse.photran.internal.core,org.eclipse.photran.
+ internal.core.errorparsers,org.eclipse.photran.internal.core.intrinsi
+ cs,org.eclipse.photran.internal.core.preferences,org.eclipse.photran.
+ internal.core.properties,org.eclipse.photran.internal.core.sourceform
+Bundle-Version: 6.0.0.201102161000
+Bundle-ClassPath: photrancore.jar
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %providerName
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+
+Name: src/org/eclipse/photran/internal/core/intrinsics/intrinsic-proce
+ dures.txt
+SHA1-Digest: Q9AqoJl2M1uI0PMr2L787kLfQcs=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: schema/sourceForms.exsd
+SHA1-Digest: IFmirmfcXfSgGRUIyXi5duBN0gU=
+
+Name: plugin.xml
+SHA1-Digest: hf8toGe8s2/a5eYHhd6iPzkZee8=
+
+Name: about.html
+SHA1-Digest: sQp339U+fmNojWwulG00Oz2xOXQ=
+
+Name: plugin.properties
+SHA1-Digest: lwk3XV6/rpV4fXfBD7mIFY6qx/I=
+
+Name: photrancore.jar
+SHA1-Digest: 8D0cmkVRpBQz6zaG1h0Is4FTJqo=
+

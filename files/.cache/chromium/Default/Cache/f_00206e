@@ -1,0 +1,3180 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+
+<script type="text/javascript" src="/share/js/getyear.js"></script>
+<link href="/share/css/UCB.css" rel="stylesheet" type="text/css"
+			media="screen,print" >
+<link href="/share/css/UCB-flex-nonav.css" rel="stylesheet" type="text/css"
+			media="screen,print" >
+<link href="/share/css/UCB-print.css" rel="stylesheet" type="text/css" 
+			media="print" >
+<!--[if lte IE 6]>
+<link href="/share/css/IE6.css" rel="stylesheet" type="text/css" 
+			media="screen,print" >
+<![endif]-->
+
+<!--[if IE]>
+<style type="text/css">
+#outside { overflow:visible; overflow-x:auto; overflow-y:hidden; }
+</style>
+<![endif]-->
+
+
+<link rel="stylesheet" type="text/css" href="/PHP/Anydb/css/coe.css" >
+<link rel="stylesheet" type="text/css" href="/PHP/Anydb/css/all.css" >
+<script type="text/javascript" src="/share/js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="/share/js/jquery.metadata.js"></script>
+<script type="text/javascript" src="/share/js/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="/PHP/Anydb/js/tablesort.js"></script>
+<script type="text/javascript" src="/PHP/Anydb/js/acg1.js"></script>
+<script type="text/javascript" src="/PHP/Anydb/js/tablerow.js"></script>
+<link rel="stylesheet" type="text/css" href="/share/css/jquery-ui-1.8.13.custom.css" >
+<script type="text/javascript" src="/share/js/jquery-ui-1.8.13.custom.min.js"></script>
+<script type="text/javascript" src="/PHP/Anydb/js/datepicker.js"></script>
+<script type="text/javascript" src="/share/js/jquery.dependent.js"></script>
+<script type="text/javascript" src="/PHP/Anydb/js/dependent.js"></script>
+
+<title>CoE Undergraduate Student Info</title>
+</head>
+
+<body>
+
+<div id="sizer"><div id="expander"><div id="innerwrapper">
+<div id="outside">
+<div id="banr">
+<div id="skip">
+  <a href="#maincontent" title="Skip to main content">Skip to main content</a>
+</div>
+<div id="ucb">
+  <a href="http://www.berkeley.edu">UC Berkeley</a>
+</div>
+<div id="logo">
+  <img src="/share/img/coelogo.png" alt="College of Engineering logo" >
+</div>
+<div id="topnav">
+<ul>
+<li class="first"><a href="/PHP/ugradstud/menu.php?f_submit=Logoff">CalNet Logout</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="pagebody">
+<div id="contentcol">
+<div id="content">
+<a name="maincontent"></a>
+<div id="skip2">
+  <a href="#sidebar" title="Skip to sidebar">Skip to sidebar</a>
+</div>
+
+<h1>EECS Undergraduate Student Advising</h1>
+    
+<form method="post" name="adv_view" action="/PHP/Anydb/detmixed.php">
+
+<p class="hidden">
+<input type="hidden" name="f_worktable" value="adv_view">
+<input type="hidden" name="f_subtable" value="eecs">
+<input type="hidden" name="f_database" value="ugradstud">
+<input type="hidden" name="f_pageid" value="989098841">
+</p>
+
+<div id="maincontent">
+<table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="right" valign="top"><label class="field-label" ><span class="nosave-field">Your Name:</span></label> </td>
+	<td align="left" valign="top"><div class="datafield studdname-data">Sri Tallamraju<input type="hidden" name="adv_view_0studdname" value="Sri Tallamraju" ></div></td>
+</tr>
+<tr>
+	<td align="right" valign="top"><label class="field-label" ><span class="nosave-field">Term:</span></label> </td>
+	<td align="left" valign="top"><div class="datafield termyear-data">Spring 2012<input type="hidden" name="adv_view_0termyear" value="Spring 2012" ></div></td>
+</tr>
+<tr><td colspan="2"><hr></td></tr>
+<tr><td colspan="2"><strong>Advisers cannot yet be selected.</strong></td></tr>
+<tr>
+	<td align="right" valign="top"><label class="field-label" ><span class="nosave-field">Notes&nbsp;from&nbsp;Staff:</span></label> </td>
+	<td align="left" valign="top"><div class="datafield studnotes-data"><p>Welcome to the new EECS undergraduate advising web app. This web app is part of a broader effort to improve how faculty advising is coordinated and administrated. Please see <a href="http://www.eecs.berkeley.edu/Programs/facadvising.html" target="_blank">faculty advising</a> for full details on the changes being made to the EECS Faculty Advising System.</p></p><p><p><b>KEY DATES AND ACTIONS</b></p></p><p><p>Beginning March 21 at 4pm you will be able to select an adviser from the available faculty adviser list. Adviser sign-ups will be on a first-come, first-serve basis. You will be able to view the following information about faculty:</p>
+<ul>
+<li>Main area (EE, CS or EECS)</li>
+<li>Sub area (i.e. Artificial Intelligence, Integrated Circuits, etc..)</li>
+<li>Advising preference (group or individual)</li>
+<li>Group advising or individual advising information</li>
+</ul></p><p><p><b><a href="http://www.eecs.berkeley.edu/Programs/FacAdvising/selecting-adviser.shtml" target="_blank">SELECTING AN ADVISER</a></b></p></p><p><p><b><a href="http://www.eecs.berkeley.edu/Programs/FacAdvising/register.shtml" target="_blank">WHAT TO BRING TO FACULTY ADVISING AND HOW TO REGISTER FOR CLASSES</a></b></p></p><p><p><b><a href="http://www.eecs.berkeley.edu/Programs/FacAdvising/questions.shtml" target="_blank">QUESTIONS ABOUT FACULTY ADVISING</a></b></p><input type="hidden" name="adv_view_0studnotes" value="&lt;p&gt;Welcome to the new EECS undergraduate advising web app. This web app is part of a broader effort to improve how faculty advising is coordinated and administrated. Please see &lt;a href=&quot;http://www.eecs.berkeley.edu/Programs/facadvising.html&quot; target=&quot;_blank&quot;&gt;faculty advising&lt;/a&gt; for full details on the changes being made to the EECS Faculty Advising System.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;KEY DATES AND ACTIONS&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Beginning March 21 at 4pm you will be able to select an adviser from the available faculty adviser list. Adviser sign-ups will be on a first-come, first-serve basis. You will be able to view the following information about faculty:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Main area (EE, CS or EECS)&lt;/li&gt;
+&lt;li&gt;Sub area (i.e. Artificial Intelligence, Integrated Circuits, etc..)&lt;/li&gt;
+&lt;li&gt;Advising preference (group or individual)&lt;/li&gt;
+&lt;li&gt;Group advising or individual advising information&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;http://www.eecs.berkeley.edu/Programs/FacAdvising/selecting-adviser.shtml&quot; target=&quot;_blank&quot;&gt;SELECTING AN ADVISER&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;http://www.eecs.berkeley.edu/Programs/FacAdvising/register.shtml&quot; target=&quot;_blank&quot;&gt;WHAT TO BRING TO FACULTY ADVISING AND HOW TO REGISTER FOR CLASSES&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;http://www.eecs.berkeley.edu/Programs/FacAdvising/questions.shtml&quot; target=&quot;_blank&quot;&gt;QUESTIONS ABOUT FACULTY ADVISING&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_adv_viewchange_0" value="">
+</p>
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_adv_view_keys" value="a:1:{i:0;a:3:{s:9:&quot;adviseeid&quot;;s:4:&quot;2464&quot;;s:7:&quot;cycleid&quot;;s:1:&quot;2&quot;;s:10:&quot;studtypeid&quot;;s:1:&quot;d&quot;;}}">
+</p>
+
+<p>Available Advisers:</p>
+<table align="left" cellpadding="3" cellspacing="0" border="1" class="sortable" >
+<thead>
+<tr>
+		<th align="center"><label class="field-label" ><span class="nosave-field">Adviser Name</span></label> </th>
+		<th align="center"><label class="field-label"><span class="nosave-field">Area</span></label></th>
+		<th align="center"><label class="field-label" ><span class="nosave-field">Sub Areas</span></label> </th>
+		<th align="center"><label class="field-label" ><span class="nosave-field">Advising Type</span></label> </th>
+		<th align="center"><label class="field-label"><span class="nosave-field">Session Date/Time/Room</span></label></th>
+</tr>
+</thead>
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Agrawala, Maneesh</span><input type="hidden" name="advisors_all_0advname" value="Agrawala, Maneesh" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas20_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas20change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Graphics, HCI, Visualization<input type="hidden" name="advisors_all_0areanotes" value="Graphics, HCI, Visualization" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_0advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Thursday, April 5</span><input type="hidden" name="advsessions0_0sdate" value="Thursday, April 5" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">4-5p</span><input type="hidden" name="advsessions0_0stime" value="4-5p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions0_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions0change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Alon, Elad</span><input type="hidden" name="advisors_all_1advname" value="Alon, Elad" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas21_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas21change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Integrated circuits, MEMS, physical electronics<input type="hidden" name="advisors_all_1areanotes" value="Integrated circuits, MEMS, physical electronics" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_1advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 3</span><input type="hidden" name="advsessions1_0sdate" value="Tuesday, April 3" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">5-6p</span><input type="hidden" name="advsessions1_0stime" value="5-6p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">531 Cory</span><input type="hidden" name="advsessions1_0sroom" value="531 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions1change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Anantharam, Venkat</span><input type="hidden" name="advisors_all_2advname" value="Anantharam, Venkat" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas22_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas22change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">COMNET<input type="hidden" name="advisors_all_2areanotes" value="COMNET" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_2advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 2</span><input type="hidden" name="advsessions2_0sdate" value="Monday, April 2" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">2-3p</span><input type="hidden" name="advsessions2_0stime" value="2-3p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions2_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions2change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Arcak, Murat</span><input type="hidden" name="advisors_all_3advname" value="Arcak, Murat" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas23_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas23change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">systems, feedback control, signal processing<input type="hidden" name="advisors_all_3areanotes" value="systems, feedback control, signal processing" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_3advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 9</span><input type="hidden" name="advsessions3_0sdate" value="Monday, April 9" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">4-5p</span><input type="hidden" name="advsessions3_0stime" value="4-5p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">400 Cory</span><input type="hidden" name="advsessions3_0sroom" value="400 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions3change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Arias, Ana Claudia</span><input type="hidden" name="advisors_all_4advname" value="Arias, Ana Claudia" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas24_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas24change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">electronics, devices<input type="hidden" name="advisors_all_4areanotes" value="electronics, devices" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_4advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Thursday, April 5</span><input type="hidden" name="advsessions4_0sdate" value="Thursday, April 5" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">1-2p</span><input type="hidden" name="advsessions4_0stime" value="1-2p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions4_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions4change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Asanović, Krste</span><input type="hidden" name="advisors_all_5advname" value="Asanović, Krste" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas25_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas25change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Computer Architecture<input type="hidden" name="advisors_all_5areanotes" value="Computer Architecture" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_5advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Ayazifar, Babak</span><input type="hidden" name="advisors_all_6advname" value="Ayazifar, Babak" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas26_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas26change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Signals and Systems; Engineering Education.<input type="hidden" name="advisors_all_6areanotes" value="Signals and Systems; Engineering Education." ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">undecided</span><input type="hidden" name="advisors_all_6advtypelong" value="undecided" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Bajcsy, Ruzena</span><input type="hidden" name="advisors_all_7advname" value="Bajcsy, Ruzena" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas27_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas27change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">robotics,wireless technology<input type="hidden" name="advisors_all_7areanotes" value="robotics,wireless technology" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_7advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Thursday, April 5</span><input type="hidden" name="advsessions7_0sdate" value="Thursday, April 5" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">11-12p</span><input type="hidden" name="advsessions7_0stime" value="11-12p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions7_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions7change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Barsky, Brian A.</span><input type="hidden" name="advisors_all_8advname" value="Barsky, Brian A." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas28_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas28change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">graphics, vision, HCI<input type="hidden" name="advisors_all_8areanotes" value="graphics, vision, HCI" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_8advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 10</span><input type="hidden" name="advsessions8_0sdate" value="Tuesday, April 10" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">5-6p</span><input type="hidden" name="advsessions8_0stime" value="5-6p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">606 Soda</span><input type="hidden" name="advsessions8_0sroom" value="606 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions8change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Bayen, Alexandre</span><input type="hidden" name="advisors_all_9advname" value="Bayen, Alexandre" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">&nbsp;</div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Control Theory and Optimization, Mobile Sensing, Crowdsourcing, Participatory Sensing, Smartphones,  Smart Transportation<input type="hidden" name="advisors_all_9areanotes" value="Control Theory and Optimization, Mobile Sensing, Crowdsourcing, Participatory Sensing, Smartphones,  Smart Transportation" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_9advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Bodik, Ras</span><input type="hidden" name="advisors_all_10advname" value="Bodik, Ras" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas210_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas210change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Programming languages<input type="hidden" name="advisors_all_10areanotes" value="Programming languages" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_10advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Bokor, Jeffrey</span><input type="hidden" name="advisors_all_11advname" value="Bokor, Jeffrey" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas211_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas211change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">physical electronics<input type="hidden" name="advisors_all_11areanotes" value="physical electronics" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_11advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Thursday, April 12</span><input type="hidden" name="advsessions11_0sdate" value="Thursday, April 12" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">5-6p</span><input type="hidden" name="advsessions11_0stime" value="5-6p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions11_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions11change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Boser, Bernhard</span><input type="hidden" name="advisors_all_12advname" value="Boser, Bernhard" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas212_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas212change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Integrated Circuits<input type="hidden" name="advisors_all_12areanotes" value="Integrated Circuits" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_12advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 9</span><input type="hidden" name="advsessions12_0sdate" value="Monday, April 9" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">2-3p</span><input type="hidden" name="advsessions12_0stime" value="2-3p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions12_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions12change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Brewer, Eric</span><input type="hidden" name="advisors_all_13advname" value="Brewer, Eric" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas213_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas213change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Operating systems, Internet, cloud<input type="hidden" name="advisors_all_13areanotes" value="Operating systems, Internet, cloud" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_13advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 2</span><input type="hidden" name="advsessions13_0sdate" value="Monday, April 2" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">12-1p</span><input type="hidden" name="advsessions13_0stime" value="12-1p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions13_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions13change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Canny, John F.</span><input type="hidden" name="advisors_all_14advname" value="Canny, John F." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas214_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas214change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">HCI<input type="hidden" name="advisors_all_14areanotes" value="HCI" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_14advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Chang-Hasnain, Constance</span><input type="hidden" name="advisors_all_15advname" value="Chang-Hasnain, Constance" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas215_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas215change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">I would advise electronics, optoelectronics and general.  If you are interested in computer science, please find another advisor.<input type="hidden" name="advisors_all_15areanotes" value="I would advise electronics, optoelectronics and general.  If you are interested in computer science, please find another advisor." ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_15advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Cheung, Nathan W.</span><input type="hidden" name="advisors_all_16advname" value="Cheung, Nathan W." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas216_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas216change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Physical electronics<input type="hidden" name="advisors_all_16areanotes" value="Physical electronics" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_16advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Wednesday, April 4</span><input type="hidden" name="advsessions16_0sdate" value="Wednesday, April 4" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">12-1p</span><input type="hidden" name="advsessions16_0stime" value="12-1p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">531 Cory</span><input type="hidden" name="advsessions16_0sroom" value="531 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions16change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Demmel, James</span><input type="hidden" name="advisors_all_17advname" value="Demmel, James" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas217_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas217change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">parallel computing, scientific computing, algorithms<input type="hidden" name="advisors_all_17areanotes" value="parallel computing, scientific computing, algorithms" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_17advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Thursday, April 5</span><input type="hidden" name="advsessions17_0sdate" value="Thursday, April 5" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">12-1p</span><input type="hidden" name="advsessions17_0stime" value="12-1p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions17_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions17change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">El Ghaoui, Laurent</span><input type="hidden" name="advisors_all_18advname" value="El Ghaoui, Laurent" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas218_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas218change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Optimization and control, machine learning, data mining<input type="hidden" name="advisors_all_18areanotes" value="Optimization and control, machine learning, data mining" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">undecided</span><input type="hidden" name="advisors_all_18advtypelong" value="undecided" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Fearing, Ronald S.</span><input type="hidden" name="advisors_all_19advname" value="Fearing, Ronald S." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas219_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas219change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">control, signal processing, robotics, mechatronics<input type="hidden" name="advisors_all_19areanotes" value="control, signal processing, robotics, mechatronics" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_19advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Franklin, Michael</span><input type="hidden" name="advisors_all_20advname" value="Franklin, Michael" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas220_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas220change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">DB, OSNT<input type="hidden" name="advisors_all_20areanotes" value="DB, OSNT" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_20advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 2</span><input type="hidden" name="advsessions20_0sdate" value="Monday, April 2" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">4-5p</span><input type="hidden" name="advsessions20_0stime" value="4-5p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions20_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions20change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Hellerstein, Joseph M.</span><input type="hidden" name="advisors_all_21advname" value="Hellerstein, Joseph M." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas221_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas221change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Databases<input type="hidden" name="advisors_all_21areanotes" value="Databases" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_21advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Wednesday, April 4</span><input type="hidden" name="advsessions21_0sdate" value="Wednesday, April 4" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">11-12p</span><input type="hidden" name="advsessions21_0stime" value="11-12p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">380 Soda</span><input type="hidden" name="advsessions21_0sroom" value="380 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions21change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Hilfinger, Paul N.</span><input type="hidden" name="advisors_all_22advname" value="Hilfinger, Paul N." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas222_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas222change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Software<input type="hidden" name="advisors_all_22areanotes" value="Software" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_22advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Javey, Ali</span><input type="hidden" name="advisors_all_23advname" value="Javey, Ali" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas223_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas223change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Physical Electronics<input type="hidden" name="advisors_all_23areanotes" value="Physical Electronics" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_23advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Wednesday, April 4</span><input type="hidden" name="advsessions23_0sdate" value="Wednesday, April 4" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">4-5p</span><input type="hidden" name="advsessions23_0stime" value="4-5p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions23_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions23change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Jordan, Michael</span><input type="hidden" name="advisors_all_24advname" value="Jordan, Michael" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas224_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas224change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">AI<input type="hidden" name="advisors_all_24areanotes" value="AI" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_24advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Thursday, April 12</span><input type="hidden" name="advsessions24_0sdate" value="Thursday, April 12" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">12-1p</span><input type="hidden" name="advsessions24_0stime" value="12-1p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">380 Soda</span><input type="hidden" name="advsessions24_0sroom" value="380 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions24change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Joseph, Anthony D.</span><input type="hidden" name="advisors_all_25advname" value="Joseph, Anthony D." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas225_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas225change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Systems, Networking, Security, Cloud Computing, Secure Machinen Learning, Mobile Computing<input type="hidden" name="advisors_all_25areanotes" value="Systems, Networking, Security, Cloud Computing, Secure Machinen Learning, Mobile Computing" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_25advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 3</span><input type="hidden" name="advsessions25_0sdate" value="Tuesday, April 3" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">12-1p</span><input type="hidden" name="advsessions25_0stime" value="12-1p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">430 Soda (Woz)</span><input type="hidden" name="advsessions25_0sroom" value="430 Soda (Woz)" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions25change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Karp, Richard M.</span><input type="hidden" name="advisors_all_26advname" value="Karp, Richard M." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas226_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas226change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">CS theory, algorithms, CS 170,172,174<input type="hidden" name="advisors_all_26areanotes" value="CS theory, algorithms, CS 170,172,174" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">undecided</span><input type="hidden" name="advisors_all_26advtypelong" value="undecided" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Katz, Randy H.</span><input type="hidden" name="advisors_all_27advname" value="Katz, Randy H." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas227_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas227change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Computer Systems, Computer Architecture, Computer Networks<input type="hidden" name="advisors_all_27areanotes" value="Computer Systems, Computer Architecture, Computer Networks" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_27advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 3</span><input type="hidden" name="advsessions27_0sdate" value="Tuesday, April 3" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">11-12p</span><input type="hidden" name="advsessions27_0stime" value="11-12p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions27_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions27change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Keutzer, Kurt</span><input type="hidden" name="advisors_all_28advname" value="Keutzer, Kurt" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas228_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas228change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">parallel computing, embedded systems, computer-aided design<input type="hidden" name="advisors_all_28areanotes" value="parallel computing, embedded systems, computer-aided design" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_28advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Thursday, April 12</span><input type="hidden" name="advsessions28_0sdate" value="Thursday, April 12" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">2-3p</span><input type="hidden" name="advsessions28_0stime" value="2-3p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions28_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions28change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">King Liu, Tsu-Jae</span><input type="hidden" name="advisors_all_29advname" value="King Liu, Tsu-Jae" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas229_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas229change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">EE core; integrated circuit devices and technology<input type="hidden" name="advisors_all_29areanotes" value="EE core; integrated circuit devices and technology" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_29advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 9</span><input type="hidden" name="advsessions29_0sdate" value="Monday, April 9" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">3-4p</span><input type="hidden" name="advsessions29_0stime" value="3-4p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">400 Cory</span><input type="hidden" name="advsessions29_0sroom" value="400 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions29change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Kubiatowicz, John D.</span><input type="hidden" name="advisors_all_30advname" value="Kubiatowicz, John D." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas230_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas230change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Computer Arch and OS<input type="hidden" name="advisors_all_30areanotes" value="Computer Arch and OS" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_30advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Friday, April 6</span><input type="hidden" name="advsessions30_0sdate" value="Friday, April 6" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">1-2p</span><input type="hidden" name="advsessions30_0stime" value="1-2p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions30_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions30change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Lee, Edward A.</span><input type="hidden" name="advisors_all_31advname" value="Lee, Edward A." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas231_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas231change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">DES<input type="hidden" name="advisors_all_31areanotes" value="DES" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_31advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 3</span><input type="hidden" name="advsessions31_0sdate" value="Tuesday, April 3" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">3-4p</span><input type="hidden" name="advsessions31_0stime" value="3-4p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">521 Cory</span><input type="hidden" name="advsessions31_0sroom" value="521 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions31change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Lustig, Michael</span><input type="hidden" name="advisors_all_32advname" value="Lustig, Michael" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas232_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas232change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Medical Imaging, signal processing, image processing<input type="hidden" name="advisors_all_32areanotes" value="Medical Imaging, signal processing, image processing" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_32advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Wednesday, April 11</span><input type="hidden" name="advsessions32_0sdate" value="Wednesday, April 11" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">11-12p</span><input type="hidden" name="advsessions32_0stime" value="11-12p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions32_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions32change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Maharbiz, Michel</span><input type="hidden" name="advisors_all_33advname" value="Maharbiz, Michel" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">&nbsp;</div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">MEMS, Bio, Circuits<input type="hidden" name="advisors_all_33areanotes" value="MEMS, Bio, Circuits" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_33advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Friday, April 13</span><input type="hidden" name="advsessions33_0sdate" value="Friday, April 13" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">2-3p</span><input type="hidden" name="advsessions33_0stime" value="2-3p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions33_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions33change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Malik, Jitendra</span><input type="hidden" name="advisors_all_34advname" value="Malik, Jitendra" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas234_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas234change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">computer vision, artificial intelligence, computer graphics, machine learning, robotics<input type="hidden" name="advisors_all_34areanotes" value="computer vision, artificial intelligence, computer graphics, machine learning, robotics" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_34advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Friday, April 6</span><input type="hidden" name="advsessions34_0sdate" value="Friday, April 6" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">11-12p</span><input type="hidden" name="advsessions34_0stime" value="11-12p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">430 Soda (Woz)</span><input type="hidden" name="advsessions34_0sroom" value="430 Soda (Woz)" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions34change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Necula, George</span><input type="hidden" name="advisors_all_35advname" value="Necula, George" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas235_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas235change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Software<input type="hidden" name="advisors_all_35areanotes" value="Software" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_35advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 2</span><input type="hidden" name="advsessions35_0sdate" value="Monday, April 2" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">1-2p</span><input type="hidden" name="advsessions35_0stime" value="1-2p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions35_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions35change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Nguyen, Clark</span><input type="hidden" name="advisors_all_36advname" value="Nguyen, Clark" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas236_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas236change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">integrated circuit design
+physical electronics
+microelectromechanical systems<input type="hidden" name="advisors_all_36areanotes" value="integrated circuit design
+physical electronics
+microelectromechanical systems" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_36advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Wednesday, April 4</span><input type="hidden" name="advsessions36_0sdate" value="Wednesday, April 4" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">3-4p</span><input type="hidden" name="advsessions36_0stime" value="3-4p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">400 Cory</span><input type="hidden" name="advsessions36_0sroom" value="400 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions36change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Niknejad, Ali</span><input type="hidden" name="advisors_all_37advname" value="Niknejad, Ali" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas237_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas237change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Integrated Circuits<input type="hidden" name="advisors_all_37areanotes" value="Integrated Circuits" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_37advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Thursday, April 12</span><input type="hidden" name="advsessions37_0sdate" value="Thursday, April 12" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">4-5p</span><input type="hidden" name="advsessions37_0stime" value="4-5p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">504 Cory</span><input type="hidden" name="advsessions37_0sroom" value="504 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions37change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Nikolic, Borivoje</span><input type="hidden" name="advisors_all_38advname" value="Nikolic, Borivoje" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas238_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas238change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">IC design, Communications<input type="hidden" name="advisors_all_38areanotes" value="IC design, Communications" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_38advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 3</span><input type="hidden" name="advsessions38_0sdate" value="Tuesday, April 3" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">1-2p</span><input type="hidden" name="advsessions38_0stime" value="1-2p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">400 Cory</span><input type="hidden" name="advsessions38_0sroom" value="400 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions38change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">O'Brien, James</span><input type="hidden" name="advisors_all_39advname" value="O'Brien, James" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas239_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas239change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Computer Graphics<input type="hidden" name="advisors_all_39areanotes" value="Computer Graphics" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_39advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 3</span><input type="hidden" name="advsessions39_0sdate" value="Tuesday, April 3" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">1-2p</span><input type="hidden" name="advsessions39_0stime" value="1-2p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions39_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions39change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Papadimitriou, Christos</span><input type="hidden" name="advisors_all_40advname" value="Papadimitriou, Christos" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas240_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas240change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">theory, economics, biology, databases, internet<input type="hidden" name="advisors_all_40areanotes" value="theory, economics, biology, databases, internet" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_40advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 3</span><input type="hidden" name="advsessions40_0sdate" value="Tuesday, April 3" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">5-6p</span><input type="hidden" name="advsessions40_0stime" value="5-6p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">606 Soda</span><input type="hidden" name="advsessions40_0sroom" value="606 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions40change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Patterson, David A.</span><input type="hidden" name="advisors_all_41advname" value="Patterson, David A." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas241_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas241change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">computer architecture<input type="hidden" name="advisors_all_41areanotes" value="computer architecture" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_41advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Wednesday, April 4</span><input type="hidden" name="advsessions41_0sdate" value="Wednesday, April 4" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">4-5p</span><input type="hidden" name="advsessions41_0stime" value="4-5p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions41_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions41change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Paxson, Vern</span><input type="hidden" name="advisors_all_42advname" value="Paxson, Vern" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas242_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas242change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">security, networking<input type="hidden" name="advisors_all_42areanotes" value="security, networking" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_42advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Pister, Kristofer</span><input type="hidden" name="advisors_all_43advname" value="Pister, Kristofer" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas243_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas243change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">circuits, robotics<input type="hidden" name="advisors_all_43areanotes" value="circuits, robotics" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_43advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 3</span><input type="hidden" name="advsessions43_0sdate" value="Tuesday, April 3" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">4-5p</span><input type="hidden" name="advsessions43_0stime" value="4-5p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">531 Cory</span><input type="hidden" name="advsessions43_0sroom" value="531 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions43change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Rabaey, Jan M.</span><input type="hidden" name="advisors_all_44advname" value="Rabaey, Jan M." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas244_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas244change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">??<input type="hidden" name="advisors_all_44areanotes" value="??" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_44advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 3</span><input type="hidden" name="advsessions44_0sdate" value="Tuesday, April 3" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">5-6p</span><input type="hidden" name="advsessions44_0stime" value="5-6p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions44_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions44change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Ramamoorthi, Ravi</span><input type="hidden" name="advisors_all_45advname" value="Ramamoorthi, Ravi" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas245_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas245change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">computer graphics, computer vision<input type="hidden" name="advisors_all_45areanotes" value="computer graphics, computer vision" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_45advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 2</span><input type="hidden" name="advsessions45_0sdate" value="Monday, April 2" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">1-2p</span><input type="hidden" name="advsessions45_0stime" value="1-2p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">310 Soda</span><input type="hidden" name="advsessions45_0sroom" value="310 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions45change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Ramchandran, Kannan</span><input type="hidden" name="advisors_all_46advname" value="Ramchandran, Kannan" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas246_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas246change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Area 2 (EE Systems: DSP/Comm/Net)<input type="hidden" name="advisors_all_46areanotes" value="Area 2 (EE Systems: DSP/Comm/Net)" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_46advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 9</span><input type="hidden" name="advsessions46_0sdate" value="Monday, April 9" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">11-12p</span><input type="hidden" name="advsessions46_0stime" value="11-12p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">531 Cory</span><input type="hidden" name="advsessions46_0sroom" value="531 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions46change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Rao, Satish</span><input type="hidden" name="advisors_all_47advname" value="Rao, Satish" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas247_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas247change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Theory<input type="hidden" name="advisors_all_47areanotes" value="Theory" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_47advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Friday, April 6</span><input type="hidden" name="advsessions47_0sdate" value="Friday, April 6" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">11-12p</span><input type="hidden" name="advsessions47_0stime" value="11-12p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">380 Soda</span><input type="hidden" name="advsessions47_0sroom" value="380 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions47change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Ratnasamy, Sylvia</span><input type="hidden" name="advisors_all_48advname" value="Ratnasamy, Sylvia" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">&nbsp;</div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">computer networks, distributed systems, operating systems<input type="hidden" name="advisors_all_48areanotes" value="computer networks, distributed systems, operating systems" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_48advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Roychowdhury, Jaijeet</span><input type="hidden" name="advisors_all_49advname" value="Roychowdhury, Jaijeet" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas249_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas249change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">ee<input type="hidden" name="advisors_all_49areanotes" value="ee" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_49advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Russell, Stuart J.</span><input type="hidden" name="advisors_all_50advname" value="Russell, Stuart J." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas250_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas250change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">artificial intelligence, machine learning, nuclear arms control, critical care medicine<input type="hidden" name="advisors_all_50areanotes" value="artificial intelligence, machine learning, nuclear arms control, critical care medicine" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_50advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Sahai, Anant</span><input type="hidden" name="advisors_all_51advname" value="Sahai, Anant" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas251_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas251change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Can advise *strong* students in theory, math, communication, signal processing, control, wireless, networking, etc. Also, grad-school questions and how to find research. What math and physics courses to take? I was a Berkeley undergrad myself about 20 years ago.<input type="hidden" name="advisors_all_51areanotes" value="Can advise *strong* students in theory, math, communication, signal processing, control, wireless, networking, etc. Also, grad-school questions and how to find research. What math and physics courses to take? I was a Berkeley undergrad myself about 20 years ago." ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_51advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 3</span><input type="hidden" name="advsessions51_0sdate" value="Tuesday, April 3" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">5-6p</span><input type="hidden" name="advsessions51_0stime" value="5-6p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">299 Cory</span><input type="hidden" name="advsessions51_0sroom" value="299 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions51change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Sanders, Seth R.</span><input type="hidden" name="advisors_all_52advname" value="Sanders, Seth R." ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas252_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas252change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">circuits, energy, systems<input type="hidden" name="advisors_all_52areanotes" value="circuits, energy, systems" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_52advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 10</span><input type="hidden" name="advsessions52_0sdate" value="Tuesday, April 10" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">11-12p</span><input type="hidden" name="advsessions52_0stime" value="11-12p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">531 Cory</span><input type="hidden" name="advsessions52_0sroom" value="531 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions52change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Sen, Koushik</span><input type="hidden" name="advisors_all_53advname" value="Sen, Koushik" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas253_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas253change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Programming Systems and Software Engineering<input type="hidden" name="advisors_all_53areanotes" value="Programming Systems and Software Engineering" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_53advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 3</span><input type="hidden" name="advsessions53_0sdate" value="Tuesday, April 3" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">3-4p</span><input type="hidden" name="advsessions53_0stime" value="3-4p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">380 Soda</span><input type="hidden" name="advsessions53_0sroom" value="380 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions53change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Shenker, Scott</span><input type="hidden" name="advisors_all_54advname" value="Shenker, Scott" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas254_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas254change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Networking<input type="hidden" name="advisors_all_54areanotes" value="Networking" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_54advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 2</span><input type="hidden" name="advsessions54_0sdate" value="Monday, April 2" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">3-4p</span><input type="hidden" name="advsessions54_0stime" value="3-4p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">380 Soda</span><input type="hidden" name="advsessions54_0sroom" value="380 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions54change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Shewchuk, Jonathan</span><input type="hidden" name="advisors_all_55advname" value="Shewchuk, Jonathan" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas255_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas255change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">I have utterly no idea what I'm supposed to write in this &quot;required field&quot;<input type="hidden" name="advisors_all_55areanotes" value="I have utterly no idea what I'm supposed to write in this &quot;required field&quot;" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_55advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Friday, April 6</span><input type="hidden" name="advsessions55_0sdate" value="Friday, April 6" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">5-6p</span><input type="hidden" name="advsessions55_0stime" value="5-6p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">606 Soda</span><input type="hidden" name="advsessions55_0sroom" value="606 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions55change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Sinclair, Alistair</span><input type="hidden" name="advisors_all_56advname" value="Sinclair, Alistair" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas256_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas256change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">CS Theory.  Also general advice on grad school, classes etc.<input type="hidden" name="advisors_all_56areanotes" value="CS Theory.  Also general advice on grad school, classes etc." ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_56advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Thursday, April 5</span><input type="hidden" name="advsessions56_0sdate" value="Thursday, April 5" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">2-3p</span><input type="hidden" name="advsessions56_0stime" value="2-3p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions56_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions56change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Song, Dawn</span><input type="hidden" name="advisors_all_57advname" value="Song, Dawn" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas257_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas257change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">computer security<input type="hidden" name="advisors_all_57areanotes" value="computer security" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_57advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Stoica, Ion</span><input type="hidden" name="advisors_all_58advname" value="Stoica, Ion" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas258_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas258change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">systems, networking<input type="hidden" name="advisors_all_58areanotes" value="systems, networking" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_58advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Wednesday, April 4</span><input type="hidden" name="advsessions58_0sdate" value="Wednesday, April 4" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">12-1p</span><input type="hidden" name="advsessions58_0stime" value="12-1p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">430 Soda (Woz)</span><input type="hidden" name="advsessions58_0sroom" value="430 Soda (Woz)" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions58change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Subramanian, Vivek</span><input type="hidden" name="advisors_all_59advname" value="Subramanian, Vivek" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas259_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas259change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">physical electronics, integrated circuits<input type="hidden" name="advisors_all_59areanotes" value="physical electronics, integrated circuits" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_59advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Thursday, April 12</span><input type="hidden" name="advsessions59_0sdate" value="Thursday, April 12" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">11-12p</span><input type="hidden" name="advsessions59_0stime" value="11-12p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions59_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions59change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Tomlin, Claire</span><input type="hidden" name="advisors_all_60advname" value="Tomlin, Claire" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas260_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas260change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">control, intelligent systems, robotics<input type="hidden" name="advisors_all_60areanotes" value="control, intelligent systems, robotics" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_60advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Tuesday, April 10</span><input type="hidden" name="advsessions60_0sdate" value="Tuesday, April 10" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">3-4p</span><input type="hidden" name="advsessions60_0stime" value="3-4p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions60_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions60change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Vazirani, Umesh</span><input type="hidden" name="advisors_all_61advname" value="Vazirani, Umesh" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas261_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas261change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">theory<input type="hidden" name="advisors_all_61areanotes" value="theory" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_61advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Friday, April 6</span><input type="hidden" name="advsessions61_0sdate" value="Friday, April 6" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">11-12p</span><input type="hidden" name="advsessions61_0stime" value="11-12p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions61_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions61change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Wagner, David</span><input type="hidden" name="advisors_all_62advname" value="Wagner, David" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">cs<input type="hidden" name="advareas262_0areaid" value="1" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas262change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">security, theory, systems, and more<input type="hidden" name="advisors_all_62areanotes" value="security, theory, systems, and more" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_62advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Friday, April 6</span><input type="hidden" name="advsessions62_0sdate" value="Friday, April 6" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">12-1p</span><input type="hidden" name="advsessions62_0stime" value="12-1p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">373 Soda</span><input type="hidden" name="advsessions62_0sroom" value="373 Soda" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions62change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Wainwright, Martin</span><input type="hidden" name="advisors_all_63advname" value="Wainwright, Martin" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas263_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas263change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Machine learning, signal processing, communications.<input type="hidden" name="advisors_all_63areanotes" value="Machine learning, signal processing, communications." ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_63advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Friday, April 6</span><input type="hidden" name="advsessions63_0sdate" value="Friday, April 6" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">12-1p</span><input type="hidden" name="advsessions63_0stime" value="12-1p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">258 Cory</span><input type="hidden" name="advsessions63_0sroom" value="258 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions63change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Walrand, Jean</span><input type="hidden" name="advisors_all_64advname" value="Walrand, Jean" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas264_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas264change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Commet<input type="hidden" name="advisors_all_64areanotes" value="Commet" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_64advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Thursday, April 12</span><input type="hidden" name="advsessions64_0sdate" value="Thursday, April 12" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">4-5p</span><input type="hidden" name="advsessions64_0stime" value="4-5p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">521 Cory</span><input type="hidden" name="advsessions64_0sroom" value="521 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions64change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Wawrzynek, John</span><input type="hidden" name="advisors_all_65advname" value="Wawrzynek, John" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">eecs<input type="hidden" name="advareas265_0areaid" value="3" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas265change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">computer engineering, computer architecture<input type="hidden" name="advisors_all_65areanotes" value="computer engineering, computer architecture" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">individual advising</span><input type="hidden" name="advisors_all_65advtypelong" value="individual advising" ></div></td>
+<td align="left" valign="top">&nbsp;</td></tr>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Yablonovitch, Eli</span><input type="hidden" name="advisors_all_66advname" value="Yablonovitch, Eli" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas266_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas266change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">Physical Electronics<input type="hidden" name="advisors_all_66areanotes" value="Physical Electronics" ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_66advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 2</span><input type="hidden" name="advsessions66_0sdate" value="Monday, April 2" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">2-3p</span><input type="hidden" name="advsessions66_0stime" value="2-3p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">293 Cory</span><input type="hidden" name="advsessions66_0sroom" value="293 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions66change_0" value="">
+</p>
+</td></tr>
+<tr class="datarec odd">
+	<td align="left" valign="top"><div class="datafield advname-data"><span class="nobreak">Zakhor, Avideh</span><input type="hidden" name="advisors_all_67advname" value="Zakhor, Avideh" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr>
+	<td align="left" valign="top"><div class="datafield areaid-data">ee<input type="hidden" name="advareas267_0areaid" value="2" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advareas267change_0" value="">
+</p>
+</td>	<td align="left" valign="top"><div class="datafield areanotes-data">signal processing, image processing, computer vision, graphics,<input type="hidden" name="advisors_all_67areanotes" value="signal processing, image processing, computer vision, graphics," ></div></td>
+	<td align="left" valign="top"><div class="datafield advtypelong-data"><span class="nobreak">group advising</span><input type="hidden" name="advisors_all_67advtypelong" value="group advising" ></div></td>
+<td align="left" valign="top"><table align="left" cellpadding="3" cellspacing="0" border="1" >
+<tbody>
+<tr class="datarec even">
+	<td align="left" valign="top"><div class="datafield sdate-data"><span class="nobreak">Monday, April 9</span><input type="hidden" name="advsessions67_0sdate" value="Monday, April 9" ></div></td>
+	<td align="left" valign="top"><div class="datafield stime-data"><span class="nobreak">11-12p</span><input type="hidden" name="advsessions67_0stime" value="11-12p" ></div></td>
+	<td align="left" valign="top"><div class="datafield sroom-data"><span class="nobreak">212 Cory</span><input type="hidden" name="advsessions67_0sroom" value="212 Cory" ></div></td>
+</tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<p></p>
+
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advsessions67change_0" value="">
+</p>
+</td></tr>
+</tbody>
+</table>
+
+<br class="clearfloat" >
+<!-- record change indicator(s) -->
+<p class="hidden">
+<input type="hidden" name="f_advisors_allchange_0" value="">
+<input type="hidden" name="f_advisors_allchange_1" value="">
+<input type="hidden" name="f_advisors_allchange_2" value="">
+<input type="hidden" name="f_advisors_allchange_3" value="">
+<input type="hidden" name="f_advisors_allchange_4" value="">
+<input type="hidden" name="f_advisors_allchange_5" value="">
+<input type="hidden" name="f_advisors_allchange_6" value="">
+<input type="hidden" name="f_advisors_allchange_7" value="">
+<input type="hidden" name="f_advisors_allchange_8" value="">
+<input type="hidden" name="f_advisors_allchange_9" value="">
+<input type="hidden" name="f_advisors_allchange_10" value="">
+<input type="hidden" name="f_advisors_allchange_11" value="">
+<input type="hidden" name="f_advisors_allchange_12" value="">
+<input type="hidden" name="f_advisors_allchange_13" value="">
+<input type="hidden" name="f_advisors_allchange_14" value="">
+<input type="hidden" name="f_advisors_allchange_15" value="">
+<input type="hidden" name="f_advisors_allchange_16" value="">
+<input type="hidden" name="f_advisors_allchange_17" value="">
+<input type="hidden" name="f_advisors_allchange_18" value="">
+<input type="hidden" name="f_advisors_allchange_19" value="">
+<input type="hidden" name="f_advisors_allchange_20" value="">
+<input type="hidden" name="f_advisors_allchange_21" value="">
+<input type="hidden" name="f_advisors_allchange_22" value="">
+<input type="hidden" name="f_advisors_allchange_23" value="">
+<input type="hidden" name="f_advisors_allchange_24" value="">
+<input type="hidden" name="f_advisors_allchange_25" value="">
+<input type="hidden" name="f_advisors_allchange_26" value="">
+<input type="hidden" name="f_advisors_allchange_27" value="">
+<input type="hidden" name="f_advisors_allchange_28" value="">
+<input type="hidden" name="f_advisors_allchange_29" value="">
+<input type="hidden" name="f_advisors_allchange_30" value="">
+<input type="hidden" name="f_advisors_allchange_31" value="">
+<input type="hidden" name="f_advisors_allchange_32" value="">
+<input type="hidden" name="f_advisors_allchange_33" value="">
+<input type="hidden" name="f_advisors_allchange_34" value="">
+<input type="hidden" name="f_advisors_allchange_35" value="">
+<input type="hidden" name="f_advisors_allchange_36" value="">
+<input type="hidden" name="f_advisors_allchange_37" value="">
+<input type="hidden" name="f_advisors_allchange_38" value="">
+<input type="hidden" name="f_advisors_allchange_39" value="">
+<input type="hidden" name="f_advisors_allchange_40" value="">
+<input type="hidden" name="f_advisors_allchange_41" value="">
+<input type="hidden" name="f_advisors_allchange_42" value="">
+<input type="hidden" name="f_advisors_allchange_43" value="">
+<input type="hidden" name="f_advisors_allchange_44" value="">
+<input type="hidden" name="f_advisors_allchange_45" value="">
+<input type="hidden" name="f_advisors_allchange_46" value="">
+<input type="hidden" name="f_advisors_allchange_47" value="">
+<input type="hidden" name="f_advisors_allchange_48" value="">
+<input type="hidden" name="f_advisors_allchange_49" value="">
+<input type="hidden" name="f_advisors_allchange_50" value="">
+<input type="hidden" name="f_advisors_allchange_51" value="">
+<input type="hidden" name="f_advisors_allchange_52" value="">
+<input type="hidden" name="f_advisors_allchange_53" value="">
+<input type="hidden" name="f_advisors_allchange_54" value="">
+<input type="hidden" name="f_advisors_allchange_55" value="">
+<input type="hidden" name="f_advisors_allchange_56" value="">
+<input type="hidden" name="f_advisors_allchange_57" value="">
+<input type="hidden" name="f_advisors_allchange_58" value="">
+<input type="hidden" name="f_advisors_allchange_59" value="">
+<input type="hidden" name="f_advisors_allchange_60" value="">
+<input type="hidden" name="f_advisors_allchange_61" value="">
+<input type="hidden" name="f_advisors_allchange_62" value="">
+<input type="hidden" name="f_advisors_allchange_63" value="">
+<input type="hidden" name="f_advisors_allchange_64" value="">
+<input type="hidden" name="f_advisors_allchange_65" value="">
+<input type="hidden" name="f_advisors_allchange_66" value="">
+<input type="hidden" name="f_advisors_allchange_67" value="">
+</p>
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advisors_all_keys" value="a:68:{i:0;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;150&quot;;s:6:&quot;advnum&quot;;s:3:&quot;545&quot;;}i:1;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;155&quot;;s:6:&quot;advnum&quot;;s:3:&quot;557&quot;;}i:2;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;120&quot;;s:6:&quot;advnum&quot;;s:3:&quot;319&quot;;}i:3;a:2:{s:9:&quot;advisorid&quot;;s:2:&quot;96&quot;;s:6:&quot;advnum&quot;;s:3:&quot;582&quot;;}i:4;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;106&quot;;s:6:&quot;advnum&quot;;s:3:&quot;595&quot;;}i:5;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;157&quot;;s:6:&quot;advnum&quot;;s:3:&quot;559&quot;;}i:6;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;154&quot;;s:6:&quot;advnum&quot;;s:3:&quot;552&quot;;}i:7;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;146&quot;;s:6:&quot;advnum&quot;;s:3:&quot;525&quot;;}i:8;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;165&quot;;s:6:&quot;advnum&quot;;s:3:&quot;133&quot;;}i:9;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;176&quot;;s:6:&quot;advnum&quot;;s:3:&quot;598&quot;;}i:10;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;143&quot;;s:6:&quot;advnum&quot;;s:3:&quot;511&quot;;}i:11;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;169&quot;;s:6:&quot;advnum&quot;;s:3:&quot;218&quot;;}i:12;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;107&quot;;s:6:&quot;advnum&quot;;s:3:&quot;257&quot;;}i:13;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;134&quot;;s:6:&quot;advnum&quot;;s:3:&quot;489&quot;;}i:14;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;171&quot;;s:6:&quot;advnum&quot;;s:3:&quot;221&quot;;}i:15;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;131&quot;;s:6:&quot;advnum&quot;;s:3:&quot;464&quot;;}i:16;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;114&quot;;s:6:&quot;advnum&quot;;s:3:&quot;293&quot;;}i:17;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;166&quot;;s:6:&quot;advnum&quot;;s:3:&quot;173&quot;;}i:18;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;128&quot;;s:6:&quot;advnum&quot;;s:3:&quot;401&quot;;}i:19;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;164&quot;;s:6:&quot;advnum&quot;;s:2:&quot;64&quot;;}i:20;a:2:{s:9:&quot;advisorid&quot;;s:2:&quot;90&quot;;s:6:&quot;advnum&quot;;s:3:&quot;569&quot;;}i:21;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;119&quot;;s:6:&quot;advnum&quot;;s:3:&quot;318&quot;;}i:22;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;162&quot;;s:6:&quot;advnum&quot;;s:2:&quot;54&quot;;}i:23;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;152&quot;;s:6:&quot;advnum&quot;;s:3:&quot;547&quot;;}i:24;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;147&quot;;s:6:&quot;advnum&quot;;s:3:&quot;526&quot;;}i:25;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;129&quot;;s:6:&quot;advnum&quot;;s:3:&quot;402&quot;;}i:26;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;167&quot;;s:6:&quot;advnum&quot;;s:3:&quot;198&quot;;}i:27;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;160&quot;;s:6:&quot;advnum&quot;;s:2:&quot;47&quot;;}i:28;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;123&quot;;s:6:&quot;advnum&quot;;s:3:&quot;331&quot;;}i:29;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;118&quot;;s:6:&quot;advnum&quot;;s:3:&quot;317&quot;;}i:30;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;145&quot;;s:6:&quot;advnum&quot;;s:3:&quot;515&quot;;}i:31;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;125&quot;;s:6:&quot;advnum&quot;;s:3:&quot;352&quot;;}i:32;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;102&quot;;s:6:&quot;advnum&quot;;s:3:&quot;591&quot;;}i:33;a:2:{s:9:&quot;advisorid&quot;;s:2:&quot;97&quot;;s:6:&quot;advnum&quot;;s:3:&quot;583&quot;;}i:34;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;161&quot;;s:6:&quot;advnum&quot;;s:2:&quot;49&quot;;}i:35;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;135&quot;;s:6:&quot;advnum&quot;;s:3:&quot;490&quot;;}i:36;a:2:{s:9:&quot;advisorid&quot;;s:2:&quot;89&quot;;s:6:&quot;advnum&quot;;s:3:&quot;567&quot;;}i:37;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;132&quot;;s:6:&quot;advnum&quot;;s:3:&quot;486&quot;;}i:38;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;141&quot;;s:6:&quot;advnum&quot;;s:3:&quot;505&quot;;}i:39;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;175&quot;;s:6:&quot;advnum&quot;;s:3:&quot;516&quot;;}i:40;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;117&quot;;s:6:&quot;advnum&quot;;s:3:&quot;303&quot;;}i:41;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;127&quot;;s:6:&quot;advnum&quot;;s:3:&quot;359&quot;;}i:42;a:2:{s:9:&quot;advisorid&quot;;s:2:&quot;91&quot;;s:6:&quot;advnum&quot;;s:3:&quot;570&quot;;}i:43;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;121&quot;;s:6:&quot;advnum&quot;;s:3:&quot;320&quot;;}i:44;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;163&quot;;s:6:&quot;advnum&quot;;s:2:&quot;61&quot;;}i:45;a:2:{s:9:&quot;advisorid&quot;;s:2:&quot;98&quot;;s:6:&quot;advnum&quot;;s:3:&quot;584&quot;;}i:46;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;133&quot;;s:6:&quot;advnum&quot;;s:3:&quot;487&quot;;}i:47;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;130&quot;;s:6:&quot;advnum&quot;;s:3:&quot;463&quot;;}i:48;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;178&quot;;s:6:&quot;advnum&quot;;s:3:&quot;600&quot;;}i:49;a:2:{s:9:&quot;advisorid&quot;;s:2:&quot;99&quot;;s:6:&quot;advnum&quot;;s:3:&quot;585&quot;;}i:50;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;110&quot;;s:6:&quot;advnum&quot;;s:3:&quot;265&quot;;}i:51;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;140&quot;;s:6:&quot;advnum&quot;;s:3:&quot;501&quot;;}i:52;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;113&quot;;s:6:&quot;advnum&quot;;s:3:&quot;276&quot;;}i:53;a:2:{s:9:&quot;advisorid&quot;;s:2:&quot;92&quot;;s:6:&quot;advnum&quot;;s:3:&quot;571&quot;;}i:54;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;101&quot;;s:6:&quot;advnum&quot;;s:3:&quot;587&quot;;}i:55;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;124&quot;;s:6:&quot;advnum&quot;;s:3:&quot;349&quot;;}i:56;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;111&quot;;s:6:&quot;advnum&quot;;s:3:&quot;268&quot;;}i:57;a:2:{s:9:&quot;advisorid&quot;;s:2:&quot;93&quot;;s:6:&quot;advnum&quot;;s:3:&quot;572&quot;;}i:58;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;136&quot;;s:6:&quot;advnum&quot;;s:3:&quot;491&quot;;}i:59;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;142&quot;;s:6:&quot;advnum&quot;;s:3:&quot;507&quot;;}i:60;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;103&quot;;s:6:&quot;advnum&quot;;s:3:&quot;589&quot;;}i:61;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;108&quot;;s:6:&quot;advnum&quot;;s:3:&quot;260&quot;;}i:62;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;137&quot;;s:6:&quot;advnum&quot;;s:3:&quot;492&quot;;}i:63;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;148&quot;;s:6:&quot;advnum&quot;;s:3:&quot;532&quot;;}i:64;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;174&quot;;s:6:&quot;advnum&quot;;s:3:&quot;227&quot;;}i:65;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;173&quot;;s:6:&quot;advnum&quot;;s:3:&quot;224&quot;;}i:66;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;156&quot;;s:6:&quot;advnum&quot;;s:3:&quot;558&quot;;}i:67;a:2:{s:9:&quot;advisorid&quot;;s:3:&quot;122&quot;;s:6:&quot;advnum&quot;;s:3:&quot;326&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas20_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;545&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions0_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;222&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas21_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;557&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions1_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;298&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas22_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;319&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions2_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;279&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas23_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;582&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions3_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;226&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas24_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;595&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions4_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;210&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas25_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;559&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions5_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas26_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;552&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions6_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas27_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;525&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions7_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;260&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas28_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;133&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions8_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;249&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas29_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions9_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas210_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;511&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions10_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas211_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;218&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions11_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;284&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas212_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;257&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions12_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;305&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas213_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;489&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions13_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;314&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas214_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;221&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions14_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas215_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;464&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions15_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas216_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;293&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions16_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;185&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas217_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;173&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions17_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;253&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas218_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;401&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions18_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas219_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:2:&quot;64&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions19_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas220_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;569&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions20_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;317&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas221_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;318&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions21_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;207&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas222_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:2:&quot;54&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions22_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas223_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;547&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions23_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;178&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas224_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;526&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions24_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;295&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas225_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;402&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions25_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;189&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas226_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;198&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions26_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas227_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:2:&quot;47&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions27_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;231&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas228_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;331&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions28_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;199&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas229_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;317&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions29_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;167&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas230_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;515&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions30_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;291&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas231_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;352&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions31_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;241&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas232_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;591&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions32_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;187&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas233_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions33_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;239&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas234_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:2:&quot;49&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions34_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;265&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas235_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;490&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions35_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;174&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas236_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;567&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions36_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;171&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas237_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;486&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions37_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;286&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas238_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;505&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions38_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;276&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas239_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;516&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions39_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;300&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas240_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;303&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions40_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;162&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas241_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;359&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions41_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;229&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas242_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;570&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions42_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas243_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;320&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions43_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;275&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas244_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:2:&quot;61&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions44_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;234&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas245_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;584&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions45_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;244&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas246_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;487&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions46_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;221&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas247_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;463&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions47_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;272&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas248_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions48_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas249_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;585&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions49_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas250_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;265&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions50_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas251_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;501&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions51_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;218&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas252_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;276&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions52_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;263&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas253_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;571&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions53_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;257&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas254_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;587&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions54_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;205&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas255_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;349&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions55_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;202&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas256_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;268&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions56_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;170&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas257_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;572&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions57_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas258_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;491&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions58_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;290&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas259_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;507&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions59_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;309&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas260_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;589&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions60_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;312&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas261_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;260&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions61_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;192&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas262_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;492&quot;;s:6:&quot;areaid&quot;;s:1:&quot;1&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions62_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;161&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas263_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;532&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions63_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;248&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas264_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;227&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions64_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;269&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas265_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;224&quot;;s:6:&quot;areaid&quot;;s:1:&quot;3&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions65_keys" value="a:0:{}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas266_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;558&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions66_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;180&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advareas267_keys" value="a:1:{i:0;a:2:{s:6:&quot;advnum&quot;;s:3:&quot;326&quot;;s:6:&quot;areaid&quot;;s:1:&quot;2&quot;;}}">
+</p>
+
+<p class="hidden">
+<!-- saved keys -->
+<input type="hidden" name="f_advsessions67_keys" value="a:1:{i:0;a:1:{s:6:&quot;sessid&quot;;s:3:&quot;197&quot;;}}">
+</p>
+
+<input type="hidden" name="f_workrecno" value="0">
+<input type="hidden" name="f_formid" value="21">
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="footer">
+<ul>
+<li class="first">
+EECS Administrative Computing Group | acg@eecs.berkeley.edu
+</li>
+</ul>
+Copyright &copy; <script type="text/javascript">
+<!--
+displayDate();
+//-->
+</script>
+UC Regents; all rights reserved.
+</div>
+
+</div></div></div>
+
+</body>
+</html>

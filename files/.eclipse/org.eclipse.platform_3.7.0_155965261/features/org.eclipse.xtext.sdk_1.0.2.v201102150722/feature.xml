@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.xtext.sdk"
+      label="%featureName"
+      version="1.0.2.v201102150722"
+      provider-name="%providerName"
+      plugin="org.eclipse.xtext"
+      image="modeling32.png">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2009 itemis AG (http://www.itemis.eu) and others.
+
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0 which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html Description here.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/modeling/tmf/updates/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.xtext.runtime"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.ui"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.examples"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.sdk.source"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.runtime.source"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.ui.source"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.examples.source"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.docs"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.xbase"
+         version="1.0.2.v201102150722"/>
+
+   <includes
+         id="org.eclipse.xtext.xbase.source"
+         version="1.0.2.v201102150722"/>
+
+</feature>

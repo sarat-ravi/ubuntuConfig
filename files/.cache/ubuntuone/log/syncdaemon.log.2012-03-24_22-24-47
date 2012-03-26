@@ -1,0 +1,35 @@
+2012-03-24 22:08:45,898 - ubuntuone.SyncDaemon.Main - INFO - Starting Ubuntu One client version 2.0.0
+2012-03-24 22:08:45,899 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/saratt/Ubuntu One' as root dir
+2012-03-24 22:08:45,899 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/saratt/.local/share/ubuntuone/syncdaemon' as data dir
+2012-03-24 22:08:45,899 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/saratt/.local/share/ubuntuone/shares' as shares root dir
+2012-03-24 22:08:45,899 - ubuntuone.SyncDaemon.tritcask - INFO - Initializing Tritcask on: /home/saratt/.local/share/ubuntuone/syncdaemon/tritcask
+2012-03-24 22:08:45,904 - ubuntuone.SyncDaemon.tritcask - INFO - found 1 data files, 0 dead and 0 broken files
+2012-03-24 22:08:45,914 - ubuntuone.SyncDaemon.tritcask - INFO - keydir ready! (keys: 2)
+2012-03-24 22:08:45,948 - ubuntuone.SyncDaemon.fsm - INFO - loading updated metadata
+2012-03-24 22:08:45,949 - ubuntuone.SyncDaemon.fsm - INFO - initialized: idx_path: 1, idx_node_id: 0, shares: 1
+2012-03-24 22:08:45,967 - ubuntuone.SyncDaemon.filesystem_notifications.GeneralProcessor - INFO - Ignoring files: ['\\A#.*\\Z', '\\A.*~\\Z', '\\A.*\\.py[oc]\\Z', '\\A.*\\.sw[nopx]\\Z', '\\A.*\\.swpx\\Z', '\\A\\..*\\.tmp\\Z', '\\A\\.~lock\\..*#\\Z']
+2012-03-24 22:08:45,973 - ubuntuone.SyncDaemon.HQ - INFO - HashQueue: _hasher started
+2012-03-24 22:08:47,356 - ubuntuone.SyncDaemon.DBus - INFO - DBusInterface initialized.
+2012-03-24 22:08:47,356 - ubuntuone.SyncDaemon.DBus - INFO - connect was requested. Are we autoconnecting? True.
+2012-03-24 22:08:47,509 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'INIT'  (queues IDLE  connection 'Not User Not Network')>; queue: 0; hash: 0) ----
+2012-03-24 22:08:47,510 - ubuntuone.SyncDaemon.Main - NOTE - Local rescan starting...
+2012-03-24 22:08:47,510 - ubuntuone.SyncDaemon.local_rescan - INFO - start scan all volumes
+2012-03-24 22:08:47,511 - ubuntuone.SyncDaemon.local_rescan - INFO - processing trash
+2012-03-24 22:08:47,512 - ubuntuone.SyncDaemon.local_rescan - INFO - processing move limbo
+2012-03-24 22:08:47,515 - ubuntuone.SyncDaemon.local_rescan - INFO - Ignoring path as it's a symlink: '/home/saratt/Ubuntu One/Shared With Me'
+2012-03-24 22:08:47,517 - ubuntuone.SyncDaemon.Main - NOTE - Local rescan finished!
+2012-03-24 22:08:47,517 - ubuntuone.SyncDaemon.Main - INFO - hash queue empty. We are ready!
+2012-03-24 22:08:49,122 - ubuntuone.SyncDaemon.DBus - WARNING - 'CredentialsNotFound': () {'member': 'CredentialsNotFound'}
+2012-03-24 22:08:49,123 - twisted - ERROR - Unhandled error in Deferred:
+2012-03-24 22:08:49,124 - twisted - ERROR - Unhandled Error
+Traceback (most recent call last):
+Failure: ubuntuone.platform.linux.dbus_interface.NoAccessToken: CredentialsNotFound
+
+2012-03-24 22:10:47,509 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-03-24 22:12:47,509 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-03-24 22:14:47,509 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-03-24 22:16:47,510 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-03-24 22:18:47,510 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-03-24 22:20:47,510 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-03-24 22:22:47,509 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----
+2012-03-24 22:24:47,509 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; hash: 0) ----

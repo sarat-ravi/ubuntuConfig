@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %providerName
+Bundle-Localization: fragmentj2se14
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+Fragment-Host: org.eclipse.pde.api.tools;bundle-version="1.0.201"
+Bundle-Name: %fragmentName
+Bundle-SymbolicName: org.eclipse.pde.api.tools.ee.j2se14
+Eclipse-BundleShape: dir
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/ecl
+ ipse:pde/apitools/org.eclipse.pde.api.tools.ee.j2se14;tag=v20100506-0
+ 900
+Bundle-Version: 1.0.1.v20100506-0900
+Bundle-ManifestVersion: 2
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: fragmentj2se14.properties
+SHA1-Digest: a+i0jESkDoOWTSp5AzLNi2WHoSg=
+
+Name: about.html
+SHA1-Digest: ejOZra0kypGLQQ2bJtGTX+LI8tU=
+
+Name: org/eclipse/pde/api/tools/internal/api_stubs/J2SE-1.4.zip
+SHA1-Digest: yp+wmAAuUUZFRhoBL4OcVzvMWwU=
+

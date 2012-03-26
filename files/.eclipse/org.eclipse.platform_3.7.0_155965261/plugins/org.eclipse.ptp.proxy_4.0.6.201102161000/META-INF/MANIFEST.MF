@@ -1,0 +1,128 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %pluginProvider
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.ptp.proxy
+Bundle-Version: 4.0.6.201102161000
+Bundle-ManifestVersion: 2
+
+Name: include/proxy.h
+SHA1-Digest: Kpaki/tSVr5jn8ZIioK4RzSptFQ=
+
+Name: src/proxy_stdio.c
+SHA1-Digest: IWvf/Jmb8wIL0DDVM1VqPnGBXHQ=
+
+Name: include/proxy_msg.h
+SHA1-Digest: 0sFfevK9xwA3ioFTGHktqcnPi5A=
+
+Name: install-sh
+SHA1-Digest: Kxgl4URD8xmAqKOoBx2z1gjiTE0=
+
+Name: Makefile.in
+SHA1-Digest: HkX9Vo/EbYmx1HaZUYAqHIPTaxA=
+
+Name: src/proxy_tcp_svr.c
+SHA1-Digest: z4/qiikS6IRZ4k1kkc2ywmT5/c4=
+
+Name: include/proxy_stdio.h
+SHA1-Digest: 7Qepu7PGwc/uJyRUDA5yApGABbY=
+
+Name: plugin.properties
+SHA1-Digest: q38HX8u/vnBW9daWEBZH1UbjLkk=
+
+Name: Makefile.am
+SHA1-Digest: 2gr6EA24LtOD7dPVXOuBjmJSElo=
+
+Name: src/proxy_event.c
+SHA1-Digest: EB8NiDqDYfESJ3k6jFl9yqCV0S8=
+
+Name: NEWS
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: ChangeLog
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: config.sub
+SHA1-Digest: bixvOgJrShjcVTjgjLpjrXMJLO0=
+
+Name: config.h.in
+SHA1-Digest: LukPtG3MtPK9nIJ9XPwHx9j+0Mg=
+
+Name: src/proxy_tcp.c
+SHA1-Digest: OSzWEu4UxyRmvwQC+hSvWPcBMJQ=
+
+Name: include/proxy_event.h
+SHA1-Digest: O0xJuuadBS0lvg0VK06rtGGTqw0=
+
+Name: depcomp
+SHA1-Digest: XXQlqcCKZsMXfx4xKG+kCYb/yZY=
+
+Name: src/proxy_clnt.c
+SHA1-Digest: M6JCaorMBn5L9fcr5KOKW3+gWkM=
+
+Name: src/proxy_attr.c
+SHA1-Digest: ppfOG+xJEMrfAowp0ggCX6Bs1aU=
+
+Name: ltmain.sh
+SHA1-Digest: FRbVIWsy7X3WW6bmSc1YZX7kirk=
+
+Name: include/proxy_attr.h
+SHA1-Digest: Z5CIS3h1P9uj5vqo4jyQXBrEbsc=
+
+Name: include/proxy_tcp.h
+SHA1-Digest: LGLaaFTSBm14GE98rKYlaeAAqQA=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: missing
+SHA1-Digest: hOFJWuvhBLpo8SS8NgbLShtfbHo=
+
+Name: configure
+SHA1-Digest: vnTm2NQBUzta3oeyUBWbyXYeJzo=
+
+Name: src/proxy_svr.c
+SHA1-Digest: 5ej00r8ZaJjXhQEArAUQffqdR8Q=
+
+Name: AUTHORS
+SHA1-Digest: RrA+hxCSREJ+9zYwT6+Nr+2hO6A=
+
+Name: config.guess
+SHA1-Digest: sWCO1DGIHZsAcAV22m+35qKOdgU=
+
+Name: aclocal.m4
+SHA1-Digest: O4tc0Yr2SbB83EORJS/Op4l3pYU=
+
+Name: about.html
+SHA1-Digest: 67tR7zDg5zZTSqky1HavSrc+IY0=
+
+Name: COPYING
+SHA1-Digest: qPg+VsliTTBu9Pj5lQzGOyNN61I=
+
+Name: configure.in
+SHA1-Digest: eKc0CVclJCJJMMvhgzJVUf2EY80=
+
+Name: README
+SHA1-Digest: 86ZAV7d3FlIOhTF4Im+NHkWfN5U=
+
+Name: src/proxy_stdio_svr.c
+SHA1-Digest: bA/3HjPGD4hMJvsu0MXgyPGpAOA=
+
+Name: compile
+SHA1-Digest: 9yZtrtrcGkvhbkbyVJuEtwzwJ9c=
+
+Name: src/proxy.c
+SHA1-Digest: grePO4dxtMhjiTw15W7t33UWJGs=
+
+Name: src/proxy_msg.c
+SHA1-Digest: +/Qk04nsUI2TappRmoI4l2VuVG8=
+
+Name: INSTALL
+SHA1-Digest: k6vfNMntTk7nz26Ko/kgMJOMsTI=
+
+Name: include/proxy_cmd.h
+SHA1-Digest: G72LTgu/aCV1eTlOb4CalkY6i0U=
+
+Name: src/proxy_tcp_clnt.c
+SHA1-Digest: B7psMaDpR5FAU1PTe2b2aBvJCEo=
+

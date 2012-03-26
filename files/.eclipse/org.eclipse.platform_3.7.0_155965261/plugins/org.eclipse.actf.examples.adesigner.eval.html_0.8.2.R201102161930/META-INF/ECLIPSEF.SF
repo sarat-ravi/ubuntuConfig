@@ -1,0 +1,61 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 8dyRNLbpIULk3RgEz/VUb+YxC8Y=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: Npf5Eb6VioO72Cwfvb9ifhOK/5A=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/HtmlCheckerInfoPro
+ vider.class
+SHA1-Digest: g9nRHzXy6PMyfXRsLLVapTZtBPo=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: about.html
+SHA1-Digest: 2tQZmbga2hGq26apXUi4yPsnRsk=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/LanguageT
+ ag.class
+SHA1-Digest: xuVHGprPWp1nhVoy6gU4dredZy8=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/Checker.class
+SHA1-Digest: e52YKUxlRU0KyD1K0ux19jYjNIk=
+
+Name: resources/description.properties
+SHA1-Digest: DAfG5RTYKV5wjiX4GO/U5K+TewM=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/FieldsetM
+ anager.class
+SHA1-Digest: YlPdDNog4SVanUCtXiTp+DXY/t8=
+
+Name: evalhtml.jar
+SHA1-Digest: 3+caJfVUtV9pq16nvL8Np5jQoa0=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/CheckEngi
+ ne.class
+SHA1-Digest: LL/wU2jwTNw0WkReO8R1XMsoEKQ=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/messages.
+ properties
+SHA1-Digest: mRcTKTg0C8yXtaiHiuwSWUb8GNQ=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/Messages.
+ class
+SHA1-Digest: Nr696LCHzSAm4UPTehZ1uKzOWzU=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/messages_
+ ja.properties
+SHA1-Digest: zp3OQLCCzqQRNuGGdEFOvcgeMEA=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/TitleChec
+ kResult.class
+SHA1-Digest: hIXK7GxVYu0ywe+nd6xY0z/qghI=
+
+Name: resources/checkitem.xml
+SHA1-Digest: i+nLt9M1M+JlnJqoqT2CzzJEBco=
+
+Name: plugin.xml
+SHA1-Digest: HF6nMckbha4oXP+gcx3BatmB67U=
+
+Name: resources/description_ja.properties
+SHA1-Digest: syodsG4E+rpEF9Fw9X/UiIPtnd4=
+

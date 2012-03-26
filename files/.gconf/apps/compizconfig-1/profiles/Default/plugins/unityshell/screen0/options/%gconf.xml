@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="backlight_mode" mtime="1330860967" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/backlight_mode"/>
+	<entry name="alt_tab_timeout" mtime="1330860967" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/alt_tab_timeout"/>
+	<entry name="alt_tab_prev" mtime="1330860967" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/alt_tab_prev"/>
+	<entry name="devices_option" mtime="1330860967" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/devices_option"/>
+	<entry name="icon_size" mtime="1330860967" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/icon_size"/>
+	<entry name="automaximize_value" mtime="1330860967" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/automaximize_value"/>
+	<entry name="alt_tab_prev_window" mtime="1330860967" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/alt_tab_prev_window"/>
+	<entry name="launcher_opacity" mtime="1330860967" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/launcher_opacity"/>
+	<entry name="panel_opacity" mtime="1330860967" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/panel_opacity"/>
+	<entry name="dash_blur_experimental" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/dash_blur_experimental"/>
+	<entry name="alt_tab_detail_stop" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/alt_tab_detail_stop"/>
+	<entry name="urgent_animation" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/urgent_animation"/>
+	<entry name="launch_animation" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/launch_animation"/>
+	<entry name="alt_tab_forward" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/alt_tab_forward"/>
+	<entry name="show_launcher" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/show_launcher"/>
+	<entry name="show_minimized_windows" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/show_minimized_windows"/>
+	<entry name="autohide_animation" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/autohide_animation"/>
+	<entry name="execute_command" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/execute_command"/>
+	<entry name="alt_tab_right" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/alt_tab_right"/>
+	<entry name="launcher_hide_mode" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/launcher_hide_mode"/>
+	<entry name="alt_tab_left" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/alt_tab_left"/>
+	<entry name="alt_tab_bias_viewport" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/alt_tab_bias_viewport"/>
+	<entry name="alt_tab_next_window" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/alt_tab_next_window"/>
+	<entry name="alt_tab_detail_start" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/alt_tab_detail_start"/>
+	<entry name="launcher_reveal_edge" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/launcher_reveal_edge"/>
+	<entry name="launcher_reveal_edge_timeout" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/launcher_reveal_edge_timeout"/>
+	<entry name="keyboard_focus" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/keyboard_focus"/>
+	<entry name="panel_first_menu" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/unityshell/screen0/options/panel_first_menu"/>
+</gconf>

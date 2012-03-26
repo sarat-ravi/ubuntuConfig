@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Eclipse.org
+Bundle-Name: ACTF Visualization SDK (Incubation)
+Bundle-SymbolicName: org.eclipse.actf.visualization.sdk
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui
+Bundle-Version: 0.8.2.R201102161930
+Bundle-ManifestVersion: 2
+
+Name: eclipse32.png
+SHA1-Digest: eCk/A3/COXL3S6qAVDOSrlsqmLw=
+
+Name: about.ini
+SHA1-Digest: KofKadbJQxhlfdXR26I5/1M2fYw=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: about.properties
+SHA1-Digest: /VEzLUZChZZarTvIaUWumU7QyUA=
+
+Name: about.html
+SHA1-Digest: 6iWCOXZprfOub4LeuEsP3zx5AiY=
+

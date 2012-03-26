@@ -1,0 +1,278 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: w4NXLwjpsD47QmdYlO9MI0Si1aI=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: UlU7e3AT61cFS2ds2x0OkY1/xF0=
+
+Name: html/setupOMP.html
+SHA1-Digest: hVgH3iWjstsV/za/d8He8XNG7bk=
+
+Name: html/whatsnew.html
+SHA1-Digest: UxVYCDk0vkImb+GNWA+L6ebCsL4=
+
+Name: html/images/mpiWizard2.gif
+SHA1-Digest: P8D2fi3fN280ud/cprA9p77gONA=
+
+Name: html/images/mpiWizard3.gif
+SHA1-Digest: oHZXrjFb2U26TCgsgZ+OMNYKeno=
+
+Name: html/images/ptp-openMPproblems.gif
+SHA1-Digest: ZWbukBY4vsXZA9kdNH5zUvez/NU=
+
+Name: html/images/ptp-openMPshowConcurrency.gif
+SHA1-Digest: FxVomNFde6fpq8Bpiw8yiLjKyKI=
+
+Name: html/upc_wizards.html
+SHA1-Digest: 8G2G1wIfntsmntb2OZ1sdJrlKMk=
+
+Name: html/images/lib.png
+SHA1-Digest: m3VwcX+n41YfrOIVWXI2Be2pO+E=
+
+Name: html/runOMP.html
+SHA1-Digest: tmBAn2oXd/aghiEeeE7Z2xXokUQ=
+
+Name: intro/pldtOverview.xml
+SHA1-Digest: 8V4beL67uGBnoLMGjHARuXaM5lY=
+
+Name: html/images/makefileProjProps.png
+SHA1-Digest: rcJT5YtaePY+9b52edlpswAHW2s=
+
+Name: html/images/pldtIconMisplaced.gif
+SHA1-Digest: TiJEt09PPFCUeE7mccVrkjf/jNM=
+
+Name: html/run.html
+SHA1-Digest: 8nMugbYGZEknDBo089GM2eglxYA=
+
+Name: html/upc.html
+SHA1-Digest: xg0ep9GAf+uTOyz+Fyu7MuEAfuI=
+
+Name: html/images/menuShowOpenMPartifacts.gif
+SHA1-Digest: fNv09NNX6mRW3deAPnKqEIElKXE=
+
+Name: html/images/welcomeC-pldt.gif
+SHA1-Digest: I7rFh9AcV+pZQl1b/ItsjI8q9yM=
+
+Name: html/images/upc_editorAndArtifacts.png
+SHA1-Digest: KRCEIQqXD3iYFGryeppZ01l/bTs=
+
+Name: html/overview.html
+SHA1-Digest: 6KyYOXCnFGJCXZmh1HKPMTPZupI=
+
+Name: html/images/helpContSensHitF1click.gif
+SHA1-Digest: pkblhcExnnLHsHlZLfeA7ijoASc=
+
+Name: html/images/welcomeOverview.gif
+SHA1-Digest: emhRExMq2pfSQf5yuzT4BvzQDOc=
+
+Name: html/images/hover.gif
+SHA1-Digest: xKl+xWgAIBYpx5OlSMRJpN/xbdM=
+
+Name: org/eclipse/ptp/pldt/help/HelpPlugin.class
+SHA1-Digest: 1bGyC4Fk9ILGDVK2RxYD8DXDiXY=
+
+Name: html/mpiTemplates.html
+SHA1-Digest: LOw0L+GxQ3ZoS1l8/0e5mifPP6I=
+
+Name: html/setupMakefileProject.html
+SHA1-Digest: Y6M2616aVEvvCbhUty2JcY53IN0=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: html/images/contentAssist.gif
+SHA1-Digest: xhUxsv/EzLDb+PVvesEJntOulLg=
+
+Name: html/images/upcArtifacts.png
+SHA1-Digest: LsPOcqlPF4JDiYfxrn5mXOrzBu8=
+
+Name: intro/pldtWhatsnew.xml
+SHA1-Digest: aKSZYf6BXX/g7gfmyLIQpJJTF1I=
+
+Name: icons/analyze.gif
+SHA1-Digest: +qIOYgxHWvDhPqQG7tNIYZJE87c=
+
+Name: html/images/mpiMenu.png
+SHA1-Digest: XTtbYvtvx7thkLe/bSAz43vEuno=
+
+Name: html/images/include.png
+SHA1-Digest: jqJF7crFwQSRhB/h9EtkIPuIhd8=
+
+Name: html/images/ompCompilerOpt.png
+SHA1-Digest: LPsyPtHyrzV8GvQx/TzX89VrnR0=
+
+Name: html/images/helpContSensHitF1.gif
+SHA1-Digest: UQX02gjfB6MFLf1bidW4LPYIfHc=
+
+Name: html/images/openmpArtifactsfound.gif
+SHA1-Digest: DBO9ZqLovS+AH06X05PVIB356kM=
+
+Name: html/help.css
+SHA1-Digest: 8xZoR8pi0638UUZbrK5q22g6TUI=
+
+Name: html/tracing.html
+SHA1-Digest: Mj//0AMLeUphagHV6du8zRUrirk=
+
+Name: html/images/BarrierMatchingSetView.gif
+SHA1-Digest: U7ESVUjoPb76g3VOSk1O3l3e+Qc=
+
+Name: html/images/barrierMarkerRemove.png
+SHA1-Digest: tgE4ZpGUgUaEZrl0To/IRs3fbSU=
+
+Name: html/samples/testMPI.c
+SHA1-Digest: o+ky7fM7FOJ5fcKDwJvlXoZYphQ=
+
+Name: html/images/mpiTemplates.png
+SHA1-Digest: CefjeLoG++zc2bSiiONifGfTPEI=
+
+Name: html/images/upcProperties.png
+SHA1-Digest: FahHtdx9yVefxfQTB44c2rnZEj0=
+
+Name: html/images/cdtPrefsTemplates.png
+SHA1-Digest: eD3Fifcb8YxM6hOjFvHEnM8QYlM=
+
+Name: html/thumb.js
+SHA1-Digest: opcdnFESlzq8eVfT5iJAhuStY3Y=
+
+Name: html/images/pldt-menu.png
+SHA1-Digest: HH32fk5ngLQ+QBEI9XEksIz8nV0=
+
+Name: html/images/mpiNewProjectWorkbench.gif
+SHA1-Digest: 2x7fJe8VHLqA2NeEmhw6a7izyE0=
+
+Name: html/images/mpiBuildCommand.png
+SHA1-Digest: 3gQGTNEMjk7cHiP3Ph28o+DRLtU=
+
+Name: html/images/newProjOpenMP.gif
+SHA1-Digest: LZaGuAImVffU0A4ej0F29oHFTSE=
+
+Name: html/samples/testMPIcpp.cpp
+SHA1-Digest: v59YuI/5fUDfO5oVOIhNocJlMHs=
+
+Name: intro/css/sample.css
+SHA1-Digest: XdEKaV4kPR7Xpd6KyuY276s95LE=
+
+Name: plugin.properties
+SHA1-Digest: rdBEuLO0prO1v3FM43sbjP+2fxU=
+
+Name: intro/css/graphics/cdt_icon_create_cproject.png
+SHA1-Digest: 7N/c4fO0akV2UtU4JHCAUyBmSWs=
+
+Name: intro/css/graphics/sample.gif
+SHA1-Digest: 8SwYV+ZNXYHrgxA7Nemj85zGZE4=
+
+Name: html/images/mpiTemplatesMod.png
+SHA1-Digest: lR1Sz5qUF+T6JFyhih98NdJ+6j0=
+
+Name: html/images/makefileProject.png
+SHA1-Digest: g6GxI8mrU+vd050LntKndgmqeY4=
+
+Name: html/samples/pi.cpp
+SHA1-Digest: Qh5EmZ8tMH01g13RkpSyDr4TPTc=
+
+Name: html/images/barrier.gif
+SHA1-Digest: oXb7+f/HZXLNC6Vaj9ANLNX/a8E=
+
+Name: html/openMPextra.html
+SHA1-Digest: 4TjBoO8oCm8h0+reBzTl0k/hCPw=
+
+Name: plugin.xml
+SHA1-Digest: bJJaF4S8fV7YWwHTIcoZDvfgp4s=
+
+Name: html/images/mpiViewAnn.gif
+SHA1-Digest: 9iyrvdDkUciuLLcoPjyG5sPxDgk=
+
+Name: html/setup.html
+SHA1-Digest: ah60ocMQt/X1kimPManjRkTr/OU=
+
+Name: html/samples/testMPIbarrier.c
+SHA1-Digest: NN1l2oxLCLXj7t9IQlSSlf+Z20c=
+
+Name: html/images/mpiPrefsHaveNotBeenSet.png
+SHA1-Digest: CXNBhVOfqcBkezX/uZdc/rhw+RM=
+
+Name: html/images/menuShowUPCartifacts.png
+SHA1-Digest: uA5z8zcSi66oozHqiavoW2SaXjI=
+
+Name: html/images/mpiButtons.gif
+SHA1-Digest: SaJnmxgXBcxt1bpLszEDX+b1gL4=
+
+Name: html/images/barrierMatches.gif
+SHA1-Digest: oYXCVUP9Cr/0VqJw4Z9bCf65qpM=
+
+Name: html/images/barrierErrors.gif
+SHA1-Digest: 5PrOUcNWd3in1ayu/QqDvMrAcbQ=
+
+Name: intro/css/graphics/sample_hov.gif
+SHA1-Digest: 3muZYwblFOLXF6inEMISYU7ffY4=
+
+Name: html/images/openmpPrefs.gif
+SHA1-Digest: t+s7SEKf2cFwC5UeClwj3U6k9v0=
+
+Name: html/barrier.html
+SHA1-Digest: kHbM4ok8Zzxjlp2UP60ZpFn1n6k=
+
+Name: html/images/upc_editorVsArtifacts.png
+SHA1-Digest: NVPIaqQtVig30G5QrRHeMIQbynQ=
+
+Name: html/images/upc_template1.png
+SHA1-Digest: LnvkvPyZE3WYVFaoJKal+DR2/pk=
+
+Name: html/images/upc_template2.png
+SHA1-Digest: WE3ArGAP/vOfLBINkOjMzYy6xcE=
+
+Name: html/samples/helloMPI_c_style.cpp
+SHA1-Digest: jtgVp5xET0PZJpAVCaL1yDGbyCI=
+
+Name: html/images/pldt-prefs1.png
+SHA1-Digest: E3ryboaFhBUSLBF1CIZuw5gVU6E=
+
+Name: html/images/ptp-openMPshowConcurrencymenu.gif
+SHA1-Digest: P0VzpkeIyByH/FJP1nnnyT3YSq4=
+
+Name: about.html
+SHA1-Digest: p0ZoXj4UARV1NmAKuIc3VZcM6Xo=
+
+Name: html/images/upcWizards.png
+SHA1-Digest: ssHhlYrG6ywbjFGWUBvatrohtsg=
+
+Name: html/images/analyze.gif
+SHA1-Digest: xPNpcMdl5zTckGH+RChv8EYjdIc=
+
+Name: html/images/newProjOpenMPsettings.gif
+SHA1-Digest: ynW1PVhpVQZnUjC6VosMxbCmiWE=
+
+Name: toc.xml
+SHA1-Digest: g2+BDPVT7hpVPrOmoQHntMnxYE4=
+
+Name: html/images/helpContSens.gif
+SHA1-Digest: T7UmeoUXIZD9OmTTP6iDh4c2kMw=
+
+Name: html/toc.html
+SHA1-Digest: 1iDyFllmgrOgDuSidkMiyzgrODA=
+
+Name: html/images/upcPrefs.png
+SHA1-Digest: xlPLV15jua7Djd9BvbRoKXjmYks=
+
+Name: intro/pldtTutorial.xml
+SHA1-Digest: 8uhsNpOn5AyksVT6ifrxNbbCuaI=
+
+Name: html/images/mpiWizard.png
+SHA1-Digest: mpOwyMwfsSgYtlKdm3VzsSrsXg0=
+
+Name: html/images/ptp-openMPpragmaAnn.gif
+SHA1-Digest: Ctxr8/Y3+L4cEceH/zNUmKZRXSI=
+
+Name: html/images/clearMarkers.png
+SHA1-Digest: E5DXie+RHfG6eJ7RoHxaGce9+78=
+
+Name: html/images/barrierActionAnn.gif
+SHA1-Digest: ScJIqSiYK4JYa5R9xmyPQvYoYAQ=
+
+Name: html/images/barrierPathSelection.png
+SHA1-Digest: iznGh3n8kVps9Ak4G43J8yH79bI=
+
+Name: html/images/barrierErrorView.gif
+SHA1-Digest: ojiZ5xktmjNLYXwscU3GOeOL9wc=
+
+Name: html/images/BarrierView.gif
+SHA1-Digest: 1AyzKDX+OxMfcU18u+AFWUxblEQ=
+

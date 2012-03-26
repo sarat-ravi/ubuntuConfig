@@ -1,0 +1,572 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 4ZeKHFcg1Mts1kTlAyckJtLUjYM=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: xRfGVVzsHv12Y9dC7yPcCREVuL0=
+
+Name: libsci/errevent.hpp
+SHA1-Digest: AY8SmghQEAzPSNvAei3cG+0JB5I=
+
+Name: libsci/observer.hpp
+SHA1-Digest: IXI9RgOEQSCEiIatpVXw5fTyVLk=
+
+Name: man/aix/SCI_Group_free.3
+SHA1-Digest: BRlPXblDNxfi84cG1CfSpHW9xSA=
+
+Name: man/linux/SCI_Initialize.3
+SHA1-Digest: 9nOAK68pZTi4XugX7R6N1lF4QiA=
+
+Name: libsci/privatedata.hpp
+SHA1-Digest: nLJUHzprF6+jYTRaIbroDY2/KcI=
+
+Name: usecase/dsh_filter/dsh_filter.cpp
+SHA1-Digest: aMezWJmTkldpS+ZNZFf6/7F1teA=
+
+Name: usecase/dsh_filter2/dsh_fe.c
+SHA1-Digest: yHtiA/8Z8ePyQ69GhRQd/O/O/Sg=
+
+Name: libsci/launcher.cpp
+SHA1-Digest: azirArX9gmYeedis47dMLwHkcCA=
+
+Name: libsci/dgroup.hpp
+SHA1-Digest: VYmuqh+D5cTwPWzhzEiy0WnM5HM=
+
+Name: common/socket.hpp
+SHA1-Digest: Mm5AHUXs93EqaGIqtro5vgY8owk=
+
+Name: include/Makefile
+SHA1-Digest: 4DfSuU6FnEyGyUQSmMHdjQN1Wtg=
+
+Name: man/aix/SCI_Group_operate_ext.3
+SHA1-Digest: XR2oqBVAY4gob6n3woxWJyT/9b4=
+
+Name: man/linux/SCI_Group_operate.3
+SHA1-Digest: OFzXb0D7eC03V/D2TaWfh1xVEmA=
+
+Name: man/aix/SCI_Filter_upload.3
+SHA1-Digest: e9+wl60IIAVOAyP1G2NqSuHaOZA=
+
+Name: common/range.hpp
+SHA1-Digest: ZlyU/nbUw9DEM9j24sEkbVn02IA=
+
+Name: libsci/routerproc.hpp
+SHA1-Digest: eiKiLEP8Mqp4RlMfM46gYYDu8w0=
+
+Name: usecase/dsh_2/dsh_fe.c
+SHA1-Digest: jEFgfrw7XePHv7DCdq/UDBJRHm8=
+
+Name: man/linux/SCI_Query.3
+SHA1-Digest: h0PDBRfXqxhtuB2NrKX1nP0Qw+4=
+
+Name: usecase/dsh_filter/dsh_packer.cpp
+SHA1-Digest: 11NRwGeloCHCbdF/6xZ6WMlY3z8=
+
+Name: man/aix/SCI_Group_create.3
+SHA1-Digest: cXME9F4wNAkaNL61ViXyrDhzTMg=
+
+Name: libsci/ctrlblock.hpp
+SHA1-Digest: TVkbPXshCEumJKnfGvvP7fsGxTM=
+
+Name: libsci/message.cpp
+SHA1-Digest: MuO2LwHB2/WKsgD3hpuPFCQOZTg=
+
+Name: usecase/dsh_filter/dsh_aggregator.hpp
+SHA1-Digest: DDFp+oaPuG1y94/FjUkfOO34DmI=
+
+Name: common/sshfunc.hpp
+SHA1-Digest: nhGMhXI3vFv6C9bi0CcRd5hKt0c=
+
+Name: libsci/topology.hpp
+SHA1-Digest: t8svdYCoJaZwjwsOjujTJTzciVM=
+
+Name: libsci/listener.cpp
+SHA1-Digest: H+zQZRfWjRQ+AIM4KlyU7qKB6a4=
+
+Name: man/aix/SCI_BE_add.3
+SHA1-Digest: ZOVJzR3yU343zfKNP+bE2ky9z7Y=
+
+Name: usecase/dsh/use_ext_launcher
+SHA1-Digest: XW3ZRQj2jS4tHSTlndrDPPgZTMc=
+
+Name: usecase/dsh_2/edsh_fe.cpp
+SHA1-Digest: 4eWYOg4N5m8/w/bKrPzcJ39qkbk=
+
+Name: common/exception.hpp
+SHA1-Digest: 5RSouFTLNPlXTjEnEjXhiXlaoTg=
+
+Name: scid/extlaunch.cpp
+SHA1-Digest: 1RpUyz4cptedugJqiR4FPW1qEsw=
+
+Name: common/thread.hpp
+SHA1-Digest: DNCuy1z0/Bj9z3jd/cwonWjJ6Xo=
+
+Name: usecase/dsh/dsh_fe.c
+SHA1-Digest: VciLmmKXrErnuMW3SCdZuxthQbc=
+
+Name: common/ipconverter.hpp
+SHA1-Digest: D80mavOLz6q9aSGFWZhvgvGvMzE=
+
+Name: man/aix/SCI_Group_operate.3
+SHA1-Digest: 4u1Y2hGmpc+/ZnOC/tPTNgh9CyI=
+
+Name: libsci/queue.hpp
+SHA1-Digest: 933zkcyKUt/S8QGGnZz3t5RV1SE=
+
+Name: usecase/dsh_filter2/upfiltera.c
+SHA1-Digest: vo8ZoOa5NnzidqFQ1QyWMsQNEFg=
+
+Name: usecase/dsh/edsh_fe.cpp
+SHA1-Digest: YXephfU9PHDdggvxLxt6ifCHN9M=
+
+Name: libsci/errinjector.cpp
+SHA1-Digest: YzjozFRL6zXhw8o8ARCTcFYGOMc=
+
+Name: man/aix/SCI_Query.3
+SHA1-Digest: 1Op/f0Qb8QwfdNWk3iiWQlFLL9E=
+
+Name: libsci/api.cpp
+SHA1-Digest: kWK+966BI5w1V9LryvIshXX1WCc=
+
+Name: common/envvar.hpp
+SHA1-Digest: nIbn/8YPUYEbPY09XgmzujnpKnM=
+
+Name: scid/extlisten.cpp
+SHA1-Digest: pqMSfaUD9NVb1LdyQguGBTpwyx4=
+
+Name: libsci/errhandler.hpp
+SHA1-Digest: W8RASu9jJ8mES77baNImVCjBxTU=
+
+Name: man/linux/SCI_Upload.3
+SHA1-Digest: HRRjqCEBNWnvFK2bUrK/D289QR4=
+
+Name: libsci/writerproc.hpp
+SHA1-Digest: bq4DoWIOWMuake59qJ1epp7M6Ck=
+
+Name: libsci/embedagent.hpp
+SHA1-Digest: FW+ybYfN7SzgUuSwBrLnMwYfiig=
+
+Name: libsci/filterproc.hpp
+SHA1-Digest: 2z+R0GS9H4eY/KzJFeRg6w/z9d0=
+
+Name: libsci/routinglist.hpp
+SHA1-Digest: yV0cdhesw/eckBCTn5IQOssAZBo=
+
+Name: libsci/errevent.cpp
+SHA1-Digest: fEhdv6TCulDSgbIoNMHfRB8ZzRA=
+
+Name: libsci/observer.cpp
+SHA1-Digest: mkYXNm7qA5o9LPA+kCLXkqvw/mI=
+
+Name: libsci/general.hpp
+SHA1-Digest: 6HZz7ofJxUnVihX9fg6NgAeJVJA=
+
+Name: libsci/privatedata.cpp
+SHA1-Digest: oqyoLW8j2I0C2yR23ck3HXWJ9is=
+
+Name: libsci/errmonitor.hpp
+SHA1-Digest: vbCWqpyWjLqrBikQrAYwmER2RRI=
+
+Name: libsci/dgroup.cpp
+SHA1-Digest: 02isymrL6oLexe9lJ2nbNCr9TXo=
+
+Name: libsci/statemachine.hpp
+SHA1-Digest: aWrPACp73A51qxssuqkDk2uHJ4w=
+
+Name: common/socket.cpp
+SHA1-Digest: OdG44vJXRTjxU5o2uRrpbqkUjzo=
+
+Name: common/range.cpp
+SHA1-Digest: Ma5bXc1myJynu469XsibBdv9b2M=
+
+Name: libsci/routerproc.cpp
+SHA1-Digest: mb1VvhC/oyBkWhQu6IHDVklr5t4=
+
+Name: usecase/dsh_filter/dsh_fe.cpp
+SHA1-Digest: OH324oRxYSUE7Ib9EjjLrixzRgY=
+
+Name: common/group.hpp
+SHA1-Digest: wLY/p/XzYFyb6YDf//M9VaEqhaE=
+
+Name: usecase/dsh/Makefile.aix
+SHA1-Digest: uOqIwzW0E755R0g58vBGfRZIP0s=
+
+Name: libsci/ctrlblock.cpp
+SHA1-Digest: T8seQ/SPagDnGTcPOgn8+Ihsvz4=
+
+Name: common/sshfunc.cpp
+SHA1-Digest: PDEk9rKgORSIv/SEVtwqVJq6vAE=
+
+Name: usecase/dsh_2/buildit
+SHA1-Digest: E2YcZr9vV1vK/JTHbCTTiH77WMs=
+
+Name: man/aix/SCI_Poll.3
+SHA1-Digest: 3kxJlTJb6Q+rZc24cBtIal+scMQ=
+
+Name: libsci/topology.cpp
+SHA1-Digest: LBnCWa9kV+zrHLWUNFWefXQp3k8=
+
+Name: common/exception.cpp
+SHA1-Digest: aKJ6rceqBeYOH1ymTLC+zqO+How=
+
+Name: common/thread.cpp
+SHA1-Digest: obDFqxUhp3Ykae0MXJ3bT7SK5sg=
+
+Name: scid/Makefile.in
+SHA1-Digest: 6TVgFCF1yrtznNz/OQSpIL+iggo=
+
+Name: usecase/dsh_filter2/buildit
+SHA1-Digest: f6D5I9aYATb7j5uv0Y45zpY0vl8=
+
+Name: usecase/dsh_filter/dsh_header.hpp
+SHA1-Digest: yo+/VC9Ku7ByKh+rspnAatMSSEk=
+
+Name: common/ipconverter.cpp
+SHA1-Digest: kGXJFD9CIfkv98wXdRhQjAqwz2A=
+
+Name: libsci/queue.cpp
+SHA1-Digest: pQJEMxUIeoRqu5H2HLGBPDNaz6U=
+
+Name: scid/Makefile.am
+SHA1-Digest: WELRVNmKdABJRdHUUHh7/BQGahc=
+
+Name: about.html
+SHA1-Digest: p0ZoXj4UARV1NmAKuIc3VZcM6Xo=
+
+Name: libsci/filter.hpp
+SHA1-Digest: aja2+TmK33dGSNzWwXwNwu8nr3k=
+
+Name: man/linux/SCI.3
+SHA1-Digest: yR3hnNRMVNGuVJrrwF4x8t6edEY=
+
+Name: man/linux/SCI_BE_remove.3
+SHA1-Digest: E99xoPQzq3JuMHHP6qedr30WcH8=
+
+Name: man/aix/SCI_Initialize.3
+SHA1-Digest: IAEmYFj9weOXjByNIroGUXrX02Y=
+
+Name: usecase/dsh/ddsh_fe.c
+SHA1-Digest: JQYzblxpLIzt2YF38X2qysp9bCQ=
+
+Name: man/linux/SCI_Terminate.3
+SHA1-Digest: 9APXCo2mUd8csoFLMnocZGQCC6A=
+
+Name: common/envvar.cpp
+SHA1-Digest: Ypb7mPbIu6nPh5EcmyxaOp5NfWU=
+
+Name: man/linux/SCI_Filter_unload.3
+SHA1-Digest: c0t7fXAFkFnab8x9Xh1XQAqHnGs=
+
+Name: libsci/errhandler.cpp
+SHA1-Digest: hIyMO4o8llMwd2Ofq/f3j3RUC6I=
+
+Name: libsci/writerproc.cpp
+SHA1-Digest: oNHYHc/0ZisFWavhWU15ZmU64Zw=
+
+Name: libsci/embedagent.cpp
+SHA1-Digest: y6l0DSyAHUZGmwIZ+SU2co/pUoo=
+
+Name: libsci/filterproc.cpp
+SHA1-Digest: BrSfWg6YtyP34Qd9JML8ncoHSp0=
+
+Name: libsci/routinglist.cpp
+SHA1-Digest: /17TGiIF7E+9AeDWa+iRwyHXU9g=
+
+Name: libsci/handlerproc.hpp
+SHA1-Digest: IGL/vyfdnxu6KAoxD2egVRelx08=
+
+Name: libsci/errmonitor.cpp
+SHA1-Digest: JFosvcUuyK0QjF8uhi4FuUEN7qQ=
+
+Name: libsci/statemachine.cpp
+SHA1-Digest: 6eROiPzbd9jUNQ1fr2xYSrdZ8M8=
+
+Name: man/aix/SCI.3
+SHA1-Digest: HECoIliDe0NyqrNLVIIaIxJVT8Y=
+
+Name: libsci/errdetector.hpp
+SHA1-Digest: L7E40HfOJGR2uc+dqOVh9eTGNzY=
+
+Name: man/aix/SCI_BE_remove.3
+SHA1-Digest: CU9U/uqDrB6ScERRm/3AYnuSyLE=
+
+Name: libsci/filterlist.hpp
+SHA1-Digest: RRrT2hk9aY4GQjDYoA3KxY2Wb3g=
+
+Name: man/aix/SCI_Terminate.3
+SHA1-Digest: Nb/XYbDfC+WaHCmd4573ZowW9AQ=
+
+Name: libsci/readerproc.hpp
+SHA1-Digest: +ucKlOH/slhmhwWh6jA5m2y7S+c=
+
+Name: usecase/dsh/use_ext_launcher2
+SHA1-Digest: ZkgG5oJcMUEh6Ix+NLkRlPM7blk=
+
+Name: common/group.cpp
+SHA1-Digest: rPtwTS0KpiRnrB7EfCP3CdPeOH8=
+
+Name: man/aix/SCI_Filter_unload.3
+SHA1-Digest: TwNhFPDCXNMq5pjgF364XF/u7io=
+
+Name: usecase/dsh_filter2/dsh_be.c
+SHA1-Digest: VIhqSzS5d6ljj25SKqS36i9hwpg=
+
+Name: man/linux/SCI_Filter_bcast.3
+SHA1-Digest: F/agecsFKP+VhH4BBYRMn0Ixfw0=
+
+Name: usecase/dsh_filter/dsh_tests.cpp
+SHA1-Digest: HCAX43nVTaCa/wNSvNuyKgILFG4=
+
+Name: usecase/dsh_2/dsh_be.c
+SHA1-Digest: 56vPJMXMIeHc0XUTaMosZa6v5dY=
+
+Name: common/log.hpp
+SHA1-Digest: dD/8gOqib2X83SLRb9Zi2YqI4V4=
+
+Name: man/linux/Makefile
+SHA1-Digest: ogx4cCVGAvoKzsluk+iJi4cOsVI=
+
+Name: usecase/dsh_filter2/upfilter.c
+SHA1-Digest: B3qv7N+LLytJnF9BuvOHAfOcRGg=
+
+Name: common/stream.hpp
+SHA1-Digest: 05q4umEh/Ao/w87Uycgm38X75DY=
+
+Name: man/Makefile
+SHA1-Digest: m/R/WRjLUBBC4IvjEmTjCI5odZE=
+
+Name: libsci/parent.hpp
+SHA1-Digest: wMYJzy279pr4NwNOkN7yXcTi/ew=
+
+Name: libsci/atomic.hpp
+SHA1-Digest: KmT+/pJGvchjAd2UIioJ9SRiiIA=
+
+Name: man/aix/SCI_Upload.3
+SHA1-Digest: E7ty6/qTUAuoyIO4htm8Sznxs3g=
+
+Name: usecase/dsh_filter/buildit
+SHA1-Digest: lzO9O64vEsc2TJPz6jKrK4iFiIQ=
+
+Name: common/packer.hpp
+SHA1-Digest: XT7hDAiLVRUJZn9+6OCytHt5CgY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: usecase/dsh_2/gdsh_fe.cpp
+SHA1-Digest: DQejEdgoMdnx/Rt6FAVUANeQ46c=
+
+Name: man/linux/SCI_Group_free.3
+SHA1-Digest: hAuLC5sYHj6UNpVp7UbWZW6LUdo=
+
+Name: libsci/filter.cpp
+SHA1-Digest: /A0YDlMV94Og274qFVxtQjA+Pys=
+
+Name: libsci/allocator.hpp
+SHA1-Digest: kC0mX4cRHsACJYhqiXxMvK0q6r0=
+
+Name: include/sci.h
+SHA1-Digest: 1xV2gf2uMhcD0AelNiEN2w/0meY=
+
+Name: usecase/dsh/dsh_be.c
+SHA1-Digest: t3gIfl2gqpqZdWBsC3Qv3O3xxI0=
+
+Name: man/linux/SCI_Bcast.3
+SHA1-Digest: Kq6C0tx2JWwsnI/B4pGnwoalc0I=
+
+Name: scid/sciv1
+SHA1-Digest: rgrMiyGbQlkOLSoMzDY4Tm5mCX4=
+
+Name: libsci/processor.hpp
+SHA1-Digest: qHlxtzaQ47kDtp3UePYWZw1zzJk=
+
+Name: common/tools.hpp
+SHA1-Digest: tp1W28d7uFzKAfmathDEYSrdR2A=
+
+Name: usecase/dsh_2/sdsh_fe.cpp
+SHA1-Digest: fFyyC4vNR8WiAMpZGzxYaJhwDWA=
+
+Name: usecase/dsh_filter/levenshtein.hpp
+SHA1-Digest: ltcClxbgPsTymrcGjg6WQyFfkJI=
+
+Name: usecase/dsh/gdsh_fe.cpp
+SHA1-Digest: t/55DHfZVs730NnMqAuRI9xQfIA=
+
+Name: scid/locker.hpp
+SHA1-Digest: +C/kW6CnwBEDpmkpy21lqVwILNM=
+
+Name: libsci/purifierproc.hpp
+SHA1-Digest: KMzCCbE9L/5MONPipBX6QGCM2RU=
+
+Name: man/linux/SCI_Group_create.3
+SHA1-Digest: SE7uiKeJmCMfyINKpTtW8EvqfIU=
+
+Name: libsci/handlerproc.cpp
+SHA1-Digest: /sUghEcythtHy09u41V1mb4g2O8=
+
+Name: libsci/eventntf.hpp
+SHA1-Digest: 0G0qv9it+CEOk2gCpHDieBOUgaA=
+
+Name: makefile.define
+SHA1-Digest: D5TXInJcqKwuZNaZXfqgTTv6IzU=
+
+Name: usecase/dsh_filter2/Makefile.aix
+SHA1-Digest: XPedjPNiOVoMeOrFeyV1a8iT+GM=
+
+Name: man/linux/SCI_BE_add.3
+SHA1-Digest: x69yntU4gPVeZ6WFy81umJJKyU0=
+
+Name: libsci/initializer.hpp
+SHA1-Digest: 4ckXMKw2wu9QHtEhG16lU+frHkU=
+
+Name: scid/scid.cpp
+SHA1-Digest: hfMPObSOjP39WVztJa1oXQzr0dM=
+
+Name: libsci/errdetector.cpp
+SHA1-Digest: 6pAJLXFzeHso/36VAdZNZNMuyGQ=
+
+Name: usecase/dsh_filter/Makefile.aix
+SHA1-Digest: n+lqO3dt3eJ8iThV77U/ZdSUz/g=
+
+Name: libsci/filterlist.cpp
+SHA1-Digest: ZC4IaVhmE/0VW7vtg/SBuz2hh2s=
+
+Name: usecase/dsh_2/Makefile.aix
+SHA1-Digest: vdzj2kklVXHOXkzMXUapJU2Lbck=
+
+Name: libsci/readerproc.cpp
+SHA1-Digest: YKFLQqQV3DK2q3xCH7hK+vV5WhE=
+
+Name: man/aix/SCI_Bcast.3
+SHA1-Digest: eZIkSgL2yhgomAdawXen0ThLwkc=
+
+Name: plugin.properties
+SHA1-Digest: K0rLY0AyPPMCHgwir5vT3Kp7W3A=
+
+Name: libsci/launcher.hpp
+SHA1-Digest: Lgre2EiDRrm/jva/2tPDGYkiAkA=
+
+Name: common/log.cpp
+SHA1-Digest: WhAlRDgTotFH8qqrO3hWpV6kc1Y=
+
+Name: man/linux/SCI_Group_query.3
+SHA1-Digest: P/hkQrCaUvCxeZrvULODXueqB04=
+
+Name: usecase/dsh_filter/dsh_be.cpp
+SHA1-Digest: bjTgV7f6PkRzuF6Lyt9ye+G8d5E=
+
+Name: common/stream.cpp
+SHA1-Digest: 8rfZJ0s6h34TFApYuIVCJ1UKZ30=
+
+Name: libsci/parent.cpp
+SHA1-Digest: 1dW2lctuutJtu4pwZ+JqNFoPhVU=
+
+Name: man/linux/SCI_Filter_load.3
+SHA1-Digest: l2wANtTI6QiFzJIjDp1+asPkQK4=
+
+Name: usecase/dsh_filter2/Makefile
+SHA1-Digest: vsUk5puhGEb0KKWD1QmrcokEtXs=
+
+Name: common/packer.cpp
+SHA1-Digest: vldz1JlY0Jhs2D7lct65vBgkQHA=
+
+Name: usecase/dsh_filter/dsh_packer.hpp
+SHA1-Digest: 8hzfjuho7M7CZRPWhN2VIWfnjzg=
+
+Name: scia/Makefile.in
+SHA1-Digest: GkUWUdfpTlDURW/y1jVGYO5JERk=
+
+Name: usecase/dsh_filter2/downfilter.c
+SHA1-Digest: qYf1Q7FtOm6svU6Tw6Dt8h3Y3JA=
+
+Name: usecase/dsh_filter/Makefile
+SHA1-Digest: WXUheCVqAmSEHuJ7HTxa+V8riIE=
+
+Name: scia/scia.cpp
+SHA1-Digest: iCNGLn7CFpd1U92AHtFxu5GxhWw=
+
+Name: common/Makefile.in
+SHA1-Digest: TDkahnw1+NVyjZzsa4MIhBMVrcI=
+
+Name: libsci/allocator.cpp
+SHA1-Digest: oYyHou89tb/qbop4r0vkuhew1Vk=
+
+Name: usecase/dsh_2/Makefile
+SHA1-Digest: wVGf0ZADSlXQKi/eCbUfyQ5WTzE=
+
+Name: libsci/message.hpp
+SHA1-Digest: qjYavdweWab4Xl8pQliQOauA4Pg=
+
+Name: libsci/listener.hpp
+SHA1-Digest: KLrg/VilG3k5A+uwOGlPS4gFepM=
+
+Name: scia/Makefile.am
+SHA1-Digest: x/xVQrxOwKsjBNdsyG/b/NHMIro=
+
+Name: scid/extlaunch.hpp
+SHA1-Digest: freuARCb7HnCH/Fe7lZ+NZyaIiw=
+
+Name: usecase/dsh/buildit
+SHA1-Digest: TvjltwxbngdV0abRNCZ02YgBc+M=
+
+Name: libsci/processor.cpp
+SHA1-Digest: o8GQelCcyINPti5zOtlBbihttmE=
+
+Name: common/Makefile.am
+SHA1-Digest: LaBb2ImCpHLHX97BqV6S4FDQphM=
+
+Name: common/tools.cpp
+SHA1-Digest: rsuIFQ3WpXQ+XiVdvzLyMQCDQEs=
+
+Name: usecase/dsh_filter/levenshtein.cpp
+SHA1-Digest: f0uxKqv4IwC+f252YphBYJ6BRg0=
+
+Name: libsci/Makefile.in
+SHA1-Digest: +Dco0OvLJsshHinqslboP2CT34U=
+
+Name: scid/locker.cpp
+SHA1-Digest: bBBn8jY7O13ovuzM3hN593TDNb8=
+
+Name: usecase/dsh_filter2/upfilterb.c
+SHA1-Digest: iSLKXQsdO7w6XOviBCm7Z0jhEbQ=
+
+Name: libsci/purifierproc.cpp
+SHA1-Digest: +s7tn8XamgyrI4yYj5BQpFt/l4k=
+
+Name: man/aix/SCI_Group_query.3
+SHA1-Digest: qpp8/p7HH6Y4A+qpNjmzVvUtt4c=
+
+Name: libsci/Makefile.am
+SHA1-Digest: jmZnO+UVeaQ3BIBU68wO/qF3g9M=
+
+Name: man/linux/SCI_Group_operate_ext.3
+SHA1-Digest: OUkqymRdnkpM0oNcnMb7EJYeMgw=
+
+Name: libsci/eventntf.cpp
+SHA1-Digest: yUS3EZ0mDTWTrAIV/C5w6yYpVcc=
+
+Name: man/linux/SCI_Filter_upload.3
+SHA1-Digest: M0TIiTYEXBK/9VRZHEkQxLK1NrU=
+
+Name: libsci/errinjector.hpp
+SHA1-Digest: cUXI4nbCjw9N9FsIQ3lTzcH0bbk=
+
+Name: man/aix/SCI_Filter_load.3
+SHA1-Digest: i66h8hivPeMhsMsrGmK+SgjAIMg=
+
+Name: usecase/dsh/Makefile
+SHA1-Digest: 0i4kQsaKvLg1ipj8FNH8onpxf0U=
+
+Name: man/aix/SCI_Filter_bcast.3
+SHA1-Digest: AaIcxiQCxAMJINZ/eH3+Ip1wetg=
+
+Name: man/linux/SCI_Poll.3
+SHA1-Digest: hj2rl4EXxrY+6KTwtijwm+rvpwQ=
+
+Name: libsci/initializer.cpp
+SHA1-Digest: p7feWQVmNsCEwe9hXEgPSCKGJl4=
+
+Name: man/aix/Makefile
+SHA1-Digest: uHV270E7a2A6XPVE3NxY3NH/zhE=
+
+Name: scid/extlisten.hpp
+SHA1-Digest: z+QDHUyx2PHfafj3HvdqTf7k+vQ=
+

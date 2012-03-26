@@ -1,0 +1,125 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 1HKDrXznudDLrgZ55RdqSveGtfU=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: 4pskpkEFIPyA27zAHA/Gyw2fgrI=
+
+Name: include/proxy.h
+SHA1-Digest: MNii8PUWZ/eMBZJ0UsFok4j+VaE=
+
+Name: src/proxy_stdio.c
+SHA1-Digest: jau1scfXJlQ9PrsOTewSKtv3MmE=
+
+Name: include/proxy_msg.h
+SHA1-Digest: G/+awepEhh2bhq+F/rGRxUZ9E7c=
+
+Name: install-sh
+SHA1-Digest: ogTX0/lCiGDP8Lo0fFbnsWT3lZA=
+
+Name: Makefile.in
+SHA1-Digest: QIgu3GRI/W9H8IruJxYiFvAz0Qk=
+
+Name: src/proxy_tcp_svr.c
+SHA1-Digest: /my2UmSfgbfbnVs8ZzsQwps8RAM=
+
+Name: include/proxy_stdio.h
+SHA1-Digest: qPAL76Qt1piYz7Oe3kZgfHki7VA=
+
+Name: plugin.properties
+SHA1-Digest: 3QbRIKb/0UUN0cGcM98+h7u5ggo=
+
+Name: Makefile.am
+SHA1-Digest: HNVW+Qyc8zW8jeujiajJYNdjnVQ=
+
+Name: NEWS
+SHA1-Digest: GM4TIfSzPEogmtOlio0NSo6yl6s=
+
+Name: src/proxy_event.c
+SHA1-Digest: 0R+SkRu4Fj3UvQePjSFEcQ/nFb8=
+
+Name: ChangeLog
+SHA1-Digest: jnW3Yrd2Uw6aeBHSkCV76yuofOU=
+
+Name: config.sub
+SHA1-Digest: MoGlLzQ5VpFCtowTKuoI3Vc3mBc=
+
+Name: config.h.in
+SHA1-Digest: Z2ymUWRTiu+bCKmFPVdvoPQfVxI=
+
+Name: src/proxy_tcp.c
+SHA1-Digest: a80935shRy1gIkPIzDG/BuMYUk8=
+
+Name: include/proxy_event.h
+SHA1-Digest: LhhvrsBq0OtQaY2LAVUtdQXIvus=
+
+Name: depcomp
+SHA1-Digest: v+CC9sAa747vKTvQBBENGPp7WJg=
+
+Name: src/proxy_clnt.c
+SHA1-Digest: /WHfJa5K8Rr0RcPfcWMqmd/j0hY=
+
+Name: src/proxy_attr.c
+SHA1-Digest: x6Fm3J/rVFTW5cmShwAazPQyDvg=
+
+Name: ltmain.sh
+SHA1-Digest: p4Z3B17ii+Av31kRGGFRnBi0ar4=
+
+Name: include/proxy_attr.h
+SHA1-Digest: WR6qm7rfAEZJWOZj3SR/qIAPKME=
+
+Name: include/proxy_tcp.h
+SHA1-Digest: nWTXgN0hlmU/+ZFpaH8Wi1qSTsc=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: configure
+SHA1-Digest: pAzwccuZ/1liE1HA4SU5t7PSOa0=
+
+Name: missing
+SHA1-Digest: FbCpInhZ9MqKh1+vdVEbqd7ozo8=
+
+Name: AUTHORS
+SHA1-Digest: Ug+DenKShFhpmu6gR6T7vq2Pbg4=
+
+Name: src/proxy_svr.c
+SHA1-Digest: LKSlotoEAOW/iasd923jpZXfWt0=
+
+Name: config.guess
+SHA1-Digest: 3JEkI1Q1KExnextsJ2kUbi2CzN0=
+
+Name: about.html
+SHA1-Digest: p0ZoXj4UARV1NmAKuIc3VZcM6Xo=
+
+Name: aclocal.m4
+SHA1-Digest: Fe/SjASsbBffsA1lD/EH/0P0d2U=
+
+Name: configure.in
+SHA1-Digest: rfikLlXrAfxl7ebmJoNIxp1rhfo=
+
+Name: COPYING
+SHA1-Digest: xMT3DpoQeQs7ZHEQ90HdjbtBAi4=
+
+Name: README
+SHA1-Digest: m8G2rP9HwMWqyzYIZD3VJL34GyI=
+
+Name: src/proxy_stdio_svr.c
+SHA1-Digest: wzR+koNr1ySIIKFJh8gGRPQa+IM=
+
+Name: compile
+SHA1-Digest: xWDhkiy54AecXtysHTBhgavIDGE=
+
+Name: src/proxy.c
+SHA1-Digest: BGMFBZPNp4SyOdymtSCdGCIBbRQ=
+
+Name: src/proxy_msg.c
+SHA1-Digest: OEHw527C2M9N7Ws328/FGUuDdm0=
+
+Name: INSTALL
+SHA1-Digest: 6Pq6KjOWb4PFDCo0MIIP7UMKsd4=
+
+Name: include/proxy_cmd.h
+SHA1-Digest: F3Fm/uKxN7zodKlFDeIGiNE3lQk=
+
+Name: src/proxy_tcp_clnt.c
+SHA1-Digest: DYBQvgXqKckhSS7S/XJc3VKj8aQ=
+

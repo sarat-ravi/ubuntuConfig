@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--
+    Kindle Cloud Reader
+
+    Version: 010200011
+    Build ID: t_2012_02_01_11_10_31
+    Built: @buildtime@
+
+    origin/release: e74e8660341e6110b5f0bdf49399db74038773f7
+
+    Copyright (c) 2011 Amazon.com, Inc. All rights reserved.
+-->
+
+<html>
+    <head>
+        <title>Kindle</title>
+        <meta http-equiv='Content-type' content='text/html;charset=UTF-8'>
+        <script type='text/javascript'            src='./lib/jquery-1.5.1.min.js'></script>
+        <script type='text/javascript'            src='./lib/jquery-ui-1.8.2.custom.min.js'></script>
+        <script type='text/javascript'            src='./lib/jquery.cookie.min.js'></script>
+        <link   type='text/css' rel='stylesheet' href='./lib/jquery-ui-1.8.2.custom.css'>
+        <link   type='text/css' rel='stylesheet' href='./lib/jquery-ui-1.8.2.overrides.global.css'>
+        <link   type='text/css' rel='stylesheet' href='./lib/jquery-ui-1.8.2.overrides.desktop.css'>
+        <script type='text/javascript'            src='./lib/jquery.tmpl.min.js'></script>
+        <script type='text/javascript'            src='./lib/jquery.jscrollpane.min.js'></script>
+        <script type='text/javascript'            src='./lib/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript'            src='./lib/jquery.dateFormat.min.js'></script>
+        <script type='text/javascript'            src='./lib/jquery.jsonp-2.1.4.min.js'></script>
+        <script type='text/javascript'            src='./lib/js-prototype-extensions-min.js'></script>
+        <script type='text/javascript'            src='./lib/gesture-min.js'></script>
+        <script type='text/javascript'            src='./lib/js-sunspider-min.js'></script>
+        <script type='text/javascript'            src='./lib/iscroll-lite-min.js'></script>
+        <script type='text/javascript'            src='./lib/KindleUtils.min.js'></script>
+        <script type='text/javascript'            src='./js/KindleReaderApp-min.js'></script>
+        <link   type='text/css' rel='stylesheet' href='./css/KindleReaderApp-min.css'>
+        
+        <!-- TODO: specific stylesheet for targeting iPhone 4 -->
+        <!-- TODO: Use User Agent Sniffing instead of media query because this would still match browsers inside monitors of this resolution -->
+        <link rel="stylesheet" media="only screen and (device-width: 768px)" href="./css/KindleReaderAppiPad-min.css" type="text/css" />
+        <link rel="stylesheet" media="only screen and (device-width: 768px)" href="./lib/jquery-ui-1.8.2.overrides.ipad.css" type="text/css" />
+        <link rel="stylesheet" media="only screen and (device-width: 600px)" href="./css/KindleReaderAppPlaybook-min.css" type="text/css" />
+
+</head>
+    <body onload="KindleReaderUI.initialize()">
+        <!-- main container -->        
+        <div id='kindleReader_book_container'>
+            <div id='kindleReader_center'>
+                <label id='kindleReader_title'></label>
+                <div id='kindleReader_content'></div>
+            </div>
+        </div>
+        <script id="KindleEnableOfflineDialog" type="text/x-jquery-tmpl">
+    <div id='kindle_dialog_enableOffline'>
+        <div class="box-top">&nbsp;</div>
+        <div class="content-container">
+            <div id="content">
+                <h2 id="enable_offline_title"></h2>
+                <p id="enable_offline_top_msg" class="db-msg"></p>
+            </div>
+        </div>
+        <div class="box-bottom">
+            <p>
+                <span class="primary_btn"id="kindle_dialog_enableOffline_button"></span>
+            </p>
+        </div>
+    </div>
+</script><script id="KindleFirstRunDialog" type="text/x-jquery-tmpl">
+    <div id='kindle_dialog_firstRun'>
+        <div class="box-top">&nbsp;</div>
+        <div class="content-container">
+            <div id="content">
+                <div id="first_run_logo"></div>
+                <h2 id="first_run_title"></h2>
+                <span id="first_run_top_img"></span>
+                <p id="first_run_top_msg" class="db-msg"></p>
+                <div id="first_run_bottom_img"></div>
+            </div>
+        </div>
+        <div class="box-bottom">
+            <p>
+                <span class="primary_btn" id="kindle_dialog_firstRun_button"></span>
+                <span class="primary_btn" id="kindle_dialog_firstRun_button_crx"></span>
+            </p>
+        </div>
+    </div>
+</script><script id="KindleMessageDialog" type="text/x-jquery-tmpl">
+    <div id='kindle_dialog_message'>
+        <p id="kindle_dialog_message_title_text" class="kindle_dialog_title_text"></p>
+        <p id="kindle_dialog_message_text" class="kindle_dialog_text"> </p>
+    </div>
+</script><script id="KindleNotificationDialog" type="text/x-jquery-tmpl">
+    <div id="kindleNotification" class='ui-corner-all'>
+        <div class="notificationContainer"></div>
+    </div>
+</script>
+<script id="KindlePopupMenu" type="text/x-jquery-tmpl">
+    <div>
+        <div id="kindle_menu_border"></div>
+    </div>
+</script><script id="KindlePromptDialog" type="text/x-jquery-tmpl">
+    <div id='kindle_dialog_prompt'>
+        <p id='kindle_dialog_prompt_label' class='kindle_dialog_text'></p>
+    </div>
+</script><script id="KindleSigningOutDialog" type="text/x-jquery-tmpl">
+    <div id='kindle_signOut_message'>
+        <p id="kindle_signOut_message_title_text" class="kindle_dialog_title_text"> ${kindle_dialog_logout_title} </p>
+        
+        <div id='logout_spinner'>
+        <div class="spinner">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <div class="bar4"></div>
+            <div class="bar5"></div>
+            <div class="bar6"></div>
+            <div class="bar7"></div>
+            <div class="bar8"></div>  
+            <div class="bar9"></div>      
+            <div class="bar10"></div>         
+            <div class="bar11"></div>             
+            <div class="bar12"></div>                 
+        </div>                                  
+        </div>
+        <div id="kindle_signOut_message_text" class="kindle_dialog_text"> ${kindle_dialog_logout_message}</div>
+    </div>
+</script><script id="KindleSpinner" type="text/x-jquery-tmpl">
+    <div id='loading_spinner' class='ui-helper-clearfix ui-corner-all'>
+        <div class="spinner">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <div class="bar4"></div>
+            <div class="bar5"></div>
+            <div class="bar6"></div>
+            <div class="bar7"></div>
+            <div class="bar8"></div>  
+            <div class="bar9"></div>      
+            <div class="bar10"></div>         
+            <div class="bar11"></div>             
+            <div class="bar12"></div>                 
+        </div>                                          
+    </div>
+</script><script id="KindleUnoptimizedFormatDialog" type="text/x-jquery-tmpl">
+    <div id='kindleReader_dialog_unoptimizedFormat'>
+        <label id='kindleReader_dialog_unoptimizedFormat_title_id' class='kindle_dialog_title_text'>${k4w_reader_dialog_unoptimizedFormat_title}</label>
+        <p id='k4w_reader_dialog_unoptimizedFormat_message_id' class='kindle_dialog_text'></p>
+    </div>
+</script>
+        <script id="KindleAnnotationComponentFactory" type="text/x-jquery-tmpl">
+    <div id='${$item.id}' class="kindleReader_annotation_pane_notes clearfix" >
+        <p class="kindleReader_annotation_pane_notes_context">
+            
+        </p>
+        <p>
+            <textarea id="kindleReader_annotation_pane_edit_textArea" rows="10">${$item.context}</textarea>
+        </p>
+        <div class="kindleReader_annotation_pane_notes_metadata_container clearfix">
+            <div class="kindleReader_annotation_pane_icon"></div>
+            <label class="kindleReader_annotation_pane_notes_type_label">${$item.type}</label>
+            <div class="kindleReader_annotation_pane_dot"><div>&#x25CF;</div></div>
+            <label class="kindleReader_annotation_pane_notes_location">${$item.location}</label>
+            <input type="hidden" name="kindleReader_annotation_pane_notes_start" value=${$item.start}/>
+            
+            <span class="kindleReader_annotation_pane_notes_trashcan kindleReader_annotation_pane_action_btn" title="${k4w_reader_annotation_pane_delete}"></span>
+            <span class="kindleReader_annotation_pane_notes_goto kindleReader_annotation_pane_action_btn" title="${k4w_reader_annotation_pane_goto}"></span>
+            <span class="kindleReader_annotation_pane_notes_edit kindleReader_annotation_pane_action_btn" title="${k4w_reader_annotation_pane_edit}"></span>
+            <span class="kindleReader_annotation_pane_notes_save kindleReader_annotation_pane_action_btn" title="${k4w_reader_annotation_pane_save}"></span>
+            <span class="kindleReader_annotation_pane_notes_cancel kindleReader_annotation_pane_action_btn" title="${k4w_reader_annotation_pane_cancel}"></span>
+            <span class="kindleReader_annotation_pane_notes_yes kindleReader_annotation_pane_action_btn" title="${k4w_reader_annotation_pane_save}"></span>
+            <span class="kindleReader_annotation_pane_notes_no kindleReader_annotation_pane_action_btn" title="${k4w_reader_annotation_pane_save}"></span>
+            <span class="kindleReader_annotation_notes_delete_confirm">${k4w_reader_annotation_pane_delete_confirm}</span>
+        </div>
+            
+    
+    </div>
+    <div class="kindleReader_annotation_pane_notes_divider_top"></div>
+    <div class="kindleReader_annotation_pane_notes_divider_bottom"></div>
+</script>
+<script id="KindleReaderAnnotationsPane" type="text/x-jquery-tmpl">
+    <div id="kindleReader_annotations_pane">
+        <div id="kindleReader_annotations_pane_header">
+            <div id="kindleReader_annotations_pane_title">${k4w_reader_dialog_annotation_pane_title}</div>
+        </div>
+        <div id="kindleReader_annotations_pane_scrollWrapper">
+            <div id="kindleReader_annotations_pane_container"></div>
+        </div>
+        <div id="kindleReader_annotations_pane_notes_empty">${k4w_reader_sidebar_empty_note}</div>
+    </div>
+</script><script id="KindleReaderBookmarkOverlay" type="text/x-jquery-tmpl">
+    <div id='bookmark_overlay_div' class="immersive_slide_area"></div>
+</script><script id="KindleReaderContextMenu" type="text/x-jquery-tmpl">
+    <div id="kindleReader_menu_contextMenu">
+        <div id="kindle_menu_border">
+        </div>
+    </div>
+</script>
+<script id="KindleReaderEditNoteDialog" type="text/x-jquery-tmpl">
+    <div id="kindleReader_dialog_editNote">
+        <label id="kindleReader_dialog_editNote_title" class="kindle_dialog_title_text"></label>
+        <p>
+            <textarea id="kindleReader_dialog_editNote_noteText" cols="60" rows="10" placeholder="${k4w_reader_dialog_editNote_placeholder}"></textarea>
+        </p>
+    </div>
+</script>
+<script id="KindleReaderGoToDialog" type="text/x-jquery-tmpl">
+    <div id='kindleReader_dialog_goto'>
+        <label id='kindleReader_dialog_gotoTitle' class='kindle_dialog_title_text'>${k4w_reader_goto_menu_goto_location_title}</label>
+    	<p>
+    	    <div id='kindleReader_dialog_gotoLabel' for='kindleReader_dialog_gotoField' style='display: inline'  class='kindle_dialog_text'>${k4w_reader_goto_menu_goto_message}</div>
+            <input type='number' name='name' style='display:inline' maxlength='7' size='7' id='kindleReader_dialog_gotoField'>
+            <div id='kindleReader_dialog_gotoLocation' style='display:inline' for='kindleReader_dialog_gotoField' class='kindle_dialog_muted_text'>${k4w_reader_goto_menu_goto_location}</div>
+        </p>
+    </div>
+</script><script id="KindleReaderHeaderBar" type="text/x-jquery-tmpl">
+    <div id='kindleReader_header' class='immersive_slide_area'>
+        <div id='kindleReader_header_left'>
+            <div id="kindleReader_kindleLogo" />
+            <div id='readerControlsLeft' class="readerControls">
+                <div class='kbtn header_bar_icon' id='kindleReader_button_close' title="${k4w_reader_toolbar_library_button}"></div>
+                <div id='kindleReader_button_back' class='header_bar_icon' title="${k4w_reader_menuButton_back}"></div>
+                <div id='kindleReader_button_goto' class='header_bar_icon' title="${k4w_reader_menuButton_goto}"></div>
+                <div id='kindleReader_button_controlPanel' class='header_bar_icon' title="${k4w_reader_menuButton_controlPane}"></div>
+                <div id='kindleReader_bookmark' class='header_bar_icon' title="${k4w_reader_menuButton_bookmark}"></div>
+                <div id='kindleReader_button_note' class='header_bar_icon' title="${k4w_reader_menuButton_notesAndMarks}"></div>
+                <div id='kindleReader_button_sync' class='header_bar_icon' title="${k4w_reader_menuButton_sync}"></div>
+            </div>
+        </div>
+        <div id='kindleReader_header_right'>
+            <div id='readerControlsRight' class="readerControls">
+            </div>
+            <div id='kindleReader_button_enter_immersive' class='header_bar_icon' title="${k4w_reader_menuButton_enterImmersive}"></div>
+        </div>
+    </div>
+</script>
+<script id="KindleReaderImmersiveModeExit" type="text/x-jquery-tmpl">
+    <div id='immersive_exit' title="${k4w_reader_menuButton_exitImmersive}"></div>
+</script><script id="KindleReaderLocationBar" type="text/x-jquery-tmpl">
+    <div id='kindleReader_footer' class="immersive_slide_area">
+        <div id='kindleReader_progressbar_div'></div>
+        <div id='kindleReader_footer_message' class='kindleReader_footer_fading message'></div>
+        <div id='kindleReader_download_progress' class='kindleReader_footer_fading message'>
+            <span id="kindleReader_checkmark"></span>
+    
+            <div id="kindleReader_download_spinner" class="spinner">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <div class="bar4"></div>
+                <div class="bar5"></div>
+                <div class="bar6"></div>
+                <div class="bar7"></div>
+                <div class="bar8"></div>
+                <div class="bar9"></div>
+                <div class="bar10"></div>
+                <div class="bar11"></div>
+                <div class="bar12"></div>
+            </div>
+            <span id="kindleReader_download_progress_message"></span>
+        </div>
+    
+        <div id='kindleReader_locationPopup_div'>
+            <div id='kindleReader_locationPopup_labelDiv' class='ui-helper-clearfix ui-corner-all'></div>
+        </div>
+    </div>
+</script><script id="KindleReaderPageArrow" type="text/x-jquery-tmpl">
+    <div id="kindleReader_sideMargin">
+        <div id='kindleReader_pageTurnAreaLeft'
+        class='kindleReader_pageTurnArea'><div class='kindleReader_arrowBtn'
+        title="${k4w_reader_pageArrow_prev}"></div></div>
+        <div id='kindleReader_pageTurnAreaRight'
+        class='kindleReader_pageTurnArea'><div class='kindleReader_arrowBtn'
+        title="${k4w_reader_pageArrow_next}"></div></div>
+    </div>
+</script><script id="KindleReaderSampleEnd" type="text/x-jquery-tmpl">
+    <div id='kindle_sample_end_message'>
+        <p id="kindle_sample_end_title_text" class="kindle_dialog_title_text"></p>
+        <p id="kindle_sample_end_message_text" class="kindle_dialog_text"> </p>
+    </div>
+</script><script id="KindleReaderSettingsDialog" type="text/x-jquery-tmpl">
+    <div id='kindleReader_controlPanel'>
+        <div id='kindleReader_controlPanel_preview'></div>
+        <!-- text size -->
+        <div id='kindleReader_controlPanel_fontSize' class="kindleReader_settings_section">
+            <label class='kindleReader_controlPanel_fieldLabel'>${k4w_reader_settings_fontSize_label}</label>
+            <div class="kindleReader_controlPanel_optionButtons">
+                <div id="kindleReader_controlPanel_xSmallFont" class='kindleReader_controlPanel_5button'></div>
+                <div id="kindleReader_controlPanel_smallFont"  class='kindleReader_controlPanel_5button'></div>
+                <div id="kindleReader_controlPanel_mediumFont" class='kindleReader_controlPanel_5button'></div>
+                <div id="kindleReader_controlPanel_largeFont"  class='kindleReader_controlPanel_5button'></div>
+                <div id="kindleReader_controlPanel_xLargeFont" class='kindleReader_controlPanel_5button'></div>
+            </div>
+            <div class="kindleReader_controlPanel_buttonIndicators">
+                <div id='kindleReader_controlPanel_xSmallFontSelected' class='kindleReader_controlPanel_5selectedDot'></div>
+                <div id='kindleReader_controlPanel_smallFontSelected'  class='kindleReader_controlPanel_5selectedDot'></div>
+                <div id='kindleReader_controlPanel_mediumFontSelected' class='kindleReader_controlPanel_5selectedDot'></div>
+                <div id='kindleReader_controlPanel_largeFontSelected'  class='kindleReader_controlPanel_5selectedDot'></div>
+                <div id='kindleReader_controlPanel_xLargeFontSelected' class='kindleReader_controlPanel_5selectedDot'></div>
+            </div>
+        </div>
+    
+        <!-- margins -->
+        <div id='kindleReader_controlPanel_margin' class="kindleReader_settings_section">
+            <label class='kindleReader_controlPanel_fieldLabel'>${k4w_reader_settings_margins_label}</label>
+            <div class="kindleReader_controlPanel_optionButtons">
+                <div id='kindleReader_controlPanel_xSmallMargin' class='kindleReader_controlPanel_5button'></div>
+                <div id='kindleReader_controlPanel_smallMargin'  class='kindleReader_controlPanel_5button'></div>
+                <div id='kindleReader_controlPanel_mediumMargin' class='kindleReader_controlPanel_5button'></div>
+                <div id='kindleReader_controlPanel_largeMargin'  class='kindleReader_controlPanel_5button'></div>
+                <div id='kindleReader_controlPanel_xLargeMargin' class='kindleReader_controlPanel_5button'></div>
+            </div>
+            <div class="kindleReader_controlPanel_buttonIndicators">
+                <div id='kindleReader_controlPanel_xSmallMarginSelected' class='kindleReader_controlPanel_5selectedDot'></div>
+                <div id='kindleReader_controlPanel_smallMarginSelected'  class='kindleReader_controlPanel_5selectedDot'></div>
+                <div id='kindleReader_controlPanel_mediumMarginSelected' class='kindleReader_controlPanel_5selectedDot'></div>
+                <div id='kindleReader_controlPanel_largeMarginSelected'  class='kindleReader_controlPanel_5selectedDot'></div>
+                <div id='kindleReader_controlPanel_xLargeMarginSelected' class='kindleReader_controlPanel_5selectedDot'></div>
+            </div>
+        </div>
+    
+        <!-- color mode -->
+        <div id='kindleReader_controlPanel_colorMode' class="kindleReader_settings_section">
+            <label class='kindleReader_controlPanel_fieldLabel'>${k4w_reader_settings_colorMode_label}</label>
+            <div class="kindleReader_controlPanel_optionButtons">
+                <div id='kindleReader_controlPanel_colorWhite' class='kindleReader_controlPanel_3button'></div>
+                <div id='kindleReader_controlPanel_colorSepia' class='kindleReader_controlPanel_3button'></div>
+                <div id='kindleReader_controlPanel_colorBlack' class='kindleReader_controlPanel_3button'></div>
+            </div>
+            <div class="kindleReader_controlPanel_buttonIndicators">
+                <div id='kindleReader_controlPanel_colorWhiteSelected' class='kindleReader_controlPanel_3selectedDot'></div>
+                <div id='kindleReader_controlPanel_colorSepiaSelected' class='kindleReader_controlPanel_3selectedDot'></div>
+                <div id='kindleReader_controlPanel_colorBlackSelected' class='kindleReader_controlPanel_3selectedDot'></div>
+            </div>
+        </div>
+    
+        <!-- page view -->
+        <!-- <div id='kindleReader_controlPanel_pageview' class="kindleReader_settings_section">
+            <label class='kindleReader_controlPanel_fieldLabel'>${k4w_reader_settings_pageview_label}</label>
+            <table width="98%" align="center" class="kindleReader_controlPanel_optionButtons">
+                <tr><td>
+                    <span alt='onePage' id='kindleReader_controlPanel_onePage' class='ui-button' ></span>
+                </td><td>
+                    <span alt='twoPage' id='kindleReader_controlPanel_twoPage' class='ui-button' ></span>
+                </td></tr><tr><td>
+                    <span alt='onePage selected' id='kindleReader_controlPanel_onePageSelected' class='kindleReader_controlPanel_selectedDot' ></span>
+                </td><td>
+                    <span alt='twoPage selected' id='kindleReader_controlPanel_twoPageSelected' class='kindleReader_controlPanel_selectedDot' ></span>
+                </td></tr>
+            </table>
+        </div> -->
+    
+    </div>
+</script>
+<script id="KindleReaderStatusMessage" type="text/x-jquery-tmpl">
+    <div id='kindleReader_statusMessage_div' class='ui-helper-clearfix ui-corner-all'>
+        <div class="spinner">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <div class="bar4"></div>
+            <div class="bar5"></div>
+            <div class="bar6"></div>
+            <div class="bar7"></div>
+            <div class="bar8"></div>  
+            <div class="bar9"></div>      
+            <div class="bar10"></div>         
+            <div class="bar11"></div>             
+            <div class="bar12"></div>                 
+        </div>                                          
+        <span id='kindleReader_statusMessage_text'></span>
+    </div>
+</script><script id="KindleReaderSyncPositionDialog" type="text/x-jquery-tmpl">
+    <div id='kindleReader_dialog_syncPosition'>
+        <label id='kindleReader_dialog_syncPosition_title' class='kindle_dialog_title_text'>${k4w_reader_syncPosition_title}</label>
+        <p id='kindleReader_dialog_syncPosition_label' class='kindle_dialog_text'></p>
+    </div>
+</script><script id="KindleReaderTouchLayer" type="text/x-jquery-tmpl">
+    <div id="kindleReader_touchLayer"></div>
+</script>
+    </body>
+</html>

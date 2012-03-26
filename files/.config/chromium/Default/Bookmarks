@@ -1,0 +1,108 @@
+{
+   "checksum": "faf34dfa49e0e70b6be2705bb7cf5e1a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "12975387467438627",
+            "id": "5",
+            "name": "CS 188",
+            "type": "url",
+            "url": "http://inst.eecs.berkeley.edu/~cs188/sp12/assignments.html"
+         }, {
+            "date_added": "12976225945578228",
+            "id": "15",
+            "name": "Kline CS 188",
+            "type": "url",
+            "url": "http://www-inst.eecs.berkeley.edu/~cs188/fa11/lectures.html"
+         }, {
+            "date_added": "12975481740543814",
+            "id": "9",
+            "name": "CS 188 HW",
+            "type": "url",
+            "url": "https://www.cs188.org/"
+         }, {
+            "date_added": "12975462558904691",
+            "id": "7",
+            "name": "CS 169 Course Website",
+            "type": "url",
+            "url": "https://docs.google.com/document/pub?id=1AbVJsI4flQWeEm6kX2IutBNv3yjmkpulfuQihIwCkuU&pli=1#id.41ppdfl7e429"
+         }, {
+            "date_added": "12975462656505103",
+            "id": "8",
+            "name": "CS169 HW",
+            "type": "url",
+            "url": "https://berkeley.campus-class.org/saas/auth/welcome"
+         }, {
+            "date_added": "12975392965540624",
+            "id": "6",
+            "name": "Things To Tweak After Installing Ubuntu 11.10 Oneiric Ocelot ~ Web Upd8: Ubuntu / Linux blog",
+            "type": "url",
+            "url": "http://www.webupd8.org/2011/10/things-to-tweak-after-installing-ubuntu.html"
+         }, {
+            "date_added": "12975532480621095",
+            "id": "10",
+            "name": "Bearfacts",
+            "type": "url",
+            "url": "https://bearfacts.berkeley.edu/bearfacts/student/studentMain.do?bfaction=welcome"
+         }, {
+            "date_added": "12975571725094461",
+            "id": "11",
+            "name": "Z-Score",
+            "type": "url",
+            "url": "http://www.danielsoper.com/statcalc3/calc.aspx?id=22"
+         }, {
+            "date_added": "12975635599978569",
+            "id": "12",
+            "name": "CS 70",
+            "type": "url",
+            "url": "http://hes.berkeley.edu/members/test-bank/eecs/cs-70/"
+         }, {
+            "date_added": "12975637636934294",
+            "id": "13",
+            "name": "Vrome - Options",
+            "type": "url",
+            "url": "chrome-extension://godjoomfiimiddapohpmfklhgmbfffjj/background/options.html#dashboard"
+         }, {
+            "date_added": "12976170186811475",
+            "id": "14",
+            "name": "Finally MS Office 2010 works on Ubuntu. - Ubuntu Forums",
+            "type": "url",
+            "url": "http://ubuntuforums.org/showthread.php?t=1885051"
+         }, {
+            "date_added": "12976450120185937",
+            "id": "16",
+            "name": "Receiving Email with Rails | Jason Seifer",
+            "type": "url",
+            "url": "http://jasonseifer.com/2009/04/24/receving-email-with-rails"
+         }, {
+            "date_added": "12976601256902547",
+            "id": "17",
+            "name": "amazon video",
+            "type": "url",
+            "url": "https://www.amazon.com/gp/ays?ie=UTF8&ref_=pd_ys_homenav_yml"
+         } ],
+         "date_added": "12975334833339006",
+         "date_modified": "12977187636435192",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "12975334833339044",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "12975334833339049",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>quickmeme - make & share your meme</title>
+<meta content="Create and share memes instantly with our quick meme generator." name="description" />
+<!--[if lt IE 9]><style>.memeThumb img { filter: progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=135, Strength=3); }</style><![endif]-->
+<link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/quickmeme" title="quickmeme rss feed" />
+<link rel="stylesheet" href="http://static.quickmeme.com/media/cmb/16_css-style-browse.css" type="text/css" />
+<style type="text/css">
+#aatop #msndiv{
+width: 100%;
+}
+#aatop ul {
+float: left;
+list-style-type: none;
+margin:0;
+padding: 0 0 0 7px;
+}
+#aatop li {
+float: left;
+height: 68px;
+width: 290px;
+list-style-type: none;
+}
+#aatop li a {
+font-family: arial,verdana sans-serif;
+font-size: 12px;
+height: 50px;
+padding-left: 55px;
+position: absolute;
+text-decoration: none;
+width: 230px;
+color:#111;
+font-weight:bold;
+overflow: hidden;
+}
+#aatop li a:hover{
+color:#666;
+}
+#aatop li a:active{
+color:#666;
+}
+#aatop li a:visited{
+color:#666;
+}
+#aatop br {
+display: none;
+}
+#aatop li img {
+float: none;
+width: 50px;
+height:50px;
+}
+#creditfooter{
+display:none;
+}
+h4{
+display: block;
+font-family: Segoe UI,Calibri,Tahoma,Helvetica;
+font-size: 20px;
+font-weight: bold;
+margin: 0;
+padding: 0;
+}
+</style>
+</head>
+<body>
+<!-- begin header/menu -->
+<div id="popular_categories">
+<span style="color: #cccccc; padding-right: 6px;">Popular Memes &raquo;&nbsp;</span>
+<a href="/Socially-Awkward-Penguin/">Socially Awkward Penguin</a>&nbsp;
+<a href="/Futurama-Fry/">Futurama Fry</a>&nbsp;
+<a href="/Insanity-Wolf/">Insanity Wolf</a>&nbsp;
+<a href="/Condescending-Wonka/">Condescending Wonka</a>&nbsp;
+<a href="/First-World-Problems/">First World Problems</a>&nbsp;
+<a href="/Scumbag-Teacher/">Scumbag Teacher</a>&nbsp;
+<a href="/Success-Kid/">Success Kid</a>&nbsp;
+<a href="/Scumbag-Brain/">Scumbag Brain</a>&nbsp;
+<a href="/Annoying-Facebook-Girl/">Annoying Facebook Girl</a>&nbsp;
+<a href="/Forever-Alone/">Forever Alone</a>&nbsp;
+<a href="/Vengeance-Dad/">Vengeance Dad</a>&nbsp;
+<a href="/Redneck-Randal/">Redneck Randal</a>&nbsp;
+<a href="/Philosoraptor/">Philosoraptor</a>&nbsp;
+<a href="/Scumbag-Steve/">Scumbag Steve</a>&nbsp;
+<a href="/Good-Guy-Greg-/">Good Guy Greg </a>&nbsp;
+<a href="/Y-U-No/">Y U No</a>&nbsp;
+<a href="/The-Most-Interesting-Man-In-The-World/">The Most Interesting Man In The World</a>&nbsp;
+<a href="/Sheltered-College-Freshman/">Sheltered College Freshman</a>&nbsp;
+<a href="/Captain-Hindsight/">Captain Hindsight</a>&nbsp;
+<a href="/Foul-Bachelorette-Frog/">Foul Bachelorette Frog</a>&nbsp;
+<a href="/Matrix-Morpheus/">Matrix Morpheus</a>&nbsp;
+<a href="/conspiracy-keanu/">conspiracy keanu</a>&nbsp;
+<a href="/Scumbag-Redditor/">Scumbag Redditor</a>&nbsp;
+<a href="/Successful-Black-Man/">Successful Black Man</a>&nbsp;
+<a href="/Pissed-old-guy/">Pissed old guy</a>&nbsp;
+</div>
+<div id="header">
+<a href="/" id="logo"></a>
+<div id="search">
+<input type="text" id="search_inp" onKeyPress="{if (event.keyCode==13) qm.search(); }" placeholder="search a meme" />
+<a href="#" onClick="qm.search(); return;"></a>
+</div>
+<div id="menu">
+<a href="/" title="latest" class="current" >featured</a>
+<a href="/popular/" title="popular" >popular</a>
+<a rel="nofollow" href="/random/" id="menu_random" title="favorites" >random</a>
+<a href="/myfavorites/" title="favorites" >favorites</a>
+<a href="/memes/" title="memes" >memes</a>
+<a href="/make/" title="make" > make a meme!</a>
+</div>
+<div id="signin_msg"></div>
+<div style="width: 728px; height: 90px; float: right; margin-right: 10px; margin-top: 7px;">
+<iframe src="http://static.quickmeme.com/media/hptileone.html?1" frameborder="0" scrolling="no" width="728" height="90"></iframe>
+</div>
+</div>
+<!-- end header/menu -->
+<!-- begin content -->
+<div id="content" style="min-height:1200px; padding:10px 0px 0px;">
+<!-- begin centerwrapper -->
+<div class="centerwrapper" style="margin: 0 auto; min-width:1065px;">
+<div style="margin-top: 20px; float: right; border-left: 1px dotted rgb(153, 153, 153); padding-left: 20px; margin-right: 20px; width: 300px;">
+<div style="display: block; height: 250px; font-weight: bold; margin: 0pt auto 15px; font-size: 22px; padding: 0px 0pt 0px;">
+<iframe src="http://static.quickmeme.com/media/hptiletwo.html?1" frameborder="0" scrolling="no" width="300" height="250"></iframe>
+</div>
+<div style="margin-bottom: 5px; padding: 5px 0pt; border: medium none; width: 300px; float: left; margin-top: 0px; margin-right: 0px;">
+<div style="display: block; height: 25px; border-bottom: 1px dotted; font-weight: bold; margin: 0pt auto 15px; font-size: 22px; padding: 0px 0pt 2px;">today's <span style="color:#df8600;"><i>top</i></span> quick memes</div>
+<div id="aatop">
+<ul><li> <span><a href="http://qkme.me/3oftl9?id=222447501">How I feel pretty much every morning driving to work</a></span><div><img src="http://f.thumbs.redditmedia.com/-Dz3CcbOSN8V7LTA.jpg"></div></li></ul>
+<ul><li> <span><a href="http://qkme.me/3ofs9w">Scumbag Steve strikes again.</a></span><div><img src="http://c.thumbs.redditmedia.com/HJLJCUhWz2xbAmLn.jpg"></div></li></ul>
+<ul><li> <span><a href="http://qkme.me/3ofri3?id=222444795">Happened to me this morning</a></span><div><img src="http://a.thumbs.redditmedia.com/NiGmFLyyOisOkVZB.jpg"></div></li></ul>
+<ul><li> <span><a href="http://qkme.me/3ofskp?id=222446185">Yeah, that's me alright!</a></span><div><img src="http://c.thumbs.redditmedia.com/IF2--qbH_78DHRRP.jpg"></div></li></ul>
+<ul><li> <span><a href="http://www.quickmeme.com/meme/3ofszn/">How I felt at the midnight premiere of Hunger Games last night as a college student</a></span><div><img src="http://b.thumbs.redditmedia.com/taCYWnYJ6IixGeum.jpg"></div></li></ul>
+<ul><li> <span><a href="http://qkme.me/3oft49">It's totally possible...</a></span><div><img src="http://c.thumbs.redditmedia.com/ebBdBvANTgRWdOaz.jpg"></div></li></ul>
+<ul><li> <span><a href="http://qkme.me/3ofr42">Scumbag Body</a></span><div><img src="http://f.thumbs.redditmedia.com/JaOEej_uIU0lMh6e.jpg"></div></li></ul>
+<ul><li> <span><a href="http://qkme.me/3ofr0j?id=222444163">Scumbag OKCupid</a></span><div><img src="http://c.thumbs.redditmedia.com/6qJSgqN7z2osAxW8.jpg"></div></li></ul>
+<ul><li> <span><a href="http://qkme.me/3ofrjn?id=222444851">Hawkward</a></span><div><img src="http://b.thumbs.redditmedia.com/GiSJR38qSTSGHFkg.jpg"></div></li></ul>
+<ul><li> <span><a href="http://www.quickmeme.com/meme/3ofrba/">I guess we're all scumbags.</a></span><div><img src="http://e.thumbs.redditmedia.com/Ylxz8WOavoYpgmev.jpg"></div></li></ul>
+<ul><li> <span><a href="http://qkme.me/3ofc5y?id=222424918">Teachers, assisting in teen suicide one day at a time</a></span><div><img src="http://f.thumbs.redditmedia.com/8fiPixqZi60MgZzA.jpg"></div></li></ul>
+<ul><li> <span><a href="http://qkme.me/3oft6b">If Only This Happened More..</a></span><div><img src="http://c.thumbs.redditmedia.com/r4YuXo5sZiG6Cf-D.jpg"></div></li></ul>
+<ul><li> <span><a href="http://www.quickmeme.com/meme/3ofuyd/">Just a thought I had in the shower this morning.</a></span><div><img src="http://f.thumbs.redditmedia.com/q0T5difMgk2OVWpw.jpg"></div></li></ul>
+<ul><li> <span><a href="http://qkme.me/3ofrf2">First World Problems</a></span><div><img src="http://f.thumbs.redditmedia.com/PkLZOEqCow3p1EAw.jpg"></div></li></ul>
+<ul><li> <span><a href="http://qkme.me/3ofqeg?id=222443368">How I feel about girls as an engineering student</a></span><div><img src="http://b.thumbs.redditmedia.com/BzXnghoFUmwOcZwO.jpg"></div></li></ul>
+</div>
+</div>
+</div>
+<div class="memeThumb">
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Condescending Wonka</span>
+<a href="/meme/3of7nn#by=ad"><img width="310" height="310" alt="Condescending Wonka" data-title="Condescending Wonka" data-rating="740" data-id="222419075" data-edit="/make/caption/#id=222419075&name=Condescending Wonka" src="http://t.qkme.me/3of7nn.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Futurama Fry</span>
+<a href="/meme/3of6eh#by=ad"><img width="310" height="232" alt="Futurama Fry" data-title="Futurama Fry" data-rating="732" data-id="222417449" data-edit="/make/caption/#id=222417449&name=Futurama Fry" src="http://t.qkme.me/3of6eh.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Scumbag Redditor</span>
+<a href="/meme/3of7k0#by=ad"><img width="309" height="310" alt="Scumbag Redditor" data-title="Scumbag Redditor" data-rating="1,018" data-id="222418944" data-edit="/make/caption/#id=222418944&name=Scumbag Redditor" src="http://t.qkme.me/3of7k0.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Y U No</span>
+<a href="/meme/3ofm97#by=ad"><img width="310" height="232" alt="Y U No" data-title="Y U No" data-rating="1,906" data-id="222437995" data-edit="/make/caption/#id=222437995&name=Y U No" src="http://t.qkme.me/3ofm97.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Socially Awkward Penguin</span>
+<a href="/meme/3ofclr#by=ad"><img width="310" height="310" alt="Socially Awkward Penguin" data-title="Socially Awkward Penguin" data-rating="1,583" data-id="222425487" data-edit="/make/caption/#id=222425487&name=Socially Awkward Penguin" src="http://t.qkme.me/3ofclr.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Scumbag Brain</span>
+<a href="/meme/3of6p4#by=ad"><img width="310" height="216" alt="Scumbag Brain" data-title="Scumbag Brain" data-rating="1,823" data-id="222417832" data-edit="/make/caption/#id=222417832&name=Scumbag Brain" src="http://t.qkme.me/3of6p4.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Condescending Wonka</span>
+<a href="/meme/3of7b1#by=ad"><img width="310" height="310" alt="Condescending Wonka" data-title="Condescending Wonka" data-rating="1,964" data-id="222418621" data-edit="/make/caption/#id=222418621&name=Condescending Wonka" src="http://t.qkme.me/3of7b1.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Socially Awkward Penguin</span>
+<a href="/meme/3of6va#by=ad"><img width="310" height="310" alt="Socially Awkward Penguin" data-title="Socially Awkward Penguin" data-rating="1,656" data-id="222418054" data-edit="/make/caption/#id=222418054&name=Socially Awkward Penguin" src="http://t.qkme.me/3of6va.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Forever Alone</span>
+<a href="/meme/3oe3f7#by=ad"><img width="310" height="310" alt="Forever Alone" data-title="Forever Alone" data-rating="280" data-id="222366931" data-edit="/make/caption/#id=222366931&name=Forever Alone" src="http://t.qkme.me/3oe3f7.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Success Kid</span>
+<a href="/meme/3oe4v1#by=ad"><img width="310" height="310" alt="Success Kid" data-title="Success Kid" data-rating="212" data-id="222368797" data-edit="/make/caption/#id=222368797&name=Success Kid" src="http://t.qkme.me/3oe4v1.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Foul Bachelorette Frog</span>
+<a href="/meme/3oe63k#by=ad"><img width="310" height="308" alt="Foul Bachelorette Frog" data-title="Foul Bachelorette Frog" data-rating="273" data-id="222370400" data-edit="/make/caption/#id=222370400&name=Foul Bachelorette Frog" src="http://t.qkme.me/3oe63k.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Courage Wolf</span>
+<a href="/meme/3oexh8#by=ad"><img width="310" height="310" alt="Courage Wolf" data-title="Courage Wolf" data-rating="337" data-id="222405884" data-edit="/make/caption/#id=222405884&name=Courage Wolf" src="http://t.qkme.me/3oexh8.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Socially Awkward Penguin</span>
+<a href="/meme/3oemey#by=ad"><img width="310" height="310" alt="Socially Awkward Penguin" data-title="Socially Awkward Penguin" data-rating="316" data-id="222391546" data-edit="/make/caption/#id=222391546&name=Socially Awkward Penguin" src="http://t.qkme.me/3oemey.jpg"/></a>
+</div>
+<div style="display: inline-block; width:352px;"><span style="position: absolute; text-align: center; width: 350px; padding-top:2px;">Success Kid</span>
+<a href="/meme/3oez8c#by=ad"><img width="310" height="310" alt="Success Kid" data-title="Success Kid" data-rating="335" data-id="222408156" data-edit="/make/caption/#id=222408156&name=Success Kid" src="http://t.qkme.me/3oez8c.jpg"/></a>
+</div>
+</div>
+<!-- begin meme_thumb -->
+<div id="img_overlay_title" style="color: #000; position: absolute; background:#f6f5f1; z-index: 99; display: none;"></div>
+<div id="img_overlay" style="position: absolute; z-index: 99; width: 138px; display: none;">
+<a id="img_overlay_edit">Add your own caption</a>
+<a onclick="disown();" id="img_overlay_disown" style="color: #F00;display: none;" title="Remove your ownership of this meme">Disown this meme</a>
+<a onclick="add_fav();" id="img_overlay_addfav">Add to favourite</a>
+<a onclick="rem_fav();" id="img_overlay_remfav" style="color: #F00;display: none;">Remove from favourite</a>
+<a onclick="vote('dislike');" title="rate as just bad -1" class="like dislike"></a>
+<a onclick="vote('meh');" title="rate as meh +1" class="like meh"></a>
+<a onclick="vote('awesome');" title="rate as awesome +2" class="like awesome"></a>
+</div>
+<!-- end meme_thumb -->
+<!-- begin pagination -->
+<div id="pagination">
+<span class="step-links">
+<a href="/latest/1/" class="previous"> &laquo; previous page</a>
+<a href="/latest/1/">1</a>
+<span class="current">2</span>
+<a href="/latest/3/">3</a>
+<a href="/latest/4/">4</a>
+<a href="/latest/5/">5</a>
+<a href="/latest/6/">6</a>
+<span class="continue">...</span>
+<a href="/latest/808/">808</a>
+<a href="/latest/809/">809</a>
+<a href="/latest/3/" class="next">next page &raquo;</a>
+</span>
+</div>
+<!-- end pagination -->
+</div>
+<!-- end centerwrapper -->
+</div>
+<!-- end content -->
+<div id="footer">
+<!-- begin scripts -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script src="http://static.quickmeme.com/media/cmb/11_js-qm-browse.js" type="text/javascript"></script>
+<!-- end scripts -->
+<div style="padding:5px; background-color:#151515; text-align:center; width: 728px; height:90px; margin: 0 auto;">
+<iframe src="http://static.quickmeme.com/media/hptilethree.html?1" frameborder="0" scrolling="no" width="728" height="90"></iframe>
+</div>
+<div style="width: 950px; margin: 10pt auto 0px; color: rgb(119, 119, 119); text-align: left; text-decoration: none;" class="wrap"><table id="footer_boxes"><tbody><tr><td style="border-right: 1px solid rgb(34, 34, 34); border-left: 1px solid rgb(34, 34, 34);" class="footer_box"><h5 style="margin: 0px; font-weight: bold; font-size: 11px; color: rgb(204, 204, 204);">QM Site Links</h5><ul style="padding: 0pt; list-style: none outside none; margin: 0px; width: 179px;"><li><a href="http://www.quickmeme.com/memes/" style="color:#777; text-decoration: none;">List of Memes</a></li><li><a href="http://www.quickmeme.com/" style="color:#777; text-decoration: none;">Featured Memes</a></li><li><a href="http://www.quickmeme.com/memes/newest/" style="color:#777; text-decoration: none;">New Memes</a></li></ul></td><td style="border-right: 1px solid rgb(34, 34, 34);" class="footer_box"><h5 style="font-size: 11px; font-weight: bold; margin: 0px; color: rgb(204, 204, 204);">QM Features</h5><ul style="padding: 0pt; list-style: none outside none; margin: 0px; width: 179px;"><li><a href="http://www.quickmeme.com/make/" style="color:#777; text-decoration: none;">Create a Meme</a> </li><li><a href="http://www.quickmeme.com/myfavorites/" style="color:#777; text-decoration: none;">Save a Meme</a> </li></ul></td><td style="border-right: 1px solid rgb(34, 34, 34);" class="footer_box"><h5 style="margin: 0px; font-size: 11px; font-weight: bold; color: rgb(204, 204, 204);">Friends of QM</h5><ul style="padding: 0px; list-style: none outside none; margin: 0px; width: 179px;"><li><a href="http://www.reddit.com/r/AdviceAnimals/" style="color:#777; text-decoration: none;">Advice Animals</a></li><li><a href="http://crazythingsparentstext.com/" style="color:#777; text-decoration: none;">Parents Text</a></li><li><a href="http://fuautocorrect.com/" style="color:#777; text-decoration: none;">Auto Correct</a></li></ul></td><td style="border-right: 1px solid rgb(34, 34, 34);" class="footer_box"><h5 style="margin: 0px; font-size: 11px; font-weight: bold; color: rgb(204, 204, 204);">About QM</h5><ul style="padding: 0px; list-style: none outside none; margin: 0px; width: 179px;"><li><a style="color:#777; text-decoration: none;" href="mailto:wayne@quickmeme.com">Contact us</a></li><li><a style="color:#777; text-decoration: none;" href="/termsofservice.html">Terms of Service</a></li><li><a style="color:#777; text-decoration: none;" href="/dmca.html">DMCA</a></li></ul></td><td style="border-right: 1px solid rgb(34, 34, 34);" class="footer_box"><h5 style="margin: 0px; font-size: 11px; font-weight: bold; color: rgb(204, 204, 204);">QM Is Also On:</h5><ul style="padding: 0px; list-style: none outside none; margin: 0px; width: 179px;"><li><a style="color:#777; text-decoration: none;" href="http://twitter.com/quickmeme">Twitter</a> </li><li><a style="color:#777; text-decoration: none;" href="http://www.facebook.com/quickmeme">quickmeme on FB</a> </li><li><a style="color:#777; text-decoration: none;" href="http://buzz.quickmeme.com/">Meme Blog</a> </li></ul></td></tr></tbody></table></div>
+</div>
+<!-- end footer -->
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://optimize.indieclick.com/www/delivery/ajs.php':'http://optimize.indieclick.com/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+document.write ("?zoneid=583302");
+document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://optimize.indieclick.com/www/delivery/ck.php?n=a2e73ac0&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://optimize.indieclick.com/www/delivery/avw.php?zoneid=583302&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a2e73ac0' border='0' alt='' /></a></noscript>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-10341799-3']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- START: IndieClick Pixel -->
+<script type="text/javascript">
+(function() {
+var ic_element = document.createElement('script');
+ic_element.type = 'text/javascript';
+ic_element.async = true;
+ic_element.id = 'ic_annonymous_pixel';
+ic_element.src = 'http://pixel.indieclick.com/annonymous/domain/quickmeme.com/reach/script_ic.js';
+var ic_script = document.getElementsByTagName('script')[0];
+ic_script.parentNode.insertBefore(ic_element, ic_script);
+})();
+</script>
+<!-- END: IndieClick Pixel -->
+</body>
+</html>
+<!-- Server: QM-NewWeb4 --><!-- Render time: 0.23221 seconds -->

@@ -1,0 +1,1913 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: g9IliYhaStHpIVmkqOz7y4jCbkU=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: kAyPP4k0Vu9SBVR229zvW+Cm2VY=
+
+Name: org/eclipse/mat/ui/snapshot/panes/DominatorPane$GroupingAction$1
+ .class
+SHA1-Digest: 3i3b4jIVqOpCpKdeCPJVpV/4Fsg=
+
+Name: org/eclipse/mat/ui/compare/CompareBasketView$3.class
+SHA1-Digest: Qq9SCx4H9NEOQcqkZmrsR9tEb7M=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserPopup$6.class
+SHA1-Digest: 8gWZQc68cmQK8L/CvygDZk5vmtE=
+
+Name: org/eclipse/mat/ui/snapshot/editor/ISnapshotEditorInput.class
+SHA1-Digest: ww2O7GBL+MsvIsvPtLEtB9R1CkY=
+
+Name: org/eclipse/mat/ui/internal/GettingStartedWizard$OpenReportsPage
+ .class
+SHA1-Digest: ceKMsClE7hRtP4PMLhK89T0pI+w=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/LazyFields$Instance.
+ class
+SHA1-Digest: bwN3d33JKfjw3P7LmUkZiqIXWz0=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$7$1.class
+SHA1-Digest: 3dVF9T5H5H/y9pxamUbpyE9rFgM=
+
+Name: org/eclipse/mat/ui/actions/RunReportsDropDownAction.class
+SHA1-Digest: wZ6LAVJ7L7u8cTYtHbRFtSQarF0=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/TableEditorFactory.c
+ lass
+SHA1-Digest: weSFJVL+N9mJJ0MSFaEQPdiFNfg=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryContextHelp.class
+SHA1-Digest: 0pS8uDcsrUGEOhmoYrEK2Pc3BKI=
+
+Name: icons/refreshing.gif
+SHA1-Digest: W8sbbrXiA2ZwkkAj3+13xL6kh9w=
+
+Name: org/eclipse/mat/ui/snapshot/panes/DominatorPane$GroupingAction$1
+ $1.class
+SHA1-Digest: cHE7UssroJD7zwaSsUjb12oolt4=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$11.class
+SHA1-Digest: xGX93t7tTYqstrz0P65GBN6kWEI=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserHandler.class
+SHA1-Digest: th2sVpmNcSsIBGb4Y+SpcZSdnwA=
+
+Name: icons/expert.gif
+SHA1-Digest: VEBdGmVsCuu8pbGW/W7HnpJSukE=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryHistory.class
+SHA1-Digest: 7seYmnRcczen9cyt+yaWmxAtSTk=
+
+Name: org/eclipse/mat/ui/snapshot/panes/DominatorPane.class
+SHA1-Digest: FqioA9w2QHZw/8uDGtVa8nh5IDk=
+
+Name: org/eclipse/mat/ui/snapshot/panes/BundlesPane$1.class
+SHA1-Digest: RGptkk4zLRqjN4h0Bg2z2UbUaQ0=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OQLPane$ExecuteQueryAction.cla
+ ss
+SHA1-Digest: XzD9OxKEw57HehQHYT6yKChHi9o=
+
+Name: org/eclipse/mat/ui/snapshot/actions/CopyActions$1.class
+SHA1-Digest: KnjLDoEmMbwTxeQAmM4oCKn6NAw=
+
+Name: org/eclipse/mat/ui/snapshot/panes/CompareTablesPane$DiffOptionAc
+ tion$1$1.class
+SHA1-Digest: lqALiY3cD37i2JmLSCPoj1KPeus=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/TextEditor.class
+SHA1-Digest: SFnsOUiftWfuqEO0tdsj2yHMM0c=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/CheckBoxEditor$3.cla
+ ss
+SHA1-Digest: k6Ajw9fpQp7vcEk1SV+d3qI860U=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$8.class
+SHA1-Digest: OGKOqSGMFitvIWvLYT/JJvoTsDo=
+
+Name: org/eclipse/mat/ui/editor/package-info.class
+SHA1-Digest: IDaVEqJbMPErDbevZAh5XPhxktM=
+
+Name: org/eclipse/mat/ui/editor/CompositeHeapEditorPane.class
+SHA1-Digest: DacanUepEQKxp9gEiEyB6tVtqhM=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorContextProv
+ ider$1.class
+SHA1-Digest: vY6ZO62Xq7p7XuywTRLmkyQLXTA=
+
+Name: org/eclipse/mat/ui/util/NavigatorState$IStateChangeListener.clas
+ s
+SHA1-Digest: xxHFpw4tB3wOe1YbhmDLNF/pYUQ=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserPopup$Element.cl
+ ass
+SHA1-Digest: XK1UGCoG2h/rzPokQ8yrybZwq8Y=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$14.class
+SHA1-Digest: ePtoNcJQ9hzT05T5etllZ/rPyS8=
+
+Name: org/eclipse/mat/ui/snapshot/ImageHelper$Type.class
+SHA1-Digest: MubEYiS9XMZL9V97K7hYftNOWvU=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryRegistryProvider$CQQEle
+ ment.class
+SHA1-Digest: Gav3wpi4nbZfAC8s9rjOh05fDhk=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/LazyFields$ObjectArr
+ ay.class
+SHA1-Digest: r4I0fsKCjhj04aLF9Tj617Yylrk=
+
+Name: org/eclipse/mat/ui/editor/PathEditorInput.class
+SHA1-Digest: ajg669VLmC9qliWDC6txZSNRuvY=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedTreeViewer$TreeAdapter
+ .class
+SHA1-Digest: pODlnpF7ZeWDTowOvjZugaJp2Tw=
+
+Name: org/eclipse/mat/ui/util/SearchOnTyping$TreeImpl.class
+SHA1-Digest: EZGXmWWxWWfhDrtsYnej/adxRwA=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ArgumentsTable.class
+SHA1-Digest: 9boZDi1C9tzqZcXgC8Y1TliPBI0=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/FieldNode.class
+SHA1-Digest: +4SZMv6YyAkLd09+oXIfNygMRsg=
+
+Name: icons/heapobjects/package.gif
+SHA1-Digest: Iz+QMBF2zQ0A51e6prls1BDRHjM=
+
+Name: icons/notepad.gif
+SHA1-Digest: Rncu8jdFYrxjbiMuzILt4ueacMo=
+
+Name: schema/editorPanes.exsd
+SHA1-Digest: 6l1rJbJZ3GMGMcbciB0oRbC0DWU=
+
+Name: org/eclipse/mat/ui/internal/viewer/ExportActions$ExportDialog.cl
+ ass
+SHA1-Digest: wC8254vtFOkHCT9mdAtlGTMtbw4=
+
+Name: org/eclipse/mat/ui/snapshot/panes/Path2GCRootsPane$ReadNextPathJ
+ ob$1.class
+SHA1-Digest: 0rHjePNqHNmhS41Mh7A34+CRIwo=
+
+Name: org/eclipse/mat/ui/snapshot/views/Messages.class
+SHA1-Digest: AVzFjiqkTzTyJ5an+kf8tcIR/Yc=
+
+Name: org/eclipse/mat/ui/internal/views/NavigatorView.class
+SHA1-Digest: j86Z1JsB1lmSmDjQi7Acr+fFd2Q=
+
+Name: org/eclipse/mat/ui/internal/viewer/ExportActions.class
+SHA1-Digest: kFcZ6WJ4rX9tt49irvYUSh7Pj7g=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/SnapshotSelectionEdi
+ tor$3.class
+SHA1-Digest: yAwvAIUq/vrrsiexEagAu24isQg=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ImageTextEditor$3.cl
+ ass
+SHA1-Digest: BKDpA2gXoQ41bJ4prpk6MfVcsjQ=
+
+Name: org/eclipse/mat/ui/internal/panes/QueryResultPane.class
+SHA1-Digest: +PdAoJY7ze8xVBAkQbzIsh9e+DA=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OverviewPane$3$1.class
+SHA1-Digest: 3nfxRBgoH1RnKf+uRETpwabTLpM=
+
+Name: org/eclipse/mat/ui/internal/browser/package-info.class
+SHA1-Digest: eHuURmjexGQWAEK7VlaWGhtiikg=
+
+Name: org/eclipse/mat/ui/internal/viewer/DerivedDataJob$OnFullList.cla
+ ss
+SHA1-Digest: /cwYncwUPN8B4yqCrcwzXYJnNjI=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView.class
+SHA1-Digest: a6sPwpR3mOBNvEJETlaDmsTeQIw=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireDialog$5.class
+SHA1-Digest: zl5WnZXWFvNCW9UXGWYgeshLgn0=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$1.clas
+ s
+SHA1-Digest: Bv9rsB2T9jAul/UA1Rap0ZqP+DQ=
+
+Name: org/eclipse/mat/ui/compare/CompareBasketView$MoveAction.class
+SHA1-Digest: UBuk90TnJUA2pUdDuzuQUyol2ac=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$11.class
+SHA1-Digest: VTH/U7bcdfCoWus2Rx/ut/eRUS0=
+
+Name: org/eclipse/mat/ui/internal/actions/package-info.class
+SHA1-Digest: ykR3e0BdrYzbjAzUBr8OZzxi1Kw=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/FieldsContentProvide
+ r.class
+SHA1-Digest: g0dbL38hFYHn2UiOgaPhDKkKWf8=
+
+Name: org/eclipse/mat/ui/snapshot/panes/BundlesPane$TopLevelAction.cla
+ ss
+SHA1-Digest: 3r4Ut7iJl0PTRZsTmmdOcAcRrbM=
+
+Name: org/eclipse/mat/ui/snapshot/ParseHeapDumpJob$ParseRule.class
+SHA1-Digest: Bd8AkuMfZxU7wazJD5ihe1fc5Q4=
+
+Name: org/eclipse/mat/ui/snapshot/ImageHelper$OverlayImageDescriptor.c
+ lass
+SHA1-Digest: Wh7O8dkCmXFE2RtyW8+g8NfdIjI=
+
+Name: org/eclipse/mat/ui/snapshot/views/package-info.class
+SHA1-Digest: X3W1jKCZdL7qB7rd/s/mltyKLAc=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$1.class
+SHA1-Digest: TfeqD1knpQS01Ctv/SPWdtskfzo=
+
+Name: icons/close_branch.gif
+SHA1-Digest: ZuAHDQCxBdnVcNJOn+ecPqKa2yg=
+
+Name: icons/select_table.gif
+SHA1-Digest: SGNpusonGB4+J5WlFSIcnqJVWwY=
+
+Name: org/eclipse/mat/ui/editor/IMultiPaneEditorContributor.class
+SHA1-Digest: qR0ssSwyulrsDXZXkfGd3E75Pk0=
+
+Name: org/eclipse/mat/ui/MemoryAnalyserPlugin$ISharedImages.class
+SHA1-Digest: /zqMSfM69gC18N/L19GqcmGgYG8=
+
+Name: org/eclipse/mat/ui/snapshot/OpenSnapshot$2.class
+SHA1-Digest: t4v33jMZFibWGpNDnK6dw2r9EZg=
+
+Name: org/eclipse/mat/ui/messages.properties
+SHA1-Digest: AcGFEndlFT1rQGJvlF8GofWLtUM=
+
+Name: intro/all_tutorials.xml
+SHA1-Digest: KN6HSKgfDtGMXhHI+2cjQvLPaNw=
+
+Name: icons/query_disabled.gif
+SHA1-Digest: 7bdeMf96WSgV7tIqzIwHA8NiXRo=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/SnapshotSelectionEdi
+ tor$XLayout.class
+SHA1-Digest: p9gxhDUOmnt+b97W/XrhaRBuexY=
+
+Name: intro/tutorials_ide.xml
+SHA1-Digest: AJlhiZAAvWqnwCmW+VTUvHW5ym0=
+
+Name: icons/remove_console.gif
+SHA1-Digest: GjrVG/iyvWL3IYU591c59R+MF2o=
+
+Name: org/eclipse/mat/ui/internal/views/NavigatorViewPage$2.class
+SHA1-Digest: 1dCp2+mm6BZaOFz8Pj+1AJFlcgE=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenIconAssistAction$PopupTa
+ ble.class
+SHA1-Digest: 2IWzBP3Wvthw4RI5pmVCn/mcRWQ=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OverviewPane$1.class
+SHA1-Digest: +tnI8BuuaXJJvu2oj6GK/t+fftw=
+
+Name: icons/heapobjects/superclass.gif
+SHA1-Digest: oPcxeCmnYcSTkZvrS/pt9Slj3go=
+
+Name: org/eclipse/mat/ui/internal/viewer/ExportActions$TxtExport.class
+SHA1-Digest: jUNuZ4s+T6aRVfJVy6Tz6IfWeQU=
+
+Name: org/eclipse/mat/ui/compare/CompareTablesQuery$Mode.class
+SHA1-Digest: YHzypQjoVVvwJiRsoiJCEaMxpAQ=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotDetailsView.class
+SHA1-Digest: OrH95v5z0sIbN5zNz1qlR0rxrd8=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane$DeltaAction$1.cl
+ ass
+SHA1-Digest: qzlJicGUic3IPm+A9C31Lr9G9vI=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$RetrieveC
+ hildrenJob$1.class
+SHA1-Digest: 6epRrYSxbJiA/Ze1tBdqxYqxQBU=
+
+Name: org/eclipse/mat/ui/editor/LRUList$Entry.class
+SHA1-Digest: qWmVRGKGJWwNMSMKv/PJ0HoB/ro=
+
+Name: org/eclipse/mat/ui/snapshot/panes/Path2GCRootsPane$1.class
+SHA1-Digest: qh0JG8Hsq3TdZkEMObT29HOBb+Q=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserItem.class
+SHA1-Digest: wF6sxccXPI1WlZ8BvHVnUzbT7II=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$2.class
+SHA1-Digest: pTlMVvROBT96i5cfSNSqXTM0JJQ=
+
+Name: org/eclipse/mat/ui/util/PaneState.class
+SHA1-Digest: hbz6ahL5z3NdZsNMAybEwYqpc+o=
+
+Name: icons/export.gif
+SHA1-Digest: qWu4de8JrrKywEgIXtaKcw7RmAI=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditorSelectionProvider.class
+SHA1-Digest: 1G4nPekFD9WaswlKdGXUG0l++b8=
+
+Name: icons/oql.gif
+SHA1-Digest: LS+GOe/jKmZ/cKERugeE8lEjZ6I=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$4$1.class
+SHA1-Digest: IFuyhrzYDCjZKN6tIPNv1ZKjDSk=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/TextEditor$3.class
+SHA1-Digest: GKHmO/Eytbbc7Il7QCOpe/+EtwM=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer.class
+SHA1-Digest: LpYd0zd34NoGqA5fDwygaHOClGA=
+
+Name: org/eclipse/mat/ui/internal/panes/TableResultPane$1.class
+SHA1-Digest: kwbjjUJiODA52O2aJLjUsoNue3U=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$6.clas
+ s
+SHA1-Digest: 9RA2wp/iH0qAIj7LrrvraOeiJ3c=
+
+Name: org/eclipse/mat/ui/Messages.class
+SHA1-Digest: 7R8pgJfO3ya9zfT6r2PUGR4oCwQ=
+
+Name: icons/heapobjects/array_obj_gc_root.gif
+SHA1-Digest: Z1ID+zb91f6UUTPjUeWgvgYJ4HA=
+
+Name: org/eclipse/mat/ui/snapshot/package-info.class
+SHA1-Digest: xvHYfUrWlBg8JKE+GKrgf5jBqp8=
+
+Name: org/eclipse/mat/ui/snapshot/panes/CompareTablesPane$SelectColumn
+ Action$1$1.class
+SHA1-Digest: MF+1+R+vUxiEoUl5tzzaDr0UQF0=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OQLPane$3.class
+SHA1-Digest: qomQxHVRFQ60G1QT+l4+41G8L0k=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$6.class
+SHA1-Digest: vnSs9zLM/4h9xR0l6qEW2duKvcc=
+
+Name: org/eclipse/mat/ui/snapshot/panes/DominatorPane$GroupingAction.c
+ lass
+SHA1-Digest: LVInsSktNWu201P3Ri9seFDBKzI=
+
+Name: icons/open_snapshot.gif
+SHA1-Digest: FL5qeTb4zJA7yKBfwgzTdkBN2dw=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedTreeViewer$2.class
+SHA1-Digest: fOpTX9v4aZZ+8z1pgtx1CN4H4Wg=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$4.class
+SHA1-Digest: NjFdLwvyD5H9V64yBqYdek/IzEU=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$15$1.clas
+ s
+SHA1-Digest: j/2e4KCzZNlnyQWMUQKTQwLJdvc=
+
+Name: org/eclipse/mat/ui/snapshot/editor/HeapEditor$2.class
+SHA1-Digest: GiLPK5kfMDXADgrU3DhiIb0B9jc=
+
+Name: icons/plus.gif
+SHA1-Digest: FLQS3duOxDoqa4Bm2MmoDdvrsrs=
+
+Name: org/eclipse/mat/ui/compare/CompareBasketView$2.class
+SHA1-Digest: En2DIkta3pmmYVcoJFskIYClSvU=
+
+Name: org/eclipse/mat/ui/internal/views/NotesView$4.class
+SHA1-Digest: cVDUe83B4VVxKy+5O8/IIDu9C5w=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserPopup$5.class
+SHA1-Digest: AOql3Y0wAOufF1xY17FA+9llLf8=
+
+Name: org/eclipse/mat/ui/internal/views/NotesView$IdHyperlink$1.class
+SHA1-Digest: sIK1F/8Me0UtVPibsZ76MKrwsnw=
+
+Name: org/eclipse/mat/ui/snapshot/panes/MultiplePath2GCRootsPane$1.cla
+ ss
+SHA1-Digest: 3yYWo3QY/99E8IcdWcX8hIufddM=
+
+Name: org/eclipse/mat/ui/internal/views/NavigatorViewPage$7.class
+SHA1-Digest: R3N/1vDsZC0MYlzRSoxV8kr8E2Y=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$BaseNo
+ de.class
+SHA1-Digest: NErsduCWmxqzQzD1hnz2ULjZLsE=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$10.class
+SHA1-Digest: YcmsLF1tr26r2a7OILwf5jG/nto=
+
+Name: org/eclipse/mat/ui/QueryExecution.class
+SHA1-Digest: NPakpFVfLZ3igChoOJ2DoZf6GWg=
+
+Name: org/eclipse/mat/ui/internal/acquire/ProviderConfigurationDialog$
+ 3.class
+SHA1-Digest: X3mA726A9gpseVPs/duD9GH3yIU=
+
+Name: icons/heapobjects/class_old.gif
+SHA1-Digest: r06nNeYmjDeJ2eKQyA5wK7C+PR0=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireDialog$GetVMListRunna
+ ble.class
+SHA1-Digest: ZqwAst1MsyOEFzoXTCYlkfHe/cU=
+
+Name: org/eclipse/mat/ui/compare/CompareBasketView$ComparedResult.clas
+ s
+SHA1-Digest: K9/57x8+5dLlUnm05UIguHkqkSg=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/CheckBoxEditor$2.cla
+ ss
+SHA1-Digest: wHXkj0kvmTXPcOJRmMYIkhPFfUg=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$7.class
+SHA1-Digest: 2CJ1JaaABoQUB43eyPHZ1JZTRwM=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedTreeViewer$ReadDataThr
+ ead$2.class
+SHA1-Digest: 6b6iJcxhyFyeHJAVFw+SED/mNZc=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenIconAssistAction$TableCo
+ ntentProvider.class
+SHA1-Digest: MDRvbAVkboSLLktrN3oBFAaSlGk=
+
+Name: org/eclipse/mat/ui/internal/GettingStartedWizard$OpenReportsPage
+ $2$1.class
+SHA1-Digest: 4Qwjkgq+8hkEHNcSSiU9V5/1OJM=
+
+Name: icons/query.gif
+SHA1-Digest: O8C5hxiL+Vnl7YFDABzMfWaYxvc=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$13.class
+SHA1-Digest: ROVgiZvdNWR9TQP4XzQSzV0Cqd8=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane$GroupingAction.c
+ lass
+SHA1-Digest: MKVCdXpHH8YgxNzlGE3KkP82JzA=
+
+Name: org/eclipse/mat/ui/snapshot/editor/HeapEditor.class
+SHA1-Digest: K2GqFvzt5qUwWjBjoVfNUsCnYJk=
+
+Name: org/eclipse/mat/ui/internal/panes/QueryTextResultPane$2.class
+SHA1-Digest: dArpNPnF/eiszQq+fKO/0PmWI2w=
+
+Name: org/eclipse/mat/ui/SnapshotHistoryService$Entry.class
+SHA1-Digest: x3Fx9bJugcWlNaYkZuV1aW9hfEs=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/EnumComboEditor$1.cl
+ ass
+SHA1-Digest: dNRAlYe410dcx94dKgnBE9LFpzA=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$TableC
+ ontentProvider.class
+SHA1-Digest: kv4OBvpqpBjPEbbO4I0QW53InOg=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserProvider.class
+SHA1-Digest: Ul3niI9PuF4yDeJZPz7PsrENiBc=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/FileOpenDialogEditor
+ .class
+SHA1-Digest: mUYz2alPQahiR5PVSlvv6nzLmnw=
+
+Name: icons/heapobjects/instance_obj.gif
+SHA1-Digest: BGzqbL5SfLo4EfBw5RxE6ec0T+A=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane.class
+SHA1-Digest: NS+yZ9iQ34nP3zytPHtKynaZycg=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$9.class
+SHA1-Digest: 4VAqx1tj65L5pZ+fSDq3vgHFAPQ=
+
+Name: org/eclipse/mat/ui/snapshot/actions/package-info.class
+SHA1-Digest: coxVtyG9MRxEsQ+Fl16ZPNf9Iew=
+
+Name: icons/id.gif
+SHA1-Digest: eJIgw7/DdD3d8GndURtAsuI4av8=
+
+Name: icons/show_pane.gif
+SHA1-Digest: 3tlHK9ub6foGW+8F2xa0Gb+Qb7M=
+
+Name: org/eclipse/mat/ui/internal/Perspective.class
+SHA1-Digest: zpPwS7P84RQU5kVFpcfwsDFm96Y=
+
+Name: org/eclipse/mat/ui/snapshot/actions/ExportInfo.class
+SHA1-Digest: vN8klnlB0wo9d2DDrw432k1gqzc=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenIconAssistAction.class
+SHA1-Digest: 235W1CEMRRBUZsgXr5mqUU7soX0=
+
+Name: org/eclipse/mat/ui/SnapshotHistoryService$IChangeListener.class
+SHA1-Digest: lxCOqJ+zoWr1A8FjgwdCdF28MjI=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/CheckBoxEditor.class
+SHA1-Digest: sIIGmhRm3bSsHnqJ3TtFxb7VnMQ=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/SnapshotSelectionEdi
+ tor$2.class
+SHA1-Digest: Eho9czwPH4VSdByAkSfZgf2WjjA=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ImageTextEditor$2.cl
+ ass
+SHA1-Digest: muIYZtfMdWB2OTTUyzQzTp5yVTI=
+
+Name: org/eclipse/mat/ui/internal/acquire/ProviderContextImpl.class
+SHA1-Digest: sQ+9BOOoK23Tvzhd/jwGDx5U4vw=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenIconAssistAction$Handler
+ .class
+SHA1-Digest: ryK6AzM+NZazm2wGIghcZO7Y6C4=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenIconAssistAction$IconAss
+ ist$1.class
+SHA1-Digest: tREfsUJi4Pz5ZOtkrbmxhsUHx88=
+
+Name: org/eclipse/mat/ui/internal/GettingStartedWizard$OpenReportsPage
+ $3.class
+SHA1-Digest: aFZybXWoOC4hdhcYKvimMWrW/14=
+
+Name: org/eclipse/mat/ui/actions/RunExternalReportAction.class
+SHA1-Digest: 64QZHr59YulgW9wYM4NxG7FfiR0=
+
+Name: icons/copy.gif
+SHA1-Digest: 1n0QC6brOyEQnaI7tpjn3MPbvqs=
+
+Name: org/eclipse/mat/ui/snapshot/actions/annotations.properties
+SHA1-Digest: UZTuMvTEHk6zeviIVWnNvd+p/b0=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/LazyFields.class
+SHA1-Digest: Q7QOyaj6ZPbH5iB5lraGDQm8veE=
+
+Name: org/eclipse/mat/ui/snapshot/views/messages.properties
+SHA1-Digest: AzIstfRtvB844k+DL+4IxRPQO9Y=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryHistoryProvider$HQQElem
+ ent.class
+SHA1-Digest: O2YUIsioInsVAzyP1S/B+4VYEME=
+
+Name: org/eclipse/mat/ui/internal/acquire/ProviderArgumentsTable.class
+SHA1-Digest: /Dr2ysWD69liYChtR+ZnG8kqjFM=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireDialog$4.class
+SHA1-Digest: eU3aq6GM4ZK+mUvswacVZPqtJGo=
+
+Name: org/eclipse/mat/ui/snapshot/panes/CompareTablesPane$SelectColumn
+ Action$1.class
+SHA1-Digest: MsiR7Q60/FLB7hH0OcMuGInXEwE=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$10.class
+SHA1-Digest: wtqqLMsQ/9pkm2KwpiivvEgGtBA=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ArgumentEditor.class
+SHA1-Digest: PIsJTNWuIQbUe+M1ApqYWjvViRY=
+
+Name: icons/grouping.gif
+SHA1-Digest: rjsObNn9mWmEqh6FSOBUeEjmkdg=
+
+Name: icons/import_report.gif
+SHA1-Digest: qZ571B4SIgEZCTvtUPHwO/d85vQ=
+
+Name: org/eclipse/mat/ui/internal/acquire/ProviderArgumentsTable$1.cla
+ ss
+SHA1-Digest: 4r95JPSFt4XWES+bsriE5m88/cI=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$18.class
+SHA1-Digest: 8dTQ39VOsUdTRo56Yn0iNHdgxf4=
+
+Name: org/eclipse/mat/ui/util/package-info.class
+SHA1-Digest: COjN+tsd77Q0zhrcgxXeA88RqDo=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireSnapshotAction$1.clas
+ s
+SHA1-Digest: KXyWY8vIl2gPA/3u4SmG4ffj7d4=
+
+Name: org/eclipse/mat/ui/snapshot/OpenSnapshot$1.class
+SHA1-Digest: oEoygQASShTf/0e74Kip23kisqI=
+
+Name: org/eclipse/mat/ui/editor/AbstractEditorPane$1.class
+SHA1-Digest: aocDiOjlFanIL/ncmJlARLy3B6A=
+
+Name: org/eclipse/mat/ui/snapshot/actions/CopyActions$Value.class
+SHA1-Digest: F6eTbHUWBN/3Qaxr3IB7CsTJRBc=
+
+Name: org/eclipse/mat/ui/snapshot/ImageHelper.class
+SHA1-Digest: eZujs8l6eDVo5RAdSpy80A8pJqo=
+
+Name: org/eclipse/mat/ui/util/PopupMenu.class
+SHA1-Digest: bFuazAmYFJ1acQuj06Wdomvff8Q=
+
+Name: icons/as_histogram.gif
+SHA1-Digest: dhdX94hRYAGEFDx7+S3PWjYyav4=
+
+Name: org/eclipse/mat/ui/internal/views/NavigatorViewPage$1.class
+SHA1-Digest: 5itYs5o8Ln55mQavei+LdCn0z4c=
+
+Name: org/eclipse/mat/ui/snapshot/panes/MultiplePath2GCRootsPane$Group
+ ingAction$1$1.class
+SHA1-Digest: j7MNACXb2l2Z2YRccExuWC+Y7ew=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/FileOpenDialogEditor
+ $3.class
+SHA1-Digest: /rtU4Za5jMyyvyG88z9BkldSu6M=
+
+Name: icons/export_txt.gif
+SHA1-Digest: E5xjZWJcHrN3FMCTQesIc6D3VCg=
+
+Name: icons/help.png
+SHA1-Digest: O9mMnaKCyPUK4ztR06btx6/KcY4=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenIconAssistAction$IconsLa
+ belProvider.class
+SHA1-Digest: gpa+1dNjIkJq66u382Qhgs8aEA0=
+
+Name: org/eclipse/mat/ui/util/QueryContextMenu$3.class
+SHA1-Digest: SP5gJ495B/Btcfo2wJ6giJv5E50=
+
+Name: org/eclipse/mat/ui/util/Copy$CopyToClipboard.class
+SHA1-Digest: m6+c+EY2dB6FfHk7oP1YZKOTXBQ=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ImageTextEditor$Butt
+ onEditorLayout.class
+SHA1-Digest: 5QTT1SLOfRSMnyPxrfKwsM8kt/c=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$1.class
+SHA1-Digest: uQcp9bTXC1WgtZkRR8Ys69O3Xi8=
+
+Name: org/eclipse/mat/ui/actions/RunReportsDropDownAction$1.class
+SHA1-Digest: Z8+4CRtqWc8S744ZVaWSceGGfm4=
+
+Name: org/eclipse/mat/ui/internal/ErrorLogHandler.class
+SHA1-Digest: OaJqqT5NQe/wucbOtNSFUxb8fxw=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/FieldsContentProvide
+ r$MoreNode.class
+SHA1-Digest: XTobmJmIHAlkJttvliag5GNUQN0=
+
+Name: org/eclipse/mat/ui/QueryExecution$1.class
+SHA1-Digest: 4lm0JGRlj6RJGoDo+Wx7Z3BQh/k=
+
+Name: org/eclipse/mat/ui/internal/panes/TextViewPane.class
+SHA1-Digest: pmPxpmu5DRkkyPAeyyWL1mmItF4=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$TopTab
+ leLabelProvider.class
+SHA1-Digest: FpEi76nvzRutQCYOIpYdtSTS7Bg=
+
+Name: icons/find.gif
+SHA1-Digest: oHQOmQnEr297dQ4gu1ysJvmEuz0=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryHistoryProvider.class
+SHA1-Digest: 4L23hYHU+6QWXnvJ5Xm+4O0PlmM=
+
+Name: org/eclipse/mat/ui/internal/panes/TableResultPane$GroupingAction
+ $1$1.class
+SHA1-Digest: 1KGTtclcWlHKwOfCERNH4pBIWmo=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/TextEditor$2.class
+SHA1-Digest: LEHbcWKg+SydykBX3mSBDBNYl1c=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$5.clas
+ s
+SHA1-Digest: nDE7R3gPQPT/QcVeP3dyYM9LrZc=
+
+Name: org/eclipse/mat/ui/snapshot/panes/CompareTablesPane$DiffOption.c
+ lass
+SHA1-Digest: pc1EagGt7VmatkGnVNq3yBL4ZNo=
+
+Name: about.html
+SHA1-Digest: XDbSz9jZo6zCWwieu0VJK4EghEM=
+
+Name: icons/heapobjects/class_mixed.gif
+SHA1-Digest: lSIgv7C7XKcH8fepZ9ZpbHDBSzY=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditorSelectionProvider$1.cla
+ ss
+SHA1-Digest: gQfFIba1HMQepRikLe2zQtSLHiw=
+
+Name: icons/remove.gif
+SHA1-Digest: W02SEq/jVvxV6YM398aXLy8VniE=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedTreeViewer$ReadDataThr
+ ead$2$1.class
+SHA1-Digest: pLT/pQmcTtQMjqW11whxFzqMt8w=
+
+Name: tutorials/basic_tutorial.xml
+SHA1-Digest: iLWGddS5krt9f7aMLsnb3OSSLOA=
+
+Name: icons/heapobjects/class.gif
+SHA1-Digest: 4J5mPyRMwapG3l4EdqA8XsYceRs=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OQLPane$2.class
+SHA1-Digest: Rv9nnAOXquvO7aQ1YC2QTM2VGE8=
+
+Name: org/eclipse/mat/ui/internal/actions/ExecuteInspectionHandler.cla
+ ss
+SHA1-Digest: 1RRi3yzFPvwrbzeP8oLuSct7c50=
+
+Name: org/eclipse/mat/ui/internal/viewer/ExportActions$HtmlExport$2.cl
+ ass
+SHA1-Digest: HEYVF3Btdq+git4zey88jIyAPOw=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$5.class
+SHA1-Digest: gmBJZk5IgAX1udgJK/M8j7yiiHU=
+
+Name: org/eclipse/mat/ui/internal/viewer/DerivedDataJob$OnSelection$1.
+ class
+SHA1-Digest: 1IN/387YD5TNZ/thJp9PjIYwiNM=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedTreeViewer$1.class
+SHA1-Digest: 6TndEYAaEfadua6rNNztp/Wl7M4=
+
+Name: intro/css/tutorials.css
+SHA1-Digest: EbS8z80stTEvxW7ljiJCYHW+mCk=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$3.class
+SHA1-Digest: QeBtaoESF9KU31SvSeZYEYGWLJ8=
+
+Name: org/eclipse/mat/ui/internal/GettingStartedWizard$PackagePage.cla
+ ss
+SHA1-Digest: 6LG59CfX5Gps9GbLPOzZSz7kK60=
+
+Name: org/eclipse/mat/ui/snapshot/actions/CopyActions$Address.class
+SHA1-Digest: wosIWYtlwScc3VC0pmIt1Vy5WEw=
+
+Name: org/eclipse/mat/ui/snapshot/editor/HeapEditor$1.class
+SHA1-Digest: 3Jc1CffHEqNU5QdTIYFChh7EzkE=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedTableViewer$TableAdapt
+ er.class
+SHA1-Digest: PhP0D4J0mlYikTbLrIf/Kci0spc=
+
+Name: org/eclipse/mat/ui/compare/CompareBasketView$1.class
+SHA1-Digest: zT6UbbwzoDTAHmXTfiMuBNd5Y8w=
+
+Name: org/eclipse/mat/ui/internal/viewer/DerivedDataJob.class
+SHA1-Digest: +J0D8BFAdyMmjRTEfWzH6EmhTI8=
+
+Name: org/eclipse/mat/ui/internal/views/NotesView$3.class
+SHA1-Digest: ab64MkiydGThL78WyfX3RMmQe2g=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserPopup$4.class
+SHA1-Digest: LQez18d60EY76gTGicbwlnPtKO8=
+
+Name: org/eclipse/mat/ui/util/PopupMenu$ShowListener.class
+SHA1-Digest: JlEFCphAA9VEeNqfuXZFYn61z+s=
+
+Name: org/eclipse/mat/ui/internal/views/NavigatorViewPage$6.class
+SHA1-Digest: N8Gz7Lg3zHf+3UQwbfUad2hqhJE=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane$2.class
+SHA1-Digest: qFXV4ljogSlTJ+MtsBCGNBNlkRw=
+
+Name: org/eclipse/mat/ui/editor/PathEditorInput$WorkbenchAdapter.class
+SHA1-Digest: xcJTZEgeLOQ0wEYBPrG5Gv7MIyM=
+
+Name: org/eclipse/mat/ui/internal/acquire/ProviderConfigurationDialog$
+ 2.class
+SHA1-Digest: 4UY0N+Nuo8Tuh2QZGhAZXe8dv68=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedTreeViewer$ReadDataThr
+ ead.class
+SHA1-Digest: RG8VVfEFPi9FW+Un0RbgpdTAsYY=
+
+Name: org/eclipse/mat/ui/internal/views/package-info.class
+SHA1-Digest: IKGQ7VitQ/3HRDaXPg2d5le9OTI=
+
+Name: org/eclipse/mat/ui/util/PaneState$PaneType.class
+SHA1-Digest: D+4yNoNTlUumHAZyhab7WRCSnWY=
+
+Name: icons/execute_query.gif
+SHA1-Digest: 0PD2InbkRSyxZ5sZnqbmXbJ4fGM=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/CheckBoxEditor$1.cla
+ ss
+SHA1-Digest: ag1KL7/J7kXqGT6ZxniUKb7cS+s=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$6.class
+SHA1-Digest: xp+46+aWvotxTXgnjQ2vAWKSWoE=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedTreeViewer$ReadDataThr
+ ead$1.class
+SHA1-Digest: 1YvDxwCZT7vFta1ZJ6s6wJKoIDI=
+
+Name: org/eclipse/mat/ui/util/SearchOnTyping$SearchKeyListener.class
+SHA1-Digest: tZMwMbyYRDjPZWm/6pMoGFCcZ5c=
+
+Name: org/eclipse/mat/ui/actions/OpenHelpPageAction.class
+SHA1-Digest: 9Kkyq5F655uP5iYHPf0OAc4doYw=
+
+Name: org/eclipse/mat/ui/util/ErrorHelper.class
+SHA1-Digest: YnSm6AsSRFRm05rmhZvqzJ0BLNU=
+
+Name: org/eclipse/mat/ui/internal/viewer/DerivedDataJob$OnFullList$1.c
+ lass
+SHA1-Digest: W3x8Eb8N937ad7jGM1Px5xxfgiM=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$12.class
+SHA1-Digest: Kws+ULvI6zOW2Noduw1XuIZ5gIw=
+
+Name: icons/fill_arguments_wiz.gif
+SHA1-Digest: ZLhDc3Jvw3d6IcC0VtYOGlnnEB4=
+
+Name: org/eclipse/mat/ui/util/SearchOnTyping$SearchThingy.class
+SHA1-Digest: E2yeqNsemteSWpTzUoHvzLr0KT0=
+
+Name: org/eclipse/mat/ui/internal/panes/QueryTextResultPane$1.class
+SHA1-Digest: u4MMfmK5t3fFeNpoEMHW93lyY9M=
+
+Name: org/eclipse/mat/ui/snapshot/panes/package-info.class
+SHA1-Digest: h1aRcJMlDo8i+kj3/Lri5wVcW00=
+
+Name: org/eclipse/mat/ui/internal/panes/QueryResultPane$2$1.class
+SHA1-Digest: IVLirgxEp50zbZRYKmefQYWhTm4=
+
+Name: icons/heapobjects/heapdump16.gif
+SHA1-Digest: NPi0W6ie1edvUXvhKu2/Bfg7Rk4=
+
+Name: org/eclipse/mat/ui/util/SearchOnTyping$SearchJob$1.class
+SHA1-Digest: cdYZAkcgaZcFCN1W6+nqohvyQuk=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$7$1.cl
+ ass
+SHA1-Digest: MjO93ZHFFpE7xQUG/kpOb03PYTc=
+
+Name: org/eclipse/mat/ui/snapshot/panes/Path2GCRootsPane$ReadNextPathJ
+ ob.class
+SHA1-Digest: I2K+wxpbofxiinJUewVDBazY+OE=
+
+Name: org/eclipse/mat/ui/util/SearchOnTyping.class
+SHA1-Digest: G1n3ocrVZLIxYlsYapshxO+pftk=
+
+Name: org/eclipse/mat/ui/snapshot/panes/BundlesPane$TopLevelAction$1.c
+ lass
+SHA1-Digest: cegqTJvu6pjxp8LGie6mmV+66aI=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$8.class
+SHA1-Digest: dUypBsdC+qnghDpngRUGTuvAzPw=
+
+Name: org/eclipse/mat/ui/snapshot/panes/CompareTablesPane$DiffOptionAc
+ tion.class
+SHA1-Digest: 0YdeunsIThOvbYW54eU8Re0ruYI=
+
+Name: org/eclipse/mat/ui/internal/panes/QueryResultPane$2$1$1.class
+SHA1-Digest: fX2vgBi8mD+vpUtsPkug0YmhVQM=
+
+Name: org/eclipse/mat/ui/snapshot/editor/HeapEditorContributions.class
+SHA1-Digest: 31zYDotBX6DPklNCApA6l8Dh6uI=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane$DeltaAction.clas
+ s
+SHA1-Digest: PD9eFz9kv4MLf84Tu865WQ+IgrI=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$RetrieveC
+ hildrenJob.class
+SHA1-Digest: U2VbCcH21QHwMCibTLdVgD8Sdfw=
+
+Name: org/eclipse/mat/ui/internal/acquire/ProviderArgumentsTable$ITabl
+ eListener.class
+SHA1-Digest: wvsW3WeieKfCV/n1MiksNCzZwqs=
+
+Name: icons/heapobjects/class_obj_gc_root.gif
+SHA1-Digest: 18U48zGe5A9gV1sLrT6P8CFf+4o=
+
+Name: org/eclipse/mat/ui/snapshot/editor/ISnapshotEditorInput$IChangeL
+ istener.class
+SHA1-Digest: v7njH162v06NxDQwnqHfrM/5mlc=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ImageTextEditor$1.cl
+ ass
+SHA1-Digest: 4Jqff12Rz15b1buaEEmyG0TgbPQ=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/SnapshotSelectionEdi
+ tor$1.class
+SHA1-Digest: LFGSsT49/d2B0tm9NtXGGOdIJwQ=
+
+Name: org/eclipse/mat/ui/snapshot/panes/CompareTablesPane$2.class
+SHA1-Digest: thvptXGQ6Tn9R+2nV+3ioNXL5CU=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedTableViewer.class
+SHA1-Digest: frAfYwoxQp3jt+odioAirX5+Rks=
+
+Name: org/eclipse/mat/ui/package-info.class
+SHA1-Digest: nrh1LNBiiWG3PlJio+8MzXgighs=
+
+Name: tutorials/component_report.xml
+SHA1-Digest: smWYyqHfvhsQvjV9ip1z6uKgJH8=
+
+Name: org/eclipse/mat/ui/internal/GettingStartedWizard$OpenReportsPage
+ $2.class
+SHA1-Digest: 979hbwGmAD604MA0d8hnCiislrg=
+
+Name: icons/info.gif
+SHA1-Digest: ggMe6m5dcegyiDgIUsgw2A+GWrI=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView.class
+SHA1-Digest: Y29TYyOLnc+ye9W0GR9Zw7cjPs0=
+
+Name: intro/css/overview.css
+SHA1-Digest: s+eDp3rDcN33oJ7337CPQbkjReQ=
+
+Name: org/eclipse/mat/ui/internal/actions/ExecuteQueryAction.class
+SHA1-Digest: dQUtjJb4OE4WZCMhu9hQpsqDgsU=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireDialog$3.class
+SHA1-Digest: VOFLQmNgk/BHzQ05w9vvfqoZSN4=
+
+Name: icons/export_csv.gif
+SHA1-Digest: 5OiTvS6Sj0pb+bGcZveNGX874J8=
+
+Name: org/eclipse/mat/ui/snapshot/editor/HeapEditor$SnapshotEditorInpu
+ t.class
+SHA1-Digest: OGY2sllvoD+xwQbT0sJN7usQfGU=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireSnapshotAction.class
+SHA1-Digest: 0Q3z74CzLbaPCxIe4H3es5w/B+g=
+
+Name: org/eclipse/mat/ui/internal/views/NavigatorViewPage$NavigatorLab
+ elProvider.class
+SHA1-Digest: tZU9tCWVcJlNSpGbbxgC+f6n6hA=
+
+Name: org/eclipse/mat/ui/actions/QueryDropDownMenuAction.class
+SHA1-Digest: gs/q0YjgQmcmBSCqNXYsLh5WBhw=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireSnapshotAction$Handle
+ r.class
+SHA1-Digest: LhxzedKknynL5AWpyYB13+JyFgE=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/LazyFields$1.class
+SHA1-Digest: EQDOVAlknos7k0CGAFL2niqeKts=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$17.class
+SHA1-Digest: W84lumIvaoZq09fPU/zf5zqblY4=
+
+Name: org/eclipse/mat/ui/compare/CompareBasketView.class
+SHA1-Digest: srq5JD3PQR5pbc2kWhT//uhuauQ=
+
+Name: org/eclipse/mat/ui/snapshot/editor/HeapEditorPane.class
+SHA1-Digest: CrHDk0ac9PDzjtF7J7aec6b3UZk=
+
+Name: org/eclipse/mat/ui/snapshot/views/SnapshotOutlinePage$OutlineCon
+ tentProvider.class
+SHA1-Digest: Eq4jlCbSs6+KRntRorXHo53YUVg=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane$GroupingAction$1
+ .class
+SHA1-Digest: rLIv+XwCFr6/E7fyz5JpULRM67Q=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenObjectByIdAction.class
+SHA1-Digest: gHKrma99KDQUk8gmDjbK/YvzgV4=
+
+Name: org/eclipse/mat/ui/compare/CompareTablesQuery$ComparedColumn.cla
+ ss
+SHA1-Digest: kIUnI+dQOpGO0f1HWt3qCPa9bfo=
+
+Name: icons/memory_analyzer_perspective.gif
+SHA1-Digest: h6ytD1i+9MkR2lgdM3cCXh3P+/o=
+
+Name: org/eclipse/mat/ui/snapshot/views/SnapshotOutlinePage.class
+SHA1-Digest: MBRPN3+iv6qHFWdynH3U4CFHjyA=
+
+Name: icons/percentage.gif
+SHA1-Digest: ozx6vmeGKww9J9H2XA2rShDlSOs=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ImageTextEditor.clas
+ s
+SHA1-Digest: 9GFcNlTkzeNjX7kftsCCQAhhL3Y=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/SnapshotSelectionEdi
+ tor.class
+SHA1-Digest: fUBzQ2xWmuZXwFFsFJgqSbU+veU=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$1$1.class
+SHA1-Digest: dQIR2Jxchm0cyKIrBPlMIx4ooPM=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ArgumentsTable$2.cla
+ ss
+SHA1-Digest: 0DyGRf8DxZWG6+mWIWczh5pjZCw=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/FileOpenDialogEditor
+ $2.class
+SHA1-Digest: f/Tpt1UCfws9Vc8M3b+WrvuHB6g=
+
+Name: org/eclipse/mat/ui/snapshot/panes/BundlesPane.class
+SHA1-Digest: 7sdU6Ku64OI2QaUtqiTeUFtZlwM=
+
+Name: icons/heapdump_details.gif
+SHA1-Digest: YV3NbmrSbOcKCpFayf1HZBry8Hk=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$9$1.class
+SHA1-Digest: AqqruNtAktLr0mveYbtaN7cTBhU=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$MenuLi
+ stener.class
+SHA1-Digest: lse+2I4TQl4+CILp4KJvUonwpNE=
+
+Name: org/eclipse/mat/ui/util/QueryContextMenu$2.class
+SHA1-Digest: Qo9MBPpp/LYopYhNsQfTAfAFyTw=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OQLPane$OQLJob$2.class
+SHA1-Digest: gCeWBLKe9m80RlZjd/S62SN12v8=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$DeleteSnap
+ shotDialog$1.class
+SHA1-Digest: XcofNUDWYZUfBBRkTgncYQLi/YE=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ArgumentsWizardPage.
+ class
+SHA1-Digest: uWRxcnpDxg/vL4C4lX0NXbs107U=
+
+Name: org/eclipse/mat/ui/internal/viewer/package-info.class
+SHA1-Digest: negG1+BqoZqIvESgsTN8oXDZIPM=
+
+Name: icons/heapobjects/instance_obj_gc_root.gif
+SHA1-Digest: MBDTr6CO0toduMP7e7C5s90PwLk=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenSampleHeapDumpAction$2.c
+ lass
+SHA1-Digest: 05Y6ptCmnWJ1y8tu9zBk1OmNW3w=
+
+Name: org/eclipse/mat/ui/internal/panes/QueryTextResultPane.class
+SHA1-Digest: iP3hNbvH7hNMdmvnzVn7WQlm2Y8=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryHistoryHandler.class
+SHA1-Digest: 6CeJdu6tGtHLYped8yZg4Y7zor8=
+
+Name: org/eclipse/mat/ui/util/SearchOnTyping$SearchPopup$1.class
+SHA1-Digest: kiWf+Wg2uIeVAngJT86tFWXjDY0=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/TextEditor$1.class
+SHA1-Digest: L9R8MOet5b10Fsz/NTM3YNqHQN4=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$4.clas
+ s
+SHA1-Digest: G4j7vwFuUmbtH8hMme1L4FnpK+U=
+
+Name: org/eclipse/mat/ui/util/PopupMenu$ArmListener.class
+SHA1-Digest: fVWmCzQpk2J9OmL+iY6w4wCKW7I=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$Hierar
+ chyLabelProvider.class
+SHA1-Digest: JMz+nvXH/Uotr5C34JzaLLz9Q7o=
+
+Name: org/eclipse/mat/ui/util/Copy$ExportToFile.class
+SHA1-Digest: tgmQSDT6nd9xG5zla5ICByANkgM=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OQLPane$1.class
+SHA1-Digest: QD3opEiGaFJKK1fzbn4g5C60tuc=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireDialog$ProcessSelecti
+ onListener.class
+SHA1-Digest: OOGMw56XJo4MO7owRZtYb5zW6KQ=
+
+Name: org/eclipse/mat/ui/internal/viewer/ExportActions$HtmlExport$1.cl
+ ass
+SHA1-Digest: O0IZTqFTL5Mo4FOl037xzJQYOzY=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$4.class
+SHA1-Digest: mWSR65j0rbaaq/wbb4p6D08c2uY=
+
+Name: icons/export_html.gif
+SHA1-Digest: iZAxthR5ByqIy/0f0JXlYYcBYEA=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/LinkEditor$1.class
+SHA1-Digest: LswqMBNreK+PBj98RKGstu8F1rw=
+
+Name: icons/close_pane.gif
+SHA1-Digest: vAy53hgNY0QlNroLqQSdWvLb5ZU=
+
+Name: org/eclipse/mat/ui/internal/viewer/ExportActions$ContextImpl.cla
+ ss
+SHA1-Digest: m9OhLMiBfcFKAeH6SaeFCB4gbjI=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$2.class
+SHA1-Digest: u0RAP1gkWcJcKxerEuQxJgweQI0=
+
+Name: icons/retainedSet.gif
+SHA1-Digest: e9V+bC7qrEK616uSOoWfTBY+Q7Y=
+
+Name: org/eclipse/mat/ui/snapshot/actions/CopyActions$FQClassName.clas
+ s
+SHA1-Digest: AfmYV9GLz3YLN8V5Qq1H4+wHvGI=
+
+Name: org/eclipse/mat/ui/compare/package-info.class
+SHA1-Digest: ME6Yi09EzB5h1KB/PMxiH1T7D/c=
+
+Name: org/eclipse/mat/ui/internal/views/NotesView$2.class
+SHA1-Digest: MgKSx/8zv+uCZXoNcxGrwL8m/WQ=
+
+Name: org/eclipse/mat/ui/internal/acquire/ProviderConfigurationDialog.
+ class
+SHA1-Digest: pt9NgDuTIE3x66Htr7rV7Bz2jA4=
+
+Name: org/eclipse/mat/ui/internal/acquire/ProviderArgumentsWizardPage$
+ 2.class
+SHA1-Digest: u+aZ5YmYILnlghA+ezN8n9nNeAA=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserPopup$3.class
+SHA1-Digest: 86rO8GTkIXKH43/Qb+rtOk6fWow=
+
+Name: org/eclipse/mat/ui/util/QueryContextMenu$Policy.class
+SHA1-Digest: qJzi+icX+AgdSIVhWt7swDuk+nw=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$ToolbarMgr.class
+SHA1-Digest: CPj0MMzcnnrU9YcDbe3XhdRE+lE=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenIconAssistAction$IconAss
+ ist.class
+SHA1-Digest: z4rz9siiFVQNccuCGplMCUc9wM8=
+
+Name: org/eclipse/mat/ui/internal/views/NavigatorViewPage$5.class
+SHA1-Digest: 4A2gS+CG3jUrdmnqvbsfkseQm4Q=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane$1.class
+SHA1-Digest: FbU3w/GZzcwUrdzEX1Sjixv4zpo=
+
+Name: org/eclipse/mat/ui/snapshot/actions/CopyActions.class
+SHA1-Digest: MUrLG2VuU17QuVisFNAWfbbQV3I=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedTableViewer$TableAdapt
+ er$1.class
+SHA1-Digest: sf3plK/ckcnMTJX8xfs4sKl5pZY=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserPopup$3$1.class
+SHA1-Digest: 7eBbEsva8pUVkPPkm8kd1+eAbCQ=
+
+Name: org/eclipse/mat/ui/internal/acquire/ProviderConfigurationDialog$
+ 1.class
+SHA1-Digest: r1VhtoIhi1spnBJwNQohvpFw20c=
+
+Name: tutorials/memory_hunting.xml
+SHA1-Digest: IDnc1H7IDi7f82VipOGNAM4ElMs=
+
+Name: icons/inspector_view.gif
+SHA1-Digest: rmXyNDii+yK7jLr1PplEXZg6aCU=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/package-info.class
+SHA1-Digest: rio9CPETps2KgpzyFLQKaiGNmLE=
+
+Name: org/eclipse/mat/ui/snapshot/panes/CompareTablesPane$SelectColumn
+ Action.class
+SHA1-Digest: 4NkzLjKc7DURDCqyVXHBfTWhA7Q=
+
+Name: icons/decorations/in.gif
+SHA1-Digest: hYiHjVF4gJcuDuYykai1ikBFWX8=
+
+Name: org/eclipse/mat/ui/util/QueryContextMenu$QueryAction.class
+SHA1-Digest: 6Mvy0l6SEx52+VmQKv/lwNPNKas=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorContextProv
+ ider.class
+SHA1-Digest: c4BF5qC2PZvvtPeDxZ1NY0PJaBI=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$5.class
+SHA1-Digest: KSFyRqvxCwtootTm7DU7qMgnvNo=
+
+Name: icons/decorations/out.gif
+SHA1-Digest: NTZJl5sL6xi+X79vDUdxh/mU76w=
+
+Name: icons/filter.gif
+SHA1-Digest: h8ebue4jT8DszibPKqPp0snO71A=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$Outline.cl
+ ass
+SHA1-Digest: g2nbKK3YeY+EttjpsqD8msdEDnE=
+
+Name: icons/synced.gif
+SHA1-Digest: F/0wE/qvwhowYXlCT1U6ltVNyuE=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OQLPane.class
+SHA1-Digest: ILVs0bC3P/fU115AZuM0lTVEqjY=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/LazyFields$Primitive
+ Array.class
+SHA1-Digest: p6rvUHgitN1C+dCuMN7MC7141L0=
+
+Name: org/eclipse/mat/ui/internal/panes/QueryResultPane$2.class
+SHA1-Digest: F6U1c9cl2DUWfaSnKaC7IDSIdhI=
+
+Name: org/eclipse/mat/ui/editor/AbstractEditorPane.class
+SHA1-Digest: qsMsclwE7ojGpyB2FUXBQY1za38=
+
+Name: org/eclipse/mat/ui/snapshot/OpenSnapshot.class
+SHA1-Digest: y8V/cr6yuvFSxUVMBLYy255XA90=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/EnumComboEditor.clas
+ s
+SHA1-Digest: BbXqO5JhTtJTvYFHQwlz3xLyXvE=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$11.class
+SHA1-Digest: 2qDhYHPgjMS6oplHhWD4Dk8Cxc4=
+
+Name: icons/calculator.gif
+SHA1-Digest: 2S7lxMm6hGa+ESOJahio5TR+Lso=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/TextEditor$Decorator
+ Type.class
+SHA1-Digest: YdaV+G5CXSdOPiBDbiCl6ayBgTQ=
+
+Name: org/eclipse/mat/ui/snapshot/panes/MultiplePath2GCRootsPane$Group
+ ingAction.class
+SHA1-Digest: NyVzRrQZtGKqDnXejipHO9+fk44=
+
+Name: icons/explore.gif
+SHA1-Digest: MbB4O6jmI0dGGq7dXH3I9e6AnIU=
+
+Name: org/eclipse/mat/ui/MemoryAnalyserPlugin.class
+SHA1-Digest: 4cx0Xzk4oOhCx/pM9aCVLs5DmZ4=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenSnapshotAction$FileLabel
+ Provider.class
+SHA1-Digest: aLqFK+CDGlN/mV8iEtJGX8cWvMc=
+
+Name: icons/decorations/gc_root.gif
+SHA1-Digest: teF4wX35tB95AIsHT+f9JorNeBc=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$9.class
+SHA1-Digest: JPmK0D0IEiSIhicXQxiDrziMdMU=
+
+Name: org/eclipse/mat/ui/util/ErrorHelper$3.class
+SHA1-Digest: NkynvQGvPi9S1/jU+/odiOrvEDU=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$7.class
+SHA1-Digest: gKsPWr1PkeZR4tI4023ix59n8OM=
+
+Name: org/eclipse/mat/ui/snapshot/ImageHelper$Decorations.class
+SHA1-Digest: qXD5EIimpLO4l9dAG2rkoA1Nt2A=
+
+Name: org/eclipse/mat/ui/compare/CompareTablesQuery$ComparedRow.class
+SHA1-Digest: eLMp/iQ4ujEUODIcEfkMH7Kp4HQ=
+
+Name: icons/synced_disabled.gif
+SHA1-Digest: 21F7ECUgVl01Afpzgz3BYOwrJGY=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/BooleanComboEditor$1
+ .class
+SHA1-Digest: Q7x96DfT3sgPzqdAdcgMbaRevJs=
+
+Name: org/eclipse/mat/ui/util/QueryContextMenu.class
+SHA1-Digest: EWxwEMDYSEoSJdj+LxgWPK3l15g=
+
+Name: org/eclipse/mat/ui/actions/ImportReportAction.class
+SHA1-Digest: AZaUJ4TRl7/5Pa+BDHuWI5Bt04o=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserPopup$8.class
+SHA1-Digest: g/v4jQqfAkYYaAHhB00lxLQt3mA=
+
+Name: org/eclipse/mat/ui/internal/GettingStartedWizard.class
+SHA1-Digest: /LkRH0vtlEL8c33Aohnmh4O/U0E=
+
+Name: org/eclipse/mat/ui/snapshot/panes/CompareTablesPane$DiffOptionAc
+ tion$1.class
+SHA1-Digest: GkGEmZv3CCY8qJizHXs5zcXmFqY=
+
+Name: org/eclipse/mat/ui/internal/panes/TableResultPane$GroupingAction
+ .class
+SHA1-Digest: armO6/z56xejcmBu/rHkuceMDME=
+
+Name: org/eclipse/mat/ui/snapshot/panes/CompareTablesPane$1.class
+SHA1-Digest: A0k5UC8w5mDi89RFwfMoQrK3bKc=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$WidgetAda
+ pter.class
+SHA1-Digest: tQXI83ZOvVPB6mM8EUoJ3CwI7i0=
+
+Name: org/eclipse/mat/ui/snapshot/OpenSnapshot$Visitor.class
+SHA1-Digest: IbtkXh+WcTdlnMVe/VY1+VONmog=
+
+Name: org/eclipse/mat/ui/SnapshotHistoryService$1.class
+SHA1-Digest: gao3AXrwxPrC9pDhcGSxDi5fnG0=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenIconAssistAction$PopupTa
+ ble$2.class
+SHA1-Digest: MmjgYr4WIifh5USUiqTwHtEBZmw=
+
+Name: org/eclipse/mat/ui/internal/GettingStartedWizard$OpenReportsPage
+ $1.class
+SHA1-Digest: mDKEU/cCviO9bFgorofsSxqP6e4=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireDialog$2.class
+SHA1-Digest: WQEkKZaj1cLJtPO4t6MFnfRMtAo=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: icons/package.gif
+SHA1-Digest: eSFJ6HakACcALe7h4bUuDivloQg=
+
+Name: icons/move_up.gif
+SHA1-Digest: /U+DOmo3tvEeShELtFNtkSMHJrc=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$2$1.class
+SHA1-Digest: GNCz8aBLN4mge4s2anXK+Ghwqts=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/FieldsLabelProvider.
+ class
+SHA1-Digest: w5RQ3WtSYVTgTRBiDGjfSOzbIyI=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorContextProv
+ ider$3.class
+SHA1-Digest: joKQrClqRv633XNgFT4pimcQJ8Q=
+
+Name: org/eclipse/mat/ui/snapshot/actions/SaveValueAsQuery.class
+SHA1-Digest: xpkOe/TCX2ZEVZZkd6UOb8WNgC8=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$16.class
+SHA1-Digest: SBuWx1Iwek1KxX0PsneAuHrtu70=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ArgumentsWizard.clas
+ s
+SHA1-Digest: opwo0m3+6fw5XRurUcZi7IjGyEE=
+
+Name: org/eclipse/mat/ui/internal/panes/QueryResultPane$1$1.class
+SHA1-Digest: nJkOPU2WUWU10grY+tzsyP7MgdU=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/BooleanComboEditor.c
+ lass
+SHA1-Digest: eCKBIu6tUtDtf1qjhLYgP1Ful0Y=
+
+Name: org/eclipse/mat/ui/internal/views/NavigatorViewPage.class
+SHA1-Digest: Rpjs5gJV9QhPbFf8P427l3CKQ1w=
+
+Name: icons/refresh.gif
+SHA1-Digest: fZWhnbXO23OQDVxCyu7mGQyX/xY=
+
+Name: org/eclipse/mat/ui/internal/views/NotesView$IdHyperlink.class
+SHA1-Digest: Lv2E93hDjr3givXgnY56u6akHgo=
+
+Name: icons/removeall.gif
+SHA1-Digest: Tuv6zgJ74RdejmoyFy+XVRyFNlU=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$InfoIt
+ em.class
+SHA1-Digest: ZBxlrRGtTyv898ifvTUtvFS8CSU=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ArgumentsWizard$2.cl
+ ass
+SHA1-Digest: 2dSnbIinPNz3iUN59UtvGo2w588=
+
+Name: icons/pinned.gif
+SHA1-Digest: 5IiHIbswHmOmWlRtcpGXguy5ilE=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OQLPane$OQLJob.class
+SHA1-Digest: AfBzD2riLbfS44kK5zAxnRaA9/A=
+
+Name: org/eclipse/mat/ui/snapshot/panes/CompareTablesPane.class
+SHA1-Digest: IYjq9oE4tfaZOPAsFpaHPdBhZxI=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ArgumentsTable$1.cla
+ ss
+SHA1-Digest: awrq+Z1QD7uEJCpvJ4PeLbLU2Ko=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/NamedReferenceNode.c
+ lass
+SHA1-Digest: svMcS++ue8TlvltTUgyzZ5koi50=
+
+Name: org/eclipse/mat/ui/snapshot/panes/Path2GCRootsPane$ReadNextPathJ
+ ob$3.class
+SHA1-Digest: ASqcR7HDsmxCCiim1EXENfedFb0=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/package-info.class
+SHA1-Digest: TzC7QyWzSj2ZuN0KMv/VpzPb3Bk=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/FileOpenDialogEditor
+ $1.class
+SHA1-Digest: eoWCOa3t75+PCLa7dSDx8jwjB1o=
+
+Name: org/eclipse/mat/ui/compare/CompareTablesQuery.class
+SHA1-Digest: //jEh1XJp0VQUkdQruoK1Uvv37o=
+
+Name: plugin.properties
+SHA1-Digest: bD0Qhc9zIAvbjL3zOBT+gg2bxx4=
+
+Name: org/eclipse/mat/ui/util/QueryContextMenu$1.class
+SHA1-Digest: L3ddBCGafWgvc0/d1u1WLUh+BnY=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OQLPane$OQLJob$1.class
+SHA1-Digest: SuFyp4EN1eqyjDXkFKDjddPnmQ8=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ImageTextEditor$5.cl
+ ass
+SHA1-Digest: Y1i80GaisV5Veosdo772PLECkFQ=
+
+Name: org/eclipse/mat/ui/compare/CompareBasketView$RemoveAction.class
+SHA1-Digest: PTHqYXPyMWOmTkaXfYgKx4tfTc0=
+
+Name: org/eclipse/mat/ui/internal/panes/package-info.class
+SHA1-Digest: Iqmnq0om7oOw5uUzwbr33tgaT6A=
+
+Name: plugin.xml
+SHA1-Digest: xuvoshUPHX7sqNBtkDPB3x0M6pc=
+
+Name: tutorials/object_query_language.xml
+SHA1-Digest: ad1KPvshrEWgOy3sDqBMCvQgsc4=
+
+Name: org/eclipse/mat/ui/snapshot/OpenSnapshot$Visitor$1.class
+SHA1-Digest: EDQCfM/t9BUcn8PFpCPya18UfWM=
+
+Name: icons/heapobjects/classloader_obj_gc_root.gif
+SHA1-Digest: lYs+BkKGasy5Q3wNAe0H5TZPzSU=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenSampleHeapDumpAction$1.c
+ lass
+SHA1-Digest: daEboxkrxL1D8X/Sdn8tOM/LAE8=
+
+Name: org/eclipse/mat/ui/internal/viewer/ExportActions$HtmlExport.clas
+ s
+SHA1-Digest: zWFAi3nncLvongLTKf1ajVJF3nM=
+
+Name: org/eclipse/mat/ui/QueryExecution$ExecutionJob.class
+SHA1-Digest: X2V+40stTnB3SHJgjqHlxg23Qi8=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$3.clas
+ s
+SHA1-Digest: oScam8+UBRzeWVVUh1DhWpjBmIg=
+
+Name: icons/move_down.gif
+SHA1-Digest: pfAjTQXI6Ulf61etrNzyYUjrgHQ=
+
+Name: org/eclipse/mat/ui/snapshot/ParseHeapDumpJob$1.class
+SHA1-Digest: W8MK5II/X/kP0UBhNKekOQrhDJs=
+
+Name: org/eclipse/mat/ui/util/Copy.class
+SHA1-Digest: R6QhMI+otEgatrfCatgvmw4mNbw=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$3.class
+SHA1-Digest: UEbo6FV/W3FgMLHE05ipI+XZKQQ=
+
+Name: icons/navigator_view.gif
+SHA1-Digest: kJpuOUY4ULJd/hKDMUP3IjDpzpc=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$1.class
+SHA1-Digest: ca+kQKjcMtUxi+no44zDTkB22mY=
+
+Name: org/eclipse/mat/ui/internal/GettingStartedWizard$ChoicePage.clas
+ s
+SHA1-Digest: 0AxqzoJYJUDjXvmOBdoyLyJ+K3E=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$Object
+ Node.class
+SHA1-Digest: NYq/0HnGdtEz1DJ1tCCgJ83gPEQ=
+
+Name: org/eclipse/mat/ui/internal/panes/QueryResultPane$1$1$1.class
+SHA1-Digest: ndrXqxtGI+R4Mnv01YahXTFoWqI=
+
+Name: org/eclipse/mat/ui/internal/views/NotesView$1.class
+SHA1-Digest: kIEmfiYzzGs8mjH8Ah0wAcei0CI=
+
+Name: intro/css/tutorial.gif
+SHA1-Digest: +CE5YAsaDCkZrpyc55m/x6IMMuE=
+
+Name: org/eclipse/mat/ui/internal/acquire/ProviderArgumentsWizardPage$
+ 1.class
+SHA1-Digest: +QRdcnYQzf2SY7efjrSDxD6JXLA=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserPopup$2.class
+SHA1-Digest: 6p/Z+07B43KjcKPL3CIGiGosAGQ=
+
+Name: org/eclipse/mat/ui/compare/CompareBasketView$RemoveAllAction.cla
+ ss
+SHA1-Digest: f2Ln2/Xsl+5I5URCvEPUqtdQAbk=
+
+Name: org/eclipse/mat/ui/util/SearchOnTyping$TableImpl.class
+SHA1-Digest: LO2+3ZKzs9vvoJWAWh/7md5XQkw=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$Key.class
+SHA1-Digest: yV7c1y5pxYkrQ9uqnTT7SZjKCWg=
+
+Name: icons/save.GIF
+SHA1-Digest: NGNdWtMwTWCpdQbCuCbaWBCtmb4=
+
+Name: org/eclipse/mat/ui/internal/views/NavigatorViewPage$4.class
+SHA1-Digest: PcgRZ5LJlqpss2bdDjSIjdbpOLw=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireSnapshotAction$Acquir
+ eDumpOperation.class
+SHA1-Digest: MMAx/Hfck/9a6yZgXeL8EwTlFHw=
+
+Name: org/eclipse/mat/ui/util/PopupMenu$HideListener.class
+SHA1-Digest: RFDelIbqtdfRghasgxvNZY3/jPY=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OverviewPane$3.class
+SHA1-Digest: fK6BE+k4VRUnZ4aX7bGBpO+xTak=
+
+Name: org/eclipse/mat/ui/util/IPolicy.class
+SHA1-Digest: 06VcWAnpRpjtS8YH3pIWGDiTWY0=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$ColumnSel
+ ectionListener.class
+SHA1-Digest: IalPFUP8ysej8w6aW7Y3usqlWPc=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenSnapshotAction.class
+SHA1-Digest: S9BXRwtJHi/M93hQdPfGbJ+sGZM=
+
+Name: org/eclipse/mat/ui/snapshot/views/SnapshotOutlinePage$Category.c
+ lass
+SHA1-Digest: hsvfJpymPaEj1iO8h87nCryYqiY=
+
+Name: org/eclipse/mat/ui/internal/package-info.class
+SHA1-Digest: 37aPX2xxnddS7wRC4PUMRHCjHGg=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$RetrieveC
+ hildrenJob$3.class
+SHA1-Digest: MK5iHuBWFOIJx0QhBLFUL0UPs/w=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane$DeltaAction$3.cl
+ ass
+SHA1-Digest: FivPaFUwHgIft4YxeYwkBex44Qs=
+
+Name: org/eclipse/mat/ui/util/PopupMenu$SelectionListener.class
+SHA1-Digest: Km3iCYCas7Cpep3/RKTPlsJ6Oqs=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$4.class
+SHA1-Digest: fs0q6uQGbf5Y/XoI8GzL5HkICjk=
+
+Name: org/eclipse/mat/ui/util/EasyToolBarDropDown.class
+SHA1-Digest: ltiFU/s+ta2DhmcjIiDetSBzG5g=
+
+Name: org/eclipse/mat/ui/util/ProgressMonitorWrapper.class
+SHA1-Digest: xo1v2CsP2Eevg4jYo2SAPmByYuM=
+
+Name: org/eclipse/mat/ui/internal/viewer/ExportActions$CsvExport.class
+SHA1-Digest: I0wvJ0zV6iKq7V6QSm3UMvdr/+A=
+
+Name: org/eclipse/mat/ui/snapshot/ParseHeapDumpJob.class
+SHA1-Digest: Chp9/mrbFJctsz3zkS9CLXrlD04=
+
+Name: org/eclipse/mat/ui/snapshot/panes/DominatorPane$1.class
+SHA1-Digest: CwCgKhyfcMGOFQTzGjnng5mKcoM=
+
+Name: org/eclipse/mat/ui/internal/panes/QueryResultPane$1.class
+SHA1-Digest: FKmtWKSbt/EvkuDt7dRjqpTeJoA=
+
+Name: org/eclipse/mat/ui/actions/package-info.class
+SHA1-Digest: qC40xbnRe/0FXB8zBqqYyEp4pkA=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$10.class
+SHA1-Digest: PFf/BhHfisXDfgd0UH+OEWD5epc=
+
+Name: org/eclipse/mat/ui/snapshot/editor/package-info.class
+SHA1-Digest: ldFEuANMhD6EhfdUH0P3Pmg32zI=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$8.clas
+ s
+SHA1-Digest: Iz1a+MSUMQXAebsqIXWfdT0ynEY=
+
+Name: org/eclipse/mat/ui/internal/viewer/ExportActions$CsvExport$1.cla
+ ss
+SHA1-Digest: mXPgb69QCeRhyEcupSjQcj3k5NI=
+
+Name: org/eclipse/mat/ui/internal/views/NotesView.class
+SHA1-Digest: hDpibHSF0jPnAdHirp4XECrBzU8=
+
+Name: icons/acquire.gif
+SHA1-Digest: /J/vdv4enbFb6WA2Znv71eN06KM=
+
+Name: org/eclipse/mat/ui/snapshot/views/SnapshotOutlinePage$OutlineLab
+ elProvider.class
+SHA1-Digest: bhADpLLSvspCnWL4kyfvhmtKy7g=
+
+Name: org/eclipse/mat/ui/util/NavigatorState.class
+SHA1-Digest: o7mX034xIn6lR08MXQJU8d2xyXM=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$8.class
+SHA1-Digest: Za+FMLJd7zzUouorwSqPnET/sXs=
+
+Name: org/eclipse/mat/ui/util/ErrorHelper$2.class
+SHA1-Digest: TkdXj+iQgggfgEOE6jbgK7VMzrY=
+
+Name: org/eclipse/mat/ui/actions/QueryDropDownMenuAction$2.class
+SHA1-Digest: 08Rrb+BImaI0UYJphe2RdUlHIXQ=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$6.class
+SHA1-Digest: 86Xj3nSC+4PE+4p98fu7WjzxrDQ=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditorSite$1.class
+SHA1-Digest: uL8f9EhUHN9VxCUFZkYmq79Wy9Q=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$SortingJo
+ b.class
+SHA1-Digest: ToroRzCjAmaMTdUfZZYZQbBvnEM=
+
+Name: org/eclipse/mat/ui/SnapshotHistoryService.class
+SHA1-Digest: Wy6hZUta3GL6Q/4YyioQC+jFBh0=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserPopup$7.class
+SHA1-Digest: QO4YWdQYTGJV0eL0peS47WYHSCQ=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$DeleteSnap
+ shotDialog.class
+SHA1-Digest: xdKXkvDzIt401MxgB6uJJUfFbSA=
+
+Name: org/eclipse/mat/ui/internal/views/NotesView$NotesViewAction.clas
+ s
+SHA1-Digest: DEtjYIK4Ss4D5ZKzaRs0ZK39Fpc=
+
+Name: intro/overview_ide.xml
+SHA1-Digest: 1yi9Lf82bVsDyIsGfJdWx5htbTo=
+
+Name: org/eclipse/mat/ui/snapshot/panes/Path2GCRootsPane.class
+SHA1-Digest: Hgk1P6LXiYoKWziv7lu1Wu7a3KE=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/LinkEditor$Mode.clas
+ s
+SHA1-Digest: by1VzCOxarHxrZu9jxWs8PtD1N8=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$SortingJo
+ b$1.class
+SHA1-Digest: 0u9P5HTtg09/8NoV3WBtXAKrxRI=
+
+Name: icons/query_browser.gif
+SHA1-Digest: oazXW/RAL5KHTCKSW3GKvDUH9o8=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenIconAssistAction$PopupTa
+ ble$1.class
+SHA1-Digest: cO4m5UD0GQk5dfdJjZG/ELdIuXA=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane$2$1.class
+SHA1-Digest: dgH2np/LYOiO77ey/CP2C+KTs1M=
+
+Name: org/eclipse/mat/ui/internal/actions/OpenPaneAction.class
+SHA1-Digest: 1nD/7WCppDsD4alQ+bGLsQ9uAyQ=
+
+Name: org/eclipse/mat/ui/internal/panes/TableResultPane.class
+SHA1-Digest: E11TbrbwJTNVoYbaKYWGzZhcOsg=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryRegistryProvider.class
+SHA1-Digest: DjPTyKHU3pjm9ENiRclgB/T2gJI=
+
+Name: icons/heapdump_history.gif
+SHA1-Digest: J+EEivbALJDLisGxUMR57PDfeiI=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireDialog$1.class
+SHA1-Digest: GlLRWMu+6ddFXLJx/N74hJBdgro=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$9.class
+SHA1-Digest: I1NwDdFN+7BG5iYXAowAbDCpK2o=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/LinkEditor.class
+SHA1-Digest: srXWfFWosB5pvzEAOXkoCnQhFjA=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorContextProv
+ ider$2.class
+SHA1-Digest: meucOPfUOl/XpXPT/yvJMjEKYwE=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedTreeViewer.class
+SHA1-Digest: GL0HwEe1QMHPq5Br18Kj5xoPhmo=
+
+Name: org/eclipse/mat/ui/internal/viewer/DerivedDataJob$OnSelection.cl
+ ass
+SHA1-Digest: 83HKmW7yr8wskKQb8w4dYYTQ+zo=
+
+Name: org/eclipse/mat/ui/editor/LRUList.class
+SHA1-Digest: +d38kaN9nWPUnjQy0aeKQtrQAao=
+
+Name: org/eclipse/mat/ui/editor/PaneConfiguration.class
+SHA1-Digest: 2iHZWJ4bar2PxFyDl7t15kabJCc=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$15.class
+SHA1-Digest: cFTQA6E7U6InsyyGHf4OanJYxDc=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenOQLStudioAction.class
+SHA1-Digest: qW8JbzMJjZ+TtB4J2EVU17kYlfA=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$Hierar
+ chyTreeContentProvider.class
+SHA1-Digest: cqpwUvolsCdGnKcLjMw+uN00xl4=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditorSite.class
+SHA1-Digest: AoFWEuLW5b1pkhwJLcPMeuLSP0o=
+
+Name: org/eclipse/mat/ui/internal/acquire/ProviderArgumentsWizardPage.
+ class
+SHA1-Digest: yRwXxCT1z10aAOoEdK8jE9fcB8w=
+
+Name: org/eclipse/mat/ui/snapshot/views/SnapshotOutlinePage$HeapEditor
+ OutlinePage.class
+SHA1-Digest: i9JtP4PrN3sdzOpJ8DSJbEf5ffs=
+
+Name: org/eclipse/mat/ui/internal/views/NotesView$ObjectAddressHyperli
+ nkDetector.class
+SHA1-Digest: 1BLsDRJzgMsKR/g3SVx5D0KW760=
+
+Name: org/eclipse/mat/ui/snapshot/panes/MultiplePath2GCRootsPane$Group
+ ingAction$1.class
+SHA1-Digest: WfQgTfTRX5PD7y2PZprRyeOeczE=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ArgumentsWizard$1.cl
+ ass
+SHA1-Digest: 8ixpBYBbh9yadJxbRx6oQ3ZvSFw=
+
+Name: org/eclipse/mat/ui/snapshot/panes/MultiplePath2GCRootsPane.class
+SHA1-Digest: jpK6i0cP93w+IvHBzZSo8dMwjjc=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OverviewPane.class
+SHA1-Digest: brG+3C5BZFQuysZfM1A00n3dks8=
+
+Name: org/eclipse/mat/ui/snapshot/ImageHelper$ImageImageDescriptor.cla
+ ss
+SHA1-Digest: LoxyskBTSzuWvhhrELDOZ0Ag6Jg=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserProvider$1.class
+SHA1-Digest: ydaYL0Is6T2Fl0td9yJn3AwS7hE=
+
+Name: org/eclipse/mat/ui/snapshot/panes/Path2GCRootsPane$ReadNextPathJ
+ ob$2.class
+SHA1-Digest: +DcbBml6v4pULTNUKhQOXf4th2A=
+
+Name: icons/heapobjects/array_obj.gif
+SHA1-Digest: LhinMS57WRX+oxniLtSNCQZo7QA=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenObjectByIdAction$1.class
+SHA1-Digest: Vy/1DPZXFvM9f8MOSMdfZ4m2xCw=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/SnapshotSelectionEdi
+ tor$4.class
+SHA1-Digest: iHMbD32GOuUFPJwhz3OoUt1DYLE=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ImageTextEditor$4.cl
+ ass
+SHA1-Digest: 2TWtmtbTrXz6DcknraJlbf4aXAc=
+
+Name: org/eclipse/mat/ui/internal/acquire/AcquireDialog.class
+SHA1-Digest: Py0p5z4gRj0yEv8+2CxPmOw8Hds=
+
+Name: org/eclipse/mat/ui/internal/views/NotesView$IdHyperlink$1$1.clas
+ s
+SHA1-Digest: 2EYL1J5BlN7N8jUIRTpdP04b9rI=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenSampleHeapDumpAction.cla
+ ss
+SHA1-Digest: 4YFP5Mq/FH6/AnkauKaQSguILcs=
+
+Name: org/eclipse/mat/ui/internal/panes/TableResultPane$GroupingAction
+ $1.class
+SHA1-Digest: iVajM5cY6MwyFeRNn1MeeLskn2o=
+
+Name: intro/css/overview.gif
+SHA1-Digest: HcPPiSLimVnTS1iIChFB1eRRTDA=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/CheckBoxEditor$Type.
+ class
+SHA1-Digest: r85zFtz+ltWJ6EJLG7004Q+gkts=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditorContributor.class
+SHA1-Digest: TXGDpcgp60G9V3hkm56Z3npooVY=
+
+Name: org/eclipse/mat/ui/compare/CompareBasketView$CompareLabelProvide
+ r.class
+SHA1-Digest: pvLYpIEMeaeBAQM3Qsy+5lB10V0=
+
+Name: tutorials/best_features_tutorial.xml
+SHA1-Digest: 1p3fXXC+ILAmywLa+1NSkwiROHw=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$2.clas
+ s
+SHA1-Digest: X8I8vb+rYZWpcAiIsAFLM6Xil34=
+
+Name: icons/heapobjects/class_obj.gif
+SHA1-Digest: WS8jI6rdvR0eeKn2A9YJwJGCgQw=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$12.class
+SHA1-Digest: CfsA1fG46ls/7Cotmlz7txVgRx0=
+
+Name: icons/size.gif
+SHA1-Digest: kpMxkzPb/2S5x/9uMhqUHHrDijg=
+
+Name: org/eclipse/mat/ui/util/SearchOnTyping$SearchJob.class
+SHA1-Digest: F0DmedO7cl7oiOto+IilcbtVfqU=
+
+Name: org/eclipse/mat/ui/compare/CompareBasketView$CompareAction.class
+SHA1-Digest: 9AzNRYPFGTNBKNe6tNZ65Hln26A=
+
+Name: org/eclipse/mat/ui/internal/views/NavigatorViewPage$NavigatorCon
+ tentProvider.class
+SHA1-Digest: XajH7YSQ7MJpNrsDzX1v0qUv8z8=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$2.class
+SHA1-Digest: 8kbETTm7L6jT+SV7DSUiXcEyOsc=
+
+Name: org/eclipse/mat/ui/editor/AbstractPaneJob.class
+SHA1-Digest: h2uV+Xr+LCDQcbXzBzbSJrqa5N8=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryAllProvider.class
+SHA1-Digest: wfZpFL1a6RhM2ENk2F65dUnd3+g=
+
+Name: org/eclipse/mat/ui/snapshot/views/SnapshotOutlinePage$Label.clas
+ s
+SHA1-Digest: 3z/UpkxcRM/77EphicNneNz2uNc=
+
+Name: org/eclipse/mat/ui/compare/CompareTablesQuery$TableComparisonRes
+ ult.class
+SHA1-Digest: LBrkMbvvsLUtnExPJ1lUfCnB5dc=
+
+Name: icons/heapobjects/classloader_obj.gif
+SHA1-Digest: Z5DKnHFMIR1RQzG3ACWV8i1qzWg=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenIconAssistAction$Icon.cl
+ ass
+SHA1-Digest: gxaTCU/P3VIQoTbEz6draWbjVuQ=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserPopup$1.class
+SHA1-Digest: EcGFBEzb81NfigOK73ZCkok+pq8=
+
+Name: org/eclipse/mat/ui/editor/EditorPaneRegistry.class
+SHA1-Digest: 1LnmzjRCNXDyi+Ho5RRsQTtNXmY=
+
+Name: icons/compare.gif
+SHA1-Digest: 4DPEyWZwXs56/Z4VzEQAEryPjZQ=
+
+Name: org/eclipse/mat/ui/internal/views/NavigatorViewPage$3.class
+SHA1-Digest: xW6OYTeBEAqJErBUG0vC6L+gny0=
+
+Name: org/eclipse/mat/ui/snapshot/panes/BundlesPane$TopLevelAction$1$1
+ .class
+SHA1-Digest: Ag8arMhfAur7lsNmXLrrmoDbRVA=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane$GroupingAction$1
+ $1.class
+SHA1-Digest: OLzJx8URUDqrHiWFfx4XcRHK0f0=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor.class
+SHA1-Digest: ThBCSiwd/KHcz07wXT/u0uA5RYY=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OverviewPane$2.class
+SHA1-Digest: 7eunM7DPc4kx3XRUaJTfyvHBlsE=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/LazyFields$Class.cla
+ ss
+SHA1-Digest: 2mM7deHLn2tYdmBJyxktXeTXfWM=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$RetrieveC
+ hildrenJob$2.class
+SHA1-Digest: D+CpTyPAhfOFrGw++AqiPIyq8dc=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane$DeltaAction$2.cl
+ ass
+SHA1-Digest: ONAmTBU+9PVmV1Ctfg4t6SrjR9o=
+
+Name: org/eclipse/mat/ui/snapshot/panes/HistogramPane$Grouping.class
+SHA1-Digest: T+kz/+XTgXPKqQgoI/Gwnc9gnjc=
+
+Name: org/eclipse/mat/ui/util/SearchOnTyping$SearchPopup.class
+SHA1-Digest: j4eWHDnPZNxZAiJkMIHmwlxQr3g=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$3.class
+SHA1-Digest: MVuY54hLoTpdjQyznPXz0uYOpa0=
+
+Name: org/eclipse/mat/ui/util/QueryContextMenu$1$1.class
+SHA1-Digest: ctlLE4UIvXHp0jPMLxqNL8OrR9Q=
+
+Name: org/eclipse/mat/ui/snapshot/actions/OpenSnapshotAction$1.class
+SHA1-Digest: pa+dEMeGxDzP2eI6nzYHJ3hUWzc=
+
+Name: org/eclipse/mat/ui/compare/CompareBasketView$CompareContentProvi
+ der.class
+SHA1-Digest: hziQyUO5GPVf+CR4KrUfYip+ZkA=
+
+Name: schema/editorContributions.exsd
+SHA1-Digest: BekB3NyAVu6yJDb9PTu2fuflyR4=
+
+Name: org/eclipse/mat/ui/editor/MultiPaneEditor$4$2.class
+SHA1-Digest: b6T9JGefkDsYyRdVdPTG+JXcQqw=
+
+Name: org/eclipse/mat/ui/snapshot/views/inspector/InspectorView$7.clas
+ s
+SHA1-Digest: sQ4t56xmSOFDqtosJEKjVAhA4k8=
+
+Name: org/eclipse/mat/ui/internal/acquire/package-info.class
+SHA1-Digest: X9qfAmPwLLA2pq0k47DSCYQSiGA=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ArgumentEditor$IEdit
+ orListener.class
+SHA1-Digest: JqcF3BMG+Lkuj65GQPltgdl16F4=
+
+Name: icons/thread.gif
+SHA1-Digest: VmdPgUWReJUIzEdV095ykmDdpVI=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/ArgumentsTable$ITabl
+ eListener.class
+SHA1-Digest: ou5H6cY4+atXHQ3zKHXe725V8dE=
+
+Name: org/eclipse/mat/ui/internal/browser/QueryBrowserPopup.class
+SHA1-Digest: tBn3fhGz7hRMFjFo/2COQC0PI/0=
+
+Name: org/eclipse/mat/ui/snapshot/panes/OQLPane$4.class
+SHA1-Digest: 9cZlFGX5suh0Yq/tRUPEEI3YL/A=
+
+Name: org/eclipse/mat/ui/internal/Perspective$Views.class
+SHA1-Digest: ajGmoOybjtf6/WWvyzy091CdK+U=
+
+Name: org/eclipse/mat/ui/internal/views/SnapshotHistoryView$7.class
+SHA1-Digest: oMQDW4mkdGLzJqoUFLG1sA1qfno=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$ControlIt
+ em.class
+SHA1-Digest: nfIIpqm6480jds3q/KdMTcxu4xw=
+
+Name: org/eclipse/mat/ui/util/ErrorHelper$1.class
+SHA1-Digest: uN5F31Xn6UFD9ts76CPiBZVO6QA=
+
+Name: org/eclipse/mat/ui/actions/QueryDropDownMenuAction$1.class
+SHA1-Digest: WNvP4LsVatA0NVuMY64KzPFZQdA=
+
+Name: org/eclipse/mat/ui/internal/viewer/RefinedResultViewer$5.class
+SHA1-Digest: 2nfJFsFIuloa3hJ0mvY18l1o77U=
+
+Name: org/eclipse/mat/ui/snapshot/actions/SaveValueAsQuery$1.class
+SHA1-Digest: naXvYs+ErB5J2dn2ZKgWhnEFcuA=
+
+Name: org/eclipse/mat/ui/internal/query/arguments/FileOpenDialogEditor
+ $FileOpenDialogEditorLayout.class
+SHA1-Digest: 9Mu0tr+UeocRiGeyFP7TQSPaFKY=
+

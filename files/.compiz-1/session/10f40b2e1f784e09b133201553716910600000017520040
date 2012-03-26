@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<compiz_session id="10f40b2e1f784e09b133201553716910600000017520040">
+  <window id="10f40b2e1f784e09b133201556974555100000017520044" title="saratt@saratlaptop: ~" class="Gnome-terminal" name="gnome-terminal" role="gnome-terminal-window-2387--1430581445-1332015569" command="gnome-terminal">
+    <geometry x="949" y="915" width="722" height="434"/>
+    <maximized vert="yes" horz="yes"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

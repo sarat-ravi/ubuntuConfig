@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.php.source" version="2.2.1.v20101001-2300-7L7J1F8NcJTJTJJT9cmJJ" label="%featureName" provider-name="%providerName"     >
+	<description >
+		%description
+	</description>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<plugin id="org.eclipse.php.core.source" version="2.2.1.v20101001-2300"     unpack="false"/>
+	<plugin id="org.eclipse.php.debug.core.source" version="2.2.0.v20101001-2300"     unpack="false"/>
+	<plugin id="org.eclipse.php.debug.ui.source" version="2.2.0.v20101001-2300"     unpack="false"/>
+	<plugin id="org.eclipse.php.server.core.source" version="2.2.0.v20101001-2300"     unpack="false"/>
+	<plugin id="org.eclipse.php.server.ui.source" version="2.2.0.v20101001-2300"     unpack="false"/>
+	<plugin id="org.eclipse.php.ui.source" version="2.2.1.v20101001-2300"     unpack="false"/>
+	<plugin id="org.eclipse.php.source" version="2.2.0.v20101001-2300"     unpack="false"/>
+	<plugin id="org.eclipse.php.debug.daemon.source" version="2.2.0.v20101001-2300"     unpack="false"/>
+	<plugin id="org.eclipse.php.help.source" version="2.2.0.v20101001-2300"     unpack="false"/>
+	<plugin id="org.eclipse.php.core.parser.source" version="2.2.0.v20101001-2300"     unpack="false"/>
+</feature>

@@ -1,0 +1,363 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.xtext.doc;singleton:=true
+Require-Bundle: org.eclipse.help
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-Version: 1.0.2.v201102150722
+Bundle-ManifestVersion: 2
+
+Name: help/images/node-model.png
+SHA1-Digest: 1AZ6ggEEP/d88Wg0EV+v/BFGQIQ=
+
+Name: about.ini
+SHA1-Digest: KQMVTFcyVja5dvVmIh2o+qDsslY=
+
+Name: help/images/index_container.png
+SHA1-Digest: se9Z83O/RN1+3X9Tx6WKs4DGpzs=
+
+Name: help/syntax.html
+SHA1-Digest: 7N8E67zqP+63ZnKM0+tBEVmIEIA=
+
+Name: help/Logging.html
+SHA1-Digest: BUmDuATpHNsK4XTXCxmDJhe1Xw8=
+
+Name: help/MWE2LanguageReference.html
+SHA1-Digest: +Nzn8v2ypxeOXoSd2oiymT66X9w=
+
+Name: help/images/modules_hierarchy.dot
+SHA1-Digest: 6zLKdaooTjFfphTtT5wgmxBxe7Q=
+
+Name: help/images/sample_outline.png
+SHA1-Digest: LLFGo9yaF85Baj0PKKE8ysRhe/o=
+
+Name: help/jvmtypes.html
+SHA1-Digest: dyFjKexButFX6ZzQy3I8BO7ciDE=
+
+Name: help/NowGoForTheNewFeatures.html
+SHA1-Digest: MaE7ity8SAiInTBvqSf18wIuL1c=
+
+Name: help/images/logo/xtext-logo-dark-100.png
+SHA1-Digest: SA707JaaFQEIDwdpLny3lee2K6c=
+
+Name: help/quickfixes.html
+SHA1-Digest: I4L4YqwvZsU/2jhXbO84ubnYV3g=
+
+Name: help/images/mwe2/module.png
+SHA1-Digest: a6Z/XeJ8GAHFdufGCFCZFlWDyPE=
+
+Name: help/encoding.html
+SHA1-Digest: F4/CMWV+V8MjP6ZX4/ccaOPiu+c=
+
+Name: help/images/ast.graffle
+SHA1-Digest: D/oy/7JhuBf4HsYW7XvnNZCm558=
+
+Name: help/valueconverter.html
+SHA1-Digest: pZj2Sc++7wIx/CZ+xxe4anblyDU=
+
+Name: help/projectwizard.html
+SHA1-Digest: tx6Zegl3ONuE5SxUFzo1eU3dvbM=
+
+Name: help/images/preferences_templates.png
+SHA1-Digest: NiW4NtzFg4h4Q3UJ/1Po2NR2jrU=
+
+Name: help/grammarLanguage.html
+SHA1-Digest: JOv3gVJjXh/mtIswpOpapjq95/c=
+
+Name: help/WhoUsesXtext.html
+SHA1-Digest: j+vT8eZ5gytPSKkhFy2vN+t6m5I=
+
+Name: help/images/expression-ast.png
+SHA1-Digest: iorEGpUvx9Jdea/6rDplcsU3Dl4=
+
+Name: help/configuration.html
+SHA1-Digest: v++V8dSs714I4R6cTjrQtEB3RSM=
+
+Name: help/CustomizationPoints.html
+SHA1-Digest: XLbgPZx5CaxzdyiFGX7+NNmUePg=
+
+Name: help/images/family_tree.graffle
+SHA1-Digest: Ip0ozxdl6kfcrLGAT4dGetsSENw=
+
+Name: help/validation.html
+SHA1-Digest: vGNRqHRgHHyZS9+vOHR7v81+aC0=
+
+Name: help/MWE2.html
+SHA1-Digest: r1y1LDwRNI91WCVI+aoNcOgUf2c=
+
+Name: about.properties
+SHA1-Digest: S5K0slmJ6yPEwXwBJsbT5qKE4l0=
+
+Name: help/images/metamodel.png
+SHA1-Digest: JfcJ7BKdZAxTVtMPRu1UmWBh5q8=
+
+Name: help/images/getting-started-project-layout.png
+SHA1-Digest: msXzlacacOjYT2VEWxZAYFHz42c=
+
+Name: help/images/logo/xtext-logo-dark-1600.png
+SHA1-Digest: XTKIKEhGWrF8esNbFXpYSMl6m7Q=
+
+Name: help/linking.html
+SHA1-Digest: /sgVQzrXe/plWkM++gmabj5Mo9k=
+
+Name: help/images/mwe2/property.png
+SHA1-Digest: ueXuDlY3XzAaqzSH0PtYzqOPEyo=
+
+Name: help/images/index_datamodel.png
+SHA1-Digest: VCmr/uH2+W7Pi77UyI65HnP9FhM=
+
+Name: help/WhoisBehindXtext.html
+SHA1-Digest: c3QonZnZEU86gG6SuiDgIiyddH8=
+
+Name: help/images/family_tree.png
+SHA1-Digest: oqla/hEh27HexxiWJvbHFSqa71E=
+
+Name: help/hyperlinking.html
+SHA1-Digest: P9W0+hk2ban3+bPilhccBoXBSdM=
+
+Name: help/IDEConcepts.html
+SHA1-Digest: UQS4bN/qRboX/sTFxHFNYc7A7zQ=
+
+Name: help/images/xtext_data_structures.graffle
+SHA1-Digest: v28UT5O2+qaJVxtdKx472v3zEJU=
+
+Name: help/images/generator-project.pdf
+SHA1-Digest: Nriopr6N5NpPQUGH0LN47/xH8aE=
+
+Name: help/images/ecore.graffle
+SHA1-Digest: tb82bGFLSvcaFyPwJk3uhBmMqjE=
+
+Name: help/images/emf-integration.graffle
+SHA1-Digest: k+2vAymnjv+daYtwhKP0ifb/FRY=
+
+Name: help/images/cover.jpg
+SHA1-Digest: 1mtaxSpG0BN7q6E9BBujBwksuUE=
+
+Name: help/emf_codegen.html
+SHA1-Digest: I/DTEBgg9CBVIP4gVZgb1nbQKig=
+
+Name: help/contentAssist.html
+SHA1-Digest: oxEMoaFpaKkDsm/AsiVCWe+K6aE=
+
+Name: help/images/node-model.graffle
+SHA1-Digest: kQySOAVQfPu3kHfsPdgh2zMxRgU=
+
+Name: help/images/logo/logo.tif
+SHA1-Digest: 8aB2hKAi1vM6JSgLRiEGPAadFUc=
+
+Name: help/DSL.html
+SHA1-Digest: DU3avuvYd+4DVWmbXHe+BDE2pao=
+
+Name: about.html
+SHA1-Digest: mLkmRLtG3amkcY0I7KSYZX6qKhs=
+
+Name: help/images/index_container.graffle
+SHA1-Digest: nVT0GQoVVcC3wpZ6MFV6ih7P3Ss=
+
+Name: help/images/xtext_data_structures.png
+SHA1-Digest: a+Eeoot486hewI4fVTDAXyak8Hw=
+
+Name: help/grammarMixins.html
+SHA1-Digest: 9b1/RjxQIRpHmwljhVT/N2KuNPM=
+
+Name: help/images/preferences_syntax.png
+SHA1-Digest: sBtWsEi0ZFKaofME0a/2yBHgUEQ=
+
+Name: help/XtextisHighlyConfigurable.html
+SHA1-Digest: u96TjHYRh6BRJodWkakfl58y0Q8=
+
+Name: toc.xml
+SHA1-Digest: Tnz3QdJYEeHK1pT/GYfBT0v4UrQ=
+
+Name: help/special_languages.html
+SHA1-Digest: DS8uj2hDJX8esrhu0Az9pjz8E00=
+
+Name: help/java_independent_languages.html
+SHA1-Digest: 96tEcSsvurXI6ZGiw3NRX/nf3V0=
+
+Name: modeling32.png
+SHA1-Digest: ADlLWFV0eQ74YnLvHnPFkYLeLrs=
+
+Name: help/scoping.html
+SHA1-Digest: dQLOUgNhZnE7oW9gMW3Ya5rw4ec=
+
+Name: help/images/cover_low.jpg
+SHA1-Digest: iL+tGkTidDoNJoL3Ybq7hNRLcoE=
+
+Name: help/serialization.html
+SHA1-Digest: qxgTYT10wTo9/2bbNvzwH/Gt9KI=
+
+Name: help/images/emf-integration.png
+SHA1-Digest: HviBOEuZaX/BnD2RAAEsgJD/UrQ=
+
+Name: help/images/mwe2/assignment.png
+SHA1-Digest: PM/OylSI3CJzASETWzbkWWN7p4Y=
+
+Name: help/images/logo/Xtext-Logo-Kreide-sw.jpg
+SHA1-Digest: ojbRrn95O27ROEfZKS7vOK1MXAY=
+
+Name: help/images/templates_crossref.png
+SHA1-Digest: HONfEPlcCH8erJz4qYGY0U6Ol6o=
+
+Name: help/HowDoesItWork.html
+SHA1-Digest: yvK8p/CquR5rTAqkwpVO8SBstjg=
+
+Name: help/images/logo/Xtext-logo-dark.jpg
+SHA1-Digest: 7EvRvr8ZBb6/f3S+esYyTD5aDtw=
+
+Name: help/book.css
+SHA1-Digest: Dp5uLHB0T6srLUfbnjog5Nyte2s=
+
+Name: help/images/generator-project.png
+SHA1-Digest: Glo3PVB8wb4Ewk+nMYvdH5VLL/Q=
+
+Name: help/images/generator-structure.graffle
+SHA1-Digest: R/gRaT6PUEfvl/iqARCFPbGTGsA=
+
+Name: help/Overview.html
+SHA1-Digest: OwbUResvfFty2CKbrucLfHNjTxs=
+
+Name: help/MWE2SyntaxReference.html
+SHA1-Digest: l9h9KQ7ICS4zd/2+tpET0dvjakU=
+
+Name: help/images/logo/xtext-logo-dark-300.png
+SHA1-Digest: YbPSZa0013Wn3dHzf6HbTrSBmR8=
+
+Name: help/images/logo/Xtext-logo-dark.pdf
+SHA1-Digest: Ji5fVOMGCDDn74Kx/+qVfcT+Uto=
+
+Name: help/dependencyInjection.html
+SHA1-Digest: aSW42QXNUpgnP8NB4VClBoF4IcM=
+
+Name: help/images/metamodel.graffle
+SHA1-Digest: SIc/3WwA2xXgNHfVqwWmvt93iTg=
+
+Name: help/highlighting.html
+SHA1-Digest: jk8sMz+M6l6Awvbld973InZ03mI=
+
+Name: help/xtext_resource.html
+SHA1-Digest: BrLp5uzZETxPmHSHFVP15CXwpYU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: about.mappings
+SHA1-Digest: O5HMfDBF2wRf9EBICvqic0+aJ1g=
+
+Name: help/images/index_datamodel.graffle
+SHA1-Digest: 3PNDvU4cy0K0H4ykDzE0GAnaRt4=
+
+Name: help/images/generator-structure.png
+SHA1-Digest: lidP3KXJuZ2ggu6aCC8DLsz2rYw=
+
+Name: help/images/templates_enum.png
+SHA1-Digest: n/NJP8TOqqrLHe0WxB2dWDg+dcQ=
+
+Name: help/index.xml
+SHA1-Digest: RvQjXwD+wQ4Qs0mZlM70thsS+5c=
+
+Name: help/gmf_integration.html
+SHA1-Digest: 9gHIhJ5LX+SJrDxu7s1VAY0i/GA=
+
+Name: help/images/ast.png
+SHA1-Digest: IBbCyehE9TkvfhvzbuEax+3nzDA=
+
+Name: help/CommonTerminals.html
+SHA1-Digest: Ybu1ApE8v74uUNuyH/39zS5Vg54=
+
+Name: help/migrating_from_0_7.html
+SHA1-Digest: UK4XMhte9JH6rwK4tABn3YQkFy8=
+
+Name: help/images/getting-started-editor1.png
+SHA1-Digest: 08y5tYxzxSuweeffPMEV6x9LeVE=
+
+Name: help/images/logo/building.jpg
+SHA1-Digest: sXA7hX7PWH0QeRRHiWtIKYDubTI=
+
+Name: help/images/getting-started-wizard.png
+SHA1-Digest: UEzsqwqmjEWTPBaIMHyHLv9Nkvc=
+
+Name: help/formatting.html
+SHA1-Digest: BOEdrvzmuxJ5432ERK6EpvgpTjc=
+
+Name: help/images/getting-started-editor.png
+SHA1-Digest: 8tQOhI7ED4XLiXWh4Jkk8998Plo=
+
+Name: help/SetupwithinEclipseEquinoxOSGi.html
+SHA1-Digest: X1dAQiveHIIDV/wHmsf3rnS4swE=
+
+Name: help/images/sample_outline.jpg
+SHA1-Digest: 5x4IlN/1e8FG3SxBEVBcBCl991k=
+
+Name: plugin.properties
+SHA1-Digest: pmuJd6w7NubSTcVPtbRg/rzyDQI=
+
+Name: help/templates.html
+SHA1-Digest: Zve+5ddh2e5bB1CbtO2p39rTrKA=
+
+Name: help/images/logo/Xtext-logo-dark.eps
+SHA1-Digest: MIfgs9Oe12wo3ThTQJF3hYq+Cuc=
+
+Name: help/images/highlighting.png
+SHA1-Digest: G0LW/EofA02LGIpjN9FTed+yu2A=
+
+Name: help/images/logo/xtext_logo.jpg
+SHA1-Digest: AbUgGJ/Yf+xLuPYxYM/axVYP6YA=
+
+Name: help/index.html
+SHA1-Digest: QRXvBz9NKwj/VOAIqMQoz4W1zWo=
+
+Name: help/processing_Xtext_models.html
+SHA1-Digest: F5X4omPCRiJ6LFWL/vLdzVI9IgQ=
+
+Name: HelloCVS.class
+SHA1-Digest: 4PzdpBa5T33XllHhDDt18UKinIg=
+
+Name: help/antlr_ip_issue.html
+SHA1-Digest: yg1fFGu1Qa/bRUyUlCKGA82j77g=
+
+Name: help/images/logo/xtext-logo-dark-800.png
+SHA1-Digest: qVQ5KIg1yzX/dG6ickrsDYNRy3A=
+
+Name: plugin.xml
+SHA1-Digest: cFOaj2towky31fyWCg9sAmyQYKE=
+
+Name: help/getting-started-xpand.html
+SHA1-Digest: H5cN6KwBrjxUmEj1A4lCEZbuv8Q=
+
+Name: help/images/logo/X-Text-Logo-hor-black-trans.eps
+SHA1-Digest: eFpeqou9IV+WmgcDHxJDSIjPE9I=
+
+Name: help/RuntimeConcepts.html
+SHA1-Digest: C8RtCmNYFMX6t2gIhFOY/KHfW78=
+
+Name: help/outline.html
+SHA1-Digest: G1owYmLiyyFdP4ghHbq/2hmFp1Y=
+
+Name: help/images/mwe2/component.png
+SHA1-Digest: tvPE9UVzdPo6dIrD9E+GJDSlyLs=
+
+Name: help/expressions.html
+SHA1-Digest: TMI1W3ejdAdB+zXlH0W+8rRyyOY=
+
+Name: help/getting-started.html
+SHA1-Digest: ISV63cyZOtp7i8b5RkLm8ZuLVio=
+
+Name: help/images/modules_hierarchy.png
+SHA1-Digest: Bkn9eY7nMdAFnbUzCaNyHnJPEPQ=
+
+Name: help/MigratingStepByStep.html
+SHA1-Digest: 3NH1r8OdWYqlf2zjyaMuMNObBAA=
+
+Name: help/emf_integration.html
+SHA1-Digest: aq4tqNUBV0uBkBtzXw1xDOCmEpA=
+
+Name: help/metamodelInference.html
+SHA1-Digest: 5/dZdkD6HzMqJ3S30F9tut+UE/Y=
+
+Name: help/images/ecore.png
+SHA1-Digest: Gtk29MKw3ClWToEpDaY3MYkeFVw=
+

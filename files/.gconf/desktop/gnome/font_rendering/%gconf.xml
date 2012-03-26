@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="hinting" mtime="1330905172" type="string">
+		<stringvalue>slight</stringvalue>
+	</entry>
+</gconf>

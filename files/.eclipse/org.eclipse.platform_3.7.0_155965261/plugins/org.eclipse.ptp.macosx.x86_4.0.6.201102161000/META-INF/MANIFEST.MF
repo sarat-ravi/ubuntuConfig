@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %pluginProvider
+Bundle-Localization: plugin
+Fragment-Host: org.eclipse.ptp.core;bundle-version="2.0.0"
+Bundle-Name: %fragmentName.macosx.x86
+Bundle-SymbolicName: org.eclipse.ptp.macosx.x86;singleton:=true
+Bundle-Version: 4.0.6.201102161000
+Bundle-ManifestVersion: 2
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: fragment.xml
+SHA1-Digest: W9KEDLKYRYfXhLtReoG8jJxQaXQ=
+
+Name: about.html
+SHA1-Digest: 67tR7zDg5zZTSqky1HavSrc+IY0=
+
+Name: BUILD
+SHA1-Digest: wwcslA8tqy4bO8I8TMz0Yh0+r9Y=
+

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="opacity_values" mtime="1330902617" type="list" ltype="int">
+		<li type="int" value="80"/>
+	</entry>
+	<entry name="opacity_matches" mtime="1330902617" type="list" ltype="string">
+	</entry>
+</gconf>
