@@ -116,6 +116,11 @@ alias saratxps="ssh -X saratt@saratxps.myftp.org"
 alias ndk-build="/opt/android-ndk-r7b/ndk-build"
 
 alias ..="cd .."
+alias :q="exit"
+set -o vi
+
+# temporary aliases. DELETE them after expiration
+alias sarat="cd ~/Documents/cs169/crowdAssistant/"
 
 function cd()
 {
