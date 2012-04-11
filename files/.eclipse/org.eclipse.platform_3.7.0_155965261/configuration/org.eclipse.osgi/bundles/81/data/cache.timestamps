@@ -1,9 +1,9 @@
-#Sat Mar 10 15:20:26 PST 2012
+#Mon Mar 26 13:41:14 PDT 2012
 /usr/lib/eclipse/configuration/org.eclipse.update/platform.xml=0
-/home/saratt/.eclipse/org.eclipse.platform_3.7.0_155965261/links=0
-/home/saratt/.eclipse/org.eclipse.platform_3.7.0_155965261/plugins=1331421579000
+/home/saratt/ubuntuConfig/files/.eclipse/org.eclipse.platform_3.7.0_155965261/links=0
 /usr/lib/eclipse/dropins=1330862657000
 /usr/lib/eclipse/dropins/jdt/features=1330862655000
+/home/saratt/ubuntuConfig/files/.eclipse/org.eclipse.platform_3.7.0_155965261/plugins=1332793908000
 /usr/lib/eclipse/features=1330862653000
 /usr/lib/eclipse/dropins/jdt=1330862655000
 /usr/lib/eclipse/links=0
@@ -11,13 +11,13 @@
 /usr/lib/eclipse/plugins=1330862653000
 /usr/share/eclipse/dropins/jdt/features=1330862656000
 /usr/lib/eclipse/dropins/sdk=1330862658000
+/home/saratt/ubuntuConfig/files/.eclipse/org.eclipse.platform_3.7.0_155965261/configuration/org.eclipse.update/platform.xml=1332794002000
 /usr/share/eclipse/dropins/sdk/plugins=1330862658000
-/home/saratt/.eclipse/org.eclipse.platform_3.7.0_155965261/features=1331421579000
 /usr/share/eclipse/dropins/jdt=1330862656000
 /usr/share/eclipse/dropins/sdk=1330862658000
-/home/saratt/.eclipse/org.eclipse.platform_3.7.0_155965261/configuration/org.eclipse.update/platform.xml=1331421603000
 /usr/lib/eclipse/dropins/sdk/plugins=1330862659000
-/home/saratt/.eclipse/org.eclipse.platform_3.7.0_155965261/dropins=0
+/home/saratt/ubuntuConfig/files/.eclipse/org.eclipse.platform_3.7.0_155965261/features=1332793967000
 /usr/share/eclipse/dropins/sdk/features=1330862658000
+/home/saratt/ubuntuConfig/files/.eclipse/org.eclipse.platform_3.7.0_155965261/dropins=0
 /usr/share/eclipse/dropins=1330862658000
 /usr/lib/eclipse/dropins/sdk/features=1330862657000

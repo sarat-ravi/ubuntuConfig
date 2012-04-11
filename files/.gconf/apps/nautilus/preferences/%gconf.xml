@@ -15,9 +15,9 @@
 			<stringvalue>x-content/image-dcf</stringvalue>
 		</li>
 	</entry>
-	<entry name="navigation_window_saved_maximized" mtime="1332708773" type="bool" value="false"/>
-	<entry name="navigation_window_saved_geometry" mtime="1332708773" type="string">
-		<stringvalue>683x715+66+24</stringvalue>
+	<entry name="navigation_window_saved_maximized" mtime="1334126523" type="bool" value="true"/>
+	<entry name="navigation_window_saved_geometry" mtime="1333675785" type="string">
+		<stringvalue>683x715+681+24</stringvalue>
 	</entry>
-	<entry name="start_with_sidebar" mtime="1332708761" type="bool" value="true"/>
+	<entry name="start_with_sidebar" mtime="1334126511" type="bool" value="true"/>
 </gconf>

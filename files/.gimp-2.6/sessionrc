@@ -6,7 +6,7 @@
 # you quit GIMP.  If this file isn't found, defaults are used.
 
 (session-info "dock" "dock"
-    (position 1883 58)
+    (position 945 139)
     (size 282 607)
     (open-on-exit)
     (aux-info
@@ -27,7 +27,7 @@
             (dockable "gimp-undo-history"
                 (tab-style icon)))
         (book
-            (position 304)
+            (position 313)
             (current-page 0)
             (dockable "gimp-brush-grid"
                 (tab-style preview))
@@ -36,14 +36,19 @@
             (dockable "gimp-gradient-list"
                 (tab-style preview)))))
 (session-info "toplevel" "gimp-toolbox-color-dialog"
-    (position 66 24))
+    (position 0 0))
 (session-info "toplevel" "gimp-file-save-dialog"
-    (position 734 824)
+    (position 630 1104)
     (size 1010 663))
 (session-info "toplevel" "gimp-hue-saturation-tool-dialog"
     (position 0 0))
+(session-info "toplevel" "gimp-color-balance-tool-dialog"
+    (position 0 0))
+(session-info "toplevel" "gimp-file-open-dialog"
+    (position 454 1104)
+    (size 1010 663))
 (session-info "toolbox" "dock"
-    (position 1558 46)
+    (position 708 57)
     (size 306 622)
     (open-on-exit)
     (dock
@@ -52,9 +57,9 @@
             (dockable "gimp-tool-options"
                 (tab-style icon)))))
 (session-info "display" "gimp-empty-image-window"
-    (position 816 934)
-    (size 708 436))
+    (position 0 792)
+    (size 1366 744))
 
-(last-tip-shown 4)
+(last-tip-shown 7)
 
 # end of sessionrc

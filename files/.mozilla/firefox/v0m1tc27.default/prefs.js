@@ -9,9 +9,9 @@
  * For more information, see http://www.mozilla.org/unix/customizing.html#prefs
  */
 
-user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1330888163);
-user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1330888163);
-user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1330888163);
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1333888373);
+user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1333888493);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1334108927);
 user_pref("browser.bookmarks.restore_default_bookmarks", false);
 user_pref("browser.cache.disk.capacity", 1048576);
 user_pref("browser.cache.disk.smart_size.first_run", false);
@@ -23,7 +23,8 @@ user_pref("browser.startup.homepage_override.buildID", "20120216115113");
 user_pref("browser.startup.homepage_override.mstone", "rv:10.0.2");
 user_pref("browser.syncPromoViewsLeft", 1);
 user_pref("distribution.canonical.bookmarksProcessed", true);
-user_pref("extensions.blocklist.pingCountVersion", -1);
+user_pref("extensions.blocklist.pingCountTotal", 2);
+user_pref("extensions.blocklist.pingCountVersion", 2);
 user_pref("extensions.bootstrappedAddons", "{}");
 user_pref("extensions.databaseSchema", 11);
 user_pref("extensions.enabledAddons", "globalmenu@ubuntu.com:2.0.2,ubufox@ubuntu.com:1.0.2,langpack-en-ZA@firefox.mozilla.org:10.0.2,langpack-en-GB@firefox.mozilla.org:10.0.2,{972ce4c6-7e08-4474-a285-3208198ce6fd}:10.0.2");
@@ -36,6 +37,6 @@ user_pref("network.cookie.prefsMigrated", true);
 user_pref("places.history.expiration.transient_current_max_pages", 103668);
 user_pref("privacy.sanitize.migrateFx3Prefs", true);
 user_pref("security.warn_viewing_mixed", false);
-user_pref("urlclassifier.keyupdatetime.https://sb-ssl.google.com/safebrowsing/newkey", 1333480047);
+user_pref("urlclassifier.keyupdatetime.https://sb-ssl.google.com/safebrowsing/newkey", 1336479730);
 user_pref("xpinstall.whitelist.add", "");
 user_pref("xpinstall.whitelist.add.36", "");

@@ -3,5 +3,5 @@
 	<entry name="no_show_notifications" mtime="1330983204" type="bool" value="true"/>
 	<entry name="auto_launch" mtime="1330983204" type="bool" value="false"/>
 	<entry name="regular_auto_launch_interval" mtime="1330888226" type="int" value="7"/>
-	<entry name="release_check_time" mtime="1332097759" type="int" value="0"/>
+	<entry name="release_check_time" mtime="1333330584" type="int" value="0"/>
 </gconf>

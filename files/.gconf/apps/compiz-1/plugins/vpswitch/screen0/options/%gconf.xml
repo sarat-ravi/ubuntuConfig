@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="right_button" mtime="1330910188" type="string">
+	<entry name="right_button" mtime="1332747748" type="string">
 		<stringvalue>Button5</stringvalue>
 	</entry>
-	<entry name="left_button" mtime="1330910188" type="string">
+	<entry name="left_button" mtime="1332747748" type="string">
 		<stringvalue>Button4</stringvalue>
 	</entry>
 </gconf>

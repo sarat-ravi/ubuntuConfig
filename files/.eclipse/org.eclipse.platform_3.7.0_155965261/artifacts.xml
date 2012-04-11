@@ -3,14 +3,14 @@
 <repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1331421594702'/>
+    <property name='p2.timestamp' value='1332793967275'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='667'>
+  <artifacts size='671'>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.etfw.parallel' version='1.0.1.201102161000'>
       <properties size='1'>
         <property name='download.size' value='16688'/>
@@ -39,14 +39,19 @@
         <property name='download.size' value='123373'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remotetools.environment.generichost' version='1.3.3.201102161000'>
+      <properties size='1'>
+        <property name='download.size' value='30136'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.actf.ai.voice.source' version='0.8.2.R201102161930'>
       <properties size='1'>
         <property name='download.size' value='26371'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remotetools.environment.generichost' version='1.3.3.201102161000'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.core.nl1' version='0.7.9.I20120316-1700'>
       <properties size='1'>
-        <property name='download.size' value='30136'/>
+        <property name='download.size' value='13425'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.commons.lang' version='2.4.0.v201005080502'>
@@ -59,14 +64,14 @@
         <property name='download.size' value='356711'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.epp.usagedata.ui' version='1.3.1.R201102081640'>
-      <properties size='1'>
-        <property name='download.size' value='160460'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.mwe.utils' version='1.0.2.v201102150556'>
       <properties size='1'>
         <property name='download.size' value='25685'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epp.usagedata.ui' version='1.3.1.R201102081640'>
+      <properties size='1'>
+        <property name='download.size' value='160460'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rdt.make.ui' version='1.1.0.201102161000'>
@@ -177,14 +182,14 @@
         <property name='download.size' value='37193'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.birt.chart.engine.extension' version='2.6.2.r262_v20110113'>
-      <properties size='1'>
-        <property name='download.size' value='280112'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.mozilla.javascript' version='1.7.2.v201005080400'>
       <properties size='1'>
         <property name='download.size' value='899744'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.birt.chart.engine.extension' version='2.6.2.r262_v20110113'>
+      <properties size='1'>
+        <property name='download.size' value='280112'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.xsd' version='2.6.0.v20100914-1218'>
@@ -228,9 +233,9 @@
         <property name='download.size' value='205316'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.photran.core.vpg' version='6.0.0.201102161000'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.xbase.source' version='1.0.2.v201102150722'>
       <properties size='1'>
-        <property name='download.size' value='1657528'/>
+        <property name='download.size' value='317062'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal' version='3.0.102.R32x_v201102011435'>
@@ -238,9 +243,9 @@
         <property name='download.size' value='168077'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.xbase.source' version='1.0.2.v201102150722'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.photran.core.vpg' version='6.0.0.201102161000'>
       <properties size='1'>
-        <property name='download.size' value='317062'/>
+        <property name='download.size' value='1657528'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.common.ui' version='2.6.0.v20100914-1218'>
@@ -572,19 +577,19 @@
         <property name='download.size' value='1656246'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.apache.commons.net' version='2.0.0.v200905272248'>
-      <properties size='1'>
-        <property name='download.size' value='209243'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remotetools.core' version='3.0.0.201102161000'>
       <properties size='1'>
         <property name='download.size' value='131908'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.emf.mwe.ui' version='1.0.2.v201102150556'>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.net' version='2.0.0.v200905272248'>
       <properties size='1'>
-        <property name='download.size' value='115223'/>
+        <property name='download.size' value='209243'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.hierarchyviewer' version='16.0.1.v201112150204-238534'>
+      <properties size='1'>
+        <property name='download.size' value='323532'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.presentation.source' version='0.8.2.R201102161930'>
@@ -592,9 +597,9 @@
         <property name='download.size' value='25972'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.hierarchyviewer' version='16.0.1.v201112150204-238534'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.mwe.ui' version='1.0.2.v201102150556'>
       <properties size='1'>
-        <property name='download.size' value='323532'/>
+        <property name='download.size' value='115223'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.mwe2.runtime' version='1.0.2.v201102150556'>
@@ -622,11 +627,6 @@
         <property name='download.size' value='1153828'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.mat.chart.ui' version='1.0.1.201008091353'>
-      <properties size='1'>
-        <property name='download.size' value='20637'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.xtext.xbase' version='1.0.2.v201102150722'>
       <properties size='1'>
         <property name='download.size' value='17513'/>
@@ -634,6 +634,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mat.chart.ui' version='1.0.1.201008091353'>
+      <properties size='1'>
+        <property name='download.size' value='20637'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.shells.ssh' version='2.1.100.v200905272300'>
       <properties size='1'>
@@ -658,24 +663,24 @@
         <property name='download.size' value='12512'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.proxy.protocol' version='4.0.0.201102161000'>
-      <properties size='1'>
-        <property name='download.size' value='343737'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.rse.files.ui' version='3.1.102.R32x_v201102011435'>
       <properties size='1'>
         <property name='download.size' value='479868'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.adt' version='16.0.1.v201112150204-238534'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.proxy.protocol' version='4.0.0.201102161000'>
       <properties size='1'>
-        <property name='download.size' value='4528466'/>
+        <property name='download.size' value='343737'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.edit' version='2.6.0.v20100914-1218'>
       <properties size='1'>
         <property name='download.size' value='266172'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.android.ide.eclipse.adt' version='16.0.1.v201112150204-238534'>
+      <properties size='1'>
+        <property name='download.size' value='4528466'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.mwe.core' version='1.0.2.v201102150556'>
@@ -693,19 +698,24 @@
         <property name='download.size' value='78369'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.editor' version='2.6.0.v20100914-1218'>
-      <properties size='1'>
-        <property name='download.size' value='96883'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.resource.ignore.rules.jdt' version='0.7.9.I20111119-1700'>
       <properties size='1'>
         <property name='download.size' value='11353'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.editor' version='2.6.0.v20100914-1218'>
+      <properties size='1'>
+        <property name='download.size' value='96883'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.php.debug.daemon.source' version='2.2.0.v20101001-2300'>
       <properties size='1'>
         <property name='download.size' value='14868'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.ui' version='0.7.9.I20120316-1700'>
+      <properties size='1'>
+        <property name='download.size' value='2512605'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.server_userdoc.feature' version='3.1.10.v201005241510-20Bg7w3121162A3236'>
@@ -716,14 +726,14 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.project.facet.core' version='1.4.102.v201008170019'>
-      <properties size='1'>
-        <property name='download.size' value='360017'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.php.debug.core.source' version='2.2.0.v20101001-2300'>
       <properties size='1'>
         <property name='download.size' value='385583'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.project.facet.core' version='1.4.102.v201008170019'>
+      <properties size='1'>
+        <property name='download.size' value='360017'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.codegen' version='2.6.0.v20100914-1218'>
@@ -736,14 +746,14 @@
         <property name='download.size' value='1376568'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.engines.lowvision.source' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='166168'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsl.launching' version='1.0.100.v201004290328'>
       <properties size='1'>
         <property name='download.size' value='43378'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.engines.lowvision.source' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='166168'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui' version='7.0.0.201102110609'>
@@ -761,11 +771,6 @@
         <property name='download.size' value='75080'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.engines.blind' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='72136'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.web_userdoc.feature' version='3.2.0.v201005241510-31Eo8s734B3E4H7799'>
       <properties size='1'>
         <property name='download.size' value='30205'/>
@@ -773,6 +778,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.engines.blind' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='72136'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remote.rse.ui' version='3.0.0.201102161000'>
       <properties size='1'>
@@ -784,19 +794,14 @@
         <property name='download.size' value='19801'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.help' version='2.1.0.201102161000'>
-      <properties size='1'>
-        <property name='download.size' value='5167822'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.css.ui' version='1.0.502.v201101122002'>
       <properties size='1'>
         <property name='download.size' value='284077'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.discovery.compatibility' version='1.0.0.v20100518'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.help' version='2.1.0.201102161000'>
       <properties size='1'>
-        <property name='download.size' value='49591'/>
+        <property name='download.size' value='5167822'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsl.exslt.core' version='1.0.0.v201005240426'>
@@ -804,9 +809,19 @@
         <property name='download.size' value='10909'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.discovery.compatibility' version='1.0.0.v20100518'>
+      <properties size='1'>
+        <property name='download.size' value='49591'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.changelog.cparser' version='2.7.0.201101251503'>
       <properties size='1'>
         <property name='download.size' value='10380'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsdeditor.doc.user' version='1.0.800.v201005192212'>
+      <properties size='1'>
+        <property name='download.size' value='120858'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.xml.xpath2' version='1.1.0.v200910101444'>
@@ -816,11 +831,6 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsdeditor.doc.user' version='1.0.800.v201005192212'>
-      <properties size='1'>
-        <property name='download.size' value='120858'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.utils' version='4.0.6.201102161000'>
       <properties size='1'>
@@ -845,14 +855,14 @@
         <property name='download.size' value='170672'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.ui.source' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='34662'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.xalan' version='2.7.1.v201005080400'>
       <properties size='1'>
         <property name='download.size' value='2765496'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.ui.source' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='34662'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.ee.j2se15' version='1.0.1.v20100506-0900'>
@@ -878,9 +888,9 @@
         <property name='download.size' value='565311'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.traceview' version='16.0.1.v201112150204-238534'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.ee.cdcfoundation11' version='1.0.1.v20100506-0900'>
       <properties size='1'>
-        <property name='download.size' value='4845'/>
+        <property name='download.size' value='114109'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -891,9 +901,9 @@
         <property name='download.size' value='44133'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.ee.cdcfoundation11' version='1.0.1.v20100506-0900'>
+    <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.traceview' version='16.0.1.v201112150204-238534'>
       <properties size='1'>
-        <property name='download.size' value='114109'/>
+        <property name='download.size' value='4845'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -904,14 +914,14 @@
         <property name='download.size' value='18220'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.ui.editors.ie.source' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='57853'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.pbs.help' version='1.0.0.201102161000'>
       <properties size='1'>
         <property name='download.size' value='2922237'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.ui.editors.ie.source' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='57853'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.webtools.doc.user' version='1.0.500.v201005192212'>
@@ -919,14 +929,14 @@
         <property name='download.size' value='122478'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.php.debug.daemon' version='2.2.0.v20101001-2300'>
-      <properties size='1'>
-        <property name='download.size' value='19557'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.help' version='0.7.9.I20120210-1700'>
       <properties size='1'>
         <property name='download.size' value='2904131'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.php.debug.daemon' version='2.2.0.v20101001-2300'>
+      <properties size='1'>
+        <property name='download.size' value='19557'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.xtext.junit.source' version='1.0.2.v201102150722'>
@@ -962,16 +972,6 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.xtend.typesystem.emf.ui' version='1.0.1.v201008251147'>
-      <properties size='1'>
-        <property name='download.size' value='33423'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.util' version='7.1.6.v20100715'>
-      <properties size='1'>
-        <property name='download.size' value='200982'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.xtext.runtime' version='1.0.2.v201102150722'>
       <properties size='1'>
         <property name='download.size' value='17745'/>
@@ -980,9 +980,24 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jetty.util' version='7.1.6.v20100715'>
+      <properties size='1'>
+        <property name='download.size' value='200982'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xtend.typesystem.emf.ui' version='1.0.1.v201008251147'>
+      <properties size='1'>
+        <property name='download.size' value='33423'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='lpg.runtime.java' version='2.0.17.v201004271640'>
       <properties size='1'>
         <property name='download.size' value='110408'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.generator.source' version='1.0.2.v201102150722'>
+      <properties size='1'>
+        <property name='download.size' value='285354'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.platform' version='7.0.2.201102110609'>
@@ -992,11 +1007,6 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.generator.source' version='1.0.2.v201102150722'>
-      <properties size='1'>
-        <property name='download.size' value='285354'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.rpm.ui.editor' version='0.4.3.201101251503'>
       <properties size='1'>
@@ -1008,24 +1018,24 @@
         <property name='download.size' value='7764'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.files.core' version='3.2.1.v201008191400'>
-      <properties size='1'>
-        <property name='download.size' value='133263'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.mpi.mpich2.core' version='1.1.0.201102161000'>
       <properties size='1'>
         <property name='download.size' value='59690'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.epp.usagedata.recording' version='1.3.1.R201102081640'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.files.core' version='3.2.1.v201008191400'>
       <properties size='1'>
-        <property name='download.size' value='47334'/>
+        <property name='download.size' value='133263'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.dltk.console.ui' version='2.0.0.v20091203-1154'>
       <properties size='1'>
         <property name='download.size' value='89137'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.epp.usagedata.recording' version='1.3.1.R201102081640'>
+      <properties size='1'>
+        <property name='download.size' value='47334'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.etfw.ppw' version='1.0.3.201102161000'>
@@ -1046,17 +1056,17 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.sci' version='1.0.0.201102161000'>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.jsdt.feature' version='1.2.3.v201102160540-7C78FGUF9JgLWNO2UCNqfa'>
       <properties size='1'>
-        <property name='download.size' value='261024'/>
+        <property name='download.size' value='17550'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.jsdt.feature' version='1.2.3.v201102160540-7C78FGUF9JgLWNO2UCNqfa'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.sci' version='1.0.0.201102161000'>
       <properties size='1'>
-        <property name='download.size' value='17550'/>
+        <property name='download.size' value='261024'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -1090,11 +1100,6 @@
         <property name='download.size' value='31923'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ocl.uml.source' version='3.0.2.R30x_v201101181635'>
-      <properties size='1'>
-        <property name='download.size' value='269929'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ocl.uml.source' version='3.0.2.R30x_v201101181635-4-17S41yaw312212292746'>
       <properties size='1'>
         <property name='download.size' value='20202'/>
@@ -1102,6 +1107,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ocl.uml.source' version='3.0.2.R30x_v201101181635'>
+      <properties size='1'>
+        <property name='download.size' value='269929'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.dltk.console' version='1.0.0.v20090730-1127'>
       <properties size='1'>
@@ -1984,14 +1994,6 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.svn.nl1' version='0.7.9.I20120210-1700'>
-      <properties size='1'>
-        <property name='download.size' value='17440'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.converter' version='2.5.0.v20100914-1218'>
       <properties size='1'>
         <property name='download.size' value='88127'/>
@@ -2211,6 +2213,11 @@
         <property name='download.size' value='143417'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.ui.editors.ie' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='73044'/>
+      </properties>
+    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.xtext.runtime.source' version='1.0.2.v201102150722'>
       <properties size='1'>
         <property name='download.size' value='17579'/>
@@ -2224,19 +2231,14 @@
         <property name='download.size' value='9008'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.ui.editors.ie' version='0.8.2.R201102161930'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.ui.editors.ooo.initializer' version='0.8.2.R201102161930'>
       <properties size='1'>
-        <property name='download.size' value='73044'/>
+        <property name='download.size' value='10333'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.xlc.ui' version='6.1.0.201102110609'>
       <properties size='1'>
         <property name='download.size' value='60792'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.ui.editors.ooo.initializer' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='10333'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.rephraserengine.core.vpg' version='2.0.0.201102161000'>
@@ -2262,11 +2264,6 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.core' version='7.0.1.201102110609'>
-      <properties size='1'>
-        <property name='download.size' value='412824'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.xml_ui.feature' version='3.2.3.v201102160550-7H7AFUWDxumQJOi9ghcTb5YgkwEZ'>
       <properties size='1'>
         <property name='download.size' value='30539'/>
@@ -2275,14 +2272,14 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.core' version='7.0.1.201102110609'>
+      <properties size='1'>
+        <property name='download.size' value='412824'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.php.server.ui' version='2.2.0.v20101001-2300'>
       <properties size='1'>
         <property name='download.size' value='129881'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.pldt.mpi.analysis' version='4.0.0.201102161000'>
-      <properties size='1'>
-        <property name='download.size' value='236929'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.epp.mpc.core' version='1.0.0.v20100826-2143'>
@@ -2290,17 +2287,9 @@
         <property name='download.size' value='67727'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.eval' version='0.8.2.R201102161930'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.pldt.mpi.analysis' version='4.0.0.201102161000'>
       <properties size='1'>
-        <property name='download.size' value='258362'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.web' version='1.1.402.v201012160000'>
-      <properties size='1'>
-        <property name='download.size' value='68168'/>
+        <property name='download.size' value='236929'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='com.android.ide.eclipse.hierarchyviewer' version='16.0.1.v201112150204-238534'>
@@ -2311,14 +2300,27 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.emf.mwe2.language' version='1.0.2.v201102151014'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.web' version='1.1.402.v201012160000'>
       <properties size='1'>
-        <property name='download.size' value='322827'/>
+        <property name='download.size' value='68168'/>
       </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.eval' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='258362'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remote.core' version='4.0.0.201102161000'>
       <properties size='1'>
         <property name='download.size' value='59358'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.mwe2.language' version='1.0.2.v201102151014'>
+      <properties size='1'>
+        <property name='download.size' value='322827'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.ee.j2se14' version='1.0.1.v20100506-0900'>
@@ -2329,9 +2331,9 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.polarion.eclipse.team.svn.connector.svnkit16' version='2.2.2.I20120210-1700'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rdt.server.dstore' version='1.0.0.201102161000'>
       <properties size='1'>
-        <property name='download.size' value='4039367'/>
+        <property name='download.size' value='5105190'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.edit.ui' version='2.6.0.v20100914-1218'>
@@ -2339,9 +2341,9 @@
         <property name='download.size' value='164312'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rdt.server.dstore' version='1.0.0.201102161000'>
+    <artifact classifier='osgi.bundle' id='org.polarion.eclipse.team.svn.connector.svnkit16' version='2.2.2.I20120210-1700'>
       <properties size='1'>
-        <property name='download.size' value='5105190'/>
+        <property name='download.size' value='4039367'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.rpm.ui' version='0.4.3.201101251503'>
@@ -2349,24 +2351,24 @@
         <property name='download.size' value='57581'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.core.source' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='99473'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.ibm.pe.ui' version='4.0.0.201102161000'>
       <properties size='1'>
         <property name='download.size' value='79948'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.util.vocab' version='0.8.2.R201102161930'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.core.source' version='0.8.2.R201102161930'>
       <properties size='1'>
-        <property name='download.size' value='56465'/>
+        <property name='download.size' value='99473'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.revision.graph' version='0.7.9.I20111123-1700'>
       <properties size='1'>
         <property name='download.size' value='380177'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.util.vocab' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='56465'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.server_core.feature' version='3.2.3.v20101104-30F8X8s734D3A4C'>
@@ -2377,14 +2379,14 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.rse.services.files.ftp' version='3.0.200.v201004072040'>
-      <properties size='1'>
-        <property name='download.size' value='39904'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.dltk.validators.core' version='1.0.0.v20100524-0038'>
       <properties size='1'>
         <property name='download.size' value='80513'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.services.files.ftp' version='3.0.200.v201004072040'>
+      <properties size='1'>
+        <property name='download.size' value='39904'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.pde.api.tools.ee.fragments' version='1.0.0.v20100427-7C-7BF9JgLWLMBMMAMsLL'>
@@ -2395,19 +2397,14 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.rse.terminals.ui' version='1.0.100.v201006041352'>
-      <properties size='1'>
-        <property name='download.size' value='59960'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.debug.sdm.core' version='4.0.0.201102161000'>
       <properties size='1'>
         <property name='download.size' value='72704'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.ui' version='0.8.2.R201102161930'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.terminals.ui' version='1.0.100.v201006041352'>
       <properties size='1'>
-        <property name='download.size' value='89291'/>
+        <property name='download.size' value='59960'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.dtd.ui.infopop' version='1.0.300.v200805140200'>
@@ -2415,14 +2412,24 @@
         <property name='download.size' value='8936'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsl.xalan' version='1.0.1.v201004290328'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.ui' version='0.8.2.R201102161930'>
       <properties size='1'>
-        <property name='download.size' value='24161'/>
+        <property name='download.size' value='89291'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.jsdt.ui' version='1.1.4.v201102160540'>
       <properties size='1'>
         <property name='download.size' value='8116502'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsl.xalan' version='1.0.1.v201004290328'>
+      <properties size='1'>
+        <property name='download.size' value='24161'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.ui.nl1' version='0.7.9.I20120316-1700'>
+      <properties size='1'>
+        <property name='download.size' value='43627'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.ee.j2se13' version='1.0.1.v20100506-0900'>
@@ -2463,9 +2470,9 @@
         <property name='download.size' value='1413502'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.doc.isv' version='0.8.2.R201102161930'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.html.ui' version='1.0.504.v201101122108'>
       <properties size='1'>
-        <property name='download.size' value='3459195'/>
+        <property name='download.size' value='281711'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ptp.external' version='4.0.6.201102161000'>
@@ -2476,19 +2483,9 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.html.ui' version='1.0.504.v201101122108'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.doc.isv' version='0.8.2.R201102161930'>
       <properties size='1'>
-        <property name='download.size' value='281711'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.jsdt.manipulation' version='1.0.200.v201004150600'>
-      <properties size='1'>
-        <property name='download.size' value='51785'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsl' version='1.0.0.v200905250058'>
-      <properties size='1'>
-        <property name='download.size' value='12951'/>
+        <property name='download.size' value='3459195'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.mat.chart.feature' version='1.0.1.201008091353'>
@@ -2499,14 +2496,19 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsl' version='1.0.0.v200905250058'>
+      <properties size='1'>
+        <property name='download.size' value='12951'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.jsdt.manipulation' version='1.0.200.v201004150600'>
+      <properties size='1'>
+        <property name='download.size' value='51785'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.lrparser.xlc' version='5.0.4.201102110609'>
       <properties size='1'>
         <property name='download.size' value='271070'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.mat.hprof' version='1.0.1.201008091353'>
-      <properties size='1'>
-        <property name='download.size' value='69448'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rdt.doc.user' version='1.0.0.201102161000'>
@@ -2517,22 +2519,27 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mat.hprof' version='1.0.1.201008091353'>
+      <properties size='1'>
+        <property name='download.size' value='69448'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.core' version='1.2.0.v200908252030'>
       <properties size='1'>
         <property name='download.size' value='53375'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.examples.adesigner.eval.html' version='0.8.2.R201102161930'>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.telnet' version='2.2.100.v201005221100-7730AkF77g7UDXELEF'>
       <properties size='1'>
-        <property name='download.size' value='107137'/>
+        <property name='download.size' value='17069'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.telnet' version='2.2.100.v201005221100-7730AkF77g7UDXELEF'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.examples.adesigner.eval.html' version='0.8.2.R201102161930'>
       <properties size='1'>
-        <property name='download.size' value='17069'/>
+        <property name='download.size' value='107137'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -2543,9 +2550,9 @@
         <property name='download.size' value='688524'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.jem.util' version='2.1.3.v201012070000'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.ui.nl1' version='0.7.9.I20120210-1700'>
       <properties size='1'>
-        <property name='download.size' value='109939'/>
+        <property name='download.size' value='43488'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.etfw.tau.papiselect' version='3.0.0.201102161000'>
@@ -2553,9 +2560,9 @@
         <property name='download.size' value='47743'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.ui.nl1' version='0.7.9.I20120210-1700'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jem.util' version='2.1.3.v201012070000'>
       <properties size='1'>
-        <property name='download.size' value='43488'/>
+        <property name='download.size' value='109939'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsl.exslt.ui' version='1.0.0.v201006012005'>
@@ -2589,11 +2596,6 @@
         <property name='download.size' value='34677'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ocl.edit.source' version='3.0.2.R30x_v201101181635'>
-      <properties size='1'>
-        <property name='download.size' value='112729'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ptp.pldt' version='4.0.6.201102161000'>
       <properties size='1'>
         <property name='download.size' value='17666'/>
@@ -2602,9 +2604,9 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.frameworks.ui' version='1.2.0.v201004080500'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ocl.edit.source' version='3.0.2.R30x_v201101181635'>
       <properties size='1'>
-        <property name='download.size' value='147746'/>
+        <property name='download.size' value='112729'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.xtext.ui.shared' version='1.0.2.v201102150722'>
@@ -2612,9 +2614,9 @@
         <property name='download.size' value='24969'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.etfw.tau.selinst' version='1.0.0.201102161000'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.frameworks.ui' version='1.2.0.v201004080500'>
       <properties size='1'>
-        <property name='download.size' value='27017'/>
+        <property name='download.size' value='147746'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.xtext.ui.source' version='1.0.2.v201102150722'>
@@ -2622,14 +2624,19 @@
         <property name='download.size' value='465767'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ocl.uml' version='3.0.2.R30x_v201101181635'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.etfw.tau.selinst' version='1.0.0.201102161000'>
       <properties size='1'>
-        <property name='download.size' value='330802'/>
+        <property name='download.size' value='27017'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.shells.local' version='2.1.100.v200905272300'>
       <properties size='1'>
         <property name='download.size' value='15854'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ocl.uml' version='3.0.2.R30x_v201101181635'>
+      <properties size='1'>
+        <property name='download.size' value='330802'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.server.ui.doc.user' version='1.1.300.v201005192125'>
@@ -2678,19 +2685,14 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.change' version='2.5.1.v20100907-1643'>
-      <properties size='1'>
-        <property name='download.size' value='102788'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.server.ui' version='1.1.207.v20110119'>
       <properties size='1'>
         <property name='download.size' value='828366'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.ui.editors.ooo' version='0.8.2.R201102161930'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.change' version='2.5.1.v20100907-1643'>
       <properties size='1'>
-        <property name='download.size' value='52807'/>
+        <property name='download.size' value='102788'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='ch.qos.logback.slf4j' version='0.9.19.v20100519-1910'>
@@ -2698,9 +2700,9 @@
         <property name='download.size' value='10134'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.ui' version='7.0.0.201102110609'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.ui.editors.ooo' version='0.8.2.R201102161930'>
       <properties size='1'>
-        <property name='download.size' value='445604'/>
+        <property name='download.size' value='52807'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ptp.remote.rse' version='4.0.6.201102161000'>
@@ -2711,19 +2713,24 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.ui' version='7.0.0.201102110609'>
+      <properties size='1'>
+        <property name='download.size' value='445604'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.ui.editors.ooo.source' version='0.8.2.R201102161930'>
       <properties size='1'>
         <property name='download.size' value='38031'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.ai.voice' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='29588'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.xtext.common.types.source' version='1.0.2.v201102150722'>
       <properties size='1'>
         <property name='download.size' value='183312'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.ai.voice' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='29588'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.dom.dombycom.flash.source' version='0.8.2.R201102161930'>
@@ -2749,11 +2756,6 @@
         <property name='download.size' value='61502'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remote.ui' version='4.0.0.201102161000'>
-      <properties size='1'>
-        <property name='download.size' value='49592'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.xml.xpath2.processor.feature' version='1.1.6.v201101212357-67K3BgJ9DJAPEUCSKQ'>
       <properties size='1'>
         <property name='download.size' value='17473'/>
@@ -2762,9 +2764,27 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remote.ui' version='4.0.0.201102161000'>
+      <properties size='1'>
+        <property name='download.size' value='49592'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.ibm.ll.core' version='4.0.0.201102161000'>
       <properties size='1'>
         <property name='download.size' value='21629'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.svn' version='0.7.9.I20120316-1700'>
+      <properties size='1'>
+        <property name='download.size' value='60171'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.mortbay.management' version='6.1.15.v201006150915'>
+      <properties size='1'>
+        <property name='download.size' value='49472'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='java_cup.runtime' version='0.10.0.v201005080400'>
@@ -2772,9 +2792,9 @@
         <property name='download.size' value='16102'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.mortbay.management' version='6.1.15.v201006150915'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsl.jaxp.debug' version='1.0.100.v201004290328'>
       <properties size='1'>
-        <property name='download.size' value='49472'/>
+        <property name='download.size' value='45229'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ocl.all.sdk' version='3.0.2.R30x_v201101181635-7J-7A8j_CDZUhIyiEJYRHlnWupBh'>
@@ -2785,9 +2805,9 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsl.jaxp.debug' version='1.0.100.v201004290328'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.sse.doc.user' version='1.1.100.v201005192212'>
       <properties size='1'>
-        <property name='download.size' value='45229'/>
+        <property name='download.size' value='122161'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.dltk.formatter' version='2.0.0.v20100304-1959'>
@@ -2795,9 +2815,9 @@
         <property name='download.size' value='59928'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.sse.doc.user' version='1.1.100.v201005192212'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.internet.cache' version='1.0.400.v201004280700'>
       <properties size='1'>
-        <property name='download.size' value='122161'/>
+        <property name='download.size' value='42840'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.bcel' version='5.2.0.v201005080400'>
@@ -2805,19 +2825,14 @@
         <property name='download.size' value='558381'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.internet.cache' version='1.0.400.v201004280700'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.ui.report.source' version='0.8.2.R201102161930'>
       <properties size='1'>
-        <property name='download.size' value='42840'/>
+        <property name='download.size' value='51749'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.mwe2.language.ui' version='1.0.2.v201102151014'>
       <properties size='1'>
         <property name='download.size' value='123754'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.ui.report.source' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='51749'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.xtext.ui.junit.source' version='1.0.2.v201102150722'>
@@ -2830,24 +2845,24 @@
         <property name='download.size' value='37731'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.ui' version='2.1.2.201102110609'>
-      <properties size='1'>
-        <property name='download.size' value='1218002'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.validation.ui' version='1.2.204.v201004150700'>
       <properties size='1'>
         <property name='download.size' value='142491'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.terminals.core' version='1.0.100.v201006041352'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.ui' version='2.1.2.201102110609'>
       <properties size='1'>
-        <property name='download.size' value='22228'/>
+        <property name='download.size' value='1218002'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.dtd.core' version='1.1.401.v201101122255'>
       <properties size='1'>
         <property name='download.size' value='408822'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.terminals.core' version='1.0.100.v201006041352'>
+      <properties size='1'>
+        <property name='download.size' value='22228'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.mpi.openmpi.ui' version='1.0.1.201102161000'>
@@ -2860,14 +2875,6 @@
         <property name='download.size' value='29576'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.ee.cdcfoundation10' version='1.0.0.v20100506-0900'>
-      <properties size='1'>
-        <property name='download.size' value='112975'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.web_core.feature' version='3.2.3.v201102160541-7E7AFI3AJrn5TN32vSJ8nRIWLD7_'>
       <properties size='1'>
         <property name='download.size' value='30358'/>
@@ -2876,14 +2883,22 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.source' version='0.8.2.R201102161930'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.api.tools.ee.cdcfoundation10' version='1.0.0.v20100506-0900'>
       <properties size='1'>
-        <property name='download.size' value='29479'/>
+        <property name='download.size' value='112975'/>
       </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.rse.dstore.security' version='3.0.200.v201003010830'>
       <properties size='1'>
         <property name='download.size' value='64533'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.source' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='29479'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.xtend.ui' version='1.0.1.v201008251147'>
@@ -2894,6 +2909,11 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.xtend.source' version='1.0.2.v201102150722'>
+      <properties size='1'>
+        <property name='download.size' value='9254'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.changelog.doc' version='2.7.0.201101251503'>
       <properties size='1'>
         <property name='download.size' value='180876'/>
@@ -2901,11 +2921,6 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.xtend.source' version='1.0.2.v201102150722'>
-      <properties size='1'>
-        <property name='download.size' value='9254'/>
-      </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.equinox.p2.discovery.feature' version='1.0.0.v20100510-4--9oB5855K7P'>
       <properties size='1'>
@@ -2946,11 +2961,6 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.polarion.eclipse.team.svn.connector.javahl16' version='2.2.2.I20120210-1700'>
-      <properties size='1'>
-        <property name='download.size' value='184207'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.polarion.eclipse.team.svn.connector' version='2.2.2.I20120210-1700'>
       <properties size='1'>
         <property name='download.size' value='17667'/>
@@ -2959,9 +2969,9 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.rse.connectorservice.ssh' version='2.1.100.v200905272300'>
+    <artifact classifier='osgi.bundle' id='org.polarion.eclipse.team.svn.connector.javahl16' version='2.2.2.I20120210-1700'>
       <properties size='1'>
-        <property name='download.size' value='37865'/>
+        <property name='download.size' value='184207'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.svn.revision.graph' version='0.7.9.I20120210-1700'>
@@ -2971,6 +2981,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.connectorservice.ssh' version='2.1.100.v200905272300'>
+      <properties size='1'>
+        <property name='download.size' value='37865'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.xlc.core' version='5.0.2.201102110609'>
       <properties size='1'>
@@ -3005,14 +3020,19 @@
         <property name='download.size' value='390059'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.engines.voicebrowser' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='60574'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.cdt.doc.user' version='5.1.0.201102110609'>
       <properties size='1'>
         <property name='download.size' value='11991606'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.engines.voicebrowser' version='0.8.2.R201102161930'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.svn.core' version='0.7.9.I20120316-1700'>
       <properties size='1'>
-        <property name='download.size' value='60574'/>
+        <property name='download.size' value='970623'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.engines.blind.html.source' version='0.8.2.R201102161930'>
@@ -3024,6 +3044,14 @@
       <properties size='1'>
         <property name='download.size' value='4388978'/>
       </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.svn.nl1' version='0.7.9.I20120316-1700'>
+      <properties size='1'>
+        <property name='download.size' value='17434'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.php.core.parser.source' version='2.2.0.v20101001-2300'>
       <properties size='1'>
@@ -3040,6 +3068,11 @@
         <property name='download.size' value='2709884'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xml.ui.infopop' version='1.0.400.v201004292007'>
+      <properties size='1'>
+        <property name='download.size' value='16348'/>
+      </properties>
+    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.xtend.typesystem.emf' version='1.0.1.v201008251147'>
       <properties size='1'>
         <property name='download.size' value='17876'/>
@@ -3048,19 +3081,9 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xml.ui.infopop' version='1.0.400.v201004292007'>
-      <properties size='1'>
-        <property name='download.size' value='16348'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.php.core.source' version='2.2.1.v20101001-2300'>
       <properties size='1'>
         <property name='download.size' value='1500052'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.mat.api' version='1.0.1.201008091353'>
-      <properties size='1'>
-        <property name='download.size' value='678197'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ptp.pldt.lapi' version='4.0.6.201102161000'>
@@ -3071,19 +3094,24 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.mat.api' version='1.0.1.201008091353'>
+      <properties size='1'>
+        <property name='download.size' value='678197'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.processes.core' version='3.1.100.v201003010830'>
       <properties size='1'>
         <property name='download.size' value='27735'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.rse.efs.ui' version='2.1.200.v201003010830'>
-      <properties size='1'>
-        <property name='download.size' value='19165'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.modulecore' version='1.2.5.v201101270100'>
       <properties size='1'>
         <property name='download.size' value='375986'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.efs.ui' version='2.1.200.v201003010830'>
+      <properties size='1'>
+        <property name='download.size' value='19165'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ptp.rm.mpich2' version='4.0.6.201102161000'>
@@ -3110,14 +3138,14 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.rpm.core' version='0.4.3.201101251503'>
-      <properties size='1'>
-        <property name='download.size' value='37834'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='ch.qos.logback.core' version='0.9.19.v20100419-1216'>
       <properties size='1'>
         <property name='download.size' value='300484'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.rpm.core' version='0.4.3.201101251503'>
+      <properties size='1'>
+        <property name='download.size' value='37834'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='javax.mail.glassfish' version='1.4.1.v201005082020'>
@@ -3158,9 +3186,9 @@
         <property name='download.size' value='203274'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.ui' version='7.0.0.201102110609'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.generator' version='1.0.2.v201102150722'>
       <properties size='1'>
-        <property name='download.size' value='399705'/>
+        <property name='download.size' value='457990'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.engines.blind.source' version='0.8.2.R201102161930'>
@@ -3168,9 +3196,9 @@
         <property name='download.size' value='35302'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.generator' version='1.0.2.v201102150722'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.ui' version='7.0.0.201102110609'>
       <properties size='1'>
-        <property name='download.size' value='457990'/>
+        <property name='download.size' value='399705'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.snippets' version='1.2.2.v201101130441'>
@@ -3211,19 +3239,29 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.xpand.ui' version='1.0.1.v201008251147'>
-      <properties size='1'>
-        <property name='download.size' value='80121'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remote.rse.core' version='4.0.2.201102161000'>
       <properties size='1'>
         <property name='download.size' value='59603'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xpand.ui' version='1.0.1.v201008251147'>
+      <properties size='1'>
+        <property name='download.size' value='80121'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.uriresolver' version='1.1.401.v201004280700'>
       <properties size='1'>
         <property name='download.size' value='39666'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.ecore.source' version='1.0.2.v201102150722'>
+      <properties size='1'>
+        <property name='download.size' value='10971'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.flash' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='463350'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.rpm.ui.editor' version='0.4.3.201101251503'>
@@ -3234,24 +3272,9 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.flash' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='463350'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.ecore.source' version='1.0.2.v201102150722'>
-      <properties size='1'>
-        <property name='download.size' value='10971'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.php.debug.ui' version='2.2.0.v20101001-2300'>
       <properties size='1'>
         <property name='download.size' value='469801'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.gui' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='434144'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.processes.local' version='2.1.100.v200905272300'>
@@ -3259,9 +3282,9 @@
         <property name='download.size' value='15238'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remote.remotetools.core' version='4.0.1.201102161000'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.gui' version='0.8.2.R201102161930'>
       <properties size='1'>
-        <property name='download.size' value='51425'/>
+        <property name='download.size' value='434144'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.proxy.core' version='1.0.0.201102161000'>
@@ -3269,14 +3292,14 @@
         <property name='download.size' value='50015'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remote.remotetools.core' version='4.0.1.201102161000'>
+      <properties size='1'>
+        <property name='download.size' value='51425'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.xtext.ecore' version='1.0.2.v201102150722'>
       <properties size='1'>
         <property name='download.size' value='13876'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='com.google.collect' version='0.8.0.v201102150722'>
-      <properties size='1'>
-        <property name='download.size' value='500056'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.ibm.ll.help' version='4.0.0.201102161000'>
@@ -3284,14 +3307,14 @@
         <property name='download.size' value='746960'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.collect' version='0.8.0.v201102150722'>
+      <properties size='1'>
+        <property name='download.size' value='500056'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.xml.xpath2.processor' version='1.1.4.v201101212357'>
       <properties size='1'>
         <property name='download.size' value='571340'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf' version='2.1.1.201102110609'>
-      <properties size='1'>
-        <property name='download.size' value='274937'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.debug.ui' version='3.0.0.201102161000'>
@@ -3299,14 +3322,19 @@
         <property name='download.size' value='672483'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.jsdt.support.ie' version='1.0.300.v201004150600'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf' version='2.1.1.201102110609'>
       <properties size='1'>
-        <property name='download.size' value='528296'/>
+        <property name='download.size' value='274937'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.xtext.util' version='1.0.2.v201102150722'>
       <properties size='1'>
         <property name='download.size' value='75244'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.jsdt.support.ie' version='1.0.300.v201004150600'>
+      <properties size='1'>
+        <property name='download.size' value='528296'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.actf.util.win32' version='0.8.2.R201102161930'>
@@ -3347,6 +3375,11 @@
         <property name='download.size' value='9525'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.dltk.validators.externalchecker' version='1.0.0.v20090803-1754'>
+      <properties size='1'>
+        <property name='download.size' value='71245'/>
+      </properties>
+    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ocl.edit.source' version='3.0.2.R30x_v201101181635-7A-58ME7tnmB588588T8NEK'>
       <properties size='1'>
         <property name='download.size' value='20170'/>
@@ -3355,24 +3388,9 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.dltk.validators.externalchecker' version='1.0.0.v20090803-1754'>
-      <properties size='1'>
-        <property name='download.size' value='71245'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.php' version='2.2.0.v20101001-2300'>
       <properties size='1'>
         <property name='download.size' value='8377'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.dom.dombycom' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='67429'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.dltk.rse.core' version='2.0.1.v20100804-1944'>
-      <properties size='1'>
-        <property name='download.size' value='52359'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ptp.rm.ibm.pe' version='4.0.6.201102161000'>
@@ -3383,9 +3401,19 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.draw2d' version='3.6.2.v20110128-0100'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.dltk.rse.core' version='2.0.1.v20100804-1944'>
       <properties size='1'>
-        <property name='download.size' value='554312'/>
+        <property name='download.size' value='52359'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.model.dom.dombycom' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='67429'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.utils.core' version='2.0.0.201102161000'>
+      <properties size='1'>
+        <property name='download.size' value='61898'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.jsdt.debug.rhino.debugger' version='1.0.1.v201008170101'>
@@ -3393,9 +3421,14 @@
         <property name='download.size' value='77874'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.utils.core' version='2.0.0.201102161000'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.draw2d' version='3.6.2.v20110128-0100'>
       <properties size='1'>
-        <property name='download.size' value='61898'/>
+        <property name='download.size' value='554312'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.php.source' version='2.2.0.v20101001-2300'>
+      <properties size='1'>
+        <property name='download.size' value='6013'/>
       </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.ssh' version='3.0.100.v201005221100-7A2BhAkF77g7VEYDG7C'>
@@ -3405,11 +3438,6 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.php.source' version='2.2.0.v20101001-2300'>
-      <properties size='1'>
-        <property name='download.size' value='6013'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.mwe2.launch' version='1.0.2.v201102151014'>
       <properties size='1'>
@@ -3426,24 +3454,24 @@
         <property name='download.size' value='158066'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='net.sourceforge.lpg.lpgjavaruntime' version='1.1.0.v201004271650'>
-      <properties size='1'>
-        <property name='download.size' value='91682'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.edit' version='2.6.0.v20100914-1218'>
       <properties size='1'>
         <property name='download.size' value='124158'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.changelog.parsers.java' version='2.7.0.201101251503'>
+    <artifact classifier='osgi.bundle' id='net.sourceforge.lpg.lpgjavaruntime' version='1.1.0.v201004271650'>
       <properties size='1'>
-        <property name='download.size' value='9455'/>
+        <property name='download.size' value='91682'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.mat.ui.help' version='1.0.1.201008091353'>
       <properties size='1'>
         <property name='download.size' value='6248500'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.changelog.parsers.java' version='2.7.0.201101251503'>
+      <properties size='1'>
+        <property name='download.size' value='9455'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.doc.user' version='0.8.2.R201102161930'>
@@ -3464,6 +3492,11 @@
         <property name='download.size' value='141357'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.pldt.common' version='4.0.0.201102161000'>
+      <properties size='1'>
+        <property name='download.size' value='141021'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.linux.ppc' version='4.0.6.201102161000'>
       <properties size='1'>
         <property name='download.size' value='6523'/>
@@ -3471,11 +3504,6 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.pldt.common' version='4.0.0.201102161000'>
-      <properties size='1'>
-        <property name='download.size' value='141021'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.pbs.jproxy' version='1.0.0.201102161000'>
       <properties size='1'>
@@ -3500,14 +3528,14 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.blind' version='0.8.2.R201102161930'>
-      <properties size='1'>
-        <property name='download.size' value='42281'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.wst.web.ui' version='1.1.400.v201004141630'>
       <properties size='1'>
         <property name='download.size' value='80809'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.blind' version='0.8.2.R201102161930'>
+      <properties size='1'>
+        <property name='download.size' value='42281'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='javax.xml' version='1.3.4.v201005080400'>
@@ -3523,16 +3551,6 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.logging.source' version='1.2.15'>
-      <properties size='1'>
-        <property name='download.size' value='7643'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.php.ui' version='2.2.1.v20101001-2300'>
-      <properties size='1'>
-        <property name='download.size' value='2423204'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.svn.resource.ignore.rules.jdt' version='0.7.9.I20111119-1700'>
       <properties size='1'>
         <property name='download.size' value='17370'/>
@@ -3540,6 +3558,16 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.php.ui' version='2.2.1.v20101001-2300'>
+      <properties size='1'>
+        <property name='download.size' value='2423204'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xtext.logging.source' version='1.2.15'>
+      <properties size='1'>
+        <property name='download.size' value='7643'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.actf.visualization.flash' version='0.8.2.R201102161930'>
       <properties size='1'>
@@ -3551,16 +3579,6 @@
         <property name='download.size' value='87880'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.parser.upc' version='5.1.0.201102110609'>
-      <properties size='1'>
-        <property name='download.size' value='287167'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.standard.schemas' version='1.0.300.v201004110600'>
-      <properties size='1'>
-        <property name='download.size' value='156217'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.terminals' version='1.0.102.R32x_v201102011435-77-DI9uCFjNZVBGlDNC332423365'>
       <properties size='1'>
         <property name='download.size' value='30002'/>
@@ -3568,6 +3586,16 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.standard.schemas' version='1.0.300.v201004110600'>
+      <properties size='1'>
+        <property name='download.size' value='156217'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.parser.upc' version='5.1.0.201102110609'>
+      <properties size='1'>
+        <property name='download.size' value='287167'/>
+      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.ui' version='1.1.0.201102161000'>
       <properties size='1'>
@@ -3594,6 +3622,11 @@
         <property name='download.size' value='47908'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.rpm.rpmlint' version='0.4.3.201101251503'>
+      <properties size='1'>
+        <property name='download.size' value='58079'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.net4j.jms.api' version='3.0.0.v20110215-1551'>
       <properties size='1'>
         <property name='download.size' value='71957'/>
@@ -3601,11 +3634,6 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.rpm.rpmlint' version='0.4.3.201101251503'>
-      <properties size='1'>
-        <property name='download.size' value='58079'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.launch' version='4.0.0.201102161000'>
       <properties size='1'>
@@ -3620,6 +3648,11 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.slurm.ui' version='3.1.0.201102161000'>
+      <properties size='1'>
+        <property name='download.size' value='59089'/>
+      </properties>
+    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ptp.debug.sdm' version='4.0.6.201102161000'>
       <properties size='1'>
         <property name='download.size' value='17908'/>
@@ -3627,11 +3660,6 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.slurm.ui' version='3.1.0.201102161000'>
-      <properties size='1'>
-        <property name='download.size' value='59089'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ocl.uml.edit' version='3.0.2.R30x_v201101181635'>
       <properties size='1'>
@@ -3648,14 +3676,6 @@
         <property name='download.size' value='155058'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.team.svn' version='0.7.9.I20120210-1700'>
-      <properties size='1'>
-        <property name='download.size' value='59970'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.rm.ibm.pe.help' version='4.0.0.201102161000'>
       <properties size='1'>
         <property name='download.size' value='291959'/>
@@ -3671,14 +3691,14 @@
         <property name='download.size' value='878603'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux' version='5.2.0.201102110609'>
-      <properties size='1'>
-        <property name='download.size' value='12859'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.ui' version='4.0.0.201102161000'>
       <properties size='1'>
         <property name='download.size' value='507172'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux' version='5.2.0.201102110609'>
+      <properties size='1'>
+        <property name='download.size' value='12859'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.macosx.ppc' version='4.0.6.201102161000'>
@@ -3717,14 +3737,14 @@
         <property name='download.size' value='31764'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ocl.ecore.edit.source' version='3.0.2.R30x_v201101181635'>
-      <properties size='1'>
-        <property name='download.size' value='117445'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.uml2.uml' version='3.1.2.v201010261927'>
       <properties size='1'>
         <property name='download.size' value='3059860'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ocl.ecore.edit.source' version='3.0.2.R30x_v201101181635'>
+      <properties size='1'>
+        <property name='download.size' value='117445'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.xpand' version='1.0.1.v201008251147'>
@@ -3745,14 +3765,19 @@
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xml.xpath.core' version='1.1.1.v201007022358'>
+      <properties size='1'>
+        <property name='download.size' value='17614'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.cdt' version='7.0.2.201102110609'>
       <properties size='1'>
         <property name='download.size' value='77517'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xml.xpath.core' version='1.1.1.v201007022358'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remote.remotetools.ui' version='3.0.0.201102161000'>
       <properties size='1'>
-        <property name='download.size' value='17614'/>
+        <property name='download.size' value='30401'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.photran.core' version='6.0.0.201102161000'>
@@ -3762,11 +3787,6 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ptp.remote.remotetools.ui' version='3.0.0.201102161000'>
-      <properties size='1'>
-        <property name='download.size' value='30401'/>
-      </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ptp.utils.ui' version='2.0.0.201102161000'>
       <properties size='1'>
@@ -3786,11 +3806,6 @@
         <property name='download.size' value='4949550'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.php.ui.source' version='2.2.1.v20101001-2300'>
-      <properties size='1'>
-        <property name='download.size' value='1305937'/>
-      </properties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.xtext.xbase.source' version='1.0.2.v201102150722'>
       <properties size='1'>
         <property name='download.size' value='17488'/>
@@ -3798,6 +3813,11 @@
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
       </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.php.ui.source' version='2.2.1.v20101001-2300'>
+      <properties size='1'>
+        <property name='download.size' value='1305937'/>
+      </properties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='org.eclipse.gef' version='3.6.2.v20110128-0100-777B381A4Bz06565376E32322'>
       <properties size='1'>

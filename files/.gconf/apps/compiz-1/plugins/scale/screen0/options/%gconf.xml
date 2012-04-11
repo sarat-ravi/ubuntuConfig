@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="initiate_all_edge" mtime="1330891491" type="string">
+	<entry name="initiate_all_edge" mtime="1332747748" type="string">
 		<stringvalue>TopRight</stringvalue>
 	</entry>
 </gconf>
