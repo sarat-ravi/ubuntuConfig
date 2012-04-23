@@ -120,9 +120,11 @@ alias documents="cd ~/Documents"
 alias downloads="cd ~/Downloads"
 alias :q="exit"
 alias open="gnome-open"
+alias haraka="/home/saratt/bin/haraka"
 set -o emacs
 # temporary aliases. DELETE them after expiration
 alias sarat="cd ~/Documents/cs169/crowdAssistant/"
+alias intersect="cd ~/Documents/intersect/"
 
 function cd()
 {
@@ -133,3 +135,5 @@ function cd()
     builtin cd $param && ls
   fi
 }
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

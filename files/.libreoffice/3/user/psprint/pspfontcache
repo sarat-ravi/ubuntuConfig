@@ -1,257 +1,222 @@
 PspFontCacheFile format 4
 EmptyFontCacheDirectory:1330860658:/usr/lib/libreoffice/basis3.4/share/fonts/truetype
-FontCacheDirectory:1330914605:/usr/share/fonts/truetype/msttcorefonts
-File:georgiaz.ttf
-2;1
-Georgia
--1;Georgia-BoldItalic;2;8;5;2;65535;916;219;135;0;1596;1135;1596;1135;0;0;0;0;Bold Italic
-
-File:Comic_Sans_MS.ttf
-2;1
-Comic Sans MS
--1;ComicSansMS;0;5;5;2;65535;1102;291;393;0;1278;1393;1278;1393;0;0;0;0;Regular
-
-File:georgia.ttf
-2;1
-Georgia
--1;Georgia;0;5;5;2;65535;916;219;135;0;1339;1135;1339;1135;0;0;0;0;Regular
-
-File:courbi.ttf
-2;1
-Courier New
--1;CourierNewPS-BoldItalicMT;2;8;5;1;65535;832;300;132;0;938;1132;938;1132;0;0;0;0;Bold Italic
-
-File:Impact.ttf
-2;1
-Impact
--1;Impact;0;5;3;2;65535;1008;210;218;0;1390;1218;1390;1218;0;0;0;0;Regular
-
-File:Trebuchet_MS_Bold_Italic.ttf
-2;1
-Trebuchet MS
--1;Trebuchet-BoldItalic;2;8;5;2;65535;938;222;160;0;1262;1160;1262;1160;0;0;0;8;Bold Italic
-
-File:arialbi.ttf
+FontCacheDirectory:1334810222:/usr/share/fonts/truetype/msttcorefonts
+File:arialbd.ttf
 2;1
 Arial
--1;Arial-BoldItalicMT;2;8;5;2;65535;905;211;116;0;1715;1116;1715;1116;0;0;0;0;Bold Italic
-
-File:verdanab.ttf
-2;1
-Verdana
--1;Verdana-Bold;0;8;5;2;65535;1005;209;214;0;1780;1214;1780;1214;0;0;0;0;Bold
-
-File:Verdana_Italic.ttf
-2;1
-Verdana
--1;Verdana-Italic;2;5;5;2;65535;1005;209;214;0;1591;1214;1591;1214;0;0;0;0;Italic
-
-File:Courier_New.ttf
-2;1
-Courier New
--1;CourierNewPSMT;0;5;5;1;65535;832;300;132;0;658;1132;658;1132;0;0;0;0;Regular
-
-File:Georgia_Bold.ttf
-2;1
-Georgia
--1;Georgia-Bold;0;8;5;2;65535;916;219;135;0;1485;1135;1485;1135;0;0;0;0;Bold
+-1;Arial-BoldMT;0;8;5;2;65535;905;211;116;0;2660;1116;2660;1116;0;0;0;0;Bold
 
 File:Andale_Mono.ttf
 2;1
 Andale Mono
 -1;AndaleMono;0;5;5;1;65535;907;217;124;0;600;1124;600;1124;0;0;0;8;Regular
 
-File:Times_New_Roman.ttf
-2;1
-Times New Roman
--1;TimesNewRomanPSMT;0;5;5;2;65535;891;216;107;0;2596;1107;2596;1107;0;0;0;0;Regular
-
-File:timesi.ttf
-2;1
-Times New Roman
--1;TimesNewRomanPS-ItalicMT;2;5;5;2;65535;891;216;107;0;1617;1107;1617;1107;0;0;0;0;Italic
-
-File:trebuc.ttf
-2;1
-Trebuchet MS
--1;TrebuchetMS;0;5;5;2;65535;938;222;160;0;1167;1160;1167;1160;0;0;0;8;Regular
-
-File:comic.ttf
-2;1
-Comic Sans MS
--1;ComicSansMS;0;5;5;2;65535;1102;291;393;0;1278;1393;1278;1393;0;0;0;0;Regular
-
-File:courbd.ttf
-2;1
-Courier New
--1;CourierNewPS-BoldMT;0;8;5;1;65535;832;300;132;0;747;1132;747;1132;0;0;0;0;Bold
-
-File:Verdana.ttf
-2;1
-Verdana
--1;Verdana;0;5;5;2;65535;1005;209;214;0;1495;1214;1495;1214;0;0;0;0;Regular
-
-File:arialbd.ttf
-2;1
-Arial
--1;Arial-BoldMT;0;8;5;2;65535;905;211;116;0;2660;1116;2660;1116;0;0;0;0;Bold
-
-File:Georgia_Bold_Italic.ttf
-2;1
-Georgia
--1;Georgia-BoldItalic;2;8;5;2;65535;916;219;135;0;1596;1135;1596;1135;0;0;0;0;Bold Italic
-
-File:Trebuchet_MS_Italic.ttf
-2;1
-Trebuchet MS
--1;TrebuchetMS-Italic;2;5;5;2;65535;938;222;160;0;1216;1160;1216;1160;0;0;0;8;Italic
-
 File:comicbd.ttf
 2;1
 Comic Sans MS
 -1;ComicSansMS-Bold;0;8;5;2;65535;1102;291;393;0;1340;1393;1340;1393;0;0;0;0;Bold
-
-File:ariblk.ttf
-2;1
-Arial Black
--1;Arial-Black;0;5;5;2;65535;1100;309;409;0;1880;1409;1880;1409;0;0;0;0;Regular
-
-File:trebucbi.ttf
-2;1
-Trebuchet MS
--1;Trebuchet-BoldItalic;2;8;5;2;65535;938;222;160;0;1262;1160;1262;1160;0;0;0;8;Bold Italic
-
-File:verdana.ttf
-2;1
-Verdana
--1;Verdana;0;5;5;2;65535;1005;209;214;0;1495;1214;1495;1214;0;0;0;0;Regular
-
-File:ariali.ttf
-2;1
-Arial
--1;Arial-ItalicMT;2;5;5;2;65535;905;211;116;0;1598;1116;1598;1116;0;0;0;0;Italic
-
-File:verdanaz.ttf
-2;1
-Verdana
--1;Verdana-BoldItalic;2;8;5;2;65535;1005;209;214;0;1870;1214;1870;1214;0;0;0;0;Bold Italic
-
-File:georgiai.ttf
-2;1
-Georgia
--1;Georgia-Italic;2;5;5;2;65535;916;219;135;0;1391;1135;1391;1135;0;0;0;0;Italic
-
-File:cour.ttf
-2;1
-Courier New
--1;CourierNewPSMT;0;5;5;1;65535;832;300;132;0;658;1132;658;1132;0;0;0;0;Regular
-
-File:Times_New_Roman_Italic.ttf
-2;1
-Times New Roman
--1;TimesNewRomanPS-ItalicMT;2;5;5;2;65535;891;216;107;0;1617;1107;1617;1107;0;0;0;0;Italic
-
-File:georgiab.ttf
-2;1
-Georgia
--1;Georgia-Bold;0;8;5;2;65535;916;219;135;0;1485;1135;1485;1135;0;0;0;0;Bold
-
-File:Verdana_Bold_Italic.ttf
-2;1
-Verdana
--1;Verdana-BoldItalic;2;8;5;2;65535;1005;209;214;0;1870;1214;1870;1214;0;0;0;0;Bold Italic
-
-File:trebucbd.ttf
-2;1
-Trebuchet MS
--1;TrebuchetMS-Bold;0;8;5;2;65535;938;222;160;0;1229;1160;1229;1160;0;0;0;8;Bold
-
-File:timesbi.ttf
-2;1
-Times New Roman
--1;TimesNewRomanPS-BoldItalicMT;2;8;5;2;65535;891;216;107;0;1753;1107;1753;1107;0;0;0;0;Bold Italic
-
-File:Georgia_Italic.ttf
-2;1
-Georgia
--1;Georgia-Italic;2;5;5;2;65535;916;219;135;0;1391;1135;1391;1135;0;0;0;0;Italic
 
 File:webdings.ttf
 2;1
 Webdings
 -1;Webdings;0;5;5;2;10;799;200;-1;0;4001;999;4001;999;0;0;0;0;Regular
 
-File:couri.ttf
-2;1
-Courier New
--1;CourierNewPS-ItalicMT;2;5;5;1;65535;832;300;132;0;867;1132;867;1132;0;0;0;0;Italic
-
-File:Arial_Bold_Italic.ttf
-2;1
-Arial
--1;Arial-BoldItalicMT;2;8;5;2;65535;905;211;116;0;1715;1116;1715;1116;0;0;0;0;Bold Italic
-
-File:Arial_Black.ttf
-2;1
-Arial Black
--1;Arial-Black;0;5;5;2;65535;1100;309;409;0;1880;1409;1880;1409;0;0;0;0;Regular
-
-File:Trebuchet_MS.ttf
+File:Trebuchet_MS_Italic.ttf
 2;1
 Trebuchet MS
--1;TrebuchetMS;0;5;5;2;65535;938;222;160;0;1167;1160;1167;1160;0;0;0;8;Regular
-
-File:Arial_Italic.ttf
-2;1
-Arial
--1;Arial-ItalicMT;2;5;5;2;65535;905;211;116;0;1598;1116;1598;1116;0;0;0;0;Italic
-
-File:Times_New_Roman_Bold_Italic.ttf
-2;1
-Times New Roman
--1;TimesNewRomanPS-BoldItalicMT;2;8;5;2;65535;891;216;107;0;1753;1107;1753;1107;0;0;0;0;Bold Italic
-
-File:Arial_Bold.ttf
-2;1
-Arial
--1;Arial-BoldMT;0;8;5;2;65535;905;211;116;0;2660;1116;2660;1116;0;0;0;0;Bold
+-1;TrebuchetMS-Italic;2;5;5;2;65535;938;222;160;0;1216;1160;1216;1160;0;0;0;8;Italic
 
 File:arial.ttf
 2;1
 Arial
 -1;ArialMT;0;5;5;2;65535;905;211;116;0;2692;1116;2692;1116;0;0;0;0;Regular
 
-File:impact.ttf
+File:Georgia_Italic.ttf
 2;1
-Impact
--1;Impact;0;5;3;2;65535;1008;210;218;0;1390;1218;1390;1218;0;0;0;0;Regular
+Georgia
+-1;Georgia-Italic;2;5;5;2;65535;916;219;135;0;1391;1135;1391;1135;0;0;0;0;Italic
+
+File:Georgia_Bold.ttf
+2;1
+Georgia
+-1;Georgia-Bold;0;8;5;2;65535;916;219;135;0;1485;1135;1485;1135;0;0;0;0;Bold
+
+File:courbi.ttf
+2;1
+Courier New
+-1;CourierNewPS-BoldItalicMT;2;8;5;1;65535;832;300;132;0;938;1132;938;1132;0;0;0;0;Bold Italic
+
+File:Verdana_Italic.ttf
+2;1
+Verdana
+-1;Verdana-Italic;2;5;5;2;65535;1005;209;214;0;1591;1214;1591;1214;0;0;0;0;Italic
+
+File:trebucbi.ttf
+2;1
+Trebuchet MS
+-1;Trebuchet-BoldItalic;2;8;5;2;65535;938;222;160;0;1262;1160;1262;1160;0;0;0;8;Bold Italic
+
+File:verdanaz.ttf
+2;1
+Verdana
+-1;Verdana-BoldItalic;2;8;5;2;65535;1005;209;214;0;1870;1214;1870;1214;0;0;0;0;Bold Italic
+
+File:verdanai.ttf
+2;1
+Verdana
+-1;Verdana-Italic;2;5;5;2;65535;1005;209;214;0;1591;1214;1591;1214;0;0;0;0;Italic
+
+File:Arial_Bold.ttf
+2;1
+Arial
+-1;Arial-BoldMT;0;8;5;2;65535;905;211;116;0;2660;1116;2660;1116;0;0;0;0;Bold
+
+File:timesbi.ttf
+2;1
+Times New Roman
+-1;TimesNewRomanPS-BoldItalicMT;2;8;5;2;65535;891;216;107;0;1753;1107;1753;1107;0;0;0;0;Bold Italic
+
+File:georgia.ttf
+2;1
+Georgia
+-1;Georgia;0;5;5;2;65535;916;219;135;0;1339;1135;1339;1135;0;0;0;0;Regular
+
+File:timesi.ttf
+2;1
+Times New Roman
+-1;TimesNewRomanPS-ItalicMT;2;5;5;2;65535;891;216;107;0;1617;1107;1617;1107;0;0;0;0;Italic
+
+File:Arial_Italic.ttf
+2;1
+Arial
+-1;Arial-ItalicMT;2;5;5;2;65535;905;211;116;0;1598;1116;1598;1116;0;0;0;0;Italic
+
+File:Comic_Sans_MS_Bold.ttf
+2;1
+Comic Sans MS
+-1;ComicSansMS-Bold;0;8;5;2;65535;1102;291;393;0;1340;1393;1340;1393;0;0;0;0;Bold
+
+File:courbd.ttf
+2;1
+Courier New
+-1;CourierNewPS-BoldMT;0;8;5;1;65535;832;300;132;0;747;1132;747;1132;0;0;0;0;Bold
+
+File:trebucbd.ttf
+2;1
+Trebuchet MS
+-1;TrebuchetMS-Bold;0;8;5;2;65535;938;222;160;0;1229;1160;1229;1160;0;0;0;8;Bold
+
+File:verdanab.ttf
+2;1
+Verdana
+-1;Verdana-Bold;0;8;5;2;65535;1005;209;214;0;1780;1214;1780;1214;0;0;0;0;Bold
+
+File:Arial_Bold_Italic.ttf
+2;1
+Arial
+-1;Arial-BoldItalicMT;2;8;5;2;65535;905;211;116;0;1715;1116;1715;1116;0;0;0;0;Bold Italic
+
+File:Times_New_Roman_Italic.ttf
+2;1
+Times New Roman
+-1;TimesNewRomanPS-ItalicMT;2;5;5;2;65535;891;216;107;0;1617;1107;1617;1107;0;0;0;0;Italic
+
+File:Courier_New_Italic.ttf
+2;1
+Courier New
+-1;CourierNewPS-ItalicMT;2;5;5;1;65535;832;300;132;0;867;1132;867;1132;0;0;0;0;Italic
+
+File:Verdana_Bold_Italic.ttf
+2;1
+Verdana
+-1;Verdana-BoldItalic;2;8;5;2;65535;1005;209;214;0;1870;1214;1870;1214;0;0;0;0;Bold Italic
+
+File:georgiaz.ttf
+2;1
+Georgia
+-1;Georgia-BoldItalic;2;8;5;2;65535;916;219;135;0;1596;1135;1596;1135;0;0;0;0;Bold Italic
 
 File:Courier_New_Bold_Italic.ttf
 2;1
 Courier New
 -1;CourierNewPS-BoldItalicMT;2;8;5;1;65535;832;300;132;0;938;1132;938;1132;0;0;0;0;Bold Italic
 
+File:georgiai.ttf
+2;1
+Georgia
+-1;Georgia-Italic;2;5;5;2;65535;916;219;135;0;1391;1135;1391;1135;0;0;0;0;Italic
+
+File:Trebuchet_MS.ttf
+2;1
+Trebuchet MS
+-1;TrebuchetMS;0;5;5;2;65535;938;222;160;0;1167;1160;1167;1160;0;0;0;8;Regular
+
+File:timesbd.ttf
+2;1
+Times New Roman
+-1;TimesNewRomanPS-BoldMT;0;8;5;2;65535;891;216;107;0;2591;1107;2591;1107;0;0;0;0;Bold
+
+File:arialbi.ttf
+2;1
+Arial
+-1;Arial-BoldItalicMT;2;8;5;2;65535;905;211;116;0;1715;1116;1715;1116;0;0;0;0;Bold Italic
+
+File:Verdana.ttf
+2;1
+Verdana
+-1;Verdana;0;5;5;2;65535;1005;209;214;0;1495;1214;1495;1214;0;0;0;0;Regular
+
+File:Verdana_Bold.ttf
+2;1
+Verdana
+-1;Verdana-Bold;0;8;5;2;65535;1005;209;214;0;1780;1214;1780;1214;0;0;0;0;Bold
+
+File:Trebuchet_MS_Bold_Italic.ttf
+2;1
+Trebuchet MS
+-1;Trebuchet-BoldItalic;2;8;5;2;65535;938;222;160;0;1262;1160;1262;1160;0;0;0;8;Bold Italic
+
+File:Times_New_Roman_Bold_Italic.ttf
+2;1
+Times New Roman
+-1;TimesNewRomanPS-BoldItalicMT;2;8;5;2;65535;891;216;107;0;1753;1107;1753;1107;0;0;0;0;Bold Italic
+
+File:Impact.ttf
+2;1
+Impact
+-1;Impact;0;5;3;2;65535;1008;210;218;0;1390;1218;1390;1218;0;0;0;0;Regular
+
+File:Courier_New.ttf
+2;1
+Courier New
+-1;CourierNewPSMT;0;5;5;1;65535;832;300;132;0;658;1132;658;1132;0;0;0;0;Regular
+
 File:trebucit.ttf
 2;1
 Trebuchet MS
 -1;TrebuchetMS-Italic;2;5;5;2;65535;938;222;160;0;1216;1160;1216;1160;0;0;0;8;Italic
 
-File:Times_New_Roman_Bold.ttf
+File:Times_New_Roman.ttf
 2;1
 Times New Roman
--1;TimesNewRomanPS-BoldMT;0;8;5;2;65535;891;216;107;0;2591;1107;2591;1107;0;0;0;0;Bold
+-1;TimesNewRomanPSMT;0;5;5;2;65535;891;216;107;0;2596;1107;2596;1107;0;0;0;0;Regular
+
+File:comic.ttf
+2;1
+Comic Sans MS
+-1;ComicSansMS;0;5;5;2;65535;1102;291;393;0;1278;1393;1278;1393;0;0;0;0;Regular
+
+File:Georgia_Bold_Italic.ttf
+2;1
+Georgia
+-1;Georgia-BoldItalic;2;8;5;2;65535;916;219;135;0;1596;1135;1596;1135;0;0;0;0;Bold Italic
 
 File:Courier_New_Bold.ttf
 2;1
 Courier New
 -1;CourierNewPS-BoldMT;0;8;5;1;65535;832;300;132;0;747;1132;747;1132;0;0;0;0;Bold
 
-File:Arial.ttf
-2;1
-Arial
--1;ArialMT;0;5;5;2;65535;905;211;116;0;2692;1116;2692;1116;0;0;0;0;Regular
-
-File:timesbd.ttf
+File:Times_New_Roman_Bold.ttf
 2;1
 Times New Roman
 -1;TimesNewRomanPS-BoldMT;0;8;5;2;65535;891;216;107;0;2591;1107;2591;1107;0;0;0;0;Bold
@@ -261,25 +226,35 @@ File:Trebuchet_MS_Bold.ttf
 Trebuchet MS
 -1;TrebuchetMS-Bold;0;8;5;2;65535;938;222;160;0;1229;1160;1229;1160;0;0;0;8;Bold
 
-File:Comic_Sans_MS_Bold.ttf
+File:Arial_Black.ttf
 2;1
-Comic Sans MS
--1;ComicSansMS-Bold;0;8;5;2;65535;1102;291;393;0;1340;1393;1340;1393;0;0;0;0;Bold
+Arial Black
+-1;Arial-Black;0;5;5;2;65535;1100;309;409;0;1880;1409;1880;1409;0;0;0;0;Regular
 
-File:Courier_New_Italic.ttf
+File:georgiab.ttf
+2;1
+Georgia
+-1;Georgia-Bold;0;8;5;2;65535;916;219;135;0;1485;1135;1485;1135;0;0;0;0;Bold
+
+File:couri.ttf
 2;1
 Courier New
 -1;CourierNewPS-ItalicMT;2;5;5;1;65535;832;300;132;0;867;1132;867;1132;0;0;0;0;Italic
 
-File:Verdana_Bold.ttf
+File:ariali.ttf
 2;1
-Verdana
--1;Verdana-Bold;0;8;5;2;65535;1005;209;214;0;1780;1214;1780;1214;0;0;0;0;Bold
+Arial
+-1;Arial-ItalicMT;2;5;5;2;65535;905;211;116;0;1598;1116;1598;1116;0;0;0;0;Italic
 
-File:verdanai.ttf
+File:cour.ttf
+2;1
+Courier New
+-1;CourierNewPSMT;0;5;5;1;65535;832;300;132;0;658;1132;658;1132;0;0;0;0;Regular
+
+File:verdana.ttf
 2;1
 Verdana
--1;Verdana-Italic;2;5;5;2;65535;1005;209;214;0;1591;1214;1591;1214;0;0;0;0;Italic
+-1;Verdana;0;5;5;2;65535;1005;209;214;0;1495;1214;1495;1214;0;0;0;0;Regular
 
 FontCacheDirectory:1318429838:/usr/share/fonts/X11/Type1
 File:c0649bt_.pfb
@@ -307,15 +282,15 @@ File:c0419bt_.pfb
 Courier 10 Pitch
 -1;Courier10PitchBT-Roman;0;5;0;1;91;858;299;157;0;664;579;664;579;0;0;0;c0419bt_.afm;Regular
 
-File:c0648bt_.pfb
-1;1
-Bitstream Charter
--1;CharterBT-Roman;0;5;0;2;91;963;237;200;0;1194;672;1194;672;0;0;0;c0648bt_.afm;Regular
-
 File:c0582bt_.pfb
 1;1
 Courier 10 Pitch
 -1;Courier10PitchBT-Italic;2;5;0;1;91;858;299;157;0;664;579;664;579;0;0;0;c0582bt_.afm;Italic
+
+File:c0648bt_.pfb
+1;1
+Bitstream Charter
+-1;CharterBT-Roman;0;5;0;2;91;963;237;200;0;1194;672;1194;672;0;0;0;c0648bt_.afm;Regular
 
 File:c0633bt_.pfb
 1;1
@@ -579,30 +554,30 @@ File:DejaVuSansMono-Bold.ttf
 DejaVu Sans Mono
 -1;DejaVuSansMono-Bold;0;8;5;1;65535;928;235;163;0;1176;1163;1176;1163;0;0;0;0;Bold
 
-File:DejaVuSansCondensed-Oblique.ttf
-2;1
-DejaVu Sans Condensed
--1;DejaVuSansCondensed-Oblique;1;5;4;2;65535;928;235;163;0;2407;1163;2407;1163;0;0;0;0;Condensed Oblique
-
 File:DejaVuSansMono-BoldOblique.ttf
 2;1
 DejaVu Sans Mono
 -1;DejaVuSansMono-BoldOblique;1;8;5;1;65535;928;235;163;0;1232;1163;1232;1163;0;0;0;0;Bold Oblique
+
+File:DejaVuSansCondensed-Oblique.ttf
+2;1
+DejaVu Sans Condensed
+-1;DejaVuSansCondensed-Oblique;1;5;4;2;65535;928;235;163;0;2407;1163;2407;1163;0;0;0;0;Condensed Oblique
 
 File:DejaVuSerifCondensed-Italic.ttf
 2;1
 DejaVu Serif Condensed
 -1;DejaVuSerifCondensed-Italic;2;5;4;2;65535;928;235;163;0;2235;1163;2235;1163;0;0;0;0;Condensed Italic
 
-File:DejaVuSansMono-Oblique.ttf
-2;1
-DejaVu Sans Mono
--1;DejaVuSansMono-Oblique;1;5;5;1;65535;928;235;163;0;1148;1163;1148;1163;0;0;0;0;Oblique
-
 File:DejaVuSans.ttf
 2;1
 DejaVu Sans
 -1;DejaVuSans;0;5;5;2;65535;928;235;163;0;2700;1163;2700;1163;0;0;0;0;Book
+
+File:DejaVuSansMono-Oblique.ttf
+2;1
+DejaVu Sans Mono
+-1;DejaVuSansMono-Oblique;1;5;5;1;65535;928;235;163;0;1148;1163;1148;1163;0;0;0;0;Oblique
 
 FontCacheDirectory:1318429688:/usr/share/fonts/truetype/freefont
 File:FreeMonoBoldOblique.ttf
@@ -650,15 +625,15 @@ File:FreeMonoOblique.ttf
 FreeMono
 -1;FreeMonoOblique;2;5;5;1;65535;800;200;150;0;1460;1000;1460;1000;0;0;0;0;Oblique
 
-File:FreeSansBoldOblique.ttf
-2;1
-FreeSans
--1;FreeSansBoldOblique;2;8;5;2;65535;1000;300;300;0;2499;1300;2499;1300;0;0;0;0;BoldOblique
-
 File:FreeMonoBold.ttf
 2;1
 FreeMono
 -1;FreeMonoBold;0;8;5;1;65535;800;200;150;0;1336;1000;1336;1000;0;0;0;0;Bold
+
+File:FreeSansBoldOblique.ttf
+2;1
+FreeSans
+-1;FreeSansBoldOblique;2;8;5;2;65535;1000;300;300;0;2499;1300;2499;1300;0;0;0;0;BoldOblique
 
 File:FreeSans.ttf
 2;1
@@ -926,15 +901,15 @@ File:TlwgTypo-Bold.ttf
 Tlwg Typo
 -1;TlwgTypo-Bold;0;8;5;1;65535;916;388;304;0;673;1304;673;1304;0;0;0;0;Bold
 
-File:Sawasdee.ttf
-2;1
-Sawasdee
--1;Sawasdee;0;5;5;2;65535;1080;414;494;0;1885;1494;1885;1494;0;0;0;8;Regular
-
 File:Purisa-Bold.ttf
 2;1
 Purisa
 -1;Purisa-Bold;0;8;5;2;65535;1120;520;640;0;1900;1640;1900;1640;0;0;0;8;Bold
+
+File:Sawasdee.ttf
+2;1
+Sawasdee
+-1;Sawasdee;0;5;5;2;65535;1080;414;494;0;1885;1494;1885;1494;0;0;0;8;Regular
 
 File:Kinnari-BoldOblique.ttf
 2;1
@@ -1023,15 +998,15 @@ File:lohit_bn.ttf
 Lohit Bengali
 -1;Lohit-Bengali;0;5;5;2;65535;988;422;410;0;2089;1410;2089;1410;0;0;0;0;Regular
 
-File:gargi.ttf
-2;1
-gargi
--1;gargi;0;6;5;2;65535;931;278;209;0;2359;1209;2359;1209;0;0;0;0;Medium
-
 File:Kedage-b.ttf
 2;1
 Kedage
 -1;KedageBold;0;8;5;2;65535;1000;660;660;0;2429;1660;2429;1660;0;0;0;8;Bold
+
+File:gargi.ttf
+2;1
+gargi
+-1;gargi;0;6;5;2;65535;931;278;209;0;2359;1209;2359;1209;0;0;0;0;Medium
 
 FontCacheDirectory:1318429760:/usr/share/fonts/truetype/ttf-khmeros-core
 File:KhmerOSsys.ttf
@@ -1085,30 +1060,30 @@ File:LiberationMono-Bold.ttf
 Liberation Mono
 -1;LiberationMono-Bold;0;8;5;1;65535;833;300;133;0;640;1133;640;1133;0;0;0;8;Bold
 
-File:LiberationSansNarrow-BoldItalic.ttf
+File:LiberationMono-Regular.ttf
 2;1
-Liberation Sans Narrow
--1;LiberationSansNarrow-BoldItalic;2;8;3;2;65535;921;210;131;0;1171;1131;1171;1131;0;0;0;8;Bold Italic
+Liberation Mono
+-1;LiberationMono;0;5;5;1;65535;832;300;132;0;632;1132;632;1132;0;0;0;8;Regular
 
 File:LiberationSansNarrow-Italic.ttf
 2;1
 Liberation Sans Narrow
 -1;LiberationSansNarrow-Italic;2;5;3;2;65535;921;210;131;0;1223;1131;1223;1131;0;0;0;8;Italic
 
-File:LiberationMono-Regular.ttf
+File:LiberationSansNarrow-BoldItalic.ttf
 2;1
-Liberation Mono
--1;LiberationMono;0;5;5;1;65535;832;300;132;0;632;1132;632;1132;0;0;0;8;Regular
-
-File:LiberationSans-Bold.ttf
-2;1
-Liberation Sans
--1;LiberationSans-Bold;0;8;5;2;65535;905;211;116;0;1246;1116;1246;1116;0;0;0;8;Bold
+Liberation Sans Narrow
+-1;LiberationSansNarrow-BoldItalic;2;8;3;2;65535;921;210;131;0;1171;1131;1171;1131;0;0;0;8;Bold Italic
 
 File:LiberationSansNarrow-Regular.ttf
 2;1
 Liberation Sans Narrow
 -1;LiberationSansNarrow;0;5;3;2;65535;921;210;131;0;1166;1131;1166;1131;0;0;0;8;Regular
+
+File:LiberationSans-Bold.ttf
+2;1
+Liberation Sans
+-1;LiberationSans-Bold;0;8;5;2;65535;905;211;116;0;1246;1116;1246;1116;0;0;0;8;Bold
 
 File:LiberationSans-Italic.ttf
 2;1
@@ -1154,7 +1129,7 @@ File:Symbol.pfb
 Symbol
 -1;Symbol;0;5;0;2;10;1010;293;303;0;1090;673;1090;673;0;0;0;Symbol.afm;Regular
 
-FontCacheDirectory:1331285809:/usr/share/fonts/truetype
+FontCacheDirectory:1334810197:/usr/share/fonts/truetype
 File:ttf-japanese-gothic.ttf
 2;1
 TakaoPGothic
@@ -1391,15 +1366,15 @@ File:NewCenturySchlbk-BoldItalic.afm
 New Century Schoolbook
 -1;NewCenturySchlbk-BoldItalic;2;8;0;2;91;991;250;241;0;1147;722;1147;722;0;0;0;Bold Italic
 
-File:NewCenturySchlbk-Italic.afm
-3;1
-New Century Schoolbook
--1;NewCenturySchlbk-Italic;2;6;0;2;91;958;250;208;0;994;722;994;722;0;0;0;Italic
-
 File:Times-Bold.afm
 3;1
 Times
 -1;Times-Bold;0;8;0;2;91;935;218;153;0;1000;676;1000;676;0;0;0;Bold
+
+File:NewCenturySchlbk-Italic.afm
+3;1
+New Century Schoolbook
+-1;NewCenturySchlbk-Italic;2;6;0;2;91;958;250;208;0;994;722;994;722;0;0;0;Italic
 
 EmptyFontCacheDirectory:1330927775:/home/saratt/.libreoffice/3/user/psprint/fontmetric
 FontCacheDirectory:1331285809:/usr/share/fonts/truetype/ttf-droid
