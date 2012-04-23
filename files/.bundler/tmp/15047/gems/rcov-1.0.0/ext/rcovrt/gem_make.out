@@ -1,2 +1,0 @@
-/usr/local/bin/ruby extconf.rb 
-**** Ruby 1.9 is not supported. Please switch to simplecov ****

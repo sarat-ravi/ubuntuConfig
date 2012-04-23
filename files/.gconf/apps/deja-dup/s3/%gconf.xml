@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="folder" mtime="1332748085" type="string">
-		<stringvalue>$HOSTNAME</stringvalue>
-	</entry>
-</gconf>

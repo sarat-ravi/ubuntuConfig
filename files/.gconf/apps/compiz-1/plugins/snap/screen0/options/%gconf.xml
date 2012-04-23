@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="edges_categories" mtime="1330910278" type="list" ltype="int">
-		<li type="int" value="0"/>
-	</entry>
-</gconf>

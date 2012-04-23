@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="launcher_reveal_edge" mtime="1332747748" type="string">
-		<stringvalue>Right</stringvalue>
-	</entry>
-	<entry name="launcher_hide_mode" mtime="1332747748" type="int" value="1"/>
-</gconf>

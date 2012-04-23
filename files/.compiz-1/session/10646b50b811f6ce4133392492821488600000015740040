@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<compiz_session id="10646b50b811f6ce4133392492821488600000015740040">
-  <window id="10646b50b811f6ce4133392712859397200000015740043" title="saratt@saratlaptop: ~/Documents/cs169" class="Gnome-terminal" name="gnome-terminal" role="gnome-terminal-window-2897--203515794-1333927128" command="gnome-terminal">
-    <geometry x="1432" y="24" width="722" height="434"/>
-    <maximized vert="yes" horz="yes"/>
-    <workspace index="0"/>
-  </window>
-</compiz_session>

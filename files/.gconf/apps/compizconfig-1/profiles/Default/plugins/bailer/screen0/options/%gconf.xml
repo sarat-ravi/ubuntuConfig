@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="bad_plugins" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/bailer/screen0/options/bad_plugins"/>
-	<entry name="custom_alternative_shell" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/bailer/screen0/options/custom_alternative_shell"/>
-	<entry name="fatal_fallback_mode" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/bailer/screen0/options/fatal_fallback_mode"/>
-	<entry name="poor_performance_fallback" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/bailer/screen0/options/poor_performance_fallback"/>
-	<entry name="bad_performance_threshold" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/bailer/screen0/options/bad_performance_threshold"/>
-	<entry name="custom_fallback_window_manager" mtime="1330860966" schema="/schemas/apps/compiz-1/plugins/bailer/screen0/options/custom_fallback_window_manager"/>
-</gconf>

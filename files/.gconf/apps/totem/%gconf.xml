@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="subtitle_encoding" mtime="1332055692" type="string">
-		<stringvalue>UTF-8</stringvalue>
-	</entry>
-	<entry name="show_vfx" mtime="1332055692" type="bool" value="true"/>
-</gconf>

@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="expanded" mtime="1331174588" type="bool" value="true"/>
-	<entry name="library-location" mtime="1331173945" type="string">
-		<stringvalue>/home/saratt/Podcasts</stringvalue>
-	</entry>
-</gconf>
