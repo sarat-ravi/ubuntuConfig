@@ -111,7 +111,7 @@ alias lsa="ls -a"
 
 #common ssh
 alias livemagic.tv="ssh saratt@clips.livemagic.tv"
-alias saratxps="ssh -X saratt@saratxps.myftp.org"
+alias saratxps="ssh -X saratt@saratxps.myftp.biz"
 
 alias ndk-build="/opt/android-ndk-r7b/ndk-build"
 
