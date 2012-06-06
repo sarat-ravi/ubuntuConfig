@@ -126,6 +126,12 @@ set -o emacs
 alias sarat="cd ~/Documents/cs169/crowdAssistant/"
 alias intersect="cd ~/Documents/intersect/"
 
+#add time column to history
+export HISTTIMEFORMAT='%F %T '
+History () {
+history | awk -v B=`tput smso` -v N=`tput rmso` '{$1= B $1 N} {$2= B $2 N} {$3= B $3 N} {print}'
+}
+
 function cd()
 {
   param=$* 2> /dev/null
