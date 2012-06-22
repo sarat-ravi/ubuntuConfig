@@ -123,13 +123,14 @@ alias open="gnome-open"
 alias haraka="/home/saratt/bin/haraka"
 set -o emacs
 # temporary aliases. DELETE them after expiration
-alias sarat="cd ~/Documents/cs169/crowdAssistant/"
+alias sarat="cd ~/Documents/openML/"
 alias intersect="cd ~/Documents/intersect/"
 
 #add time column to history
-export HISTTIMEFORMAT='%F %T '
+#export HISTTIMEFORMAT='%F %T '
 History () {
 history | awk -v B=`tput smso` -v N=`tput rmso` '{$1= B $1 N} {$2= B $2 N} {$3= B $3 N} {print}'
+history
 }
 
 function cd()
