@@ -161,6 +161,12 @@ function cd()
   fi
 }
 
+#for MAC OSX only
+function exit()
+{
+  osascript -e 'tell application "Terminal" to quit'
+}
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export CLICOLOR=1
