@@ -142,6 +142,11 @@ history
 function goto()
 {
   path=`find ~ -iname $1 | head -n 1`
+  if [ -d "${path}" ]; then
+    echo "";
+  else
+    path=${path%/*};
+  fi
   cd $path
 }
 
