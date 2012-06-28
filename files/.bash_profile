@@ -126,6 +126,8 @@ alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --u
 
 #eqv of find . -iname "<str>"
 alias search="find . -iname "$1""
+
+
 # temporary aliases. DELETE them after expiration
 alias sarat="cd ~/Documents/openML/"
 
@@ -136,6 +138,14 @@ history | awk -v B=`tput smso` -v N=`tput rmso` '{$1= B $1 N} {$2= B $2 N} {$3= 
 history
 }
 
+#goes to topmost directory found
+function goto()
+{
+  path=`find ~ -iname $1 | head -n 1`
+  cd $path
+}
+
+#displays contents after cd'ing into it
 function cd()
 {
   param=$* 2> /dev/null
