@@ -119,12 +119,15 @@ alias ..="cd .."
 alias documents="cd ~/Documents"
 alias downloads="cd ~/Downloads"
 alias :q="exit"
-alias open="gnome-open"
+#alias open="gnome-open"
 alias haraka="/home/saratt/bin/haraka"
 set -o emacs
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=Library/Application\ Support/Google/Chrome/Default/"
+
+#eqv of find . -iname "<str>"
+alias search="find . -iname "$1""
 # temporary aliases. DELETE them after expiration
 alias sarat="cd ~/Documents/openML/"
-alias intersect="cd ~/Documents/intersect/"
 
 #add time column to history
 #export HISTTIMEFORMAT='%F %T '
@@ -144,3 +147,24 @@ function cd()
 }
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+
+# Setting PATH for Python 2.7
+# The orginal version is saved in .bash_profile.pysave
+#PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+#export PATH
+
+export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
+
+##
+# Your previous /Users/saratt/.bash_profile file was backed up as /Users/saratt/.bash_profile.macports-saved_2012-06-27_at_14:09:41
+##
+
+# MacPorts Installer addition on 2012-06-27_at_14:09:41: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
