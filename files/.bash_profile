@@ -122,7 +122,6 @@ alias :q="exit"
 #alias open="gnome-open"
 alias haraka="/home/saratt/bin/haraka"
 set -o emacs
-alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=Library/Application\ Support/Google/Chrome/Default/"
 
 #eqv of find . -iname "<str>"
 alias search="find . -iname "$1""
@@ -161,13 +160,20 @@ function cd()
   fi
 }
 
-#for MAC OSX only
-function exit()
-{
-  osascript -e 'tell application "Terminal" to quit'
-}
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# MAC OSX Specific commands
+
+#for MAC OSX only
+function exitt()
+{
+  #osascript -e 'tell application "Terminal" to quit'
+  exit
+}
+
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=Library/Application\ Support/Google/Chrome/Default/"
+alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
@@ -187,5 +193,16 @@ export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
 # MacPorts Installer addition on 2012-06-27_at_14:09:41: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
+
+# enable bash completion
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
+fi
+
+#up key autocompletes based on history, 
+#bind '"\e[A": history-search-backward'
+bind '"\e[A": history-search-backward'
+bind '"\e[B": "\C-k \C-u"'
+
 
 
