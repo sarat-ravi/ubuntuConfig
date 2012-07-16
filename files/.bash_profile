@@ -111,13 +111,15 @@ alias lsa="ls -a"
 
 #common ssh
 alias livemagic.tv="ssh saratt@clips.livemagic.tv"
-alias saratxps="ssh -X saratt@saratxps.myftp.biz"
+alias saratxps="ssh -X saratt@saratxps.myftp.org"
 
 alias ndk-build="/opt/android-ndk-r7b/ndk-build"
+alias opennlp="~/Documents/Intersect/src/util/opennlp_bin/bin/opennlp"
 
 alias ..="cd .."
 alias documents="cd ~/Documents"
 alias downloads="cd ~/Downloads"
+alias filesize="du -hs"
 alias :q="exit"
 #alias open="gnome-open"
 alias haraka="/home/saratt/bin/haraka"
@@ -128,7 +130,7 @@ alias search="find . -iname "$1""
 
 
 # temporary aliases. DELETE them after expiration
-alias sarat="cd ~/Documents/openML/"
+alias sarat="cd ~/Documents/Intersect/"
 
 #add time column to history
 #export HISTTIMEFORMAT='%F %T '
@@ -175,6 +177,7 @@ function exitt()
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=Library/Application\ Support/Google/Chrome/Default/"
 alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
 
+
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
@@ -201,8 +204,8 @@ fi
 
 #up key autocompletes based on history, 
 #bind '"\e[A": history-search-backward'
-bind '"\e[A": history-search-backward'
-bind '"\e[B": "\C-k \C-u"'
+#bind '"\e[A": history-search-backward'
+#bind '"\e[B": "\C-k \C-u"'
 
 
 
