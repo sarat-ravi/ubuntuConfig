@@ -117,7 +117,9 @@ alias ndk-build="/opt/android-ndk-r7b/ndk-build"
 
 alias ..="cd .."
 alias documents="cd ~/Documents"
+alias root="cd ../../../../../../"
 alias downloads="cd ~/Downloads"
+alias extract="tar xvzf"
 alias :q="exit"
 #alias open="gnome-open"
 alias haraka="/home/saratt/bin/haraka"
@@ -162,4 +164,7 @@ function cd()
 
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# Set keyboard rate
+xset r rate 200 111
 
