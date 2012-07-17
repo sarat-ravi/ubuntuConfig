@@ -1,6 +1,7 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
+Platform=`uname`
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
@@ -119,6 +120,7 @@ alias ..="cd .."
 alias documents="cd ~/Documents"
 alias root="cd ../../../../../../"
 alias downloads="cd ~/Downloads"
+alias permission="stat -c '%A %a %n'"
 alias extract="tar xvzf"
 alias :q="exit"
 #alias open="gnome-open"
@@ -167,4 +169,51 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Set keyboard rate
 xset r rate 200 111
+
+if [ "$platform" == 'Darwin' ]; then
+
+  # MAC OSX Specific commands
+
+  #for MAC OSX only
+  function exitt()
+  {
+    #osascript -e 'tell application "Terminal" to quit'
+    exit
+  }
+
+  alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=Library/Application\ Support/Google/Chrome/Default/"
+  alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
+
+  export CLICOLOR=1
+  export LSCOLORS=GxFxCxDxBxegedabagaced
+
+
+  # Setting PATH for Python 2.7
+  # The orginal version is saved in .bash_profile.pysave
+  #PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+  #export PATH
+
+  export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
+
+  ##
+  # Your previous /Users/saratt/.bash_profile file was backed up as /Users/saratt/.bash_profile.macports-saved_2012-06-27_at_14:09:41
+  ##
+
+  # MacPorts Installer addition on 2012-06-27_at_14:09:41: adding an appropriate PATH variable for use with MacPorts.
+  export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+  # Finished adapting your PATH environment variable for use with MacPorts.
+
+  # enable bash completion
+  if [ -f `brew --prefix`/etc/bash_completion ]; then
+      . `brew --prefix`/etc/bash_completion
+  fi
+
+  #up key autocompletes based on history, 
+  #bind '"\e[A": history-search-backward'
+  bind '"\e[A": history-search-backward'
+  bind '"\e[B": "\C-k \C-u"'
+
+
+
+fi
 
