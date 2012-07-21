@@ -1,7 +1,7 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-Platform=`uname`
+platform=`uname`
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
@@ -131,9 +131,6 @@ alias opennlp="~/Documents/Intersect/src/util/opennlp_bin/bin/opennlp"
 alias haraka="/home/saratt/bin/haraka"
 set -o emacs
 
-#eqv of find . -iname "<str>"
-alias search="find . -iname "$1""
-
 
 # temporary aliases. DELETE them after expiration
 alias sarat="cd ~/Documents/Intersect/"
@@ -144,6 +141,7 @@ History () {
 history | awk -v B=`tput smso` -v N=`tput rmso` '{$1= B $1 N} {$2= B $2 N} {$3= B $3 N} {print}'
 history
 }
+
 
 #goes to topmost directory found
 function goto()
@@ -185,8 +183,24 @@ if [ "$platform" == 'Darwin' ]; then
     exit
   }
 
+  function activateVirtualEnv()
+  {
+    path="~/Software/pythonVirtualEnvs/$1"; 
+    echo $path;
+    if [ -d "${path}" ]; then
+      echo "The directory exists";
+    else
+      #virtualenv ~/Software/pythonVirtualEnvs/$1;
+      echo "New Virtualenv Created";
+    fi
+    #source "$path/bin/activate";
+    
+  }
+
   alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir=Library/Application\ Support/Google/Chrome/Default/"
   alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
+  #eqv of find . -iname "<str>"
+  alias search="find . -iname "$1""
 
   export CLICOLOR=1
   export LSCOLORS=GxFxCxDxBxegedabagaced
