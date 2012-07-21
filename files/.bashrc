@@ -113,8 +113,10 @@ alias lsa="ls -a"
 #common ssh
 alias livemagic.tv="ssh saratt@clips.livemagic.tv"
 alias saratxps="ssh -X saratt@saratxps.myftp.biz"
+alias sarattallamraju.com="ssh -X saratta1@sarattallamraju.com"
 
 alias ndk-build="/opt/android-ndk-r7b/ndk-build"
+alias rsync="rsync -t --progress"
 
 alias ..="cd .."
 alias documents="cd ~/Documents"
@@ -124,6 +126,7 @@ alias permission="stat -c '%A %a %n'"
 alias extract="tar xvzf"
 alias filesize="du -hs"
 alias :q="exit"
+alias opennlp="~/Documents/Intersect/src/util/opennlp_bin/bin/opennlp"
 #alias open="gnome-open"
 alias haraka="/home/saratt/bin/haraka"
 set -o emacs
@@ -133,7 +136,7 @@ alias search="find . -iname "$1""
 
 
 # temporary aliases. DELETE them after expiration
-alias sarat="cd ~/Documents/openML/"
+alias sarat="cd ~/Documents/Intersect/"
 
 #add time column to history
 #export HISTTIMEFORMAT='%F %T '
