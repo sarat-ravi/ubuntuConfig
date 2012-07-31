@@ -127,13 +127,18 @@ alias extract="tar xvzf"
 alias filesize="du -hs"
 alias :q="exit"
 alias opennlp="~/Documents/Intersect/src/util/opennlp_bin/bin/opennlp"
+alias virtualenvlivemagic="source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
 #alias open="gnome-open"
 alias haraka="/home/saratt/bin/haraka"
+alias django="python manage.py $1"
 set -o emacs
 
 
 # temporary aliases. DELETE them after expiration
-alias sarat="cd ~/Documents/Intersect/"
+#alias sarat="cd ~/Documents/Intersect/"
+alias sarat="cd ~/lm-code/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
+
+
 
 #add time column to history
 #export HISTTIMEFORMAT='%F %T '
