@@ -137,6 +137,8 @@ set -o emacs
 # temporary aliases. DELETE them after expiration
 #alias sarat="cd ~/Documents/Intersect/"
 alias sarat="cd ~/lm-code/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
+alias espn="cd ~/lm-code-ESPN_demo/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
+alias intersect="cd ~/Documents/Intersect/intersect"
 
 
 
@@ -175,7 +177,7 @@ function cd()
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Set keyboard rate
-xset r rate 200 111
+# xset r rate 200 111
 
 if [ "$platform" == 'Darwin' ]; then
 
@@ -233,8 +235,8 @@ if [ "$platform" == 'Darwin' ]; then
 
   #up key autocompletes based on history, 
   #bind '"\e[A": history-search-backward'
-  bind '"\e[A": history-search-backward'
-  bind '"\e[B": "\C-k \C-u"'
+  #bind '"\e[A": history-search-backward'
+  #bind '"\e[B": "\C-k \C-u"'
 
 
 
