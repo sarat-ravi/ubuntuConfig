@@ -14,8 +14,8 @@ HISTCONTROL=ignoredups:ignorespace
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=1000000
+HISTFILESIZE=2000000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -104,14 +104,14 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 #default x11 forwarding
-alias ssh="ssh -X"
+#alias ssh="ssh -X"
 alias push="bash .push.sh"
 
 #list all directory contents
 alias lsa="ls -a"
 
 #common ssh
-alias livemagic.tv="ssh saratt@clips.livemagic.tv"
+alias livemagic.tv="ssh saratt@clipstest.livemagic.tv"
 alias saratxps="ssh -X saratt@saratxps.myftp.biz"
 alias sarattallamraju.com="ssh -X saratta1@sarattallamraju.com"
 
@@ -138,7 +138,7 @@ set -o emacs
 #alias sarat="cd ~/Documents/Intersect/"
 alias sarat="cd ~/lm-code/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
 alias espn="cd ~/lm-code-ESPN_demo/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
-alias intersect="cd ~/Documents/Intersect/intersect"
+alias intersect="source ~/Software/intersect_venv/bin/activate && cd ~/Documents/Intersect/intersect"
 
 
 
