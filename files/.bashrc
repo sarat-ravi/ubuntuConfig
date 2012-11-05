@@ -103,6 +103,13 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+# temporary aliases. DELETE them after expiration
+#alias sarat="cd ~/Documents/Intersect/"
+alias sarat="cd ~/lm-backend/www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
+alias vfp="cd ~/lm-backend/vfp/"
+alias lmcode="cd ~/lm-code/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
+alias intersect="source ~/Software/intersect_venv/bin/activate && cd ~/Documents/Intersect/intersect"
+
 #default x11 forwarding
 #alias ssh="ssh -X"
 alias push="bash .push.sh"
@@ -111,12 +118,13 @@ alias push="bash .push.sh"
 alias lsa="ls -a"
 
 #common ssh
-alias livemagic.tv="ssh saratt@clipstest.livemagic.tv"
+alias livemagic.tv="ssh saratt@replaytest.livemagic.tv"
 alias saratxps="ssh -X saratt@saratxps.myftp.biz"
 alias sarattallamraju.com="ssh -X saratta1@sarattallamraju.com"
 
 alias ndk-build="/opt/android-ndk-r7b/ndk-build"
-alias rsync="rsync -t --progress"
+alias rsync="rsync --progress"
+alias cleandir="rm *.pyc"
 
 alias ..="cd .."
 alias documents="cd ~/Documents"
@@ -134,11 +142,6 @@ alias django="python manage.py $1"
 set -o emacs
 
 
-# temporary aliases. DELETE them after expiration
-#alias sarat="cd ~/Documents/Intersect/"
-alias sarat="cd ~/lm-code/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
-alias espn="cd ~/lm-code-ESPN_demo/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
-alias intersect="source ~/Software/intersect_venv/bin/activate && cd ~/Documents/Intersect/intersect"
 
 
 
