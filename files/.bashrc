@@ -39,6 +39,15 @@ esac
 # should be on the output of commands, not on the prompt
 #force_color_prompt=yes
 
+# NOTE: This is a hack
+if [ -n "$DYLD_FALLBACK_LIBRARY_PATH" ]; then
+    DYLD_FALLBACK_LIBRARY_PATH=$DYLD_FALLBACK_LIBRARY_PATH:/User/saratt/lm-vfp/intersect/thirdparty/vlfeat-0.9.16/bin/maci64
+else
+    DYLD_FALLBACK_LIBRARY_PATH=/User/saratt/lm-vfp/intersect/thirdparty/vlfeat-0.9.16/bin/maci64
+fi
+export DYLD_FALLBACK_LIBRARY_PATH
+
+
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
 	# We have color support; assume it's compliant with Ecma-48
@@ -106,7 +115,10 @@ fi
 # temporary aliases. DELETE them after expiration
 #alias sarat="cd ~/Documents/Intersect/"
 alias sarat="cd ~/lm-backend/www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
-alias vfp="cd ~/lm-vfp/"
+#alias vfp="cd ~/lm-vfp/tools/markup_tool/"
+alias vfp="cd ~/lm-vfp/intersect/src/vfp/"
+#alias vfp="cd ~/lm-vfp/tools/testdata_tool/"
+alias optvfp="cd /opt/vfp/"
 alias lmcode="cd ~/lm-code/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
 alias intersect="source ~/Software/intersect_venv/bin/activate && cd ~/Documents/Intersect/intersect"
 
@@ -118,7 +130,7 @@ alias push="bash .push.sh"
 alias lsa="ls -a"
 
 #common ssh
-alias livemagic.tv="ssh saratt@replaytest.livemagic.tv"
+alias livemagic.tv="ssh saratt@replaydev.livemagic.tv"
 alias saratxps="ssh -X saratt@saratxps.myftp.biz"
 alias sarattallamraju.com="ssh -X saratta1@sarattallamraju.com"
 
