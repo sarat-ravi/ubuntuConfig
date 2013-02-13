@@ -117,6 +117,7 @@ fi
 alias sarat="cd ~/lm-backend/www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
 #alias vfp="cd ~/lm-vfp/tools/markup_tool/"
 alias vfp="cd ~/lm-vfp/intersect/src/vfp/"
+alias tools="cd ~/lm-vfp/intersect/tools/"
 #alias vfp="cd ~/lm-vfp/tools/testdata_tool/"
 alias optvfp="cd /opt/vfp/"
 alias lmcode="cd ~/lm-code/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
