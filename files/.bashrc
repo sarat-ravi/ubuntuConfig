@@ -114,8 +114,9 @@ fi
 
 # temporary aliases. DELETE them after expiration
 #alias sarat="cd ~/Documents/Intersect/"
-alias sarat="cd ~/lm-backend/www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
+#alias sarat="cd ~/lm-backend/www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
 #alias vfp="cd ~/lm-vfp/tools/markup_tool/"
+alias sarat="cd ~/lm-vfp/intersect/tools/vfp/"
 alias vfp="cd ~/lm-vfp/intersect/src/vfp/"
 alias tools="cd ~/lm-vfp/intersect/tools/"
 #alias vfp="cd ~/lm-vfp/tools/testdata_tool/"
@@ -242,12 +243,14 @@ if [ "$platform" == 'Darwin' ]; then
 
   # MacPorts Installer addition on 2012-06-27_at_14:09:41: adding an appropriate PATH variable for use with MacPorts.
   export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+  #export PATH=/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/bin:$PATH
+  export PATH=/opt/local/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH
   # Finished adapting your PATH environment variable for use with MacPorts.
 
   # enable bash completion
-  if [ -f `brew --prefix`/etc/bash_completion ]; then
-      . `brew --prefix`/etc/bash_completion
-  fi
+  #if [ -f `brew --prefix`/etc/bash_completion ]; then
+  #    . `brew --prefix`/etc/bash_completion
+  #fi
 
   #up key autocompletes based on history, 
   #bind '"\e[A": history-search-backward'
@@ -257,4 +260,3 @@ if [ "$platform" == 'Darwin' ]; then
 
 
 fi
-
