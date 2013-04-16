@@ -117,6 +117,7 @@ fi
 #alias sarat="cd ~/lm-backend/www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
 #alias vfp="cd ~/lm-vfp/tools/markup_tool/"
 alias sarat="cd ~/lm-vfp/intersect/tools/vfp/"
+alias boost="cd ~/Desktop/pyboost/projects/"
 alias vfp="cd ~/lm-vfp/intersect/src/vfp/"
 alias tools="cd ~/lm-vfp/intersect/tools/"
 #alias vfp="cd ~/lm-vfp/tools/testdata_tool/"
@@ -130,6 +131,10 @@ alias push="bash .push.sh"
 
 #list all directory contents
 alias lsa="ls -a"
+
+# The day will come, when this will bite me back
+alias sl="ls"
+alias lls="clear && ls"
 
 #common ssh
 alias livemagic.tv="ssh saratt@replaydev.livemagic.tv"
