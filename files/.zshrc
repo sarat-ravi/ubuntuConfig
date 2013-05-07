@@ -190,3 +190,11 @@ then
 
 
 fi
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _expand _complete _ignored _approximate
+zstyle :compinstall filename '/Users/saratt/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
