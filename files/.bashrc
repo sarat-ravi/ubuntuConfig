@@ -118,12 +118,14 @@ fi
 #alias vfp="cd ~/lm-vfp/tools/markup_tool/"
 alias sarat="cd ~/lm-vfp/intersect/tools/vfp/"
 alias boost="cd ~/Desktop/pyboost/projects/"
-alias vfp="cd ~/lm-vfp/intersect/src/vfp/"
+alias vfp="cd ~/lm-vfp/vfp/"
 alias tools="cd ~/lm-vfp/intersect/tools/"
-#alias vfp="cd ~/lm-vfp/tools/testdata_tool/"
 alias optvfp="cd /opt/vfp/"
 alias lmcode="cd ~/lm-code/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
 alias intersect="source ~/Software/intersect_venv/bin/activate && cd ~/Documents/Intersect/intersect"
+alias markdown="/Applications/Mou.app/Contents/MacOS/Mou"
+
+alias python3="python3.3"
 
 #default x11 forwarding
 #alias ssh="ssh -X"
