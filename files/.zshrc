@@ -15,7 +15,15 @@ HISTFILESIZE=2000000
 # should be on the output of commands, not on the prompt
 #force_color_prompt=yes
 setopt PROMPT_SUBST
-PROMPT='%{$(pwd|grep --color=always /)%${#PWD}G%} %(!.%F{cyan}.%F{white})%n%f@%F{white}%m%f%(!.%F{white}.)%#%f '
+#PROMPT='%{$(pwd|grep --color=always /)%${#PWD}G%} %(!.%F{cyan}.%F{white})%n%f@%F{white}%m%f%(!.%F{white}.)%#%f '
+
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[gray]%}git:("
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
+ZSH_THEME_GIT_PROMPT_DIRTY=")%{$fg[red]%}+%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_CLEAN=")"
+
+PROMPT='%{$fg_bold[black]%}$PWD$ %{$reset_color%}%{$fg[237]%}%{$reset_color%}%'
+
 
 # NOTE: This is a hack
 if [ -n "$DYLD_FALLBACK_LIBRARY_PATH" ]; then
