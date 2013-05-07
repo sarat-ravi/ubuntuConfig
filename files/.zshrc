@@ -22,7 +22,7 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
 ZSH_THEME_GIT_PROMPT_DIRTY=")%{$fg[red]%}+%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=")"
 
-PROMPT='%{$fg_bold[black]%}$PWD$ %{$reset_color%}%{$fg[237]%}%{$reset_color%}%'
+PROMPT='%{%F{237}%}$PWD$ %{$reset_color%}%{%F{white}%}%{$reset_color%}%'
 
 
 # NOTE: This is a hack
