@@ -3,12 +3,14 @@ platform=`uname`
 
 # don't put duplicate lines in the history. See bash(1) for more options
 # ... or force ignoredups and ignorespace
-HISTCONTROL=ignoredups:ignorespace
+export HISTCONTROL=ignoredups:ignorespace
 
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000000
-HISTFILESIZE=2000000
+export HISTSIZE=10000000000000000
+export HISTFILESIZE=200000000000000000
+export HISTFILE=~/.bash_history
+export SAVEHIST=1
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
@@ -17,12 +19,12 @@ HISTFILESIZE=2000000
 setopt PROMPT_SUBST
 #PROMPT='%{$(pwd|grep --color=always /)%${#PWD}G%} %(!.%F{cyan}.%F{white})%n%f@%F{white}%m%f%(!.%F{white}.)%#%f '
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[gray]%}git:("
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
-ZSH_THEME_GIT_PROMPT_DIRTY=")%{$fg[red]%}+%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_CLEAN=")"
+export ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[gray]%}git:("
+export ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
+export ZSH_THEME_GIT_PROMPT_DIRTY=")%{$fg[red]%}+%{$reset_color%}"
+export ZSH_THEME_GIT_PROMPT_CLEAN=")"
 
-PROMPT='%{%F{237}%}$PWD$ %{$reset_color%}%{%F{white}%}%{$reset_color%}%'
+export PROMPT='%{%F{237}%}$PWD$ %{$reset_color%}%{%F{white}%}%{$reset_color%}%'
 
 
 # NOTE: This is a hack
@@ -47,10 +49,9 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # temporary aliases. DELETE them after expiration
-#alias sarat="cd ~/Documents/Intersect/"
-#alias sarat="cd ~/lm-backend/www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
 #alias vfp="cd ~/lm-vfp/tools/markup_tool/"
-alias sarat="cd ~/lm-vfp/intersect/tools/vfp/"
+#alias sarat="cd ~/lm-vfp/intersect/tools/vfp/"
+alias sarat="cd ~/lm-vfp/experiments/videoIPC"
 alias boost="cd ~/Desktop/pyboost/projects/"
 alias vfp="cd ~/lm-vfp/vfp/"
 alias tools="cd ~/lm-vfp/intersect/tools/"
