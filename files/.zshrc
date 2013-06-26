@@ -33,6 +33,7 @@ if [ -n "$DYLD_FALLBACK_LIBRARY_PATH" ]; then
 else
     DYLD_FALLBACK_LIBRARY_PATH=/User/saratt/lm-vfp/intersect/thirdparty/vlfeat-0.9.16/bin/maci64
 fi
+DYLD_FALLBACK_LIBRARY_PATH=$DYLD_FALLBACK_LIBRARY_PATH:"/Users/saratt/lm-vfp/vfp/vfpy/thirdparty/lib/"
 export DYLD_FALLBACK_LIBRARY_PATH
 
 # some more ls aliases
@@ -54,10 +55,8 @@ fi
 alias sarat="cd ~/lm-vfp/experiments/videoIPC"
 alias boost="cd ~/Desktop/pyboost/projects/"
 alias vfp="cd ~/lm-vfp/vfp/"
-alias tools="cd ~/lm-vfp/intersect/tools/"
+alias vfpy="cd ~/lm-vfp/vfp/vfpy/"
 alias optvfp="cd /opt/vfp/"
-alias lmcode="cd ~/lm-code/dj_www/ && source ~/Software/pythonVirtualEnvs/livemagic/bin/activate"
-alias intersect="source ~/Software/intersect_venv/bin/activate && cd ~/Documents/Intersect/intersect"
 alias markdown="/Applications/Mou.app/Contents/MacOS/Mou"
 
 alias python3="python3.3"
